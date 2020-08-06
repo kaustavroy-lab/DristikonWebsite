@@ -1881,8 +1881,8 @@ body
 }
 #wb_Image1
 {
-   left: 0px;
-   top: 2px;
+   left: 1px;
+   top: 1px;
    width: 449px;
    height: 583px;
    visibility: visible;
@@ -2949,9 +2949,9 @@ body
 }
 #Button1
 {
-   left: 34px;
-   top: 488px;
-   width: 281px;
+   left: 27px;
+   top: 487px;
+   width: 307px;
    height: 57px;
    visibility: visible;
    display: inline;
@@ -3010,9 +3010,9 @@ body
 }
 #wb_Text2
 {
-   left: 14px;
+   left: 1px;
    top: 410px;
-   width: 320px;
+   width: 359px;
    height: 54px;
    visibility: visible;
    display: inline;
@@ -3032,7 +3032,7 @@ body
 #wb_360
 {
    left: 1px;
-   top: 342px;
+   top: 339px;
    width: 358px;
    height: 66px;
    visibility: visible;
