@@ -518,7 +518,7 @@ body
    left: 294px;
    top: 1023px;
    width: 375px;
-   height: 86px;
+   height: 43px;
    visibility: hidden;
    text-align: center;
    z-index: 25;
@@ -593,7 +593,7 @@ body
    position: absolute;
    left: 1px;
    top: 710px;
-   width: 1001px;
+   width: 980px;
    height: 64px;
    text-align: center;
    z-index: 24;
@@ -664,7 +664,7 @@ body
    left: 268px;
    top: 1007px;
    width: 411px;
-   height: 86px;
+   height: 43px;
    visibility: hidden;
    text-align: center;
    z-index: 15;
@@ -769,7 +769,7 @@ body
    left: 378px;
    top: 412px;
    width: 592px;
-   height: 50px;
+   height: 100px;
    visibility: hidden;
    text-align: center;
    z-index: 21;
@@ -3420,7 +3420,7 @@ body
    left: 1px;
    top: 353px;
    width: 592px;
-   height: 50px;
+   height: 100px;
    visibility: visible;
    display: inline;
    font-size: 8px;
@@ -5535,7 +5535,7 @@ body
 #wb_Text6
 {
    left: 0px;
-   top: 1268px;
+   top: 1225px;
    width: 450px;
    height: 57px;
    visibility: visible;
@@ -5555,8 +5555,8 @@ body
 }
 #get_started_1
 {
-   left: 67px;
-   top: 1347px;
+   left: 68px;
+   top: 1296px;
    width: 316px;
    height: 65px;
    visibility: visible;
@@ -6182,7 +6182,7 @@ body
    left: 0px;
    top: 1052px;
    width: 411px;
-   height: 86px;
+   height: 43px;
    visibility: visible;
    display: inline;
    font-size: 8px;
@@ -6254,7 +6254,7 @@ body
 #wb_Text6
 {
    left: 0px;
-   top: 1108px;
+   top: 1100px;
    width: 411px;
    height: 57px;
    visibility: visible;
@@ -6274,8 +6274,8 @@ body
 }
 #get_started_1
 {
-   left: 70px;
-   top: 1185px;
+   left: 71px;
+   top: 1169px;
    width: 262px;
    height: 53px;
    visibility: visible;
@@ -6954,7 +6954,7 @@ body
    left: 0px;
    top: 1003px;
    width: 384px;
-   height: 80px;
+   height: 40px;
    visibility: visible;
    display: inline;
    font-size: 8px;
@@ -9130,7 +9130,7 @@ body
 #wb_Text6
 {
    left: 0px;
-   top: 973px;
+   top: 924px;
    width: 320px;
    height: 76px;
    visibility: visible;
@@ -9151,7 +9151,7 @@ body
 #get_started_1
 {
    left: 29px;
-   top: 1065px;
+   top: 1012px;
    width: 262px;
    height: 53px;
    visibility: visible;
