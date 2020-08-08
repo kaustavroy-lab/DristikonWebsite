@@ -13,8 +13,6 @@ body
    line-height: 1.1875;
    margin: 0;
    padding: 0;
-   overflow-x: visible;
-   overflow-y: visible;
 }
 #Image2
 {
@@ -485,7 +483,6 @@ body
    height: 64px;
    visibility: hidden;
    text-align: center;
-   z-index: 5;
 }
 #wb_450_2
 {
@@ -496,7 +493,6 @@ body
    height: 110px;
    visibility: hidden;
    text-align: center;
-   z-index: 17;
 }
 #wb_Text1
 {
@@ -506,7 +502,6 @@ body
    width: 621px;
    height: 40px;
    text-align: center;
-   z-index: 4;
 }
 #wb_Text2
 {
@@ -517,7 +512,6 @@ body
    height: 54px;
    visibility: hidden;
    text-align: center;
-   z-index: 6;
 }
 #wb_375_2
 {
@@ -528,7 +522,6 @@ body
    height: 43px;
    visibility: hidden;
    text-align: center;
-   z-index: 25;
 }
 #wb_980_2
 {
@@ -539,7 +532,6 @@ body
    height: 81px;
    visibility: hidden;
    text-align: center;
-   z-index: 22;
 }
 #wb_320_2
 {
@@ -550,7 +542,6 @@ body
    height: 80px;
    visibility: hidden;
    text-align: center;
-   z-index: 18;
 }
 #wb_Text3
 {
@@ -561,7 +552,6 @@ body
    height: 54px;
    visibility: hidden;
    text-align: center;
-   z-index: 9;
 }
 #wb_Image1
 {
@@ -571,7 +561,6 @@ body
    width: 384px;
    height: 498px;
    visibility: hidden;
-   z-index: 1;
 }
 #wb_980_3
 {
@@ -582,7 +571,6 @@ body
    height: 50px;
    visibility: hidden;
    text-align: center;
-   z-index: 33;
 }
 #wb_320_3
 {
@@ -593,7 +581,6 @@ body
    height: 43px;
    visibility: hidden;
    text-align: center;
-   z-index: 28;
 }
 #wb_1366_2
 {
@@ -603,7 +590,6 @@ body
    width: 899px;
    height: 64px;
    text-align: center;
-   z-index: 24;
 }
 #wb_Text4
 {
@@ -614,7 +600,6 @@ body
    height: 92px;
    visibility: hidden;
    text-align: center;
-   z-index: 11;
 }
 #wb_Image2
 {
@@ -623,7 +608,6 @@ body
    top: 0px;
    width: 1200px;
    height: 425px;
-   z-index: 0;
 }
 #wb_1366_3
 {
@@ -633,7 +617,6 @@ body
    width: 524px;
    height: 144px;
    text-align: center;
-   z-index: 35;
 }
 #wb_Image3
 {
@@ -642,7 +625,6 @@ body
    top: 513px;
    width: 1200px;
    height: 425px;
-   z-index: 16;
 }
 #wb_Text5
 {
@@ -652,7 +634,6 @@ body
    width: 724px;
    height: 40px;
    visibility: hidden;
-   z-index: 14;
 }
 #wb_Text6
 {
@@ -663,7 +644,6 @@ body
    height: 76px;
    visibility: hidden;
    text-align: center;
-   z-index: 19;
 }
 #wb_411_2
 {
@@ -674,7 +654,6 @@ body
    height: 43px;
    visibility: hidden;
    text-align: center;
-   z-index: 15;
 }
 #wb_Image4
 {
@@ -684,7 +663,6 @@ body
    width: 513px;
    height: 665px;
    visibility: hidden;
-   z-index: 13;
 }
 #wb_568
 {
@@ -695,7 +673,6 @@ body
    height: 22px;
    visibility: hidden;
    text-align: center;
-   z-index: 12;
 }
 #wb_Text7
 {
@@ -706,7 +683,6 @@ body
    height: 57px;
    visibility: hidden;
    text-align: center;
-   z-index: 29;
 }
 #wb_Image5
 {
@@ -716,7 +692,6 @@ body
    width: 707px;
    height: 915px;
    visibility: hidden;
-   z-index: 26;
 }
 #wb_Text8
 {
@@ -727,7 +702,6 @@ body
    height: 57px;
    visibility: hidden;
    text-align: center;
-   z-index: 32;
 }
 #wb_Image6
 {
@@ -736,7 +710,6 @@ body
    top: 1041px;
    width: 1200px;
    height: 425px;
-   z-index: 27;
 }
 #wb_768
 {
@@ -747,7 +720,6 @@ body
    height: 28px;
    visibility: hidden;
    text-align: center;
-   z-index: 10;
 }
 #wb_Text9
 {
@@ -757,7 +729,6 @@ body
    width: 450px;
    height: 61px;
    text-align: center;
-   z-index: 36;
 }
 #wb_568_3
 {
@@ -768,7 +739,6 @@ body
    height: 37px;
    visibility: hidden;
    text-align: center;
-   z-index: 31;
 }
 #wb_800_2
 {
@@ -779,7 +749,6 @@ body
    height: 100px;
    visibility: hidden;
    text-align: center;
-   z-index: 21;
 }
 #get_started_1
 {
@@ -788,7 +757,6 @@ body
    top: 771px;
    width: 494px;
    height: 85px;
-   z-index: 20;
 }
 #wb_1280_2
 {
@@ -798,7 +766,6 @@ body
    width: 989px;
    height: 61px;
    text-align: center;
-   z-index: 23;
 }
 #wb_1280_3
 {
@@ -809,7 +776,6 @@ body
    height: 48px;
    visibility: hidden;
    text-align: center;
-   z-index: 34;
 }
 #wb_360
 {
@@ -820,7 +786,6 @@ body
    height: 66px;
    visibility: hidden;
    text-align: center;
-   z-index: 7;
 }
 #Button1
 {
@@ -829,7 +794,6 @@ body
    top: 295px;
    width: 613px;
    height: 98px;
-   z-index: 3;
 }
 #Button2
 {
@@ -838,7 +802,6 @@ body
    top: 1342px;
    width: 383px;
    height: 73px;
-   z-index: 30;
 }
 #wb_1366
 {
@@ -848,7 +811,6 @@ body
    width: 653px;
    height: 96px;
    text-align: center;
-   z-index: 2;
 }
 #wb_384
 {
@@ -859,7 +821,6 @@ body
    height: 74px;
    visibility: hidden;
    text-align: center;
-   z-index: 8;
 }
 @media only screen and (min-width: 1280px)
 {
