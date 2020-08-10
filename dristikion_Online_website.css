@@ -1,20 +1,16 @@
 a
 {
-   color: #0000FF;
-   text-decoration: underline;
-}
-a:visited
-{
-   color: #800080;
+   color: #1E90FF;
+   text-decoration: none;
 }
 a:active
 {
-   color: #FF0000;
+   color: #FFFFFF;
 }
 a:hover
 {
-   color: #0000FF;
-   text-decoration: underline;
+   color: #FFFFFF;
+   text-decoration: none;
 }
 input
 {
