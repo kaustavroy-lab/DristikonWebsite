@@ -1578,8 +1578,8 @@ body
 #wb_Text1
 {
    position: absolute;
-   left: 667px;
-   top: 79px;
+   left: 559px;
+   top: 87px;
    width: 621px;
    height: 40px;
    text-align: center;
@@ -2468,7 +2468,7 @@ body
 #Button1
 {
    position: absolute;
-   left: 671px;
+   left: 563px;
    top: 245px;
    width: 613px;
    height: 98px;
@@ -2533,9 +2533,9 @@ body
 #wb_1366
 {
    position: absolute;
-   left: 651px;
-   top: 127px;
-   width: 653px;
+   left: 551px;
+   top: 140px;
+   width: 637px;
    height: 96px;
    text-align: center;
 }
