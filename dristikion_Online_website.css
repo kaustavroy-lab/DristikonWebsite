@@ -5,11 +5,11 @@ a
 }
 a:active
 {
-   color: #FFFFFF;
+   color: #F0FFF0;
 }
 a:hover
 {
-   color: #FFFFFF;
+   color: #DCDCDC;
    text-decoration: none;
 }
 input

@@ -1,11 +1,88 @@
+#articles
+{
+   text-align: center;
+}
 body
 {
-   background-color: #000000;
-   color: #000000;
+   background-color: #FFFFFF;
+}
+#Blog1
+{
+   background-color: #C0C0C0;
+   border-width: 0;
    font-family: Arial;
    font-weight: normal;
    font-size: 13px;
-   line-height: 1.1875;
+   line-height: 1.2;
    margin: 0;
+   text-align: left;
+   display: inline-block;
+   position: relative;
+   width: 100%;
+   height: 5628px;
+}
+#Blog1 .blogitem
+{
+   background-color: #C0C0C0;
+   margin-bottom: 3px;
+   padding: 0px;
+   text-align: left;
+}
+#Blog1 .blogdate
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   color: #000000;
+}
+#Blog1 .blogsubject, #Blog1 .blogsubject a:link, #Blog1 .blogsubject a:visited, #Blog1 .blogsubject a:hover
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   color: #666666;
+   text-decoration: none;
+}
+#Blog1 .blogcomments, #Blog1 .blogcomments a:link, #Blog1 .blogcomments a:visited, #Blog1 .blogcomments a:hover
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 17px;
+   color: #000000;
+   text-decoration: underline;
+}
+#Blog1 .blogcomments
+{
+   text-decoration: none;
+}
+#Blog1 .no-thumb
+{
+   display: none;
+}
+#Blog1 img
+{
+   border-width: 0;
+   width: 50%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+#Blog1 .blogthumbnail
+{
+   display: block;
+}
+#Blog1 .blogsubject
+{
+   margin-bottom: 32px;
+   margin-top: 12px;
    padding: 0;
+   display: block;
+   font-family: Arial;
+   font-size: 13px;
+   color: #666666;
+}
+#Blog1 .blogcaption
+{
+   padding: 9px;
 }

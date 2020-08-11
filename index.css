@@ -1509,6 +1509,7 @@ body
    width: 315px;
    height: 408px;
    visibility: hidden;
+   z-index: 84;
 }
 #wb_Text19
 {
@@ -1519,6 +1520,7 @@ body
    height: 37px;
    visibility: hidden;
    text-align: center;
+   z-index: 48;
 }
 #wb_Image10
 {
@@ -1527,6 +1529,7 @@ body
    top: 1562px;
    width: 390px;
    height: 506px;
+   z-index: 39;
 }
 #wb_320
 {
@@ -1537,6 +1540,7 @@ body
    height: 64px;
    visibility: hidden;
    text-align: center;
+   z-index: 6;
 }
 #wb_1280_last
 {
@@ -1546,6 +1550,7 @@ body
    width: 472px;
    height: 57px;
    text-align: center;
+   z-index: 114;
 }
 #wb_Image22
 {
@@ -1555,6 +1560,7 @@ body
    width: 332px;
    height: 430px;
    visibility: hidden;
+   z-index: 99;
 }
 #wb_Image11
 {
@@ -1564,6 +1570,7 @@ body
    width: 437px;
    height: 566px;
    visibility: hidden;
+   z-index: 46;
 }
 #wb_450_2
 {
@@ -1574,6 +1581,7 @@ body
    height: 110px;
    visibility: hidden;
    text-align: center;
+   z-index: 18;
 }
 #wb_Text1
 {
@@ -1583,6 +1591,7 @@ body
    width: 621px;
    height: 40px;
    text-align: center;
+   z-index: 5;
 }
 #wb_Image23
 {
@@ -1592,6 +1601,7 @@ body
    width: 330px;
    height: 427px;
    visibility: hidden;
+   z-index: 101;
 }
 #wb_Image12
 {
@@ -1601,6 +1611,7 @@ body
    width: 431px;
    height: 560px;
    visibility: hidden;
+   z-index: 47;
 }
 #wb_Text2
 {
@@ -1611,6 +1622,7 @@ body
    height: 54px;
    visibility: hidden;
    text-align: center;
+   z-index: 7;
 }
 #wb_t_c
 {
@@ -1620,6 +1632,7 @@ body
    width: 220px;
    height: 16px;
    text-align: center;
+   z-index: 119;
 }
 #wb_Image24
 {
@@ -1629,6 +1642,7 @@ body
    width: 331px;
    height: 429px;
    visibility: hidden;
+   z-index: 102;
 }
 #wb_Image13
 {
@@ -1638,6 +1652,7 @@ body
    width: 251px;
    height: 325px;
    visibility: hidden;
+   z-index: 60;
 }
 #wb_375_2
 {
@@ -1648,6 +1663,7 @@ body
    height: 43px;
    visibility: hidden;
    text-align: center;
+   z-index: 26;
 }
 #wb_980_2
 {
@@ -1658,6 +1674,7 @@ body
    height: 81px;
    visibility: hidden;
    text-align: center;
+   z-index: 23;
 }
 #wb_320_2
 {
@@ -1668,6 +1685,7 @@ body
    height: 80px;
    visibility: hidden;
    text-align: center;
+   z-index: 19;
 }
 #wb_Text3
 {
@@ -1678,6 +1696,7 @@ body
    height: 54px;
    visibility: hidden;
    text-align: center;
+   z-index: 10;
 }
 #wb_Image1
 {
@@ -1687,6 +1706,7 @@ body
    width: 384px;
    height: 498px;
    visibility: hidden;
+   z-index: 2;
 }
 #wb_320_last
 {
@@ -1697,6 +1717,7 @@ body
    height: 74px;
    visibility: hidden;
    text-align: center;
+   z-index: 111;
 }
 #wb_Image25
 {
@@ -1706,6 +1727,7 @@ body
    width: 727px;
    height: 941px;
    visibility: hidden;
+   z-index: 109;
 }
 #wb_Text50
 {
@@ -1716,6 +1738,7 @@ body
    height: 88px;
    visibility: hidden;
    text-align: center;
+   z-index: 103;
 }
 #wb_Image14
 {
@@ -1725,6 +1748,7 @@ body
    width: 250px;
    height: 325px;
    visibility: hidden;
+   z-index: 62;
 }
 #wb_980_3
 {
@@ -1735,6 +1759,7 @@ body
    height: 50px;
    visibility: hidden;
    text-align: center;
+   z-index: 34;
 }
 #wb_320_3
 {
@@ -1745,6 +1770,7 @@ body
    height: 43px;
    visibility: hidden;
    text-align: center;
+   z-index: 29;
 }
 #wb_1366_2
 {
@@ -1754,6 +1780,7 @@ body
    width: 899px;
    height: 64px;
    text-align: center;
+   z-index: 25;
 }
 #wb_Text4
 {
@@ -1764,6 +1791,7 @@ body
    height: 92px;
    visibility: hidden;
    text-align: center;
+   z-index: 12;
 }
 #wb_Image2
 {
@@ -1772,6 +1800,7 @@ body
    top: 0px;
    width: 1200px;
    height: 478px;
+   z-index: 1;
 }
 #wb_Image26
 {
@@ -1780,6 +1809,7 @@ body
    top: 2088px;
    width: 1200px;
    height: 425px;
+   z-index: 110;
 }
 #wb_Text51
 {
@@ -1789,6 +1819,7 @@ body
    width: 388px;
    height: 38px;
    text-align: center;
+   z-index: 104;
 }
 #wb_Text40
 {
@@ -1799,6 +1830,7 @@ body
    height: 19px;
    visibility: hidden;
    text-align: center;
+   z-index: 80;
 }
 #wb_Image15
 {
@@ -1808,6 +1840,7 @@ body
    width: 250px;
    height: 325px;
    visibility: hidden;
+   z-index: 63;
 }
 #wb_1366_3
 {
@@ -1817,6 +1850,7 @@ body
    width: 524px;
    height: 144px;
    text-align: center;
+   z-index: 36;
 }
 #wb_Image3
 {
@@ -1825,6 +1859,7 @@ body
    top: 513px;
    width: 1200px;
    height: 477px;
+   z-index: 17;
 }
 #wb_Text5
 {
@@ -1834,6 +1869,7 @@ body
    width: 724px;
    height: 40px;
    visibility: hidden;
+   z-index: 15;
 }
 #wb_Image27
 {
@@ -1842,6 +1878,7 @@ body
    top: 2513px;
    width: 82px;
    height: 82px;
+   z-index: 118;
 }
 #wb_Text52
 {
@@ -1852,6 +1889,7 @@ body
    height: 74px;
    visibility: hidden;
    text-align: center;
+   z-index: 105;
 }
 #wb_320_5
 {
@@ -1862,6 +1900,7 @@ body
    height: 95px;
    visibility: hidden;
    text-align: center;
+   z-index: 95;
 }
 #wb_Text41
 {
@@ -1872,6 +1911,7 @@ body
    height: 132px;
    visibility: hidden;
    text-align: center;
+   z-index: 82;
 }
 #wb_Image16
 {
@@ -1881,6 +1921,7 @@ body
    width: 261px;
    height: 338px;
    visibility: hidden;
+   z-index: 69;
 }
 #wb_Text30
 {
@@ -1891,6 +1932,7 @@ body
    height: 19px;
    visibility: hidden;
    text-align: center;
+   z-index: 68;
 }
 #wb_Text6
 {
@@ -1901,6 +1943,7 @@ body
    height: 76px;
    visibility: hidden;
    text-align: center;
+   z-index: 20;
 }
 #wb_411_2
 {
@@ -1911,6 +1954,7 @@ body
    height: 43px;
    visibility: hidden;
    text-align: center;
+   z-index: 16;
 }
 #wb_Image4
 {
@@ -1920,6 +1964,7 @@ body
    width: 513px;
    height: 665px;
    visibility: hidden;
+   z-index: 14;
 }
 #wb_568
 {
@@ -1930,6 +1975,7 @@ body
    height: 22px;
    visibility: hidden;
    text-align: center;
+   z-index: 13;
 }
 #wb_Text53
 {
@@ -1940,6 +1986,7 @@ body
    height: 95px;
    visibility: hidden;
    text-align: center;
+   z-index: 106;
 }
 #wb_Text31
 {
@@ -1950,6 +1997,7 @@ body
    height: 42px;
    visibility: hidden;
    text-align: center;
+   z-index: 91;
 }
 #wb_Text42
 {
@@ -1960,6 +2008,7 @@ body
    height: 24px;
    visibility: hidden;
    text-align: center;
+   z-index: 85;
 }
 #wb_Image17
 {
@@ -1969,6 +2018,7 @@ body
    width: 261px;
    height: 338px;
    visibility: hidden;
+   z-index: 71;
 }
 #wb_Text20
 {
@@ -1979,6 +2029,7 @@ body
    height: 135px;
    visibility: hidden;
    text-align: center;
+   z-index: 49;
 }
 #wb_Text7
 {
@@ -1989,6 +2040,7 @@ body
    height: 57px;
    visibility: hidden;
    text-align: center;
+   z-index: 30;
 }
 #wb_Image5
 {
@@ -1998,6 +2050,7 @@ body
    width: 707px;
    height: 915px;
    visibility: hidden;
+   z-index: 27;
 }
 #wb_Image28
 {
@@ -2006,6 +2059,7 @@ body
    top: 2513px;
    width: 1200px;
    height: 185px;
+   z-index: 0;
 }
 #wb_Text54
 {
@@ -2016,6 +2070,7 @@ body
    height: 37px;
    visibility: hidden;
    text-align: center;
+   z-index: 107;
 }
 #wb_Text43
 {
@@ -2026,6 +2081,7 @@ body
    height: 42px;
    visibility: hidden;
    text-align: center;
+   z-index: 86;
 }
 #wb_Text32
 {
@@ -2036,6 +2092,7 @@ body
    height: 38px;
    visibility: hidden;
    text-align: center;
+   z-index: 79;
 }
 #wb_Image18
 {
@@ -2045,6 +2102,7 @@ body
    width: 261px;
    height: 338px;
    visibility: hidden;
+   z-index: 72;
 }
 #wb_Text10
 {
@@ -2055,6 +2113,7 @@ body
    height: 81px;
    visibility: hidden;
    text-align: center;
+   z-index: 53;
 }
 #wb_Text21
 {
@@ -2065,6 +2124,7 @@ body
    height: 37px;
    visibility: hidden;
    text-align: center;
+   z-index: 50;
 }
 #wb_Text8
 {
@@ -2075,6 +2135,7 @@ body
    height: 57px;
    visibility: hidden;
    text-align: center;
+   z-index: 33;
 }
 #wb_Image6
 {
@@ -2083,6 +2144,7 @@ body
    top: 1041px;
    width: 1198px;
    height: 425px;
+   z-index: 28;
 }
 #wb_768
 {
@@ -2093,6 +2155,7 @@ body
    height: 28px;
    visibility: hidden;
    text-align: center;
+   z-index: 11;
 }
 #wb_Text55
 {
@@ -2103,6 +2166,7 @@ body
    height: 76px;
    visibility: hidden;
    text-align: center;
+   z-index: 108;
 }
 #wb_Text44
 {
@@ -2113,6 +2177,7 @@ body
    height: 42px;
    visibility: hidden;
    text-align: center;
+   z-index: 87;
 }
 #wb_Image19
 {
@@ -2122,6 +2187,7 @@ body
    width: 316px;
    height: 409px;
    visibility: hidden;
+   z-index: 81;
 }
 #wb_Text33
 {
@@ -2132,6 +2198,7 @@ body
    height: 132px;
    visibility: hidden;
    text-align: center;
+   z-index: 70;
 }
 #wb_Text22
 {
@@ -2142,6 +2209,7 @@ body
    height: 135px;
    visibility: hidden;
    text-align: center;
+   z-index: 51;
 }
 #wb_Text11
 {
@@ -2151,6 +2219,7 @@ body
    width: 389px;
    height: 162px;
    text-align: center;
+   z-index: 42;
 }
 #wb_Image7
 {
@@ -2159,6 +2228,7 @@ body
    top: 1563px;
    width: 388px;
    height: 504px;
+   z-index: 38;
 }
 #wb_Text9
 {
@@ -2168,6 +2238,7 @@ body
    width: 450px;
    height: 61px;
    text-align: center;
+   z-index: 37;
 }
 #wb_Text56
 {
@@ -2178,6 +2249,7 @@ body
    height: 95px;
    visibility: hidden;
    text-align: center;
+   z-index: 112;
 }
 #wb_Text12
 {
@@ -2187,6 +2259,7 @@ body
    width: 389px;
    height: 37px;
    text-align: center;
+   z-index: 96;
 }
 #wb_Text45
 {
@@ -2197,6 +2270,7 @@ body
    height: 19px;
    visibility: hidden;
    text-align: center;
+   z-index: 88;
 }
 #wb_Text34
 {
@@ -2207,6 +2281,7 @@ body
    height: 24px;
    visibility: hidden;
    text-align: center;
+   z-index: 73;
 }
 #wb_Text23
 {
@@ -2217,6 +2292,7 @@ body
    height: 42px;
    visibility: hidden;
    text-align: center;
+   z-index: 55;
 }
 #wb_Image8
 {
@@ -2225,6 +2301,7 @@ body
    top: 1562px;
    width: 389px;
    height: 505px;
+   z-index: 40;
 }
 #wb_568_3
 {
@@ -2235,6 +2312,7 @@ body
    height: 37px;
    visibility: hidden;
    text-align: center;
+   z-index: 32;
 }
 #wb_800_2
 {
@@ -2245,6 +2323,7 @@ body
    height: 100px;
    visibility: hidden;
    text-align: center;
+   z-index: 22;
 }
 #wb_Text57
 {
@@ -2254,6 +2333,7 @@ body
    width: 476px;
    height: 37px;
    text-align: center;
+   z-index: 115;
 }
 #wb_568_last
 {
@@ -2264,6 +2344,7 @@ body
    height: 56px;
    visibility: hidden;
    text-align: center;
+   z-index: 113;
 }
 #wb_Text13
 {
@@ -2273,6 +2354,7 @@ body
    width: 388px;
    height: 44px;
    text-align: center;
+   z-index: 92;
 }
 #wb_Text46
 {
@@ -2283,6 +2365,7 @@ body
    height: 19px;
    visibility: hidden;
    text-align: center;
+   z-index: 89;
 }
 #wb_Text35
 {
@@ -2293,6 +2376,7 @@ body
    height: 56px;
    visibility: hidden;
    text-align: center;
+   z-index: 74;
 }
 #wb_Text24
 {
@@ -2303,6 +2387,7 @@ body
    height: 38px;
    visibility: hidden;
    text-align: center;
+   z-index: 59;
 }
 #wb_Image9
 {
@@ -2312,6 +2397,7 @@ body
    width: 430px;
    height: 559px;
    visibility: hidden;
+   z-index: 43;
 }
 #get_started_1
 {
@@ -2320,6 +2406,7 @@ body
    top: 765px;
    width: 494px;
    height: 85px;
+   z-index: 21;
 }
 #wb_Text58
 {
@@ -2330,6 +2417,7 @@ body
    height: 19px;
    visibility: hidden;
    text-align: center;
+   z-index: 116;
 }
 #wb_Text14
 {
@@ -2339,6 +2427,7 @@ body
    width: 398px;
    height: 37px;
    text-align: center;
+   z-index: 94;
 }
 #wb_Text47
 {
@@ -2349,6 +2438,7 @@ body
    height: 42px;
    visibility: hidden;
    text-align: center;
+   z-index: 90;
 }
 #wb_Text36
 {
@@ -2359,6 +2449,7 @@ body
    height: 56px;
    visibility: hidden;
    text-align: center;
+   z-index: 75;
 }
 #wb_Text25
 {
@@ -2369,6 +2460,7 @@ body
    height: 132px;
    visibility: hidden;
    text-align: center;
+   z-index: 61;
 }
 #wb_568_5
 {
@@ -2378,6 +2470,7 @@ body
    width: 189px;
    height: 48px;
    text-align: center;
+   z-index: 52;
 }
 #wb_1280_2
 {
@@ -2387,6 +2480,7 @@ body
    width: 989px;
    height: 61px;
    text-align: center;
+   z-index: 24;
 }
 #wb_Text59
 {
@@ -2396,6 +2490,7 @@ body
    width: 411px;
    height: 30px;
    text-align: center;
+   z-index: 120;
 }
 #wb_Text48
 {
@@ -2406,6 +2501,7 @@ body
    height: 19px;
    visibility: hidden;
    text-align: center;
+   z-index: 98;
 }
 #wb_Text37
 {
@@ -2416,6 +2512,7 @@ body
    height: 19px;
    visibility: hidden;
    text-align: center;
+   z-index: 76;
 }
 #wb_Text26
 {
@@ -2426,6 +2523,7 @@ body
    height: 24px;
    visibility: hidden;
    text-align: center;
+   z-index: 64;
 }
 #wb_568_6
 {
@@ -2435,6 +2533,7 @@ body
    width: 189px;
    height: 70px;
    text-align: center;
+   z-index: 54;
 }
 #wb_Text15
 {
@@ -2444,6 +2543,7 @@ body
    width: 419px;
    height: 135px;
    text-align: center;
+   z-index: 41;
 }
 #wb_1280_3
 {
@@ -2454,6 +2554,7 @@ body
    height: 48px;
    visibility: hidden;
    text-align: center;
+   z-index: 35;
 }
 #wb_360
 {
@@ -2464,6 +2565,7 @@ body
    height: 66px;
    visibility: hidden;
    text-align: center;
+   z-index: 8;
 }
 #Button1
 {
@@ -2472,6 +2574,7 @@ body
    top: 245px;
    width: 613px;
    height: 98px;
+   z-index: 4;
 }
 #wb_Text49
 {
@@ -2482,6 +2585,7 @@ body
    height: 132px;
    visibility: hidden;
    text-align: center;
+   z-index: 100;
 }
 #wb_Text16
 {
@@ -2492,6 +2596,7 @@ body
    height: 38px;
    visibility: hidden;
    text-align: center;
+   z-index: 93;
 }
 #wb_Text38
 {
@@ -2502,6 +2607,7 @@ body
    height: 19px;
    visibility: hidden;
    text-align: center;
+   z-index: 77;
 }
 #wb_Text27
 {
@@ -2512,6 +2618,7 @@ body
    height: 56px;
    visibility: hidden;
    text-align: center;
+   z-index: 65;
 }
 #wb_568_7
 {
@@ -2521,6 +2628,7 @@ body
    width: 398px;
    height: 19px;
    text-align: center;
+   z-index: 56;
 }
 #Button2
 {
@@ -2529,6 +2637,7 @@ body
    top: 1356px;
    width: 383px;
    height: 73px;
+   z-index: 31;
 }
 #wb_1366
 {
@@ -2538,14 +2647,16 @@ body
    width: 637px;
    height: 96px;
    text-align: center;
+   z-index: 3;
 }
 #Button3
 {
    position: absolute;
    left: 120px;
-   top: 2376px;
+   top: 2378px;
    width: 262px;
    height: 53px;
+   z-index: 117;
 }
 #wb_Text39
 {
@@ -2556,6 +2667,7 @@ body
    height: 42px;
    visibility: hidden;
    text-align: center;
+   z-index: 78;
 }
 #wb_Text28
 {
@@ -2566,6 +2678,7 @@ body
    height: 56px;
    visibility: hidden;
    text-align: center;
+   z-index: 66;
 }
 #wb_568_8
 {
@@ -2575,6 +2688,7 @@ body
    width: 398px;
    height: 19px;
    text-align: center;
+   z-index: 57;
 }
 #wb_Text17
 {
@@ -2585,6 +2699,7 @@ body
    height: 44px;
    visibility: hidden;
    text-align: center;
+   z-index: 44;
 }
 #wb_384
 {
@@ -2595,6 +2710,7 @@ body
    height: 74px;
    visibility: hidden;
    text-align: center;
+   z-index: 9;
 }
 #wb_3205
 {
@@ -2605,6 +2721,7 @@ body
    height: 57px;
    visibility: hidden;
    text-align: center;
+   z-index: 97;
 }
 #wb_Image20
 {
@@ -2614,6 +2731,7 @@ body
    width: 314px;
    height: 407px;
    visibility: hidden;
+   z-index: 83;
 }
 #wb_Text29
 {
@@ -2624,6 +2742,7 @@ body
    height: 19px;
    visibility: hidden;
    text-align: center;
+   z-index: 67;
 }
 #wb_568_9
 {
@@ -2634,6 +2753,7 @@ body
    height: 42px;
    visibility: hidden;
    text-align: center;
+   z-index: 58;
 }
 #wb_Text18
 {
@@ -2644,6 +2764,7 @@ body
    height: 81px;
    visibility: hidden;
    text-align: center;
+   z-index: 45;
 }
 @media only screen and (min-width: 1280px)
 {
