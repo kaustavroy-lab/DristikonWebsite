@@ -4207,8 +4207,8 @@ body
    top: 1365px;
    width: 261px;
    height: 19px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
    font-size: 8px;
    font-family: Arial;
    font-weight: normal;
