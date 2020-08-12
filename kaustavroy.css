@@ -80,7 +80,7 @@ body
 }
 #Blog1 .bloginfo
 {
-   background-color: #191970;
+   background-color: #DAA520;
    margin-bottom: 1rem;
    padding: 1rem;
    position: relative;
@@ -94,7 +94,7 @@ body
    transform: rotate(45deg);
    width: 14px;
    height: 14px;
-   background-color: #191970;
+   background-color: #DAA520;
    bottom: -7px;
    content: "";
    display: block;
