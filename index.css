@@ -2469,6 +2469,7 @@ body
    top: 1040px;
    width: 189px;
    height: 48px;
+   visibility: hidden;
    text-align: center;
    z-index: 52;
 }
@@ -2532,6 +2533,7 @@ body
    top: 918px;
    width: 189px;
    height: 70px;
+   visibility: hidden;
    text-align: center;
    z-index: 54;
 }
@@ -2627,6 +2629,7 @@ body
    top: 896px;
    width: 398px;
    height: 19px;
+   visibility: hidden;
    text-align: center;
    z-index: 56;
 }
@@ -3095,7 +3098,7 @@ body
 #wb_Image3
 {
    left: 1px;
-   top: 464px;
+   top: 465px;
    width: 1277px;
    height: 453px;
    visibility: visible;
@@ -3612,8 +3615,8 @@ body
    top: 872px;
    width: 382px;
    height: 81px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
    font-size: 8px;
    font-family: Arial;
    font-weight: normal;
@@ -3655,8 +3658,8 @@ body
    top: 881px;
    width: 398px;
    height: 37px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
    font-size: 8px;
    font-family: Arial;
    font-weight: normal;
@@ -3781,8 +3784,8 @@ body
    top: 849px;
    width: 189px;
    height: 70px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
    font-size: 8px;
    font-family: Arial;
    font-weight: normal;
@@ -3844,8 +3847,8 @@ body
    top: 828px;
    width: 180px;
    height: 19px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
    font-size: 8px;
    font-family: Arial;
    font-weight: normal;
@@ -4120,8 +4123,8 @@ body
    top: 1309px;
    width: 261px;
    height: 24px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
    font-size: 8px;
    font-family: Arial;
    font-weight: normal;
@@ -4342,8 +4345,8 @@ body
    top: 1418px;
    width: 261px;
    height: 24px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
    font-size: 8px;
    font-family: Arial;
    font-weight: normal;
@@ -6151,8 +6154,8 @@ body
    top: 1132px;
    width: 405px;
    height: 38px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
    font-size: 8px;
    font-family: Arial;
    font-weight: normal;
@@ -8269,8 +8272,8 @@ body
    top: 1077px;
    width: 251px;
    height: 24px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
    font-size: 8px;
    font-family: Arial;
    font-weight: normal;
