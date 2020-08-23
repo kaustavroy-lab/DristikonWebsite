@@ -1708,6 +1708,14 @@ body
    visibility: hidden;
    z-index: 2;
 }
+#PayPal1
+{
+   position: absolute;
+   left: 740px;
+   top: 2558px;
+   z-index: 121;
+   visibility: hidden;
+}
 #wb_320_last
 {
    position: absolute;
@@ -1976,6 +1984,11 @@ body
    visibility: hidden;
    text-align: center;
    z-index: 13;
+}
+#PayPal1_form
+{
+   margin: 0;
+   padding: 0;
 }
 #wb_Text53
 {
@@ -5033,6 +5046,14 @@ body
    margin: 0;
    padding: 0;
 }
+#PayPal1
+{
+   left: 756px;
+   top: 2534px;
+   visibility: hidden;
+   display: none;
+   margin: 0;
+}
 }
 @media only screen and (min-width: 1024px) and (max-width: 1279px)
 {
@@ -7297,6 +7318,14 @@ body
 {
    margin: 0;
    padding: 0;
+}
+#PayPal1
+{
+   left: 672px;
+   top: 2045px;
+   visibility: hidden;
+   display: none;
+   margin: 0;
 }
 }
 @media only screen and (min-width: 980px) and (max-width: 1023px)
@@ -9563,6 +9592,14 @@ body
    margin: 0;
    padding: 0;
 }
+#PayPal1
+{
+   left: 648px;
+   top: 1963px;
+   visibility: hidden;
+   display: none;
+   margin: 0;
+}
 }
 @media only screen and (min-width: 800px) and (max-width: 979px)
 {
@@ -11827,6 +11864,14 @@ body
 {
    margin: 0;
    padding: 0;
+}
+#PayPal1
+{
+   left: 540px;
+   top: 1594px;
+   visibility: hidden;
+   display: none;
+   margin: 0;
 }
 }
 @media only screen and (min-width: 768px) and (max-width: 799px)
@@ -14093,6 +14138,14 @@ body
    margin: 0;
    padding: 0;
 }
+#PayPal1
+{
+   left: 512px;
+   top: 1551px;
+   visibility: hidden;
+   display: none;
+   margin: 0;
+}
 }
 @media only screen and (min-width: 568px) and (max-width: 767px)
 {
@@ -16357,6 +16410,14 @@ body
 {
    margin: 0;
    padding: 0;
+}
+#PayPal1
+{
+   left: 412px;
+   top: 1159px;
+   visibility: hidden;
+   display: none;
+   margin: 0;
 }
 }
 @media only screen and (min-width: 450px) and (max-width: 567px)
@@ -18623,6 +18684,14 @@ body
    margin: 0;
    padding: 0;
 }
+#PayPal1
+{
+   left: 345px;
+   top: 4184px;
+   visibility: hidden;
+   display: none;
+   margin: 0;
+}
 }
 @media only screen and (min-width: 411px) and (max-width: 449px)
 {
@@ -20887,6 +20956,14 @@ body
 {
    margin: 0;
    padding: 0;
+}
+#PayPal1
+{
+   left: 310px;
+   top: 3732px;
+   visibility: hidden;
+   display: none;
+   margin: 0;
 }
 }
 @media only screen and (min-width: 384px) and (max-width: 410px)
@@ -23153,6 +23230,14 @@ body
    margin: 0;
    padding: 0;
 }
+#PayPal1
+{
+   left: 287px;
+   top: 3522px;
+   visibility: hidden;
+   display: none;
+   margin: 0;
+}
 }
 @media only screen and (min-width: 375px) and (max-width: 383px)
 {
@@ -25417,6 +25502,14 @@ body
 {
    margin: 0;
    padding: 0;
+}
+#PayPal1
+{
+   left: 288px;
+   top: 3489px;
+   visibility: hidden;
+   display: none;
+   margin: 0;
 }
 }
 @media only screen and (min-width: 360px) and (max-width: 374px)
@@ -27683,6 +27776,14 @@ body
    margin: 0;
    padding: 0;
 }
+#PayPal1
+{
+   left: 274px;
+   top: 3488px;
+   visibility: hidden;
+   display: none;
+   margin: 0;
+}
 }
 @media only screen and (max-width: 359px)
 {
@@ -29947,5 +30048,13 @@ body
 {
    margin: 0;
    padding: 0;
+}
+#PayPal1
+{
+   left: 241px;
+   top: 3288px;
+   visibility: hidden;
+   display: none;
+   margin: 0;
 }
 }
