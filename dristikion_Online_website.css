@@ -1,16 +1,20 @@
 a
 {
-   color: #1E90FF;
-   text-decoration: none;
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
 }
 a:active
 {
-   color: #F0FFF0;
+   color: #FF0000;
 }
 a:hover
 {
-   color: #DCDCDC;
-   text-decoration: none;
+   color: #0000FF;
+   text-decoration: underline;
 }
 input
 {
