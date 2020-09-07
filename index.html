@@ -279,5 +279,30 @@ dristikononline.in , in, india, made in india ,,join , amazon, netflix , youtube
 <input id="PayPal1" type="image" name="submit" src="images/x-click-but04.gif" alt="Make payments with PayPal, it's fast, free, and secure!">
 </form>
 </div>
+<div style="z-index:122">
+<script>
+var disabled_message = "This Function Is Not Allowed Here!";
+document.oncontextmenu = function() 
+{ 
+   return false; 
+}
+document.onmousedown = function md(e) 
+{ 
+  try 
+  { 
+     if (event.button==2||event.button==3) 
+     {
+        if (disabled_message != '')
+           alert(disabled_message);
+        return false; 
+     }
+  }  
+  catch (e) 
+  { 
+     if (e.which == 3) return false; 
+  } 
+}
+</script>
+</div>
 </body>
 </html>
