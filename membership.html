@@ -1,88 +1,3 @@
-<?php
-function ValidateEmail($email)
-{
-   $pattern = '/^([0-9a-z]([-.\w]*[0-9a-z])*@(([0-9a-z])+([-\w]*[0-9a-z])*\.)+[a-z]{2,6})$/i';
-   return preg_match($pattern, $email);
-}
-if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['formid']) && $_POST['formid'] == 'form1')
-{
-   $mailto = 'kaustavroy338@gmail.com';
-   $mailfrom = isset($_POST['email']) ? $_POST['email'] : $mailto;
-   $subject = 'Website form';
-   $message = 'Values submitted from web site form:';
-   $success_url = './success_page.html';
-   $error_url = './fail.html';
-   $error = '';
-   $eol = "\n";
-   $boundary = md5(uniqid(time()));
-
-   $header  = 'From: '.$mailfrom.$eol;
-   $header .= 'Reply-To: '.$mailfrom.$eol;
-   $header .= 'MIME-Version: 1.0'.$eol;
-   $header .= 'Content-Type: multipart/mixed; boundary="'.$boundary.'"'.$eol;
-   $header .= 'X-Mailer: PHP v'.phpversion().$eol;
-   if (!ValidateEmail($mailfrom))
-   {
-      $error .= "The specified email address is invalid!\n<br>";
-   }
-
-   if (!empty($error))
-   {
-      $errorcode = file_get_contents($error_url);
-      $replace = "##error##";
-      $errorcode = str_replace($replace, $error, $errorcode);
-      echo $errorcode;
-      exit;
-   }
-
-   $internalfields = array ("submit", "reset", "send", "filesize", "formid", "captcha_code", "recaptcha_challenge_field", "recaptcha_response_field", "g-recaptcha-response");
-   $message .= $eol;
-   $message .= "IP Address : ";
-   $message .= $_SERVER['REMOTE_ADDR'];
-   $message .= $eol;
-   $logdata = '';
-   foreach ($_POST as $key => $value)
-   {
-      if (!in_array(strtolower($key), $internalfields))
-      {
-         if (!is_array($value))
-         {
-            $message .= ucwords(str_replace("_", " ", $key)) . " : " . $value . $eol;
-         }
-         else
-         {
-            $message .= ucwords(str_replace("_", " ", $key)) . " : " . implode(",", $value) . $eol;
-         }
-      }
-   }
-   $body  = 'This is a multi-part message in MIME format.'.$eol.$eol;
-   $body .= '--'.$boundary.$eol;
-   $body .= 'Content-Type: text/plain; charset=UTF-8'.$eol;
-   $body .= 'Content-Transfer-Encoding: 8bit'.$eol;
-   $body .= $eol.stripslashes($message).$eol;
-   if (!empty($_FILES))
-   {
-       foreach ($_FILES as $key => $value)
-       {
-          if ($_FILES[$key]['error'] == 0)
-          {
-             $body .= '--'.$boundary.$eol;
-             $body .= 'Content-Type: '.$_FILES[$key]['type'].'; name='.$_FILES[$key]['name'].$eol;
-             $body .= 'Content-Transfer-Encoding: base64'.$eol;
-             $body .= 'Content-Disposition: attachment; filename='.$_FILES[$key]['name'].$eol;
-             $body .= $eol.chunk_split(base64_encode(file_get_contents($_FILES[$key]['tmp_name']))).$eol;
-          }
-      }
-   }
-   $body .= '--'.$boundary.'--'.$eol;
-   if ($mailto != '')
-   {
-      mail($mailto, $subject, $body, $header);
-   }
-   header('Location: '.$success_url);
-   exit;
-}
-?>
 <!doctype html>
 <html>
 <head>
@@ -93,161 +8,152 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['formid']) && $_POST['f
 <link href="membership.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script>
-function ValidateForm1()
+function ValidateMEMBERSHIP_FORM()
 {
    var regexp;
-   var Combobox1 = document.getElementById('Combobox1');
-   if (!(Combobox1.disabled ||
-         Combobox1.style.display === 'none' ||
-         Combobox1.style.visibility === 'hidden'))
+   var Editbox11 = document.getElementById('Editbox11');
+   if (!(Editbox11.disabled || Editbox11.style.display === 'none' || Editbox11.style.visibility === 'hidden'))
    {
-      if (Combobox1.selectedIndex < 0)
+      if (Editbox11.value == "")
       {
-         alert("*Needed");
-         Combobox1.focus();
+         alert("Please Enter Your Father Name");
+         Editbox11.focus();
          return false;
       }
    }
-   var Editbox1 = document.getElementById('Editbox1');
-   if (!(Editbox1.disabled || Editbox1.style.display === 'none' || Editbox1.style.visibility === 'hidden'))
+   var Combobox4 = document.getElementById('Combobox4');
+   if (!(Combobox4.disabled ||
+         Combobox4.style.display === 'none' ||
+         Combobox4.style.visibility === 'hidden'))
    {
-      regexp = /^[A-Za-zÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ]*$/;
-      if (Editbox1.value.length != 0 && !regexp.test(Editbox1.value))
+      if (Combobox4.selectedIndex < 0)
       {
-         alert("Please Enter Your Name");
-         Editbox1.focus();
+         alert("Please Enter Your Gender");
+         Combobox4.focus();
+         return false;
+      }
+      if (Combobox4.selectedIndex == 0)
+      {
+         alert("Please Enter Your Gender");
+         Combobox4.focus();
          return false;
       }
    }
-   var Editbox3 = document.getElementById('Editbox3');
-   if (!(Editbox3.disabled || Editbox3.style.display === 'none' || Editbox3.style.visibility === 'hidden'))
+   var Editbox14 = document.getElementById('Editbox14');
+   if (!(Editbox14.disabled || Editbox14.style.display === 'none' || Editbox14.style.visibility === 'hidden'))
    {
-      regexp = /^[A-Za-zÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ]*$/;
-      if (Editbox3.value.length != 0 && !regexp.test(Editbox3.value))
+      if (Editbox14.value == "")
       {
-         alert("Please Enter Your Father's Name");
-         Editbox3.focus();
+         alert("Please Enter Your Date Of Birth");
+         Editbox14.focus();
          return false;
       }
    }
-   var Combobox2 = document.getElementById('Combobox2');
-   if (!(Combobox2.disabled ||
-         Combobox2.style.display === 'none' ||
-         Combobox2.style.visibility === 'hidden'))
+   var Editbox15 = document.getElementById('Editbox15');
+   if (!(Editbox15.disabled || Editbox15.style.display === 'none' || Editbox15.style.visibility === 'hidden'))
    {
-      if (Combobox2.selectedIndex < 0)
+      if (Editbox15.value == "")
       {
-         alert("*Needed");
-         Combobox2.focus();
+         alert("Please Enter Your Permanent Address");
+         Editbox15.focus();
          return false;
       }
    }
-   var Editbox4 = document.getElementById('Editbox4');
-   if (!(Editbox4.disabled || Editbox4.style.display === 'none' || Editbox4.style.visibility === 'hidden'))
+   var Editbox16 = document.getElementById('Editbox16');
+   if (!(Editbox16.disabled || Editbox16.style.display === 'none' || Editbox16.style.visibility === 'hidden'))
    {
-      regexp = /^[A-Za-zÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ]*$/;
-      if (Editbox4.value.length != 0 && !regexp.test(Editbox4.value))
+      if (Editbox16.value == "")
       {
-         alert("Please Enter Your Occupation");
-         Editbox4.focus();
+         alert("Please Enter Your Mobile number");
+         Editbox16.focus();
+         return false;
+      }
+      if (Editbox16.value.length < 10)
+      {
+         alert("Please Enter Your Mobile number");
+         Editbox16.focus();
+         return false;
+      }
+      if (Editbox16.value.length > 10)
+      {
+         alert("Please Enter Your Mobile number");
+         Editbox16.focus();
          return false;
       }
    }
-   var Editbox2 = document.getElementById('Editbox2');
-   if (!(Editbox2.disabled || Editbox2.style.display === 'none' || Editbox2.style.visibility === 'hidden'))
+   var FileUpload3 = document.getElementById('FileUpload3');
+   var FileUpload3_file = document.getElementById('FileUpload3-file');
+   if (!(FileUpload3.disabled ||
+         FileUpload3.style.display === 'none' ||
+         FileUpload3.style.visibility === 'hidden'))
    {
-      regexp = /^[A-Za-zÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ]*$/;
-      if (Editbox2.value.length != 0 && !regexp.test(Editbox2.value))
+      if (FileUpload3_file.value == "")
       {
-         alert("Please enter only letter characters in the \"Editbox1\" field.");
-         Editbox2.focus();
+         alert("Please Attach Your Current Photo");
+         return false;
+      }
+      var ext = FileUpload3_file.value.substr(FileUpload3_file.value.lastIndexOf('.'));
+      if ((ext.toLowerCase() != ".jpg") &&
+          (ext.toLowerCase() != ".png"))
+      {
+         alert("Please Attach Your Current Photo");
          return false;
       }
    }
-   var Editbox6 = document.getElementById('Editbox6');
-   if (!(Editbox6.disabled || Editbox6.style.display === 'none' || Editbox6.style.visibility === 'hidden'))
+   var FileUpload4 = document.getElementById('FileUpload4');
+   var FileUpload4_file = document.getElementById('FileUpload4-file');
+   if (!(FileUpload4.disabled ||
+         FileUpload4.style.display === 'none' ||
+         FileUpload4.style.visibility === 'hidden'))
    {
-      regexp = /^[A-Za-zÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ]*$/;
-      if (Editbox6.value.length != 0 && !regexp.test(Editbox6.value))
+      if (FileUpload4_file.value == "")
       {
-         alert("Enter Your Address");
-         Editbox6.focus();
+         alert("Please Attach Your Signature Photo");
+         return false;
+      }
+      var ext = FileUpload4_file.value.substr(FileUpload4_file.value.lastIndexOf('.'));
+      if ((ext.toLowerCase() != ".jpg") &&
+          (ext.toLowerCase() != ".png"))
+      {
+         alert("Please Attach Your Signature Photo");
          return false;
       }
    }
-   var Editbox7 = document.getElementById('Editbox7');
-   if (!(Editbox7.disabled || Editbox7.style.display === 'none' || Editbox7.style.visibility === 'hidden'))
+   var Editbox17 = document.getElementById('Editbox17');
+   if (!(Editbox17.disabled || Editbox17.style.display === 'none' || Editbox17.style.visibility === 'hidden'))
    {
-      regexp = /^[A-Za-zÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ]*$/;
-      if (Editbox7.value.length != 0 && !regexp.test(Editbox7.value))
+      if (Editbox17.value == "")
       {
-         alert("Please enter only letter characters in the \"Editbox1\" field.");
-         Editbox7.focus();
+         alert("Please Enter Form Submission Time ");
+         Editbox17.focus();
          return false;
       }
    }
-   var FileUpload1 = document.getElementById('FileUpload1');
-   var FileUpload1_file = document.getElementById('FileUpload1-file');
-   if (!(FileUpload1.disabled ||
-         FileUpload1.style.display === 'none' ||
-         FileUpload1.style.visibility === 'hidden'))
+   var Combobox3 = document.getElementById('Combobox3');
+   if (!(Combobox3.disabled ||
+         Combobox3.style.display === 'none' ||
+         Combobox3.style.visibility === 'hidden'))
    {
-      if (FileUpload1_file.value == "")
+      if (Combobox3.selectedIndex < 0)
       {
-         alert("Upload Your Image");
+         alert("Please Select Your Membership");
+         Combobox3.focus();
          return false;
       }
-      var ext = FileUpload1_file.value.substr(FileUpload1_file.value.lastIndexOf('.'));
-      if ((ext.toLowerCase() != ".jpg"))
+      if (Combobox3.selectedIndex == 0)
       {
-         alert("Upload Your Image");
+         alert("Please Select Your Membership");
+         Combobox3.focus();
          return false;
       }
    }
-   var FileUpload2 = document.getElementById('FileUpload2');
-   var FileUpload2_file = document.getElementById('FileUpload2-file');
-   if (!(FileUpload2.disabled ||
-         FileUpload2.style.display === 'none' ||
-         FileUpload2.style.visibility === 'hidden'))
+   var Editbox10 = document.getElementById('Editbox10');
+   if (!(Editbox10.disabled || Editbox10.style.display === 'none' || Editbox10.style.visibility === 'hidden'))
    {
-      if (FileUpload2_file.value == "")
+      if (Editbox10.value == "")
       {
-         alert("Upload Your Image");
-         return false;
-      }
-      var ext = FileUpload2_file.value.substr(FileUpload2_file.value.lastIndexOf('.'));
-      if ((ext.toLowerCase() != ".jpg"))
-      {
-         alert("Upload Your Image");
-         return false;
-      }
-   }
-   var Editbox9 = document.getElementById('Editbox9');
-   if (!(Editbox9.disabled || Editbox9.style.display === 'none' || Editbox9.style.visibility === 'hidden'))
-   {
-      regexp = /^[0-9-]*$/;
-      if (!regexp.test(Editbox9.value))
-      {
-         alert("Please Enter Your Number");
-         Editbox9.focus();
-         return false;
-      }
-      if (Editbox9.value == "")
-      {
-         alert("Please Enter Your Number");
-         Editbox9.focus();
-         return false;
-      }
-      if (Editbox9.value.length > 10)
-      {
-         alert("Please Enter Your Number");
-         Editbox9.focus();
-         return false;
-      }
-      if (Editbox9.value != "" && !(Editbox9.value == 10))
-      {
-         alert("Please Enter Your Number");
-         Editbox9.focus();
+         alert("Please Enter Full Name");
+         Editbox10.focus();
          return false;
       }
    }
@@ -269,24 +175,6 @@ function ValidateForm1()
 <script>
 $(document).ready(function()
 {
-   $("#FileUpload1 :file").on('change', function()
-   {
-      var input = $(this).parents('.input-group').find(':text');
-      input.val($(this).val());
-   });
-   $("#FileUpload2 :file").on('change', function()
-   {
-      var input = $(this).parents('.input-group').find(':text');
-      input.val($(this).val());
-   });
-   $("#Editbox9").change(function()
-   {
-      if ($('#Editbox9').val() == '10')
-      {
-         ShowObject('Editbox8', 1);
-      }
-   });
-   $("#Editbox9").trigger('change');
    $("#Checkbox1").change(function()
    {
       if ($('#Checkbox1').is(':checked'))
@@ -299,87 +187,79 @@ $(document).ready(function()
       }
    });
    $("#Checkbox1").trigger('change');
+   $("#FileUpload3 :file").on('change', function()
+   {
+      var input = $(this).parents('.input-group').find(':text');
+      input.val($(this).val());
+   });
+   $("#FileUpload4 :file").on('change', function()
+   {
+      var input = $(this).parents('.input-group').find(':text');
+      input.val($(this).val());
+   });
 });
 </script>
 </head>
 <body>
 <div id="container">
-<div id="wb_Form1" style="position:absolute;left:0px;top:0px;width:970px;height:2685px;z-index:33;">
-<form name="Form1" method="post" action="<?php echo basename(__FILE__); ?>" enctype="multipart/form-data" accept-charset="UTF-8" id="Form1" onsubmit="return ValidateForm1()">
-<input type="hidden" name="formid" value="form1">
-<div id="wb_Text2" style="position:absolute;left:0px;top:153px;width:970px;height:51px;text-align:center;z-index:0;">
-<span style="color:#000000;font-family:Arial;font-size:43px;"><strong><u>Annual Membership Form 2020-21 Dristikon</u></strong></span></div>
-<div id="wb_Image2" style="position:absolute;left:0px;top:0px;width:970px;height:153px;z-index:1;">
-<img src="images/channel art youtube.jpg" id="Image2" alt=""></div>
-<div id="wb_Text1" style="position:absolute;left:0px;top:215px;width:970px;height:128px;text-align:center;z-index:2;">
+<div id="wb_Text1" style="position:absolute;left:0px;top:211px;width:970px;height:128px;text-align:center;z-index:28;">
 <span style="color:#000000;font-family:Arial;font-size:27px;">The persons who are interested to get the membership of *Dristikon* family should fill up and submit this form. Annual subscription for this membership is 150/- In lieu of this subscription the member(s) will be provided with I-card, yearly magazine and many other facilities.</span></div>
-<select name="Combobox1" size="1" id="Combobox1" style="position:absolute;left:0px;top:432px;width:970px;height:62px;z-index:3;">
-<optgroup label="Select">
-<option value="New Membership">New Membership</option>
-<option value="Renew Membership">Renew Membership</option>
-</optgroup>
-</select>
-<div id="wb_Text3" style="position:absolute;left:0px;top:397px;width:476px;height:27px;z-index:4;">
-<span style="color:#000000;font-family:Arial;font-size:24px;">Select Your Membership</span></div>
-<div id="wb_Text4" style="position:absolute;left:0px;top:525px;width:476px;height:27px;z-index:5;">
-<span style="color:#000000;font-family:Arial;font-size:24px;">Full Name</span></div>
-<input type="text" id="Editbox1" style="position:absolute;left:0px;top:559px;width:960px;height:59px;z-index:6;" name="Editbox1" value="" spellcheck="false">
-<div id="wb_Text5" style="position:absolute;left:0px;top:659px;width:476px;height:27px;z-index:7;">
-<span style="color:#000000;font-family:Arial;font-size:24px;">Father's Name</span></div>
-<input type="text" id="Editbox3" style="position:absolute;left:0px;top:693px;width:960px;height:59px;z-index:8;" name="Editbox1" value="" spellcheck="false">
-<div id="wb_Text6" style="position:absolute;left:0px;top:801px;width:476px;height:27px;z-index:9;">
-<span style="color:#000000;font-family:Arial;font-size:24px;">Gender</span></div>
-<select name="Combobox1" size="1" id="Combobox2" style="position:absolute;left:0px;top:834px;width:970px;height:62px;z-index:10;">
-<optgroup label="Select">
+<div id="wb_Text2" style="position:absolute;left:0px;top:157px;width:970px;height:51px;text-align:center;z-index:29;">
+<span style="color:#000000;font-family:Arial;font-size:43px;"><strong><u>Annual Membership Form 2020-21 Dristikon</u></strong></span></div>
+<div id="wb_Image2" style="position:absolute;left:0px;top:0px;width:970px;height:153px;z-index:30;">
+<img src="images/channel art youtube.jpg" id="Image2" alt=""></div>
+<div id="wb_Form2" style="position:absolute;left:0px;top:376px;width:970px;height:1615px;z-index:31;">
+<form name="MEMBERSHIP_FORM" method="post" action="mailto:kaustavroy338@gmail.com?subject=DRISTIKON MEMBERSHIP" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8" target="_top" id="Form2" onsubmit="return ValidateMEMBERSHIP_FORM()">
+<label for="Editbox10" id="Label4" style="position:absolute;left:0px;top:96px;width:301px;height:32px;line-height:32px;z-index:0;">Full Name</label>
+<label for="Editbox11" id="Label6" style="position:absolute;left:0px;top:187px;width:251px;height:32px;line-height:32px;z-index:1;">Father's Name</label>
+<input type="text" id="Editbox11" style="position:absolute;left:0px;top:227px;width:960px;height:38px;z-index:2;" name="Father's Name" value="" spellcheck="false">
+<label for="Combobox4" id="Label8" style="position:absolute;left:0px;top:278px;width:158px;height:32px;line-height:32px;z-index:3;">Gender</label>
+<select name="Gender" size="1" id="Combobox4" style="position:absolute;left:0px;top:318px;width:970px;height:48px;z-index:4;">
+<option value="Select">Select</option>
 <option value="Male">Male</option>
 <option value="Female">Female</option>
 <option value="Other">Other</option>
-</optgroup>
 </select>
-<div id="wb_Text7" style="position:absolute;left:0px;top:931px;width:476px;height:27px;z-index:11;">
-<span style="color:#000000;font-family:Arial;font-size:24px;">Occupation</span></div>
-<input type="text" id="Editbox4" style="position:absolute;left:0px;top:965px;width:960px;height:59px;z-index:12;" name="Editbox1" value="" spellcheck="false">
-<div id="wb_Text8" style="position:absolute;left:0px;top:1067px;width:476px;height:27px;z-index:13;">
-<span style="color:#000000;font-family:Arial;font-size:24px;">Organisation&nbsp; In Which Associated(if any)</span></div>
-<input type="text" id="Editbox2" style="position:absolute;left:0px;top:1101px;width:960px;height:59px;z-index:14;" name="Editbox1" value="" spellcheck="false">
-<div id="wb_Text9" style="position:absolute;left:0px;top:1202px;width:476px;height:27px;z-index:15;">
-<span style="color:#000000;font-family:Arial;font-size:24px;">Date Of Birth</span></div>
-<input type="date" id="Editbox5" style="position:absolute;left:0px;top:1236px;width:960px;height:59px;z-index:16;" name="Editbox1" value="" spellcheck="false" pattern="(0[1-9]|[12][0-9]|3[01])[- \/.](0[1-9]|1[012])[- \/.](19|20)[0-9]{2}">
-<div id="wb_Text10" style="position:absolute;left:0px;top:1347px;width:476px;height:27px;z-index:17;">
-<span style="color:#000000;font-family:Arial;font-size:24px;">Permanent Address</span></div>
-<input type="text" id="Editbox6" style="position:absolute;left:0px;top:1379px;width:960px;height:59px;z-index:18;" name="Editbox1" value="" spellcheck="false">
-<div id="wb_Text11" style="position:absolute;left:0px;top:1475px;width:476px;height:27px;z-index:19;">
-<span style="color:#000000;font-family:Arial;font-size:24px;">Current Address(if any)</span></div>
-<input type="text" id="Editbox7" style="position:absolute;left:0px;top:1513px;width:960px;height:59px;z-index:20;" name="Editbox1" value="" spellcheck="false">
-<div id="wb_Text12" style="position:absolute;left:0px;top:1611px;width:476px;height:27px;z-index:21;">
-<span style="color:#000000;font-family:Arial;font-size:24px;">Mobile number</span></div>
-<input type="text" id="Editbox8" style="position:absolute;left:0px;top:1649px;width:960px;height:59px;z-index:22;" name="Editbox1" value="" autocomplete="off" spellcheck="false">
-<div id="wb_Text13" style="position:absolute;left:0px;top:1745px;width:476px;height:27px;z-index:23;">
-<span style="color:#000000;font-family:Arial;font-size:24px;">Attach Current Photo</span></div>
-<div id="FileUpload1" class="input-group" style="position:absolute;left:0px;top:1784px;width:970px;height:78px;z-index:24;">
+<label for="Editbox12" id="Label10" style="position:absolute;left:0px;top:366px;width:551px;height:32px;line-height:32px;z-index:5;">Occupation</label>
+<input type="text" id="Editbox12" style="position:absolute;left:0px;top:406px;width:960px;height:37px;z-index:6;" name="Occupation" value="" spellcheck="false">
+<label for="Editbox13" id="Label12" style="position:absolute;left:0px;top:453px;width:512px;height:32px;line-height:32px;z-index:7;">Organisation  In Which Associated(if any)</label>
+<input type="text" id="Editbox13" style="position:absolute;left:0px;top:495px;width:960px;height:40px;z-index:8;" name="Organisation  In Which Associated(if any)" value="" spellcheck="false">
+<label for="Editbox14" id="Label14" style="position:absolute;left:0px;top:549px;width:440px;height:32px;line-height:32px;z-index:9;">Date Of Birth</label>
+<input type="date" id="Editbox14" style="position:absolute;left:0px;top:590px;width:960px;height:46px;z-index:10;" name="Date Of Birth" value="" spellcheck="false">
+<label for="Editbox15" id="Label16" style="position:absolute;left:0px;top:652px;width:469px;height:32px;line-height:32px;z-index:11;">Permanent Address</label>
+<input type="text" id="Editbox15" style="position:absolute;left:0px;top:692px;width:960px;height:47px;z-index:12;" name="Permanent Address" value="" spellcheck="false">
+<label for="Editbox16" id="Label18" style="position:absolute;left:0px;top:772px;width:325px;height:32px;line-height:32px;z-index:13;">Mobile number</label>
+<input type="tel" id="Editbox16" style="position:absolute;left:0px;top:812px;width:960px;height:47px;z-index:14;" name="Mobile number" value="" spellcheck="false">
+<label for="FileUpload3" id="Label20" style="position:absolute;left:7px;top:869px;width:499px;height:68px;line-height:68px;z-index:15;">Attach Current Photo</label>
+<div id="FileUpload3" class="input-group" style="position:absolute;left:0px;top:929px;width:970px;height:58px;z-index:16;">
 <input class="form-control" type="text" readonly="">
 <label class="input-group-btn">
-<input type="file" accept=".jpg" name="FileUpload1" id="FileUpload1-file" style="display:none;"><span class="btn">Browse...</span>
+<input type="file" accept=".jpg,.png" name="Attach Current Photo" id="FileUpload3-file" style="display:none;"><span class="btn">Browse...</span>
 </label>
 </div>
-<div id="wb_Text14" style="position:absolute;left:0px;top:1892px;width:476px;height:27px;z-index:25;">
-<span style="color:#000000;font-family:Arial;font-size:24px;">Attach Signature Photo</span></div>
-<div id="FileUpload2" class="input-group" style="position:absolute;left:0px;top:1928px;width:970px;height:78px;z-index:26;">
+<label for="FileUpload4" id="Label22" style="position:absolute;left:0px;top:997px;width:395px;height:32px;line-height:32px;z-index:17;">Attach Signature Photo</label>
+<div id="FileUpload4" class="input-group" style="position:absolute;left:0px;top:1047px;width:970px;height:63px;z-index:18;">
 <input class="form-control" type="text" readonly="">
 <label class="input-group-btn">
-<input type="file" accept=".jpg" name="FileUpload1" id="FileUpload2-file" style="display:none;"><span class="btn">Browse...</span>
+<input type="file" accept=".jpg,.png" name="Attach Signature Photo" id="FileUpload4-file" style="display:none;"><span class="btn">Browse...</span>
 </label>
 </div>
-<div id="wb_Text15" style="position:absolute;left:0px;top:2038px;width:476px;height:27px;z-index:27;">
-<span style="color:#000000;font-family:Arial;font-size:24px;">Form Submission Time </span></div>
-<input type="time" id="Editbox9" style="position:absolute;left:0px;top:2074px;width:960px;height:59px;z-index:28;" name="Editbox1" value="" spellcheck="false">
-<div id="wb_Text16" style="position:absolute;left:0px;top:2209px;width:970px;height:108px;z-index:29;">
+<label for="Editbox17" id="Label24" style="position:absolute;left:0px;top:1110px;width:344px;height:54px;line-height:54px;z-index:19;">Form Submission Time </label>
+<input type="time" id="Editbox17" style="position:absolute;left:0px;top:1163px;width:960px;height:60px;z-index:20;" name="Form Submission Time " value="" spellcheck="false">
+<select name="Select Your Membership" size="1" id="Combobox3" style="position:absolute;left:0px;top:40px;width:970px;height:44px;z-index:21;">
+<option value="Select">Select</option>
+<option value="New Membership">New Membership</option>
+<option value="Renew Membership">Renew Membership</option>
+</select>
+<label for="" id="Label1" style="position:absolute;left:0px;top:0px;width:440px;height:32px;line-height:32px;z-index:22;">Select Your Membership</label>
+<input type="text" id="Editbox10" style="position:absolute;left:0px;top:136px;width:960px;height:38px;z-index:23;" name="Full Name" value="" spellcheck="false">
+<div id="wb_Text16" style="position:absolute;left:0px;top:1263px;width:970px;height:108px;z-index:24;">
 <span style="color:#FF0000;font-family:Arial;font-size:24px;">DECLARATION:- All the information I have Provided are true to my notion and &quot;Dristikon Magazine Committee&quot;&nbsp; will not be responsible in any way for any faulty/wrong information . Moreover they have all the rights to cancel this membership in case of any mis-conduct or payment failure.</span><span style="color:#000000;font-family:Arial;font-size:24px;"> </span></div>
-<div id="wb_Text17" style="position:absolute;left:100px;top:2343px;width:476px;height:27px;z-index:30;">
+<div id="wb_Text17" style="position:absolute;left:183px;top:1407px;width:476px;height:27px;z-index:25;">
 <span style="color:#000000;font-family:Arial;font-size:24px;">I Agree</span></div>
-<div id="wb_Checkbox1" style="position:absolute;left:24px;top:2333px;width:650px;height:46px;z-index:31;">
+<div id="wb_Checkbox1" style="position:absolute;left:119px;top:1397px;width:650px;height:46px;z-index:26;">
 <input type="checkbox" id="Checkbox1" name="I Agree" value="I Agree" style="position:absolute;left:0;top:0;" title="I Agree"><label for="Checkbox1"></label></div>
-<input type="submit" id="Button1" name="" value="Submit" style="position:absolute;left:150px;top:2465px;width:671px;height:92px;visibility:hidden;z-index:32;">
+<input type="submit" id="Button1" name="" value="Submit" style="position:absolute;left:86px;top:1471px;width:671px;height:92px;visibility:hidden;z-index:27;">
 </form>
 </div>
 </div>
