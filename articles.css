@@ -6,6 +6,86 @@ body
 {
    background-color: #FFFFFF;
 }
+#Blog2
+{
+   background-color: transparent;
+   border: 1px solid #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.2;
+   margin: 0;
+   text-align: left;
+   display: inline-block;
+   position: relative;
+   width: 100%;
+   height: 1415px;
+}
+#Blog2 .blogitem
+{
+   background-color: #FFFFFF;
+   margin-bottom: 6px;
+   padding: 0px;
+   text-align: left;
+}
+#Blog2 .blogdate
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   color: #000000;
+}
+#Blog2 .blogsubject, #Blog2 .blogsubject a:link, #Blog2 .blogsubject a:visited, #Blog2 .blogsubject a:hover
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   color: #666666;
+   text-decoration: none;
+}
+#Blog2 .blogcomments, #Blog2 .blogcomments a:link, #Blog2 .blogcomments a:visited, #Blog2 .blogcomments a:hover
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   color: #000000;
+   text-decoration: underline;
+}
+#Blog2 .blogcomments
+{
+   text-decoration: none;
+}
+#Blog2 .no-thumb
+{
+   display: none;
+}
+#Blog2 img
+{
+   border-width: 0;
+   width: 50%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+#Blog2 .blogthumbnail
+{
+   display: block;
+}
+#Blog2 .blogsubject
+{
+   margin-bottom: 32px;
+   margin-top: 12px;
+   padding: 0;
+   display: block;
+   font-family: Arial;
+   font-size: 13px;
+   color: #666666;
+}
+#Blog2 .blogcaption
+{
+   padding: 9px;
+}
 #Blog1
 {
    background-color: transparent;
