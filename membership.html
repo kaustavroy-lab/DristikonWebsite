@@ -1,3 +1,102 @@
+<?php
+function ValidateEmail($email)
+{
+   $pattern = '/^([0-9a-z]([-.\w]*[0-9a-z])*@(([0-9a-z])+([-\w]*[0-9a-z])*\.)+[a-z]{2,6})$/i';
+   return preg_match($pattern, $email);
+}
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['formid']) && $_POST['formid'] == 'form2')
+{
+   $mailto = 'kaustavroy338@gmail.com';
+   $mailfrom = isset($_POST['email']) ? $_POST['email'] : $mailto;
+   $subject = 'Dristikon Membership Form';
+   $message = 'Dristikon Membership Form';
+   $success_url = './success_page.html';
+   $error_url = './fail.html';
+   $csvFile = "./formdata.csv";
+   $error = '';
+   $eol = "\n";
+   $boundary = md5(uniqid(time()));
+
+   $header  = 'From: '.$mailfrom.$eol;
+   $header .= 'Reply-To: '.$mailfrom.$eol;
+   $header .= 'MIME-Version: 1.0'.$eol;
+   $header .= 'Content-Type: multipart/mixed; boundary="'.$boundary.'"'.$eol;
+   $header .= 'X-Mailer: PHP v'.phpversion().$eol;
+   if (!ValidateEmail($mailfrom))
+   {
+      $error .= "The specified email address is invalid!\n<br>";
+   }
+
+   if (!empty($error))
+   {
+      $errorcode = file_get_contents($error_url);
+      $replace = "##error##";
+      $errorcode = str_replace($replace, $error, $errorcode);
+      echo $errorcode;
+      exit;
+   }
+
+   $internalfields = array ("submit", "reset", "send", "filesize", "formid", "captcha_code", "recaptcha_challenge_field", "recaptcha_response_field", "g-recaptcha-response");
+   $message .= $eol;
+   $message .= "IP Address : ";
+   $message .= $_SERVER['REMOTE_ADDR'];
+   $message .= $eol;
+   $logdata = '';
+   foreach ($_POST as $key => $value)
+   {
+      if (!in_array(strtolower($key), $internalfields))
+      {
+         $logdata .= ',';
+         if (!is_array($value))
+         {
+            $message .= ucwords(str_replace("_", " ", $key)) . " : " . $value . $eol;
+            $value = str_replace(",", " ", $value);
+            $logdata .= $value;
+         }
+         else
+         {
+            $message .= ucwords(str_replace("_", " ", $key)) . " : " . implode(",", $value) . $eol;
+            $logdata .= implode("|", $value);
+         }
+      }
+   }
+   $logdata = str_replace("\r", "", $logdata);
+   $logdata = str_replace("\n", " ", $logdata);
+   $logdata .= "\r\n";
+   $handle = fopen($csvFile, 'a') or die("can't open file");
+   $logtime = date("Y-m-d H:i:s,");
+   fwrite($handle, $logtime);
+   fwrite($handle, $_SERVER['REMOTE_ADDR']);
+   fwrite($handle, $logdata);
+   fclose($handle);
+   $body  = 'This is a multi-part message in MIME format.'.$eol.$eol;
+   $body .= '--'.$boundary.$eol;
+   $body .= 'Content-Type: text/plain; charset=UTF-8'.$eol;
+   $body .= 'Content-Transfer-Encoding: 8bit'.$eol;
+   $body .= $eol.stripslashes($message).$eol;
+   if (!empty($_FILES))
+   {
+       foreach ($_FILES as $key => $value)
+       {
+          if ($_FILES[$key]['error'] == 0)
+          {
+             $body .= '--'.$boundary.$eol;
+             $body .= 'Content-Type: '.$_FILES[$key]['type'].'; name='.$_FILES[$key]['name'].$eol;
+             $body .= 'Content-Transfer-Encoding: base64'.$eol;
+             $body .= 'Content-Disposition: attachment; filename='.$_FILES[$key]['name'].$eol;
+             $body .= $eol.chunk_split(base64_encode(file_get_contents($_FILES[$key]['tmp_name']))).$eol;
+          }
+      }
+   }
+   $body .= '--'.$boundary.'--'.$eol;
+   if ($mailto != '')
+   {
+      mail($mailto, $subject, $body, $header);
+   }
+   header('Location: '.$success_url);
+   exit;
+}
+?>
 <!doctype html>
 <html>
 <head>
@@ -209,7 +308,8 @@ $(document).ready(function()
 <div id="wb_Image2" style="position:absolute;left:0px;top:0px;width:970px;height:153px;z-index:30;">
 <img src="images/channel art youtube.jpg" id="Image2" alt=""></div>
 <div id="wb_Form2" style="position:absolute;left:0px;top:376px;width:970px;height:1615px;z-index:31;">
-<form name="MEMBERSHIP_FORM" method="post" action="mailto:kaustavroy338@gmail.com?subject=DRISTIKON MEMBERSHIP" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8" target="_top" id="Form2" onsubmit="return ValidateMEMBERSHIP_FORM()">
+<form name="MEMBERSHIP_FORM" method="post" action="<?php echo basename(__FILE__); ?>" enctype="multipart/form-data" accept-charset="UTF-8" target="_top" id="Form2" onsubmit="return ValidateMEMBERSHIP_FORM()">
+<input type="hidden" name="formid" value="form2">
 <label for="Editbox10" id="Label4" style="position:absolute;left:0px;top:96px;width:301px;height:32px;line-height:32px;z-index:0;">Full Name</label>
 <label for="Editbox11" id="Label6" style="position:absolute;left:0px;top:187px;width:251px;height:32px;line-height:32px;z-index:1;">Father's Name</label>
 <input type="text" id="Editbox11" style="position:absolute;left:0px;top:227px;width:960px;height:38px;z-index:2;" name="Father's Name" value="" spellcheck="false">

@@ -77,3 +77,42 @@ body
 {
    text-align: left;
 }
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text3 div
+{
+   text-align: left;
+}
+#wb_ClipArt2 a img
+{
+   position: absolute;
+   left: 0;
+}
+#wb_ClipArt2 span
+{
+   position: absolute;
+   left: 0;
+}
+#wb_ClipArt2 a .hover
+{
+   visibility: hidden;
+}
+#wb_ClipArt2 a:hover .hover
+{
+   visibility: visible;
+}
+#wb_ClipArt2 a:hover span
+{
+   visibility: hidden;
+}
+#ClipArt2
+{
+   border-width: 0;
+}

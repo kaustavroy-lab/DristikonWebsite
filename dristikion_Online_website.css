@@ -1,7 +1,7 @@
 a
 {
    color: #00BFFF;
-   text-decoration: underline;
+   text-decoration: none;
 }
 a:active
 {
@@ -10,7 +10,7 @@ a:active
 a:hover
 {
    color: #FFFFFF;
-   text-decoration: underline;
+   text-decoration: none;
 }
 input
 {
