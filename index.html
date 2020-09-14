@@ -22,6 +22,15 @@ dristikononline.in , in, india, made in india ,,join , amazon, netflix , youtube
 <link href="icon fav.png" rel="apple-touch-icon" sizes="512x512">
 <link href="dristikion_Online_website.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="transition.min.js"></script>
+<script src="modal.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#Layer1").modal('show');
+});
+</script>
 <meta name="google-site-verification" content="OfbpydQyJKCxdfdg41SdzkSsLiv3_SwAa_mJ30pxpxA" />
 </head>
 <body>
@@ -278,8 +287,20 @@ dristikononline.in , in, india, made in india ,,join , amazon, netflix , youtube
 <input type="hidden" name="no_note" value="1">
 <input id="PayPal1" type="image" name="submit" src="images/x-click-but04.gif" alt="Make payments with PayPal, it's fast, free, and secure!">
 </form>
+<div id="Layer1" class="modal fade" role="dialog">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-body">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<div id="wb_Image29">
+<img src="images/ma Asche poster~1.jpg" id="Image29" alt="">
 </div>
-<div style="z-index:122">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div style="z-index:124">
 <script>
 var disabled_message = "This Function Is Not Allowed Here!";
 document.oncontextmenu = function() 
