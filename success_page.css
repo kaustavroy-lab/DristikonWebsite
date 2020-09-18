@@ -6,6 +6,10 @@ body
 {
    background-color: #FFFFFF;
 }
+#wb_Image1
+{
+   vertical-align: top;
+}
 #Image1
 {
    border: 0px solid #000000;
@@ -29,5 +33,5 @@ body
 {
    display: block;
    margin: 0;
-   width: 100%;
-}
+   box-sizing: border-box;
+width: 100%;}

@@ -6,6 +6,10 @@ body
 {
    background-color: #FFFFFF;
 }
+#wb_Image1
+{
+   vertical-align: top;
+}
 #Image1
 {
    border: 0px solid #000000;

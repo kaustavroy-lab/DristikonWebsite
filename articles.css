@@ -9,7 +9,8 @@ body
 #Blog2
 {
    background-color: transparent;
-   border: 1px solid #FFFFFF;
+   background-image: none;
+   border: 0px solid transparent;
    font-family: Arial;
    font-weight: normal;
    font-size: 13px;
@@ -34,6 +35,8 @@ body
    font-weight: bold;
    font-size: 13px;
    color: #000000;
+   font-style: normal;
+   text-decoration: none;
 }
 #Blog2 .blogsubject, #Blog2 .blogsubject a:link, #Blog2 .blogsubject a:visited, #Blog2 .blogsubject a:hover
 {
@@ -41,6 +44,7 @@ body
    font-weight: bold;
    font-size: 13px;
    color: #666666;
+   font-style: normal;
    text-decoration: none;
 }
 #Blog2 .blogcomments, #Blog2 .blogcomments a:link, #Blog2 .blogcomments a:visited, #Blog2 .blogcomments a:hover
@@ -49,6 +53,7 @@ body
    font-weight: normal;
    font-size: 13px;
    color: #000000;
+   font-style: normal;
    text-decoration: underline;
 }
 #Blog2 .blogcomments
@@ -89,7 +94,8 @@ body
 #Blog1
 {
    background-color: transparent;
-   border-width: 0;
+   background-image: none;
+   border: 0px solid transparent;
    font-family: Arial;
    font-weight: normal;
    font-size: 13px;
@@ -114,6 +120,8 @@ body
    font-weight: bold;
    font-size: 13px;
    color: #000000;
+   font-style: normal;
+   text-decoration: none;
 }
 #Blog1 .blogsubject, #Blog1 .blogsubject a:link, #Blog1 .blogsubject a:visited, #Blog1 .blogsubject a:hover
 {
@@ -121,6 +129,7 @@ body
    font-weight: bold;
    font-size: 13px;
    color: #666666;
+   font-style: normal;
    text-decoration: none;
 }
 #Blog1 .blogcomments, #Blog1 .blogcomments a:link, #Blog1 .blogcomments a:visited, #Blog1 .blogcomments a:hover
@@ -129,6 +138,7 @@ body
    font-weight: normal;
    font-size: 17px;
    color: #000000;
+   font-style: normal;
    text-decoration: underline;
 }
 #Blog1 .blogcomments
@@ -138,6 +148,10 @@ body
 #Blog1 .no-thumb
 {
    display: none;
+}
+#Blog1 .blogbutton
+{
+   display: none !important;
 }
 #Blog1 img
 {
@@ -165,4 +179,9 @@ body
 #Blog1 .blogcaption
 {
    padding: 9px;
+}
+#Footer1 h6
+{
+   color: #3E3E3E;
+   font-style: normal;
 }

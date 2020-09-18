@@ -9,7 +9,8 @@ body
 #Blog1
 {
    background-color: transparent;
-   border-width: 0;
+   background-image: none;
+   border: 0px solid transparent;
    font-family: Arial;
    font-weight: normal;
    font-size: 13px;
@@ -34,6 +35,8 @@ body
    font-weight: bold;
    font-size: 13px;
    color: #000000;
+   font-style: normal;
+   text-decoration: none;
 }
 #Blog1 .blogsubject, #Blog1 .blogsubject a:link, #Blog1 .blogsubject a:visited, #Blog1 .blogsubject a:hover
 {
@@ -41,6 +44,7 @@ body
    font-weight: bold;
    font-size: 13px;
    color: #666666;
+   font-style: normal;
    text-decoration: none;
 }
 #Blog1 .blogcomments, #Blog1 .blogcomments a:link, #Blog1 .blogcomments a:visited, #Blog1 .blogcomments a:hover
@@ -49,6 +53,7 @@ body
    font-weight: normal;
    font-size: 13px;
    color: #000000;
+   font-style: normal;
    text-decoration: underline;
 }
 #Blog1 .blogcomments
@@ -76,4 +81,5 @@ body
    border-width: 0px;
    width: 120px;
    height: auto;
+   margin: 0px 0px 0px 0px;
 }

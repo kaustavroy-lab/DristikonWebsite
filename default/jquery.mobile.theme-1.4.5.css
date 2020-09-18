@@ -76,7 +76,6 @@ label.ui-btn {
 }
 .ui-btn-corner-all,
 .ui-corner-all {
-   -webkit-background-clip: padding;
    background-clip: padding-box;
 }
 .ui-popup.ui-corner-all > .ui-popup-arrow-guide {
