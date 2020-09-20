@@ -12,9 +12,10 @@ dristikononline.in , in, india, made in india ,,join , amazon, netflix , youtube
 <meta name="revisit-after" content="7 days">
 <meta property="og:title" content="Welcome To Dristikon Online">
 <meta property="og:description" content="Join Dristikon Online to watch the latest Cultural Video, Short Films, Dance Video, Magazines and Dristikon Original Shows.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://drive.google.com/file/d/1wP2o4sGPq2vD52liHtM0v_TxGLTtoEHd/view">
-<meta property="og:image" content="https://drive.google.com/file/d/1wP2o4sGPq2vD52liHtM0v_TxGLTtoEHd/view/images/icon fav.png">
+<meta property="og:type" content="video.tv_show">
+<meta property="og:url" content="https://dristikononline.in/Download.html">
+<meta property="og:image" content="https://dristikononline.in/images/theme web component.jpg">
+<meta property="fb:app_id" content="1">
 <meta name="twitter:card" content="summary">
 <meta name="generator" content="Kaustav Roy">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,6 +25,17 @@ dristikononline.in , in, india, made in india ,,join , amazon, netflix , youtube
 <link href="icon fav.png" rel="apple-touch-icon" sizes="512x512">
 <link href="dristikion_Online_website.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {$('#preloader').remove();}
+});
+$(window).on('load', function()
+{
+   $('#preloader').remove();
+});
+</script>
 <meta name="google-site-verification" content="OfbpydQyJKCxdfdg41SdzkSsLiv3_SwAa_mJ30pxpxA" />
 </head>
 <body>
@@ -306,5 +318,6 @@ document.onmousedown = function md(e)
 }
 </script>
 </div>
+<div id="preloader"></div>
 </body>
 </html>
