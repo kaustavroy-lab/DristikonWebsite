@@ -1,3 +1,21 @@
+@-webkit-keyframes flip
+{
+   0% { -webkit-transform: perspective(400px) rotateX(0deg) rotateY(-360deg) scale3d(1,1,1) ;  }
+   50% { -webkit-transform: perspective(400px) rotateX(0deg) rotateY(-180deg) scale3d(1.2,1.2,1.2) ;  }
+   100% { -webkit-transform: perspective(400px) rotateX(0deg) rotateY(0deg) scale3d(1.0,1.0,1.0) ;  }
+}
+@-moz-keyframes flip
+{
+   0% { -moz-transform: perspective(400px) rotateX(0deg) rotateY(-360deg) scale3d(1,1,1) ;  }
+   50% { -moz-transform: perspective(400px) rotateX(0deg) rotateY(-180deg) scale3d(1.2,1.2,1.2) ;  }
+   100% { -moz-transform: perspective(400px) rotateX(0deg) rotateY(0deg) scale3d(1.0,1.0,1.0) ;  }
+}
+@keyframes flip
+{
+   0% { transform: perspective(400px) rotateX(0deg) rotateY(-360deg) scale3d(1,1,1) ;  }
+   50% { transform: perspective(400px) rotateX(0deg) rotateY(-180deg) scale3d(1.2,1.2,1.2) ;  }
+   100% { transform: perspective(400px) rotateX(0deg) rotateY(0deg) scale3d(1.0,1.0,1.0) ;  }
+}
 h1, .h1
 {
    font-family: Arial;

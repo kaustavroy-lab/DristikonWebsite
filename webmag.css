@@ -1,0 +1,40 @@
+#webmag
+{
+   text-align: center;
+}
+body
+{
+   background-color: #FFFFFF;
+}
+#preloader
+{
+   background: #000000 url("images/box.gif") no-repeat center center;
+   bottom: 0;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 99999;
+}
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   display: block;
+   width: 100%;
+   height: 100%;
+   vertical-align: top;
+   object-fit: cover;
+}
+#wb_JavaScript1
+{
+   display: block;
+   float: left;
+   width: 100%;
+   height: 45px;
+   margin: 0;
+}

@@ -26,9 +26,11 @@ dristikononline.in , in, india, made in india ,,join , amazon, netflix , youtube
 <link href="dristikion_Online_website.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
+<script src="wb.stickylayer.min.js"></script>
 <script>
 $(document).ready(function()
 {
+   $("#Layer1").stickylayer({orientation: 3, position: [0, 0], delay: 500});
    if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {$('#preloader').remove();}
 });
 $(window).on('load', function()
@@ -293,7 +295,7 @@ $(window).on('load', function()
 <input id="PayPal1" type="image" name="submit" src="images/x-click-but04.gif" alt="Make payments with PayPal, it's fast, free, and secure!">
 </form>
 </div>
-<div style="z-index:122">
+<div style="z-index:123">
 <script>
 var disabled_message = "This Function Is Not Allowed Here!";
 document.oncontextmenu = function() 
@@ -317,6 +319,12 @@ document.onmousedown = function md(e)
   } 
 }
 </script>
+</div>
+<div id="Layer1" onclick="window.location.href='./webmag.html';return false;">
+<div id="Layer1-container">
+<div id="wb_Image29">
+<a href="./webmag.html"><img src="images/WhatsApp Image 2020-10-03 at 10.34.12 PM.png" id="Image29" alt=""></a></div>
+</div>
 </div>
 <div id="preloader"></div>
 </body>
