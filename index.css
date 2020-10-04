@@ -1669,8 +1669,8 @@ input:focus, textarea:focus, select:focus
 {
    border: 0px solid #000000;
    padding: 0;
-   -webkit-animation: flip 2200ms linear 0ms infinite alternate-reverse both;
-   animation: flip 2200ms linear 0ms infinite alternate-reverse both;
+   -webkit-animation: flip 2200ms linear 1500ms 1 alternate-reverse both;
+   animation: flip 2200ms linear 1500ms 1 alternate-reverse both;
    margin: 0;
    left: 0;
    top: 0;
@@ -1802,7 +1802,7 @@ input:focus, textarea:focus, select:focus
 }
 #Layer1-container
 {
-   width: 151px;
+   width: 107px;
    position: relative;
    margin-left: auto;
    margin-right: auto;
@@ -1896,10 +1896,10 @@ input:focus, textarea:focus, select:focus
 {
    position: absolute;
    text-align: center;
-   left: 559px;
-   top: 478px;
-   width: 151px;
-   height: 94px;
+   left: 582px;
+   top: 488px;
+   width: 107px;
+   height: 71px;
    z-index: 124;
 }
 #PayPal1
@@ -2271,10 +2271,10 @@ input:focus, textarea:focus, select:focus
 #wb_Image29
 {
    position: absolute;
-   left: 4px;
-   top: 0px;
-   width: 142px;
-   height: 94px;
+   left: 7px;
+   top: 4px;
+   width: 100px;
+   height: 67px;
    z-index: 0;
 }
 #wb_Text54
@@ -13856,6 +13856,11 @@ body
    height: 94px;
    visibility: visible;
    display: inline;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   text-decoration: none;
 }
 #Layer1-container
 {
@@ -24744,6 +24749,11 @@ body
    height: 170px;
    visibility: visible;
    display: inline;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   text-decoration: none;
 }
 #Layer1-container
 {
