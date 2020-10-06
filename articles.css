@@ -6,6 +6,91 @@ body
 {
    background-color: #FFFFFF;
 }
+#Blog3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 1.2;
+   margin: 0;
+   text-align: left;
+   display: inline-block;
+   position: relative;
+   width: 100%;
+   height: 910px;
+}
+#Blog3 .blogitem
+{
+   background-color: #FFFFFF;
+   margin-bottom: 6px;
+   padding: 0px;
+   text-align: left;
+}
+#Blog3 .blogdate
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   color: #000000;
+   font-style: normal;
+   text-decoration: none;
+}
+#Blog3 .blogsubject, #Blog3 .blogsubject a:link, #Blog3 .blogsubject a:visited, #Blog3 .blogsubject a:hover
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   color: #666666;
+   font-style: normal;
+   text-decoration: none;
+}
+#Blog3 .blogcomments, #Blog3 .blogcomments a:link, #Blog3 .blogcomments a:visited, #Blog3 .blogcomments a:hover
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   color: #000000;
+   font-style: normal;
+   text-decoration: underline;
+}
+#Blog3 .blogcomments
+{
+   text-decoration: none;
+}
+#Blog3 .no-thumb
+{
+   display: none;
+}
+#Blog3 img
+{
+   border-width: 0;
+   width: 50%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+#Blog3 .blogthumbnail
+{
+   display: block;
+}
+#Blog3 .blogsubject
+{
+   margin-bottom: 32px;
+   margin-top: 12px;
+   padding: 0;
+   display: block;
+   font-family: Arial;
+   font-size: 13px;
+   color: #666666;
+}
+#Blog3 .blogcaption
+{
+   padding: 9px;
+}
 #Blog2
 {
    background-color: transparent;
