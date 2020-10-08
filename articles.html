@@ -36,6 +36,56 @@ $(document).on("mobileinit", function()
 <body>
 <div data-role="page" data-theme="a" data-title="Dristikon Online Articles" id="articles">
 <div class="ui-content" role="main">
+<div id="Layer1" style="position:fixed;text-align:center;left:0;top:10px;right:0;width:300px;height:46px;margin-left:auto;margin-right:auto;z-index:1;">
+<div id="Layer1-container" style="width:320px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_JavaScript2" style="position:absolute;left:0px;top:0px;width:300px;height:41px;z-index:0;">
+<script>
+function urlEncode(text) 
+{
+   return text.replace(/\s/g, '%20').replace('+', '%2B').replace('/%20/g', '+').replace('*', '%2A').replace('/', '%2F').replace('@', '%40');
+}
+var title = urlEncode("Dristikon Articles");
+var description = urlEncode("We would be happy to help you in your projects and assignments with our own articles and research works from various  fields. You can also help others with yours through us");
+var url = urlEncode("https://dristikononline.in/articles");
+var buttons = "blogger,facebook,google,linkedin,live,myspace,reddit,tumblr,twitter";
+var socialnetworks = Array();
+socialnetworks['bitly'] = "https://bit.ly/?url="+url;
+socialnetworks['blogger'] = "https://www.blogger.com/blog_this.pyra?u="+url+"&n="+title;
+socialnetworks['blogmarks'] = "https://blogmarks.net/my/new.php?mini=1&url="+url+"&title="+title;
+socialnetworks['buzz'] = "https://www.google.com/reader/link?url="+url+"&title="+title+"&snippet="+description+"&srcURL="+url+"&srcTitle="+title;
+socialnetworks['delicious'] = "https://del.icio.us/post?url="+url+"&title="+title;
+socialnetworks['digg'] = "https://digg.com/submit?phase=2&url="+url+"&title="+title;
+socialnetworks['diigo'] = "https://www.diigo.com/post?url="+url+"&title="+title;
+socialnetworks['dzone'] = "https://www.dzone.com/links/add.html?url="+url+"&title="+title;
+socialnetworks['facebook'] = "https://www.facebook.com/share.php?u="+url;
+socialnetworks['google'] = "https://www.google.com/bookmarks/mark?op=edit&bkmk="+url+"&title="+title;
+socialnetworks['linkedin'] = "https://www.linkedin.com/shareArticle?mini=true&url="+url+"&title="+title+"&summary="+description;
+socialnetworks['live'] = "https://favorites.live.com/quickadd.aspx?marklet=1&mkt=en-us&url="+url+"&title="+title;
+socialnetworks['myspace'] = "https://www.myspace.com/Modules/PostTo/Pages/?u="+url;
+socialnetworks['netvibes'] = "https://www.netvibes.com/share?url="+url+"&title="+title;
+socialnetworks['newsvine'] = "https://www.newsvine.com/_wine/save?u="+url+"&h="+title;
+socialnetworks['reddit'] = "https://reddit.com/submit?url="+url+"&title="+title;
+socialnetworks['stumbleupon'] = "https://www.stumbleupon.com/submit?url="+url+"&title="+title;
+socialnetworks['tipd'] = "https://tipd.com/submit.php?url="+url;
+socialnetworks['tumblr'] = "https://www.tumblr.com/share?v=3&u="+url+"&t="+title;
+socialnetworks['twitter'] = "https://twitter.com/?status="+title+"%20-%20"+url;
+socialnetworks['technorati'] = "https://www.technorati.com/faves?add="+url;
+socialnetworks['yahoo'] = "https://myweb2.search.yahoo.com/myresults/bookmarklet?u="+url+"&t="+title;
+		
+var arrButtons = buttons.split(",");
+for (var i=0; i<arrButtons.length; i++)
+{			
+   var name = arrButtons[i];
+   var href = socialnetworks[arrButtons[i]];
+   if (href != undefined)
+   {
+      var button = '<a target="" href="' + href + '" style="padding:6px;display:block;float:left;" title="' + name + '"><img border="0" src="' + name + '.gif" alt="' + name + '" /></a>';
+      document.write(button);
+   }
+}
+</script></div>
+</div>
+</div>
 <div id="Blog3" style="overflow:hidden;">
 <div class="blogitem">
    <div class="blogthumb"><a href="images (40) - Soubhik Chel.jpeg"><img alt="NobelPrize in Physiology or Medicine-Soubhik Chel" src="images (40) - Soubhik Chel.jpeg"></a></div>
