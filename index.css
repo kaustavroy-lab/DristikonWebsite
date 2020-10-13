@@ -36,7 +36,7 @@ input:focus, textarea:focus, select:focus
 }
 #preloader
 {
-   background: #000000 url("images/cube.gif") no-repeat center center;
+   background: #000000 url("images/windmill.gif") no-repeat center center;
    bottom: 0;
    position: fixed;
    top: 0;
