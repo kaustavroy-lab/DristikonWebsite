@@ -1684,8 +1684,6 @@ input:focus, textarea:focus, select:focus
 {
    border: 0px solid #000000;
    padding: 0;
-   -webkit-animation: flip 2200ms linear 2000ms 2 alternate-reverse both;
-   animation: flip 2200ms linear 2000ms 2 alternate-reverse both;
    margin: 0;
    left: 0;
    top: 0;

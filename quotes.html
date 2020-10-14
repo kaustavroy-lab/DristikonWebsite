@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>quotes</title>
+<meta name="keywords" content="quotes">
+<meta name="author" content="Dristikon Online & Kaustav Roy">
+<meta name="categories" content="Website">
+<meta name="generator" content="Kaustav Roy">
+<link href="dristikion_Online_website.css" rel="stylesheet">
+<link href="quotes.css" rel="stylesheet">
+</head>
+<body>
+<div id="container">
+<div id="wb_JavaScript1" style="position:absolute;left:0px;top:0px;width:970px;height:98px;z-index:0;">
+<div style="color:#FFFFFF;font-size:16px;font-family:Arial;font-weight:normal;font-style:normal;text-align:center;text-decoration:none" id="randomquote"></div>
+<script>
+var quoteCount = 0;
+var quotes = new Array ();
+quotes[0] = "You’re going to be taller in the morning";
+quotes[1] = "your heart beats about 100,000 times a day";
+quotes[2] = "Your highest blood flow is in your kidneys";
+quotes[3] = "You can produce enough saliva to fill two bathtubs a year";
+quotes[4] = "Healthy lungs are pink lungs";
+quotes[5] = "Dreaming in black and white";
+quotes[6] = "Your blood vessels could circle the globe";
+quotes[7] = "The average human adult has 2000-4000 taste buds";
+quotes[8] = "";
+quotes[9] = "";
+for (i=0; i<quotes.length; i++)
+{
+   if (quotes[i] == "")
+      break;
+   quoteCount++;  
+}
+var randomquote = document.getElementById('randomquote');
+randomquote.innerHTML = quotes[Math.floor(quoteCount * Math.random())];
+</script>
+</div>
+</div>
+</body>
+</html>
