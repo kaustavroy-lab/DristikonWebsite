@@ -34,15 +34,6 @@ input:focus, textarea:focus, select:focus
 {
    outline: none;
 }
-#preloader
-{
-   background: #000000 url("images/windmill.gif") no-repeat center center;
-   bottom: 0;
-   position: fixed;
-   top: 0;
-   width: 100%;
-   z-index: 99999;
-}
 #wb_Image28
 {
    vertical-align: top;
