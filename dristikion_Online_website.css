@@ -16,6 +16,26 @@
    50% { text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18, 0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;  }
    100% { text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #49ff18, 0 0 5px #49ff18, 0 0 5px #49ff18, 0 0 5px #49ff18, 0 0 5px #49ff18;  }
 }
+a.style1
+{
+   color: #FFFFFF;
+   text-decoration: underline;
+}
+a.style1:visited
+{
+   color: #FF0000;
+   text-decoration: underline;
+}
+a.style1:active
+{
+   color: #FA8072;
+   text-decoration: underline;
+}
+a.style1:hover
+{
+   color: #9ACD32;
+   text-decoration: underline;
+}
 h1, .h1
 {
    font-family: Arial;
