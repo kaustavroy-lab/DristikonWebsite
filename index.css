@@ -34,6 +34,10 @@ input:focus, textarea:focus, select:focus
 {
    outline: none;
 }
+.visibility-hidden
+{
+   visibility: hidden;
+}
 #wb_Image28
 {
    vertical-align: top;
@@ -1815,7 +1819,7 @@ input:focus, textarea:focus, select:focus
 }
 #Layer1-container
 {
-   width: 107px;
+   width: 1200px;
    position: relative;
    margin-left: auto;
    margin-right: auto;
@@ -1907,13 +1911,14 @@ input:focus, textarea:focus, select:focus
 }
 #Layer1
 {
-   position: absolute;
+   position: fixed;
+   overflow: auto;
    text-align: center;
-   left: 586px;
-   top: 461px;
-   width: 107px;
+   left: 0;
+   right: 0;
+   bottom: 0;
    height: 71px;
-   z-index: 125;
+   z-index: 126;
 }
 #PayPal1
 {
@@ -2071,7 +2076,7 @@ input:focus, textarea:focus, select:focus
 {
    position: absolute;
    left: 0px;
-   top: 513px;
+   top: 514px;
    width: 1200px;
    height: 477px;
    z-index: 19;
@@ -2877,7 +2882,7 @@ input:focus, textarea:focus, select:focus
    left: 551px;
    top: 140px;
    width: 637px;
-   height: 96px;
+   height: 89px;
    text-align: center;
    z-index: 5;
 }
@@ -13865,7 +13870,6 @@ body
 }
 #Layer1
 {
-   width: 151px;
    height: 94px;
    visibility: visible;
    display: inline;
@@ -13877,7 +13881,7 @@ body
 }
 #Layer1-container
 {
-   width: 151px;
+   width: 578px;
 }
 #wb_Image29
 {
@@ -24730,7 +24734,7 @@ body
    left: 4px;
    top: 3373px;
    width: 313px;
-   height: 30px;
+   height: 27px;
    visibility: visible;
    display: inline;
 }
@@ -24758,7 +24762,6 @@ body
 }
 #Layer1
 {
-   width: 175px;
    height: 170px;
    visibility: visible;
    display: inline;
@@ -24770,6 +24773,40 @@ body
 }
 #Layer1-container
 {
-   width: 175px;
+   width: 320px;
+}
+#wb_Text60
+{
+   left: 10px;
+   top: 10px;
+   width: 74px;
+   height: 12px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text60
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image29
+{
+   left: 10px;
+   top: 10px;
+   width: 100px;
+   height: 67px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#StructuredData1
+{
+   left: 1323px;
+   top: 572px;
+   width: 486px;
+   height: 344px;
+   visibility: visible;
+   display: inline;
 }
 }

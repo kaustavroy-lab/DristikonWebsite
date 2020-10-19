@@ -31,11 +31,136 @@ dristikononline.in , in, india, made in india ,,join , amazon, netflix , youtube
 <link href="dristikion_Online_website.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
-<script src="wb.stickylayer.min.js"></script>
+<script type="application/ld+json">
+{
+   "@context" : "http://schema.org/",
+   "@type" : "Organization",
+   "name" : "Dristikon Online",
+   "url" : "https://dristikononline.in/",
+   "sameAs" : [
+      "https://www.facebook.com/dristikon1",
+      "http://youtube.com/dristikononline",
+      "https://www.instagram.com/dristikononline/"
+   ],
+   "address" : {
+      "@type" : "PostalAddress",
+      "streetAddress" : "Tarakeswar, Hooghly",
+      "addressLocality" : "Tarakeswar",
+      "addressRegion" : "Westbengal",
+      "postalCode" : "712410"
+   },
+   "telephone" : "7063515775"
+}
+</script>
+<script src="wwb16.min.js"></script>
 <script>
 $(document).ready(function()
 {
-   $("#Layer1").stickylayer({orientation: 3, position: [0, 0], delay: 500});
+   $('#Button1').addClass('visibility-hidden');
+   $('#get_started_1').addClass('visibility-hidden');
+   $('#Button2').addClass('visibility-hidden');
+   $('#Button3').addClass('visibility-hidden');
+   function onScrollButton1()
+   {
+      var $obj = $("#Button1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('Button1', 'transform-bounce-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('Button1', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#Button1').inViewPort(true))
+   {
+      $('#Button1').addClass("in-viewport");
+   }
+   onScrollButton1();
+   $(window).scroll(function(event)
+   {
+      onScrollButton1();
+   });
+   function onScrollget_started_1()
+   {
+      var $obj = $("#get_started_1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('get_started_1', 'transform-bounce-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('get_started_1', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#get_started_1').inViewPort(true))
+   {
+      $('#get_started_1').addClass("in-viewport");
+   }
+   onScrollget_started_1();
+   $(window).scroll(function(event)
+   {
+      onScrollget_started_1();
+   });
+   function onScrollButton2()
+   {
+      var $obj = $("#Button2");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('Button2', 'transform-bounce-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('Button2', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#Button2').inViewPort(true))
+   {
+      $('#Button2').addClass("in-viewport");
+   }
+   onScrollButton2();
+   $(window).scroll(function(event)
+   {
+      onScrollButton2();
+   });
+   function onScrollButton3()
+   {
+      var $obj = $("#Button3");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('Button3', 'transform-bounce-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('Button3', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#Button3').inViewPort(true))
+   {
+      $('#Button3').addClass("in-viewport");
+   }
+   onScrollButton3();
+   $(window).scroll(function(event)
+   {
+      onScrollButton3();
+   });
+   $("a[href*='#Layer1']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#Layer1').offset().top }, 600, 'linear');
+   });
 });
 </script>
 <meta name="google-site-verification" content="OfbpydQyJKCxdfdg41SdzkSsLiv3_SwAa_mJ30pxpxA" />
@@ -294,8 +419,9 @@ $(document).ready(function()
 <input type="hidden" name="no_note" value="1">
 <input id="PayPal1" type="image" name="submit" src="images/x-click-but04.gif" alt="Make payments with PayPal, it's fast, free, and secure!">
 </form>
+
 </div>
-<div style="z-index:124">
+<div style="z-index:125">
 <script>
 var disabled_message = "This Function Is Not Allowed Here!";
 document.oncontextmenu = function() 
