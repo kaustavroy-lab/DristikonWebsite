@@ -34,10 +34,6 @@ input:focus, textarea:focus, select:focus
 {
    outline: none;
 }
-.visibility-hidden
-{
-   visibility: hidden;
-}
 #wb_Image28
 {
    vertical-align: top;
@@ -1819,7 +1815,7 @@ input:focus, textarea:focus, select:focus
 }
 #Layer1-container
 {
-   width: 1200px;
+   width: 107px;
    position: relative;
    margin-left: auto;
    margin-right: auto;
@@ -1911,12 +1907,11 @@ input:focus, textarea:focus, select:focus
 }
 #Layer1
 {
-   position: fixed;
-   overflow: auto;
+   position: absolute;
    text-align: center;
-   left: 0;
-   right: 0;
-   bottom: 0;
+   left: 586px;
+   top: 461px;
+   width: 107px;
    height: 71px;
    z-index: 126;
 }
@@ -13870,6 +13865,7 @@ body
 }
 #Layer1
 {
+   width: 151px;
    height: 94px;
    visibility: visible;
    display: inline;
@@ -13881,7 +13877,7 @@ body
 }
 #Layer1-container
 {
-   width: 578px;
+   width: 151px;
 }
 #wb_Image29
 {
@@ -24762,7 +24758,8 @@ body
 }
 #Layer1
 {
-   height: 170px;
+   width: 120px;
+   height: 84px;
    visibility: visible;
    display: inline;
    font-size: 13px;
@@ -24773,7 +24770,7 @@ body
 }
 #Layer1-container
 {
-   width: 320px;
+   width: 120px;
 }
 #wb_Text60
 {

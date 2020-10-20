@@ -1,0 +1,586 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="base/jquery-ui.min.css" rel="stylesheet">
+<link href="plyr.css" rel="stylesheet">
+<link href="dristikion_Online_website.css" rel="stylesheet">
+<link href="pujo2020.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="plyr.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="util.min.js"></script>
+<script src="modal.min.js"></script>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script>
+var playerYouTube1;
+function onYouTubeIframeAPIReady() {
+   playerYouTube1 = new YT.Player('YouTube1', {
+      events: {
+      }
+   });
+}
+</script>
+<script src="searchindex.js"></script>
+<script src="wb.sitesearch.min.js"></script>
+<script>
+var features = '';
+function searchPage(features)
+{
+   $('#SiteSearch1-dialog').on('show.bs.modal', function (e) 
+   {
+      $('#SiteSearch1-dialog .modal-dialog').removeClass('animate-hide');
+      $('#SiteSearch1-dialog .modal-dialog').addClass('animate-show');
+   });
+   $('#SiteSearch1-dialog').modal('show');
+   searchResults('SiteSearch1', 'SiteSearch1-dialog .modal-body', 250, 10, false, true, false, false, '_parent', 'No results', ' result(s) found for search term: ', 'seconds');
+   return false;
+}
+</script>
+<script>
+$(document).ready(function()
+{
+   const plyrYouTube1 = new Plyr('#wb_YouTube1', {loadSprite: false, iconUrl: 'plyr.svg'});
+   searchParseURL('SiteSearch1');
+   searchAutoComplete('SiteSearch1', 0, '_parent');
+   $('#SiteSearch1-dialog .modal-dialog').draggable({handle: '.modal-header'});
+   $('#LayerMenu1 li').hover(function()
+   {
+      var top = $(this).find('.button').outerHeight();
+      $(this).find('.layer').css({'top': top});
+      $(this).find('.layer').stop().fadeTo('fast', 1).show();
+   }, function()
+   {
+      $(this).find('.layer').stop().fadeTo('fast', 0, function()
+      {
+         $(this).hide();
+      });
+   });
+   $('#LayerMenu1 li .layer').hide();
+   $('#LayerMenu2 li').hover(function()
+   {
+      var top = $(this).find('.button').outerHeight();
+      $(this).find('.layer').css({'top': top});
+      $(this).find('.layer').stop().fadeTo('fast', 1).show();
+   }, function()
+   {
+      $(this).find('.layer').stop().fadeTo('fast', 0, function()
+      {
+         $(this).hide();
+      });
+   });
+   $('#LayerMenu2 li .layer').hide();
+   $('#LayerMenu3 li').hover(function()
+   {
+      var top = $(this).find('.button').outerHeight();
+      $(this).find('.layer').css({'top': top});
+      $(this).find('.layer').stop().fadeTo('fast', 1).show();
+   }, function()
+   {
+      $(this).find('.layer').stop().fadeTo('fast', 0, function()
+      {
+         $(this).hide();
+      });
+   });
+   $('#LayerMenu3 li .layer').hide();
+   $('#LayerMenu4 li').hover(function()
+   {
+      var top = $(this).find('.button').outerHeight();
+      $(this).find('.layer').css({'top': top});
+      $(this).find('.layer').stop().fadeTo('fast', 1).show();
+   }, function()
+   {
+      $(this).find('.layer').stop().fadeTo('fast', 0, function()
+      {
+         $(this).hide();
+      });
+   });
+   $('#LayerMenu4 li .layer').hide();
+   $('#LayerMenu5 li').hover(function()
+   {
+      var top = $(this).find('.button').outerHeight();
+      $(this).find('.layer').css({'top': top});
+      $(this).find('.layer').stop().fadeTo('fast', 1).show();
+   }, function()
+   {
+      $(this).find('.layer').stop().fadeTo('fast', 0, function()
+      {
+         $(this).hide();
+      });
+   });
+   $('#LayerMenu5 li .layer').hide();
+   $('#LayerMenu6 li').hover(function()
+   {
+      var top = $(this).find('.button').outerHeight();
+      $(this).find('.layer').css({'top': top});
+      $(this).find('.layer').stop().fadeTo('fast', 1).show();
+   }, function()
+   {
+      $(this).find('.layer').stop().fadeTo('fast', 0, function()
+      {
+         $(this).hide();
+      });
+   });
+   $('#LayerMenu6 li .layer').hide();
+   $('#LayerMenu7 li').hover(function()
+   {
+      var top = $(this).find('.button').outerHeight();
+      $(this).find('.layer').css({'top': top});
+      $(this).find('.layer').stop().fadeTo('fast', 1).show();
+   }, function()
+   {
+      $(this).find('.layer').stop().fadeTo('fast', 0, function()
+      {
+         $(this).hide();
+      });
+   });
+   $('#LayerMenu7 li .layer').hide();
+   $('#LayerMenu8 li').hover(function()
+   {
+      var top = $(this).find('.button').outerHeight();
+      $(this).find('.layer').css({'top': top});
+      $(this).find('.layer').stop().fadeTo('fast', 1).show();
+   }, function()
+   {
+      $(this).find('.layer').stop().fadeTo('fast', 0, function()
+      {
+         $(this).hide();
+      });
+   });
+   $('#LayerMenu8 li .layer').hide();
+   $('#LayerMenu9 li').hover(function()
+   {
+      var top = $(this).find('.button').outerHeight();
+      $(this).find('.layer').css({'top': top});
+      $(this).find('.layer').stop().fadeTo('fast', 1).show();
+   }, function()
+   {
+      $(this).find('.layer').stop().fadeTo('fast', 0, function()
+      {
+         $(this).hide();
+      });
+   });
+   $('#LayerMenu9 li .layer').hide();
+});
+</script>
+</head>
+<body>
+<div id="container">
+</div>
+<div id="Layer2" style="position:absolute;text-align:center;left:0px;top:0px;width:100%;height:50.519%;z-index:41;">
+<div id="Layer2-container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_YouTube1" style="position:absolute;left:0px;top:195px;width:970px;height:545px;z-index:18;">
+<iframe id="YouTube1" src="https://www.youtube.com/embed/G7gZuSjZi_A&amp;feature=youtu.be?rel=0&amp;loop=1&amp;playlist=G7gZuSjZi_A&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+</div>
+<form name="SiteSearch1_form" id="SiteSearch1_form" role="search" accept-charset="UTF-8" onsubmit="return searchPage(features)">
+<input type="text" id="SiteSearch1" style="position:absolute;left:0px;top:116px;width:773px;height:31px;z-index:19;" name="SiteSearch1" value="" spellcheck="false" placeholder="Find Your Puja On This Website" role="searchbox"></form>
+<input type="button" id="Button1" onclick="searchPage();return false;" name="Find Your Puja" value="Find Your Puja" style="position:absolute;left:783px;top:116px;width:187px;height:41px;z-index:20;">
+<div id="wb_Image1" style="position:absolute;left:433px;top:0px;width:105px;height:105px;z-index:21;">
+<img src="images/icon fav.png" id="Image1" alt=""></div>
+<div id="wb_EmbeddedPage1" style="position:absolute;left:0px;top:759px;width:970px;height:306px;z-index:22;">
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+<div id="wb_LayerMenu1" style="display:inline-block;width:100%;z-index:0;">
+   <ul role="menu" id="LayerMenu1">
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:956px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 2<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:817px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 3<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:660px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 4<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:506px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 5<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:352px;height:248px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 6<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:196px;height:248px">
+      </div>
+      </li>
+   </ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="row">
+<div class="col-1">
+<div id="wb_LayerMenu2" style="display:inline-block;width:100%;z-index:1;">
+   <ul role="menu" id="LayerMenu2">
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:956px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 2<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:817px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 3<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:660px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 4<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:506px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 5<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:352px;height:248px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 6<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:196px;height:248px">
+      </div>
+      </li>
+   </ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid3">
+<div id="LayoutGrid3">
+<div class="row">
+<div class="col-1">
+<div id="wb_LayerMenu3" style="display:inline-block;width:100%;z-index:2;">
+   <ul role="menu" id="LayerMenu3">
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:956px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 2<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:817px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 3<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:660px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 4<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:506px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 5<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:352px;height:248px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 6<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:196px;height:248px">
+      </div>
+      </li>
+   </ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid4">
+<div id="LayoutGrid4">
+<div class="row">
+<div class="col-1">
+<div id="wb_LayerMenu4" style="display:inline-block;width:100%;z-index:3;">
+   <ul role="menu" id="LayerMenu4">
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:956px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 2<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:817px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 3<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:660px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 4<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:506px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 5<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:352px;height:248px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 6<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:196px;height:248px">
+      </div>
+      </li>
+   </ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid5">
+<div id="LayoutGrid5">
+<div class="row">
+<div class="col-1">
+<div id="wb_LayerMenu5" style="display:inline-block;width:100%;z-index:4;">
+   <ul role="menu" id="LayerMenu5">
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:956px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 2<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:817px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 3<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:660px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 4<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:506px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 5<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:352px;height:248px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 6<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:196px;height:248px">
+      </div>
+      </li>
+   </ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid6">
+<div id="LayoutGrid6">
+<div class="row">
+<div class="col-1">
+<div id="wb_LayerMenu6" style="display:inline-block;width:100%;z-index:5;">
+   <ul role="menu" id="LayerMenu6">
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:956px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 2<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:817px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 3<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:660px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 4<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:506px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 5<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:352px;height:248px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 6<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:196px;height:248px">
+      </div>
+      </li>
+   </ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid7">
+<div id="LayoutGrid7">
+<div class="row">
+<div class="col-1">
+<div id="wb_LayerMenu7" style="display:inline-block;width:100%;z-index:6;">
+   <ul role="menu" id="LayerMenu7">
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:956px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 2<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:817px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 3<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:660px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 4<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:506px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 5<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:352px;height:248px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 6<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:196px;height:248px">
+      </div>
+      </li>
+   </ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid8">
+<div id="LayoutGrid8">
+<div class="row">
+<div class="col-1">
+<div id="wb_LayerMenu8" style="display:inline-block;width:100%;z-index:7;">
+   <ul role="menu" id="LayerMenu8">
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:956px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 2<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:817px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 3<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:660px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 4<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:506px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 5<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:352px;height:248px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 6<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:196px;height:248px">
+      </div>
+      </li>
+   </ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid9">
+<div id="LayoutGrid9">
+<div class="row">
+<div class="col-1">
+<div id="wb_LayerMenu9" style="display:inline-block;width:100%;z-index:8;">
+   <ul role="menu" id="LayerMenu9">
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:956px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 2<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:817px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 3<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:660px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 4<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:506px;height:293px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 5<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:352px;height:248px">
+      </div>
+      </li>
+      <li>
+      <a role="menuitem" href="#" class="button">Tarakeswar 6<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:196px;height:248px">
+      </div>
+      </li>
+   </ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="SiteSearch1-dialog" class="modal fade" role="dialog">
+   <div class="modal-dialog  modal-dialog-centered">
+      <div class="modal-content">
+         <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Search results</h4>
+         </div>
+         <div class="modal-body">
+         </div>
+      </div>
+   </div>
+</div>
+</body>
+</html>

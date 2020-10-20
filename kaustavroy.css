@@ -135,7 +135,7 @@ input:focus, textarea:focus, select:focus
 #Card1-card-item6
 {
    box-sizing: border-box;
-   margin: 20px 20px 0px 20px;
+   margin: 6px 20px 0px 20px;
    border-top: 3px #FF0000 solid;
    border-width: 3px 0 0 0;
    height: 0;
@@ -172,6 +172,8 @@ input:focus, textarea:focus, select:focus
    font-weight: normal;
    font-style: normal;
    font-size: 13px;
+   -webkit-animation: animate-border 1000ms linear 0ms infinite normal both;
+   animation: animate-border 1000ms linear 0ms infinite normal both;
 }
 #Card1-card-item8 a
 {
@@ -202,6 +204,8 @@ input:focus, textarea:focus, select:focus
    font-weight: normal;
    font-style: normal;
    font-size: 13px;
+   -webkit-animation: animate-border 1000ms linear 0ms infinite normal both;
+   animation: animate-border 1000ms linear 0ms infinite normal both;
 }
 #Card1-card-item9 a
 {
