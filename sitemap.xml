@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" >
 	<url>
 		<loc>https://dristikononline.in/</loc>
-		<lastmod>2020-10-20</lastmod>
+		<lastmod>2020-10-21</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
@@ -86,7 +86,13 @@
 	</url>
 	<url>
 		<loc>https://dristikononline.in/pujolist.html</loc>
-		<lastmod>2020-10-20</lastmod>
+		<lastmod>2020-10-21</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/page2.html</loc>
+		<lastmod>2020-10-21</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>

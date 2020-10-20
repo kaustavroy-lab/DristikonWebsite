@@ -1,18 +1,38 @@
-div#container
+#page2
 {
-   width: 970px;
-   position: relative;
-   margin: 0 auto 0 auto;
-   text-align: left;
+   text-align: center;
 }
 body
 {
    background-color: #FFFFFF;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   line-height: 1.1875;
-   margin: 0;
+}
+#wb_page2Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
    text-align: center;
+   vertical-align: top;
+}
+#wb_page2Text1
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+width: 100%;}
+#wb_page2Image1
+{
+   vertical-align: top;
+}
+#page2Image1
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 800px;
+   vertical-align: top;
 }
