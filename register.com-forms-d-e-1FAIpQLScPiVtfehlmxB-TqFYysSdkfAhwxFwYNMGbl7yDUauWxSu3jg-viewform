@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 16 - http://www.wysiwygwebbuilder.com">
+<meta http-equiv="refresh" content="0; URL=https://docs.google.com/forms/d/e/1FAIpQLScPiVtfehlmxB-TqFYysSdkfAhwxFwYNMGbl7yDUauWxSu3jg/viewform">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="default/jquery.mobile.theme-1.4.5.css" rel="stylesheet">
+<link href="default/jquery.mobile.icons-1.4.5.min.css" rel="stylesheet">
+<link href="jquery.mobile.structure-1.4.5.min.css" rel="stylesheet">
+<link href="dristikion_Online_website_mobile.css" rel="stylesheet">
+<link href="register.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script>
+$(document).on("mobileinit", function()
+{
+   $.mobile.ajaxEnabled = false;
+});
+</script>
+<script src="jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<div data-role="page" data-theme="d" data-title="Untitled Page" id="register">
+<div class="ui-content" role="main">
+<div id="wb_page2Text1">
+<span style="color:#000000;font-family:Arial;font-size:13px;"><strong>Please Wait....<br>Opening registration form...</strong></span>
+</div>
+<div id="wb_page2Image1">
+<img src="images/78e826ca1b9351214dfdd5e47f7e2024.gif" id="page2Image1" alt=""></div>
+</div>
+</div>
+<div style="z-index:2">
+<script>
+var disabled_message = "";
+document.oncontextmenu = function() 
+{ 
+   return false; 
+}
+document.onmousedown = function md(e) 
+{ 
+  try 
+  { 
+     if (event.button==2||event.button==3) 
+     {
+        if (disabled_message != '')
+           alert(disabled_message);
+        return false; 
+     }
+  }  
+  catch (e) 
+  { 
+     if (e.which == 3) return false; 
+  } 
+}
+</script>
+</div>
+</body>
+</html>
