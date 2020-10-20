@@ -15,9 +15,9 @@
 <script src="modal.min.js"></script>
 <script src="https://www.youtube.com/iframe_api"></script>
 <script>
-var playerYouTube1;
+var playerpujo2020YouTube1;
 function onYouTubeIframeAPIReady() {
-   playerYouTube1 = new YT.Player('YouTube1', {
+   playerpujo2020YouTube1 = new YT.Player('pujo2020YouTube1', {
       events: {
       }
    });
@@ -42,184 +42,67 @@ function searchPage(features)
 <script>
 $(document).ready(function()
 {
-   const plyrYouTube1 = new Plyr('#wb_YouTube1', {loadSprite: false, iconUrl: 'plyr.svg'});
+   const plyrpujo2020YouTube1 = new Plyr('#wb_pujo2020YouTube1', {loadSprite: false, iconUrl: 'plyr.svg'});
    searchParseURL('SiteSearch1');
    searchAutoComplete('SiteSearch1', 0, '_parent');
    $('#SiteSearch1-dialog .modal-dialog').draggable({handle: '.modal-header'});
-   $('#LayerMenu1 li').hover(function()
-   {
-      var top = $(this).find('.button').outerHeight();
-      $(this).find('.layer').css({'top': top});
-      $(this).find('.layer').stop().fadeTo('fast', 1).show();
-   }, function()
-   {
-      $(this).find('.layer').stop().fadeTo('fast', 0, function()
-      {
-         $(this).hide();
-      });
-   });
-   $('#LayerMenu1 li .layer').hide();
-   $('#LayerMenu2 li').hover(function()
-   {
-      var top = $(this).find('.button').outerHeight();
-      $(this).find('.layer').css({'top': top});
-      $(this).find('.layer').stop().fadeTo('fast', 1).show();
-   }, function()
-   {
-      $(this).find('.layer').stop().fadeTo('fast', 0, function()
-      {
-         $(this).hide();
-      });
-   });
-   $('#LayerMenu2 li .layer').hide();
-   $('#LayerMenu3 li').hover(function()
-   {
-      var top = $(this).find('.button').outerHeight();
-      $(this).find('.layer').css({'top': top});
-      $(this).find('.layer').stop().fadeTo('fast', 1).show();
-   }, function()
-   {
-      $(this).find('.layer').stop().fadeTo('fast', 0, function()
-      {
-         $(this).hide();
-      });
-   });
-   $('#LayerMenu3 li .layer').hide();
-   $('#LayerMenu4 li').hover(function()
-   {
-      var top = $(this).find('.button').outerHeight();
-      $(this).find('.layer').css({'top': top});
-      $(this).find('.layer').stop().fadeTo('fast', 1).show();
-   }, function()
-   {
-      $(this).find('.layer').stop().fadeTo('fast', 0, function()
-      {
-         $(this).hide();
-      });
-   });
-   $('#LayerMenu4 li .layer').hide();
-   $('#LayerMenu5 li').hover(function()
-   {
-      var top = $(this).find('.button').outerHeight();
-      $(this).find('.layer').css({'top': top});
-      $(this).find('.layer').stop().fadeTo('fast', 1).show();
-   }, function()
-   {
-      $(this).find('.layer').stop().fadeTo('fast', 0, function()
-      {
-         $(this).hide();
-      });
-   });
-   $('#LayerMenu5 li .layer').hide();
-   $('#LayerMenu6 li').hover(function()
-   {
-      var top = $(this).find('.button').outerHeight();
-      $(this).find('.layer').css({'top': top});
-      $(this).find('.layer').stop().fadeTo('fast', 1).show();
-   }, function()
-   {
-      $(this).find('.layer').stop().fadeTo('fast', 0, function()
-      {
-         $(this).hide();
-      });
-   });
-   $('#LayerMenu6 li .layer').hide();
-   $('#LayerMenu7 li').hover(function()
-   {
-      var top = $(this).find('.button').outerHeight();
-      $(this).find('.layer').css({'top': top});
-      $(this).find('.layer').stop().fadeTo('fast', 1).show();
-   }, function()
-   {
-      $(this).find('.layer').stop().fadeTo('fast', 0, function()
-      {
-         $(this).hide();
-      });
-   });
-   $('#LayerMenu7 li .layer').hide();
-   $('#LayerMenu8 li').hover(function()
-   {
-      var top = $(this).find('.button').outerHeight();
-      $(this).find('.layer').css({'top': top});
-      $(this).find('.layer').stop().fadeTo('fast', 1).show();
-   }, function()
-   {
-      $(this).find('.layer').stop().fadeTo('fast', 0, function()
-      {
-         $(this).hide();
-      });
-   });
-   $('#LayerMenu8 li .layer').hide();
-   $('#LayerMenu9 li').hover(function()
-   {
-      var top = $(this).find('.button').outerHeight();
-      $(this).find('.layer').css({'top': top});
-      $(this).find('.layer').stop().fadeTo('fast', 1).show();
-   }, function()
-   {
-      $(this).find('.layer').stop().fadeTo('fast', 0, function()
-      {
-         $(this).hide();
-      });
-   });
-   $('#LayerMenu9 li .layer').hide();
+   const plyrYouTube1 = new Plyr('#wb_YouTube1', {loadSprite: false, iconUrl: 'plyr.svg'});
+   const plyrpujolistYouTube1 = new Plyr('#wb_pujolistYouTube1', {loadSprite: false, iconUrl: 'plyr.svg'});
+   const plyrpujolistYouTube2 = new Plyr('#wb_pujolistYouTube2', {loadSprite: false, iconUrl: 'plyr.svg'});
+   const plyrpujolistYouTube3 = new Plyr('#wb_pujolistYouTube3', {loadSprite: false, iconUrl: 'plyr.svg'});
+   const plyrpujolistYouTube4 = new Plyr('#wb_pujolistYouTube4', {loadSprite: false, iconUrl: 'plyr.svg'});
+   const plyrpujolistYouTube5 = new Plyr('#wb_pujolistYouTube5', {loadSprite: false, iconUrl: 'plyr.svg'});
+   const plyrpujolistYouTube6 = new Plyr('#wb_pujolistYouTube6', {loadSprite: false, iconUrl: 'plyr.svg'});
+   const plyrpujolistYouTube7 = new Plyr('#wb_pujolistYouTube7', {loadSprite: false, iconUrl: 'plyr.svg'});
+   const plyrpujolistYouTube8 = new Plyr('#wb_pujolistYouTube8', {loadSprite: false, iconUrl: 'plyr.svg'});
+   const plyrpujolistYouTube9 = new Plyr('#wb_pujolistYouTube9', {loadSprite: false, iconUrl: 'plyr.svg'});
+   const plyrpujolistYouTube10 = new Plyr('#wb_pujolistYouTube10', {loadSprite: false, iconUrl: 'plyr.svg'});
+   const plyrpujolistYouTube11 = new Plyr('#wb_pujolistYouTube11', {loadSprite: false, iconUrl: 'plyr.svg'});
+   const plyrpujolistYouTube12 = new Plyr('#wb_pujolistYouTube12', {loadSprite: false, iconUrl: 'plyr.svg'});
+   const plyrpujolistYouTube13 = new Plyr('#wb_pujolistYouTube13', {loadSprite: false, iconUrl: 'plyr.svg'});
+   const plyrpujolistYouTube14 = new Plyr('#wb_pujolistYouTube14', {loadSprite: false, iconUrl: 'plyr.svg'});
+   const plyrpujolistYouTube15 = new Plyr('#wb_pujolistYouTube15', {loadSprite: false, iconUrl: 'plyr.svg'});
+   const plyrpujolistYouTube16 = new Plyr('#wb_pujolistYouTube16', {loadSprite: false, iconUrl: 'plyr.svg'});
 });
 </script>
 </head>
 <body>
 <div id="container">
+<div id="pujo2020Html1" style="position:absolute;left:120px;top:1876px;width:450px;height:100px;z-index:219">
+<!-- hitwebcounter Code START -->
+<img src="https://hitwebcounter.com/counter/counter.php?page=7694982&style=0009&nbdigits=9&type=page&initCount=0" title="Total Website Hits" Alt="Web Hits"   border="0" /></a>                                    
+                                    
+                                        
+                                          
+                            </div>
 </div>
-<div id="Layer2" style="position:absolute;text-align:center;left:0px;top:0px;width:100%;height:50.519%;z-index:49;">
+<div id="Layer2" style="position:absolute;text-align:center;left:0px;top:0px;width:100%;height:9.8257%;z-index:220;">
 <div id="Layer2-container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<div id="wb_YouTube1" style="position:absolute;left:1px;top:195px;width:961px;height:540px;z-index:22;">
-<iframe id="YouTube1" src="https://www.youtube.com/embed/G7gZuSjZi_A&amp;feature=youtu.be?rel=0&amp;loop=1&amp;playlist=G7gZuSjZi_A&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+<div id="wb_pujo2020YouTube1" style="position:absolute;left:1px;top:195px;width:961px;height:540px;z-index:107;">
+<iframe id="pujo2020YouTube1" src="https://www.youtube.com/embed/G7gZuSjZi_A&amp;feature=youtu.be?rel=0&amp;loop=1&amp;playlist=G7gZuSjZi_A&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
 </div>
 <form name="SiteSearch1_form" id="SiteSearch1_form" role="search" accept-charset="UTF-8" onsubmit="return searchPage(features)">
-<input type="text" id="SiteSearch1" style="position:absolute;left:0px;top:116px;width:773px;height:31px;z-index:23;" name="SiteSearch1" value="" spellcheck="false" placeholder="Find Your Puja On This Website" role="searchbox"></form>
-<input type="button" id="Button1" onclick="searchPage();return false;" name="Find Your Puja" value="Find Your Puja" style="position:absolute;left:784px;top:116px;width:177px;height:41px;z-index:24;">
-<div id="wb_Image1" style="position:absolute;left:433px;top:0px;width:105px;height:105px;z-index:25;">
-<img src="images/icon fav.png" id="Image1" alt=""></div>
-<div id="wb_EmbeddedPage1" style="position:absolute;left:0px;top:759px;width:970px;height:601px;z-index:26;">
-<div id="wb_LayoutGrid1">
-<div id="LayoutGrid1">
+<input type="text" id="SiteSearch1" style="position:absolute;left:0px;top:116px;width:773px;height:31px;z-index:108;" name="SiteSearch1" value="" spellcheck="false" placeholder="Find Your Puja On This Website" role="searchbox"></form>
+<input type="button" id="Button1" onclick="searchPage();return false;" name="Find Your Puja" value="Find Your Puja" style="position:absolute;left:784px;top:116px;width:177px;height:41px;z-index:109;">
+<div id="wb_Image1" style="position:absolute;left:433px;top:0px;width:105px;height:105px;z-index:110;">
+<img src="images/icon%20fav.png" id="Image1" alt=""></div>
+<div id="wb_EmbeddedPage1" style="position:absolute;left:0px;top:759px;width:970px;height:14100px;z-index:111;">
+<div id="wb_LayoutGrid3">
+<div id="LayoutGrid3">
 <div class="row">
 <div class="col-1">
-<div id="wb_LayerMenu1" style="display:inline-block;width:100%;z-index:2;">
-   <ul role="menu" id="LayerMenu1">
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:956px;height:293px">
-<div id="wb_Image1" style="position:absolute;left:104px;top:797px;width:343px;height:192px;z-index:1;">
-<img src="images/FormatFactorypromote.jpg" id="Image1" alt=""></div>
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 2<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:817px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 3<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:660px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 4<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:506px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 5<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:352px;height:248px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 6<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:196px;height:248px">
-      </div>
-      </li>
-   </ul>
-
+<div id="wb_pujolistImage2" style="display:inline-block;width:100%;height:auto;z-index:0;">
+<img src="images/dhak_left.gif" id="pujolistImage2" alt="">
+</div>
+</div>
+<div class="col-2">
+<div id="wb_pujolistText1">
+<span style="color:#000000;font-family:Arial;font-size:20px;">Double click to edit</span>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_pujolistImage1" style="display:inline-block;width:100%;height:auto;z-index:2;">
+<img src="images/dhak_right.gif" id="pujolistImage1" alt="">
 </div>
 </div>
 </div>
@@ -229,85 +112,38 @@ $(document).ready(function()
 <div id="LayoutGrid2">
 <div class="row">
 <div class="col-1">
-<div id="wb_LayerMenu2" style="display:inline-block;width:100%;z-index:4;">
-   <ul role="menu" id="LayerMenu2">
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:956px;height:293px">
-<div id="wb_Image2" style="position:absolute;left:61px;top:773px;width:773px;height:446px;z-index:3;">
-<img src="images/ADD.jpg" id="Image2" alt=""></div>
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 2<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:817px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 3<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:660px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 4<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:506px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 5<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:352px;height:248px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 6<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:196px;height:248px">
-      </div>
-      </li>
-   </ul>
-
 </div>
 </div>
 </div>
 </div>
-</div>
-<div id="wb_LayoutGrid3">
-<div id="LayoutGrid3">
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
 <div class="row">
 <div class="col-1">
-<div id="wb_LayerMenu3" style="display:inline-block;width:100%;z-index:6;">
-   <ul role="menu" id="LayerMenu3">
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:956px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 2<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:817px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 3<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:660px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 4<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:506px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 5<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:352px;height:248px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 6<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:196px;height:248px">
-      </div>
-      </li>
-   </ul>
-
+<div id="wb_Card1" style="display:flex;width:100%;text-align:center;z-index:3;">
+   <div id="Card1-card-body">
+      <img id="Card1-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="Card1-card-item1"><h1>Card title</h1></div>
+      <div id="Card1-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_pujolistCard1" style="display:flex;width:100%;text-align:center;z-index:4;">
+   <div id="pujolistCard1-card-body">
+      <img id="pujolistCard1-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard1-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard1-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_pujolistCard2" style="display:flex;width:100%;text-align:center;z-index:5;">
+   <div id="pujolistCard2-card-body">
+      <img id="pujolistCard2-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard2-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard2-card-item2">View More</div>
+   </div>
 </div>
 </div>
 </div>
@@ -317,254 +153,728 @@ $(document).ready(function()
 <div id="LayoutGrid4">
 <div class="row">
 <div class="col-1">
-<div id="wb_LayerMenu4" style="display:inline-block;width:100%;z-index:7;">
-   <ul role="menu" id="LayerMenu4">
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:956px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 2<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:817px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 3<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:660px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 4<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:506px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 5<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:352px;height:248px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 6<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:196px;height:248px">
-      </div>
-      </li>
-   </ul>
+<div id="wb_YouTube1" style="display:inline-block;width:100%;z-index:6;">
+<iframe id="YouTube1" src="https://www.youtube.com/embed/3GPcVVpxAjo?rel=0&amp;autoplay=1&amp;modestbranding=1&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
 
 </div>
 </div>
 </div>
 </div>
 </div>
-<div id="wb_LayoutGrid5">
-<div id="LayoutGrid5">
+<div id="wb_pujolistLayoutGrid1">
+<div id="pujolistLayoutGrid1">
 <div class="row">
 <div class="col-1">
-<div id="wb_LayerMenu5" style="display:inline-block;width:100%;z-index:8;">
-   <ul role="menu" id="LayerMenu5">
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:956px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 2<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:817px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 3<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:660px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 4<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:506px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 5<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:352px;height:248px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 6<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:196px;height:248px">
-      </div>
-      </li>
-   </ul>
+<div id="wb_pujolistCard3" style="display:flex;width:100%;text-align:center;z-index:7;">
+   <div id="pujolistCard3-card-body">
+      <img id="pujolistCard3-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard3-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard3-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_pujolistCard4" style="display:flex;width:100%;text-align:center;z-index:8;">
+   <div id="pujolistCard4-card-body">
+      <img id="pujolistCard4-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard4-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard4-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_pujolistCard5" style="display:flex;width:100%;text-align:center;z-index:9;">
+   <div id="pujolistCard5-card-body">
+      <img id="pujolistCard5-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard5-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard5-card-item2">View More</div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid2">
+<div id="pujolistLayoutGrid2">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistYouTube1" style="display:inline-block;width:100%;z-index:10;">
+<iframe id="pujolistYouTube1" src="https://www.youtube.com/embed/Shyt5y-2Aig?rel=0&amp;autoplay=1&amp;modestbranding=1&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
 
 </div>
 </div>
 </div>
 </div>
 </div>
-<div id="wb_LayoutGrid6">
-<div id="LayoutGrid6">
+<div id="wb_pujolistLayoutGrid3">
+<div id="pujolistLayoutGrid3">
 <div class="row">
 <div class="col-1">
-<div id="wb_LayerMenu6" style="display:inline-block;width:100%;z-index:9;">
-   <ul role="menu" id="LayerMenu6">
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:956px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 2<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:817px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 3<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:660px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 4<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:506px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 5<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:352px;height:248px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 6<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:196px;height:248px">
-      </div>
-      </li>
-   </ul>
+<div id="wb_pujolistCard6" style="display:flex;width:100%;text-align:center;z-index:11;">
+   <div id="pujolistCard6-card-body">
+      <img id="pujolistCard6-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard6-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard6-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_pujolistCard7" style="display:flex;width:100%;text-align:center;z-index:12;">
+   <div id="pujolistCard7-card-body">
+      <img id="pujolistCard7-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard7-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard7-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_pujolistCard8" style="display:flex;width:100%;text-align:center;z-index:13;">
+   <div id="pujolistCard8-card-body">
+      <img id="pujolistCard8-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard8-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard8-card-item2">View More</div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid4">
+<div id="pujolistLayoutGrid4">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistYouTube2" style="display:inline-block;width:100%;z-index:14;">
+<iframe id="pujolistYouTube2" src="https://www.youtube.com/embed/rMhW5Su1zc8&amp;t=9s?rel=0&amp;autoplay=1&amp;modestbranding=1&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
 
 </div>
 </div>
 </div>
 </div>
 </div>
-<div id="wb_LayoutGrid7">
-<div id="LayoutGrid7">
+<div id="wb_pujolistLayoutGrid5">
+<div id="pujolistLayoutGrid5">
 <div class="row">
 <div class="col-1">
-<div id="wb_LayerMenu7" style="display:inline-block;width:100%;z-index:10;">
-   <ul role="menu" id="LayerMenu7">
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:956px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 2<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:817px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 3<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:660px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 4<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:506px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 5<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:352px;height:248px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 6<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:196px;height:248px">
-      </div>
-      </li>
-   </ul>
+<div id="wb_pujolistCard9" style="display:flex;width:100%;text-align:center;z-index:15;">
+   <div id="pujolistCard9-card-body">
+      <img id="pujolistCard9-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard9-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard9-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_pujolistCard10" style="display:flex;width:100%;text-align:center;z-index:16;">
+   <div id="pujolistCard10-card-body">
+      <img id="pujolistCard10-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard10-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard10-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_pujolistCard11" style="display:flex;width:100%;text-align:center;z-index:17;">
+   <div id="pujolistCard11-card-body">
+      <img id="pujolistCard11-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard11-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard11-card-item2">View More</div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid6">
+<div id="pujolistLayoutGrid6">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistYouTube3" style="display:inline-block;width:100%;z-index:18;">
+<iframe id="pujolistYouTube3" src="https://www.youtube.com/embed/cFbpNN59BEg&amp;t=13s?rel=0&amp;autoplay=1&amp;modestbranding=1&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
 
 </div>
 </div>
 </div>
 </div>
 </div>
-<div id="wb_LayoutGrid8">
-<div id="LayoutGrid8">
+<div id="wb_pujolistLayoutGrid7">
+<div id="pujolistLayoutGrid7">
 <div class="row">
 <div class="col-1">
-<div id="wb_LayerMenu8" style="display:inline-block;width:100%;z-index:11;">
-   <ul role="menu" id="LayerMenu8">
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:956px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 2<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:817px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 3<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:660px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 4<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:506px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 5<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:352px;height:248px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 6<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:196px;height:248px">
-      </div>
-      </li>
-   </ul>
+<div id="wb_pujolistCard12" style="display:flex;width:100%;text-align:center;z-index:19;">
+   <div id="pujolistCard12-card-body">
+      <img id="pujolistCard12-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard12-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard12-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_pujolistCard13" style="display:flex;width:100%;text-align:center;z-index:20;">
+   <div id="pujolistCard13-card-body">
+      <img id="pujolistCard13-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard13-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard13-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_pujolistCard14" style="display:flex;width:100%;text-align:center;z-index:21;">
+   <div id="pujolistCard14-card-body">
+      <img id="pujolistCard14-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard14-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard14-card-item2">View More</div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid8">
+<div id="pujolistLayoutGrid8">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistYouTube4" style="display:inline-block;width:100%;z-index:22;">
+<iframe id="pujolistYouTube4" src="https://www.youtube.com/embed/jyQjsjAu4kE?rel=0&amp;autoplay=1&amp;modestbranding=1&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
 
 </div>
 </div>
 </div>
 </div>
 </div>
-<div id="wb_LayoutGrid9">
-<div id="LayoutGrid9">
+<div id="wb_pujolistLayoutGrid9">
+<div id="pujolistLayoutGrid9">
 <div class="row">
 <div class="col-1">
-<div id="wb_LayerMenu9" style="display:inline-block;width:100%;z-index:12;">
-   <ul role="menu" id="LayerMenu9">
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:956px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 2<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:817px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 3<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:660px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 4<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:506px;height:293px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 5<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:352px;height:248px">
-      </div>
-      </li>
-      <li>
-      <a role="menuitem" href="#" class="button">Tarakeswar 6<span class="arrow-down"></span></a>
-      <div class="layer" style="text-align:center;width:196px;height:248px">
-      </div>
-      </li>
-   </ul>
+<div id="wb_pujolistCard15" style="display:flex;width:100%;text-align:center;z-index:23;">
+   <div id="pujolistCard15-card-body">
+      <img id="pujolistCard15-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard15-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard15-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_pujolistCard16" style="display:flex;width:100%;text-align:center;z-index:24;">
+   <div id="pujolistCard16-card-body">
+      <img id="pujolistCard16-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard16-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard16-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_pujolistCard17" style="display:flex;width:100%;text-align:center;z-index:25;">
+   <div id="pujolistCard17-card-body">
+      <img id="pujolistCard17-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard17-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard17-card-item2">View More</div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid10">
+<div id="pujolistLayoutGrid10">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistYouTube5" style="display:inline-block;width:100%;z-index:26;">
+<iframe id="pujolistYouTube5" src="https://www.youtube.com/embed/3MdgoN9jBAM&amp;t=23s?rel=0&amp;autoplay=1&amp;modestbranding=1&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid11">
+<div id="pujolistLayoutGrid11">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistCard18" style="display:flex;width:100%;text-align:center;z-index:27;">
+   <div id="pujolistCard18-card-body">
+      <img id="pujolistCard18-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard18-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard18-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_pujolistCard19" style="display:flex;width:100%;text-align:center;z-index:28;">
+   <div id="pujolistCard19-card-body">
+      <img id="pujolistCard19-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard19-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard19-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_pujolistCard20" style="display:flex;width:100%;text-align:center;z-index:29;">
+   <div id="pujolistCard20-card-body">
+      <img id="pujolistCard20-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard20-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard20-card-item2">View More</div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid12">
+<div id="pujolistLayoutGrid12">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistYouTube6" style="display:inline-block;width:100%;z-index:30;">
+<iframe id="pujolistYouTube6" src="https://www.youtube.com/embed/VdmkzQt3iIk?rel=0&amp;autoplay=1&amp;modestbranding=1&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid13">
+<div id="pujolistLayoutGrid13">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistCard21" style="display:flex;width:100%;text-align:center;z-index:31;">
+   <div id="pujolistCard21-card-body">
+      <img id="pujolistCard21-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard21-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard21-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_pujolistCard22" style="display:flex;width:100%;text-align:center;z-index:32;">
+   <div id="pujolistCard22-card-body">
+      <img id="pujolistCard22-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard22-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard22-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_pujolistCard23" style="display:flex;width:100%;text-align:center;z-index:33;">
+   <div id="pujolistCard23-card-body">
+      <img id="pujolistCard23-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard23-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard23-card-item2">View More</div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid14">
+<div id="pujolistLayoutGrid14">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistYouTube7" style="display:inline-block;width:100%;z-index:34;">
+<iframe id="pujolistYouTube7" src="https://www.youtube.com/embed/G7gZuSjZi_A&amp;t=380s?rel=0&amp;autoplay=1&amp;modestbranding=1&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid15">
+<div id="pujolistLayoutGrid15">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistCard24" style="display:flex;width:100%;text-align:center;z-index:35;">
+   <div id="pujolistCard24-card-body">
+      <img id="pujolistCard24-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard24-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard24-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_pujolistCard25" style="display:flex;width:100%;text-align:center;z-index:36;">
+   <div id="pujolistCard25-card-body">
+      <img id="pujolistCard25-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard25-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard25-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_pujolistCard26" style="display:flex;width:100%;text-align:center;z-index:37;">
+   <div id="pujolistCard26-card-body">
+      <img id="pujolistCard26-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard26-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard26-card-item2">View More</div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid16">
+<div id="pujolistLayoutGrid16">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistYouTube8" style="display:inline-block;width:100%;z-index:38;">
+<iframe id="pujolistYouTube8" src="https://www.youtube.com/embed/Txbc9vXXqqE&amp;t=3s?rel=0&amp;autoplay=1&amp;modestbranding=1&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid17">
+<div id="pujolistLayoutGrid17">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistCard27" style="display:flex;width:100%;text-align:center;z-index:39;">
+   <div id="pujolistCard27-card-body">
+      <img id="pujolistCard27-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard27-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard27-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_pujolistCard28" style="display:flex;width:100%;text-align:center;z-index:40;">
+   <div id="pujolistCard28-card-body">
+      <img id="pujolistCard28-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard28-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard28-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_pujolistCard29" style="display:flex;width:100%;text-align:center;z-index:41;">
+   <div id="pujolistCard29-card-body">
+      <img id="pujolistCard29-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard29-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard29-card-item2">View More</div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid18">
+<div id="pujolistLayoutGrid18">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistYouTube9" style="display:inline-block;width:100%;z-index:42;">
+<iframe id="pujolistYouTube9" src="https://www.youtube.com/embed/X7vjmAWi55s?rel=0&amp;autoplay=1&amp;modestbranding=1&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid19">
+<div id="pujolistLayoutGrid19">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistCard30" style="display:flex;width:100%;text-align:center;z-index:43;">
+   <div id="pujolistCard30-card-body">
+      <img id="pujolistCard30-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard30-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard30-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_pujolistCard31" style="display:flex;width:100%;text-align:center;z-index:44;">
+   <div id="pujolistCard31-card-body">
+      <img id="pujolistCard31-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard31-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard31-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_pujolistCard32" style="display:flex;width:100%;text-align:center;z-index:45;">
+   <div id="pujolistCard32-card-body">
+      <img id="pujolistCard32-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard32-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard32-card-item2">View More</div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid20">
+<div id="pujolistLayoutGrid20">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistYouTube10" style="display:inline-block;width:100%;z-index:46;">
+<iframe id="pujolistYouTube10" src="https://www.youtube.com/embed/_KHWWImVc6U&amp;t=331s?rel=0&amp;autoplay=1&amp;modestbranding=1&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid21">
+<div id="pujolistLayoutGrid21">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistCard33" style="display:flex;width:100%;text-align:center;z-index:47;">
+   <div id="pujolistCard33-card-body">
+      <img id="pujolistCard33-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard33-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard33-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_pujolistCard34" style="display:flex;width:100%;text-align:center;z-index:48;">
+   <div id="pujolistCard34-card-body">
+      <img id="pujolistCard34-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard34-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard34-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_pujolistCard35" style="display:flex;width:100%;text-align:center;z-index:49;">
+   <div id="pujolistCard35-card-body">
+      <img id="pujolistCard35-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard35-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard35-card-item2">View More</div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid22">
+<div id="pujolistLayoutGrid22">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistYouTube11" style="display:inline-block;width:100%;z-index:50;">
+<iframe id="pujolistYouTube11" src="https://www.youtube.com/embed/_Jp96VRx9V0&amp;t=27s?rel=0&amp;autoplay=1&amp;modestbranding=1&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid23">
+<div id="pujolistLayoutGrid23">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistCard36" style="display:flex;width:100%;text-align:center;z-index:51;">
+   <div id="pujolistCard36-card-body">
+      <img id="pujolistCard36-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard36-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard36-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_pujolistCard37" style="display:flex;width:100%;text-align:center;z-index:52;">
+   <div id="pujolistCard37-card-body">
+      <img id="pujolistCard37-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard37-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard37-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_pujolistCard38" style="display:flex;width:100%;text-align:center;z-index:53;">
+   <div id="pujolistCard38-card-body">
+      <img id="pujolistCard38-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard38-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard38-card-item2">View More</div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid24">
+<div id="pujolistLayoutGrid24">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistYouTube12" style="display:inline-block;width:100%;z-index:54;">
+<iframe id="pujolistYouTube12" src="https://www.youtube.com/embed/gyFcu-6V-vk&amp;t=64s?rel=0&amp;autoplay=1&amp;modestbranding=1&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid25">
+<div id="pujolistLayoutGrid25">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistCard39" style="display:flex;width:100%;text-align:center;z-index:55;">
+   <div id="pujolistCard39-card-body">
+      <img id="pujolistCard39-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard39-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard39-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_pujolistCard40" style="display:flex;width:100%;text-align:center;z-index:56;">
+   <div id="pujolistCard40-card-body">
+      <img id="pujolistCard40-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard40-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard40-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_pujolistCard41" style="display:flex;width:100%;text-align:center;z-index:57;">
+   <div id="pujolistCard41-card-body">
+      <img id="pujolistCard41-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard41-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard41-card-item2">View More</div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid26">
+<div id="pujolistLayoutGrid26">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistYouTube13" style="display:inline-block;width:100%;z-index:58;">
+<iframe id="pujolistYouTube13" src="https://www.youtube.com/embed/Pj1Od64z_H4&amp;t=143s?rel=0&amp;autoplay=1&amp;modestbranding=1&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid27">
+<div id="pujolistLayoutGrid27">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistCard42" style="display:flex;width:100%;text-align:center;z-index:59;">
+   <div id="pujolistCard42-card-body">
+      <img id="pujolistCard42-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard42-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard42-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_pujolistCard43" style="display:flex;width:100%;text-align:center;z-index:60;">
+   <div id="pujolistCard43-card-body">
+      <img id="pujolistCard43-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard43-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard43-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_pujolistCard44" style="display:flex;width:100%;text-align:center;z-index:61;">
+   <div id="pujolistCard44-card-body">
+      <img id="pujolistCard44-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard44-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard44-card-item2">View More</div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid28">
+<div id="pujolistLayoutGrid28">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistYouTube14" style="display:inline-block;width:100%;z-index:62;">
+<iframe id="pujolistYouTube14" src="https://www.youtube.com/embed/Cczmj4xv3J8?rel=0&amp;autoplay=1&amp;modestbranding=1&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid29">
+<div id="pujolistLayoutGrid29">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistCard45" style="display:flex;width:100%;text-align:center;z-index:63;">
+   <div id="pujolistCard45-card-body">
+      <img id="pujolistCard45-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard45-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard45-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_pujolistCard46" style="display:flex;width:100%;text-align:center;z-index:64;">
+   <div id="pujolistCard46-card-body">
+      <img id="pujolistCard46-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard46-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard46-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_pujolistCard47" style="display:flex;width:100%;text-align:center;z-index:65;">
+   <div id="pujolistCard47-card-body">
+      <img id="pujolistCard47-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard47-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard47-card-item2">View More</div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid30">
+<div id="pujolistLayoutGrid30">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistYouTube15" style="display:inline-block;width:100%;z-index:66;">
+<iframe id="pujolistYouTube15" src="https://www.youtube.com/embed/HkkQksbh5mw&amp;t=3s?rel=0&amp;autoplay=1&amp;modestbranding=1&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid31">
+<div id="pujolistLayoutGrid31">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistCard48" style="display:flex;width:100%;text-align:center;z-index:67;">
+   <div id="pujolistCard48-card-body">
+      <img id="pujolistCard48-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard48-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard48-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_pujolistCard49" style="display:flex;width:100%;text-align:center;z-index:68;">
+   <div id="pujolistCard49-card-body">
+      <img id="pujolistCard49-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard49-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard49-card-item2">View More</div>
+   </div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_pujolistCard50" style="display:flex;width:100%;text-align:center;z-index:69;">
+   <div id="pujolistCard50-card-body">
+      <img id="pujolistCard50-card-item0" src="images/Happy%20New%20Year.jpg" alt="" title="">
+      <div id="pujolistCard50-card-item1"><h1>Card title</h1></div>
+      <div id="pujolistCard50-card-item2">View More</div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pujolistLayoutGrid32">
+<div id="pujolistLayoutGrid32">
+<div class="row">
+<div class="col-1">
+<div id="wb_pujolistYouTube16" style="display:inline-block;width:100%;z-index:70;">
+<iframe id="pujolistYouTube16" src="https://www.youtube.com/embed/th1N3S8gbLA?rel=0&amp;autoplay=1&amp;modestbranding=1&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
 
 </div>
 </div>
