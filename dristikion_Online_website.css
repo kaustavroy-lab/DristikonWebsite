@@ -31,36 +31,6 @@
    50% { text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18, 0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;  }
    100% { text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #49ff18, 0 0 5px #49ff18, 0 0 5px #49ff18, 0 0 5px #49ff18, 0 0 5px #49ff18;  }
 }
-@-webkit-keyframes transform-bounce
-{
-   0% { -webkit-transform: rotate(0deg) ;  }
-   20% { -webkit-transform: rotate(0deg) ;  }
-   40% { -webkit-transform: translate(0px,-30px) rotate(0deg) ;  }
-   50% { -webkit-transform: translate(0px,0px) rotate(0deg) ;  }
-   60% { -webkit-transform: translate(0px,-15px) rotate(0deg) ;  }
-   80% { -webkit-transform: translate(0px,0px) rotate(0deg) ;  }
-   100% { -webkit-transform: translate(0px,0px) rotate(0deg) ;  }
-}
-@-moz-keyframes transform-bounce
-{
-   0% { -moz-transform: rotate(0deg) ;  }
-   20% { -moz-transform: rotate(0deg) ;  }
-   40% { -moz-transform: translate(0px,-30px) rotate(0deg) ;  }
-   50% { -moz-transform: translate(0px,0px) rotate(0deg) ;  }
-   60% { -moz-transform: translate(0px,-15px) rotate(0deg) ;  }
-   80% { -moz-transform: translate(0px,0px) rotate(0deg) ;  }
-   100% { -moz-transform: translate(0px,0px) rotate(0deg) ;  }
-}
-@keyframes transform-bounce
-{
-   0% { transform: rotate(0deg) ;  }
-   20% { transform: rotate(0deg) ;  }
-   40% { transform: translate(0px,-30px) rotate(0deg) ;  }
-   50% { transform: translate(0px,0px) rotate(0deg) ;  }
-   60% { transform: translate(0px,-15px) rotate(0deg) ;  }
-   80% { transform: translate(0px,0px) rotate(0deg) ;  }
-   100% { transform: translate(0px,0px) rotate(0deg) ;  }
-}
 a.style1
 {
    color: #FFFFFF;
