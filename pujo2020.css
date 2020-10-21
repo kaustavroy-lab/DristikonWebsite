@@ -1,10 +1,3 @@
-div#container
-{
-   width: 970px;
-   position: relative;
-   margin: 0 auto 0 auto;
-   text-align: left;
-}
 body
 {
    background-color: #DC143C;
@@ -14,7 +7,7 @@ body
    font-size: 13px;
    line-height: 1.1875;
    margin: 0;
-   text-align: center;
+   padding: 0;
 }
 a
 {
@@ -209,18 +202,286 @@ input:focus, textarea:focus, select:focus
    background-image: none;
    margin: 0;
 }
-#wb_Image3
+#CardContainer1
 {
+   display: -webkit-flex;
+   display: flex;
+   position: relative;
+   padding: 10px 10px 10px 10px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: stretch;
+   align-items: stretch;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   box-sizing: border-box;
+   font-size: 0px;
+}
+@media all and (max-width:480px) 
+{
+#CardContainer1
+{
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+}
+}
+#wb_Card1
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   background-color: transparent;
+   background-image: none;
+   border: 1px solid transparent;
+   border-radius: 3px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#Card1-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#Card1-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   width: 100%;
+}
+#CardContainer2
+{
+   display: -webkit-flex;
+   display: flex;
+   position: relative;
+   padding: 10px 10px 10px 10px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: stretch;
+   align-items: stretch;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   box-sizing: border-box;
+   font-size: 0px;
+}
+@media all and (max-width:480px) 
+{
+#CardContainer2
+{
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+}
+}
+#wb_Card2
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   background-color: transparent;
+   background-image: none;
+   border: 1px solid transparent;
+   border-radius: 3px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#Card2-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#Card2-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   width: 100%;
+}
+#wb_LayoutGrid3
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #FBFBFB;
+   background-image: none;
+   border: 0px solid transparent;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid3
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid3 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2, #LayoutGrid3 > .row > .col-3
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2, #LayoutGrid3 > .row > .col-3
+{
+   float: left;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 16.66666667%;
+   text-align: center;
+}
+#LayoutGrid3 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 66.66666667%;
+   text-align: center;
+}
+#LayoutGrid3 > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 16.66666667%;
+   text-align: center;
+}
+#LayoutGrid3:before,
+#LayoutGrid3:after,
+#LayoutGrid3 .row:before,
+#LayoutGrid3 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid3:after,
+#LayoutGrid3 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2, #LayoutGrid3 > .row > .col-3
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_pujolistImage1
+{
+   margin: 0;
    vertical-align: top;
 }
-#Image3
+#pujolistImage1
 {
+   border: 0px solid #000000;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 100px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
+#wb_pujolistImage2
+{
+   margin: 0;
+   vertical-align: top;
+}
+#pujolistImage2
+{
+   border: 0px solid #000000;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 100px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
+#wb_pujolistText1 
+{
+   background-color: transparent;
+   background-image: none;
    border: 0px solid #000000;
    padding: 0;
    margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-   object-fit: contain;
+   text-align: center;
 }
+#wb_pujolistText1 div
+{
+   text-align: center;
+}
+#wb_pujolistText1
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+width: 100%;}
