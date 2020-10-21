@@ -51,6 +51,26 @@ a.style1:hover
    color: #9ACD32;
    text-decoration: underline;
 }
+a.style2
+{
+   color: #FFD700;
+   text-decoration: underline;
+}
+a.style2:visited
+{
+   color: #FFFFFF;
+   text-decoration: underline;
+}
+a.style2:active
+{
+   color: #7FFF00;
+   text-decoration: underline;
+}
+a.style2:hover
+{
+   color: #00CED1;
+   text-decoration: underline;
+}
 h1, .h1
 {
    font-family: Arial;

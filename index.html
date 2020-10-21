@@ -62,6 +62,12 @@ $(document).ready(function()
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#Layer1').offset().top }, 600, 'linear');
    });
+   $("#Layer2").stickylayer({orientation: 6, position: [0, 0], delay: 500});
+   $("a[href*='#Layer2']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#Layer2').offset().top }, 600, 'linear');
+   });
 });
 </script>
 <meta name="google-site-verification" content="OfbpydQyJKCxdfdg41SdzkSsLiv3_SwAa_mJ30pxpxA" />
@@ -322,7 +328,7 @@ $(document).ready(function()
 </form>
 
 </div>
-<div style="z-index:125">
+<div style="z-index:126">
 <script>
 var disabled_message = "This Function Is Not Allowed Here!";
 document.oncontextmenu = function() 
@@ -353,6 +359,12 @@ document.onmousedown = function md(e)
 <a href="./webmag.html"><img src="images/WhatsApp Image 2020-10-03 at 10.34.12 PM.png" id="Image29" alt=""></a></div>
 <div id="wb_Text60">
 <span style="color:#FFFFFF;font-family:Arial;font-size:11px;"><strong>Click To Write</strong></span></div>
+</div>
+</div>
+<div id="Layer2" onclick="window.location.href='./pujo2020.html';return false;">
+<div id="Layer2-container">
+<div id="wb_Image30">
+<a href="./pujo2020.html"><img src="images/logo puja.jpg" id="Image30" alt=""></a></div>
 </div>
 </div>
 </body>
