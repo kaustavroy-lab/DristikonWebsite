@@ -32,6 +32,15 @@ $(document).on("mobileinit", function()
 });
 </script>
 <script src="jquery.mobile-1.4.5.min.js"></script>
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "eba65731-5d52-46c0-870d-d2bc67dbeebe",
+    });
+  });
+</script>
 </head>
 <body>
 <div data-role="page" data-theme="a" data-title="Dristikon Online Articles" id="articles">
