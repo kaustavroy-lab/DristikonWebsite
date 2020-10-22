@@ -14,9 +14,21 @@
 <link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
 <link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
 <link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
+<link href="plyr.css" rel="stylesheet">
 <link href="dristikion_Online_website.css" rel="stylesheet">
 <link href="bajar.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
+<script src="plyr.min.js"></script>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script>
+var playerYouTube1;
+function onYouTubeIframeAPIReady() {
+   playerYouTube1 = new YT.Player('YouTube1', {
+      events: {
+      }
+   });
+}
+</script>
 <script>
 $(document).ready(function()
 {
@@ -25,6 +37,7 @@ $(document).ready(function()
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid3').offset().top }, 600, 'linear');
    });
+   const plyrYouTube1 = new Plyr('#wb_YouTube1', {loadSprite: false, iconUrl: 'plyr.svg'});
 });
 </script>
 </head>
@@ -93,7 +106,11 @@ clock();
 <div id="LayoutGrid13">
 <div class="row">
 <div class="col-1">
-<div id="wb_PhotoGallery6" style="display:inline-block;width:100%;z-index:6;">
+<div id="wb_YouTube1" style="display:inline-block;width:100%;z-index:6;">
+<iframe id="YouTube1" src="https://www.youtube.com/embed/jCEwJaMaq6Q?rel=0&amp;loop=1&amp;playlist=jCEwJaMaq6Q&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+<div id="wb_PhotoGallery6" style="display:inline-block;width:100%;z-index:7;">
 <div id="PhotoGallery6">
    <div class="thumbnails">
       <div class="thumbnail">
@@ -118,7 +135,7 @@ clock();
 <div id="LayoutGrid1">
 <div class="row">
 <div class="col-1">
-<div id="wb_PhotoGallery1" style="display:none;width:100%;z-index:7;">
+<div id="wb_PhotoGallery1" style="display:none;width:100%;z-index:8;">
 <div id="PhotoGallery1">
 </div>
 </div>
@@ -133,7 +150,7 @@ clock();
 <div id="wb_Text3">
 <span style="color:#FFFFFF;font-family:'Nirmala UI';font-size:20px;"><strong>বাজার সর্বজনীন</strong></span>
 </div>
-<div id="wb_bajarsarbojonin" style="display:inline-block;width:100%;z-index:9;">
+<div id="wb_bajarsarbojonin" style="display:inline-block;width:100%;z-index:10;">
 <a id="bajarsarbojonin" style="visibility:hidden;">&nbsp;</a>
 
 </div>
@@ -145,7 +162,7 @@ clock();
 <div id="LayoutGrid4">
 <div class="row">
 <div class="col-1">
-<div id="wb_PhotoGallery2" style="display:inline-block;width:100%;z-index:10;">
+<div id="wb_PhotoGallery2" style="display:inline-block;width:100%;z-index:11;">
 <div id="PhotoGallery2">
 </div>
 </div>
@@ -160,7 +177,7 @@ clock();
 <div id="wb_Text4">
 <span style="color:#FFFFFF;font-family:'Nirmala UI';font-size:20px;"><strong>আমতলা বাজার সর্বজনীন</strong></span>
 </div>
-<div id="wb_amtola" style="display:inline-block;width:100%;z-index:12;">
+<div id="wb_amtola" style="display:inline-block;width:100%;z-index:13;">
 <a id="amtola" style="visibility:hidden;">&nbsp;</a>
 
 </div>
@@ -172,7 +189,7 @@ clock();
 <div id="LayoutGrid8">
 <div class="row">
 <div class="col-1">
-<div id="wb_PhotoGallery3" style="display:inline-block;width:100%;z-index:13;">
+<div id="wb_PhotoGallery3" style="display:inline-block;width:100%;z-index:14;">
 <div id="PhotoGallery3">
    <div class="thumbnails">
       <div class="thumbnail">
@@ -205,7 +222,7 @@ clock();
 <div id="wb_Text5">
 <span style="color:#FFFFFF;font-family:'Nirmala UI';font-size:20px;"><strong>জয়কৃষ্ণবাজার বটতলা সর্বজনীন</strong></span>
 </div>
-<div id="wb_jkbajar" style="display:inline-block;width:100%;z-index:15;">
+<div id="wb_jkbajar" style="display:inline-block;width:100%;z-index:16;">
 <a id="jkbajar" style="visibility:hidden;">&nbsp;</a>
 
 </div>
@@ -217,7 +234,7 @@ clock();
 <div id="LayoutGrid10">
 <div class="row">
 <div class="col-1">
-<div id="wb_PhotoGallery4" style="display:inline-block;width:100%;z-index:16;">
+<div id="wb_PhotoGallery4" style="display:inline-block;width:100%;z-index:17;">
 <div id="PhotoGallery4">
 </div>
 </div>
@@ -232,7 +249,7 @@ clock();
 <div id="wb_Text6">
 <span style="color:#FFFFFF;font-family:'Nirmala UI';font-size:20px;"><strong>তারকেশ্বর জে.কে বাজার দুর্গোৎসব</strong></span>
 </div>
-<div id="wb_tarakeswarjkbajar" style="display:inline-block;width:100%;z-index:18;">
+<div id="wb_tarakeswarjkbajar" style="display:inline-block;width:100%;z-index:19;">
 <a id="tarakeswarjkbajar" style="visibility:hidden;">&nbsp;</a>
 
 </div>
@@ -244,7 +261,7 @@ clock();
 <div id="LayoutGrid12">
 <div class="row">
 <div class="col-1">
-<div id="wb_PhotoGallery5" style="display:inline-block;width:100%;z-index:19;">
+<div id="wb_PhotoGallery5" style="display:inline-block;width:100%;z-index:20;">
 <div id="PhotoGallery5">
    <div class="thumbnails">
       <div class="thumbnail">
