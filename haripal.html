@@ -17,6 +17,7 @@ var playerYouTube1;
 var playerpujolistYouTube14;
 var playerpujolistYouTube15;
 var playerpujolistYouTube16;
+var playerYouTube2;
 function onYouTubeIframeAPIReady() {
    playerYouTube1 = new YT.Player('YouTube1', {
       events: {
@@ -31,6 +32,10 @@ function onYouTubeIframeAPIReady() {
       }
    });
    playerpujolistYouTube16 = new YT.Player('pujolistYouTube16', {
+      events: {
+      }
+   });
+   playerYouTube2 = new YT.Player('YouTube2', {
       events: {
       }
    });
@@ -83,6 +88,7 @@ $(document).ready(function()
          }
       }
    });
+   const plyrYouTube2 = new Plyr('#wb_YouTube2', {loadSprite: false, iconUrl: 'plyr.svg'});
 });
 </script>
 <script data-ad-client="ca-pub-2759062465878765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -140,16 +146,28 @@ clock();
 </div>
 </div>
 </div>
+<div id="wb_LayoutGrid8">
+<div id="LayoutGrid8">
+<div class="row">
+<div class="col-1">
+<div id="wb_YouTube2" style="display:inline-block;width:100%;z-index:5;">
+<iframe id="YouTube2" src="https://www.youtube.com/embed/gqGHFRnmaq0?rel=0&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+</div>
+</div>
+</div>
+</div>
 <div id="wb_LayoutGrid2">
 <div id="LayoutGrid2">
 <div class="row">
 <div class="col-1">
 <form name="pujolistSiteSearch1_form" id="pujolistSiteSearch1_form" role="search" accept-charset="UTF-8" style="display:inline" onsubmit="return searchPage(features)">
-<input type="text" id="pujolistSiteSearch1" style="display:block;width: 100%;height:26px;z-index:5;" name="pujolistSiteSearch1" value="" spellcheck="false" placeholder="Search Your Pujo" role="searchbox"></form>
+<input type="text" id="pujolistSiteSearch1" style="display:block;width: 100%;height:26px;z-index:6;" name="pujolistSiteSearch1" value="" spellcheck="false" placeholder="Search Your Pujo" role="searchbox"></form>
 <div id="pujolistSiteSearch1-dialog" title="Search results"></div>
 </div>
 <div class="col-2">
-<input type="button" id="pujolistButton1" onclick="searchPage();return false;" name="Search Your Pujo" value="Search Your Pujo" style="display:inline-block;width:187px;height:25px;z-index:6;">
+<input type="button" id="pujolistButton1" onclick="searchPage();return false;" name="Search Your Pujo" value="Search Your Pujo" style="display:inline-block;width:187px;height:25px;z-index:7;">
 </div>
 </div>
 </div>
@@ -158,7 +176,7 @@ clock();
 <div id="LayoutGrid1">
 <div class="row">
 <div class="col-1">
-<div id="wb_Card1" style="display:flex;width:100%;text-align:center;z-index:7;">
+<div id="wb_Card1" style="display:flex;width:100%;text-align:center;z-index:8;">
    <div id="Card1-card-body">
       <img id="Card1-card-item0" src="WhatsApp Image 2020-10-22 at 1.09.50 AM.jpeg" alt="" title="">
       <div id="Card1-card-item1"><h1>আঁটপুর রামকৃষ্ণ মঠ</h1></div>
@@ -167,14 +185,14 @@ clock();
 </div>
 </div>
 <div class="col-2">
-<div id="wb_pujolistCard1" style="display:none;width:100%;text-align:center;z-index:8;">
+<div id="wb_pujolistCard1" style="display:none;width:100%;text-align:center;z-index:9;">
    <div id="pujolistCard1-card-body">
       <img id="pujolistCard1-card-item0" src="images/Happy New Year.jpg" alt="" title="">
       <div id="pujolistCard1-card-item1"><h1>উদয় সংঘ সর্বজনীন</h1></div>
       <div id="pujolistCard1-card-item2"><a href="./udaysangha.html">View More</a></div>
    </div>
 </div>
-<div id="wb_Card3" style="display:none;width:100%;text-align:center;z-index:9;">
+<div id="wb_Card3" style="display:none;width:100%;text-align:center;z-index:10;">
    <div id="Card3-card-body">
       <img id="Card3-card-item0" src="WhatsApp Image 2020-10-22 at 12.40.38 AM.jpeg" alt="" title="">
       <div id="Card3-card-item1"><h1>চৌধুরী মোড় সার্বজনীন দূর্গা উৎসব</h1></div>
@@ -183,14 +201,14 @@ clock();
 </div>
 </div>
 <div class="col-3">
-<div id="wb_pujolistCard2" style="display:none;width:100%;text-align:center;z-index:10;">
+<div id="wb_pujolistCard2" style="display:none;width:100%;text-align:center;z-index:11;">
    <div id="pujolistCard2-card-body">
       <img id="pujolistCard2-card-item0" src="images/Happy New Year.jpg" alt="" title="">
       <div id="pujolistCard2-card-item1"><h1>নূতনবাজার সর্বজনীন</h1></div>
       <div id="pujolistCard2-card-item2"><a href="./bajar.html#nutonbajar">View More</a></div>
    </div>
 </div>
-<div id="wb_Card4" style="display:none;width:100%;text-align:center;z-index:11;">
+<div id="wb_Card4" style="display:none;width:100%;text-align:center;z-index:12;">
    <div id="Card4-card-body">
       <img id="Card4-card-item0" src="WhatsApp Image 2020-10-22 at 12.47.47 AM.jpeg" alt="" title="">
       <div id="Card4-card-item1"><h1>কামারপুকুর লাহাবাবুদের দুর্গাপ্রতিমা</h1></div>
@@ -205,7 +223,7 @@ clock();
 <div id="LayoutGrid4">
 <div class="row">
 <div class="col-1">
-<div id="wb_YouTube1" style="display:inline-block;width:100%;z-index:12;">
+<div id="wb_YouTube1" style="display:inline-block;width:100%;z-index:13;">
 <iframe id="YouTube1" src="https://www.youtube.com/embed/3GPcVVpxAjo?rel=0&amp;modestbranding=1&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
 
 </div>
@@ -217,7 +235,7 @@ clock();
 <div id="pujolistLayoutGrid27">
 <div class="row">
 <div class="col-1">
-<div id="wb_pujolistCard42" style="display:flex;width:100%;text-align:center;z-index:13;">
+<div id="wb_pujolistCard42" style="display:flex;width:100%;text-align:center;z-index:14;">
    <div id="pujolistCard42-card-body">
       <img id="pujolistCard42-card-item0" src="images/Happy New Year.jpg" alt="" title="">
       <div id="pujolistCard42-card-item1"><h1>Card title</h1></div>
@@ -226,7 +244,7 @@ clock();
 </div>
 </div>
 <div class="col-2">
-<div id="wb_pujolistCard43" style="display:flex;width:100%;text-align:center;z-index:14;">
+<div id="wb_pujolistCard43" style="display:flex;width:100%;text-align:center;z-index:15;">
    <div id="pujolistCard43-card-body">
       <img id="pujolistCard43-card-item0" src="images/Happy New Year.jpg" alt="" title="">
       <div id="pujolistCard43-card-item1"><h1>Card title</h1></div>
@@ -235,7 +253,7 @@ clock();
 </div>
 </div>
 <div class="col-3">
-<div id="wb_pujolistCard44" style="display:flex;width:100%;text-align:center;z-index:15;">
+<div id="wb_pujolistCard44" style="display:flex;width:100%;text-align:center;z-index:16;">
    <div id="pujolistCard44-card-body">
       <img id="pujolistCard44-card-item0" src="images/Happy New Year.jpg" alt="" title="">
       <div id="pujolistCard44-card-item1"><h1>Card title</h1></div>
@@ -250,7 +268,7 @@ clock();
 <div id="pujolistLayoutGrid28">
 <div class="row">
 <div class="col-1">
-<div id="wb_pujolistYouTube14" style="display:none;width:100%;z-index:16;">
+<div id="wb_pujolistYouTube14" style="display:none;width:100%;z-index:17;">
 <iframe id="pujolistYouTube14" src="https://www.youtube.com/embed/Cczmj4xv3J8?rel=0&amp;modestbranding=1&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
 
 </div>
@@ -262,7 +280,7 @@ clock();
 <div id="pujolistLayoutGrid29">
 <div class="row">
 <div class="col-1">
-<div id="wb_pujolistCard45" style="display:flex;width:100%;text-align:center;z-index:17;">
+<div id="wb_pujolistCard45" style="display:flex;width:100%;text-align:center;z-index:18;">
    <div id="pujolistCard45-card-body">
       <img id="pujolistCard45-card-item0" src="images/Happy New Year.jpg" alt="" title="">
       <div id="pujolistCard45-card-item1"><h1>Card title</h1></div>
@@ -271,7 +289,7 @@ clock();
 </div>
 </div>
 <div class="col-2">
-<div id="wb_pujolistCard46" style="display:flex;width:100%;text-align:center;z-index:18;">
+<div id="wb_pujolistCard46" style="display:flex;width:100%;text-align:center;z-index:19;">
    <div id="pujolistCard46-card-body">
       <img id="pujolistCard46-card-item0" src="images/Happy New Year.jpg" alt="" title="">
       <div id="pujolistCard46-card-item1"><h1>Card title</h1></div>
@@ -280,7 +298,7 @@ clock();
 </div>
 </div>
 <div class="col-3">
-<div id="wb_pujolistCard47" style="display:flex;width:100%;text-align:center;z-index:19;">
+<div id="wb_pujolistCard47" style="display:flex;width:100%;text-align:center;z-index:20;">
    <div id="pujolistCard47-card-body">
       <img id="pujolistCard47-card-item0" src="images/Happy New Year.jpg" alt="" title="">
       <div id="pujolistCard47-card-item1"><h1>Card title</h1></div>
@@ -295,7 +313,7 @@ clock();
 <div id="pujolistLayoutGrid30">
 <div class="row">
 <div class="col-1">
-<div id="wb_pujolistYouTube15" style="display:none;width:100%;z-index:20;">
+<div id="wb_pujolistYouTube15" style="display:none;width:100%;z-index:21;">
 <iframe id="pujolistYouTube15" src="https://www.youtube.com/embed/HkkQksbh5mw&amp;t=3s?rel=0&amp;modestbranding=1&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
 
 </div>
@@ -307,7 +325,7 @@ clock();
 <div id="pujolistLayoutGrid31">
 <div class="row">
 <div class="col-1">
-<div id="wb_pujolistCard48" style="display:flex;width:100%;text-align:center;z-index:21;">
+<div id="wb_pujolistCard48" style="display:flex;width:100%;text-align:center;z-index:22;">
    <div id="pujolistCard48-card-body">
       <img id="pujolistCard48-card-item0" src="images/Happy New Year.jpg" alt="" title="">
       <div id="pujolistCard48-card-item1"><h1>Card title</h1></div>
@@ -316,7 +334,7 @@ clock();
 </div>
 </div>
 <div class="col-2">
-<div id="wb_pujolistCard49" style="display:flex;width:100%;text-align:center;z-index:22;">
+<div id="wb_pujolistCard49" style="display:flex;width:100%;text-align:center;z-index:23;">
    <div id="pujolistCard49-card-body">
       <img id="pujolistCard49-card-item0" src="images/Happy New Year.jpg" alt="" title="">
       <div id="pujolistCard49-card-item1"><h1>Card title</h1></div>
@@ -325,7 +343,7 @@ clock();
 </div>
 </div>
 <div class="col-3">
-<div id="wb_pujolistCard50" style="display:flex;width:100%;text-align:center;z-index:23;">
+<div id="wb_pujolistCard50" style="display:flex;width:100%;text-align:center;z-index:24;">
    <div id="pujolistCard50-card-body">
       <img id="pujolistCard50-card-item0" src="images/Happy New Year.jpg" alt="" title="">
       <div id="pujolistCard50-card-item1"><h1>Card title</h1></div>
@@ -340,7 +358,7 @@ clock();
 <div id="pujolistLayoutGrid32">
 <div class="row">
 <div class="col-1">
-<div id="wb_pujolistYouTube16" style="display:none;width:100%;z-index:24;">
+<div id="wb_pujolistYouTube16" style="display:none;width:100%;z-index:25;">
 <iframe id="pujolistYouTube16" src="https://www.youtube.com/embed/th1N3S8gbLA?rel=0&amp;modestbranding=1&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
 
 </div>
