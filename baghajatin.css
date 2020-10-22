@@ -59,7 +59,7 @@ input:focus, textarea:focus, select:focus
    box-sizing: border-box;
    float: left;
    padding: 3px 3px 3px 3px;
-   width: %;
+   width: 100%;
    text-align: center;
    vertical-align: top;
 }
