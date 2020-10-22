@@ -7117,7 +7117,7 @@ width: 100%;}
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 33.33333333%;
+   width: 50%;
    text-align: left;
 }
 #LayoutGrid7 > .row > .col-2
@@ -7125,7 +7125,7 @@ width: 100%;}
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 33.33333333%;
+   width: 50%;
    text-align: left;
 }
 #LayoutGrid7 > .row > .col-3
@@ -7133,7 +7133,6 @@ width: 100%;}
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 33.33333333%;
    text-align: center;
 }
 #LayoutGrid7:before,
