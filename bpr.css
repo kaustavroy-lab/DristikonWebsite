@@ -59,7 +59,7 @@ input:focus, textarea:focus, select:focus
    box-sizing: border-box;
    float: left;
    padding: 3px 3px 3px 3px;
-   width: %;
+   width: 33.33333333%;
    text-align: center;
    vertical-align: top;
 }
@@ -95,7 +95,7 @@ input:focus, textarea:focus, select:focus
 }
 #PhotoGallery1 .visible-col3
 {
-   display: none;
+   display: block;
 }
 #wb_LayoutGrid3
 {

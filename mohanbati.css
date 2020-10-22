@@ -379,7 +379,7 @@ width: 100%;}
    box-sizing: border-box;
    float: left;
    padding: 3px 3px 3px 3px;
-   width: %;
+   width: 33.33333333%;
    text-align: center;
    vertical-align: top;
 }
@@ -415,7 +415,7 @@ width: 100%;}
 }
 #PhotoGallery1 .visible-col3
 {
-   display: none;
+   display: block;
 }
 #wb_LayoutGrid4
 {
@@ -593,7 +593,7 @@ width: 100%;}
    box-sizing: border-box;
    float: left;
    padding: 3px 3px 3px 3px;
-   width: %;
+   width: 50%;
    text-align: center;
    vertical-align: top;
 }
@@ -630,6 +630,220 @@ width: 100%;}
 #PhotoGallery2 .visible-col3
 {
    display: none;
+}
+#wb_LayoutGrid7
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid7
+{
+   box-sizing: border-box;
+   padding: 0px 15px 6px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid7 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid7 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid7 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid7 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid7:before,
+#LayoutGrid7:after,
+#LayoutGrid7 .row:before,
+#LayoutGrid7 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid7:after,
+#LayoutGrid7 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid7 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text4 div
+{
+   text-align: center;
+}
+#wb_Text4
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+width: 100%;}
+#wb_LayoutGrid8
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid8
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid8 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid8 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid8 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid8 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: left;
+}
+#LayoutGrid8:before,
+#LayoutGrid8:after,
+#LayoutGrid8 .row:before,
+#LayoutGrid8 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid8:after,
+#LayoutGrid8 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid8 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#PhotoGallery3
+{
+   box-sizing: border-box;
+   font-size: 0;
+   width: 100%;
+   height: 100%;
+   table-layout: fixed;
+   display: table;
+   margin: 0;
+}
+#PhotoGallery3 .thumbnails
+{
+   margin: 0;
+}
+#PhotoGallery3 .thumbnail
+{
+   position: relative;
+   min-height: 1px;
+   box-sizing: border-box;
+   float: left;
+   padding: 3px 3px 3px 3px;
+   width: 33.33333333%;
+   text-align: center;
+   vertical-align: top;
+}
+#PhotoGallery3 .frame
+{
+   padding: 5px;
+   background-color: #fff;
+   border: 1px #DAA520 solid;
+   border-radius: 4px;
+}
+#PhotoGallery3 .thumbnail img
+{
+   border-width: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 100%;
+   box-sizing: border-box;
+   border-radius: 5px;
+}
+#PhotoGallery3 .clearfix:before,
+#PhotoGallery3 .clearfix:after,
+#PhotoGallery3 .thumbnails:before,
+#PhotoGallery3 .thumbnails:after
+{
+   display: table;
+   content: " ";
+}
+#PhotoGallery3 .clearfix:after,
+#PhotoGallery3 .thumbnails:after
+{
+   clear: both;
+}
+#PhotoGallery3 .visible-col3
+{
+   display: block;
 }
 #wb_LayoutGrid5
 {
