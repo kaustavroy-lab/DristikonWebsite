@@ -396,7 +396,7 @@ input:focus, textarea:focus, select:focus
    margin-right: -15px;
    margin-left: -15px;
 }
-#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3
 {
    box-sizing: border-box;
    font-size: 0px;
@@ -405,7 +405,7 @@ input:focus, textarea:focus, select:focus
    padding-left: 15px;
    position: relative;
 }
-#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3
 {
    float: left;
 }
@@ -414,7 +414,7 @@ input:focus, textarea:focus, select:focus
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 50%;
+   width: 33.33333333%;
    text-align: left;
 }
 #LayoutGrid1 > .row > .col-2
@@ -422,8 +422,16 @@ input:focus, textarea:focus, select:focus
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 50%;
+   width: 33.33333333%;
    text-align: center;
+}
+#LayoutGrid1 > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 33.33333333%;
+   text-align: left;
 }
 #LayoutGrid1:before,
 #LayoutGrid1:after,
@@ -440,7 +448,7 @@ input:focus, textarea:focus, select:focus
 }
 @media (max-width: 480px)
 {
-#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3
 {
    float: none;
    width: 100% !important;
