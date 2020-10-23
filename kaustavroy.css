@@ -1,6 +1,6 @@
 body
 {
-   background-color: #FFFFFF;
+   background-color: #B22222;
    color: #000000;
    font-family: Arial;
    font-weight: normal;
@@ -46,7 +46,7 @@ input:focus, textarea:focus, select:focus
    flex-basis: 0%;
    -webkit-align-self: auto;
    align-self: auto;
-   background-color: #FFD700;
+   background-color: #DC143C;
    background-image: none;
    border: 1px solid #DEDEDE;
    border-radius: 3px;
@@ -79,7 +79,7 @@ input:focus, textarea:focus, select:focus
 }
 #Card1-card-item1 h1
 {
-   color: #800000;
+   color: #FFFFFF;
    font-family: Arial;
    font-weight: bold;
    font-style: normal;
@@ -90,7 +90,7 @@ input:focus, textarea:focus, select:focus
 {
    box-sizing: border-box;
    margin: 20px 20px 0px 20px;
-   border-top: 4px #FFFFFF solid;
+   border-top: 4px #00FF00 solid;
    border-width: 4px 0 0 0;
    height: 0;
    line-height: 0;
@@ -100,8 +100,8 @@ input:focus, textarea:focus, select:focus
    box-sizing: border-box;
    margin: 10px 0px 0px 0px;
    padding: 0;
-   color: #9400D3;
-   font-family: Arial;
+   color: #FFFFFF;
+   font-family: "Bookman Old Style";
    font-weight: bold;
    font-style: normal;
    font-size: 13px;
@@ -114,7 +114,7 @@ input:focus, textarea:focus, select:focus
 }
 #Card1-card-item4 h3
 {
-   color: #FF0000;
+   color: #7FFF00;
    font-family: Verdana;
    font-weight: bold;
    font-style: normal;
@@ -126,7 +126,7 @@ input:focus, textarea:focus, select:focus
    box-sizing: border-box;
    margin: 5px 20px 0px 20px;
    padding: 0;
-   color: #292B2C;
+   color: #FFFFFF;
    font-family: Arial;
    font-weight: bold;
    font-style: normal;
@@ -136,7 +136,7 @@ input:focus, textarea:focus, select:focus
 {
    box-sizing: border-box;
    margin: 6px 20px 0px 20px;
-   border-top: 3px #FF0000 solid;
+   border-top: 3px #0000CD solid;
    border-width: 3px 0 0 0;
    height: 0;
    line-height: 0;
@@ -149,7 +149,7 @@ input:focus, textarea:focus, select:focus
 }
 #Card1-card-item7 h1
 {
-   color: #DC143C;
+   color: #FFD700;
    font-family: Arial;
    font-weight: bold;
    font-style: normal;
@@ -163,11 +163,11 @@ input:focus, textarea:focus, select:focus
    box-sizing: border-box;
    margin: 5px 20px 20px 20px;
    padding: 10px 16px 10px 16px;
-   border: 1px solid #0275D8;
+   border: 1px solid #FF0000;
    border-radius: 4px;
-   background-color: #0275D8;
+   background-color: #FFFFFF;
    background-image: none;
-   color: #FFFFFF;
+   color: #FF0000;
    font-family: Arial;
    font-weight: normal;
    font-style: normal;
@@ -193,13 +193,13 @@ input:focus, textarea:focus, select:focus
    height: 35px;
    box-sizing: border-box;
    border-radius: 0 0 3px 3px;
-   margin: 5px 20px 20px 20px;
+   margin: 5px 20px 20px 25px;
    padding: 10px 16px 10px 16px;
-   border: 1px solid #FFFFFF;
+   border: 1px solid #FFFF00;
    border-radius: 4px;
-   background-color: #8B0000;
+   background-color: #F5FFFA;
    background-image: none;
-   color: #FFFFFF;
+   color: #FF0000;
    font-family: Arial;
    font-weight: normal;
    font-style: normal;
@@ -225,6 +225,7 @@ input:focus, textarea:focus, select:focus
    display: flex;
    position: relative;
    padding: 10px 10px 10px 10px;
+   box-shadow: 0px 0px 10px #000000;
    -webkit-flex-direction: row;
    flex-direction: row;
    -webkit-flex-wrap: wrap;
@@ -236,9 +237,9 @@ input:focus, textarea:focus, select:focus
    -webkit-align-content: flex-start;
    align-content: flex-start;
    margin: 0;
-   background-color: #ADFF2F;
+   background-color: #FFFFFF;
    background-image: none;
-   border: 0px solid #CCCCCC;
+   border: 2px solid #FFD700;
    box-sizing: border-box;
    font-size: 0px;
 }
