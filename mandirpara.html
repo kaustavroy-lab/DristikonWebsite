@@ -11,12 +11,24 @@
 <meta property="og:image" content="https://dristikononline.in/pujolist/images/banner1.png">
 <meta property="fb:app_id" content="2">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
-<link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
-<link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
-<link href="dristikion_Online_website.css" rel="stylesheet">
+<link href="icon fav.png" rel="icon" type="image/png">
+<link href="icon fav.png" rel="icon" type="image/png">
+<link href="icon fav.png" rel="icon" type="image/png">
+<link href="plyr.css" rel="stylesheet">
+<link href="dristikion_Online_websitebackup.css" rel="stylesheet">
 <link href="mandirpara.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
+<script src="plyr.min.js"></script>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script>
+var playerYouTube2;
+function onYouTubeIframeAPIReady() {
+   playerYouTube2 = new YT.Player('YouTube2', {
+      events: {
+      }
+   });
+}
+</script>
 <script>
 $(document).ready(function()
 {
@@ -25,6 +37,7 @@ $(document).ready(function()
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid3').offset().top }, 600, 'linear');
    });
+   const plyrYouTube2 = new Plyr('#wb_YouTube2', {loadSprite: false, iconUrl: 'plyr.svg'});
 });
 </script>
 </head>
@@ -78,7 +91,11 @@ clock();
 <div id="LayoutGrid1">
 <div class="row">
 <div class="col-1">
-<div id="wb_PhotoGallery1" style="display:inline-block;width:100%;z-index:4;">
+<div id="wb_YouTube2" style="display:inline-block;width:100%;z-index:4;">
+<iframe id="YouTube2" src="https://www.youtube.com/embed/9T_TaQDZrcc?rel=0&amp;loop=1&amp;playlist=9T_TaQDZrcc&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+<div id="wb_PhotoGallery1" style="display:inline-block;width:100%;z-index:5;">
 <div id="PhotoGallery1">
    <div class="thumbnails">
       <div class="thumbnail">

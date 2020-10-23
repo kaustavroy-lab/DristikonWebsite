@@ -11,11 +11,11 @@
 <meta property="og:image" content="https://dristikononline.in/pujolist/images/banner1.png">
 <meta property="fb:app_id" content="2">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
-<link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
-<link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
+<link href="icon fav.png" rel="icon" type="image/png">
+<link href="icon fav.png" rel="icon" type="image/png">
+<link href="icon fav.png" rel="icon" type="image/png">
 <link href="plyr.css" rel="stylesheet">
-<link href="dristikion_Online_website.css" rel="stylesheet">
+<link href="dristikion_Online_websitebackup.css" rel="stylesheet">
 <link href="polliutsob.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="plyr.min.js"></script>
@@ -24,6 +24,7 @@
 var playerYouTube3;
 var playerYouTube2;
 var playerYouTube1;
+var playerYouTube4;
 function onYouTubeIframeAPIReady() {
    playerYouTube3 = new YT.Player('YouTube3', {
       events: {
@@ -34,6 +35,10 @@ function onYouTubeIframeAPIReady() {
       }
    });
    playerYouTube1 = new YT.Player('YouTube1', {
+      events: {
+      }
+   });
+   playerYouTube4 = new YT.Player('YouTube4', {
       events: {
       }
    });
@@ -50,6 +55,7 @@ $(document).ready(function()
    });
    const plyrYouTube2 = new Plyr('#wb_YouTube2', {loadSprite: false, iconUrl: 'plyr.svg'});
    const plyrYouTube1 = new Plyr('#wb_YouTube1', {loadSprite: false, iconUrl: 'plyr.svg'});
+   const plyrYouTube4 = new Plyr('#wb_YouTube4', {loadSprite: false, iconUrl: 'plyr.svg'});
 });
 </script>
 </head>
@@ -167,7 +173,11 @@ clock();
 <div id="LayoutGrid6">
 <div class="row">
 <div class="col-1">
-<div id="wb_PhotoGallery2" style="display:inline-block;width:100%;z-index:10;">
+<div id="wb_YouTube4" style="display:inline-block;width:100%;z-index:10;">
+<iframe id="YouTube4" src="https://www.youtube.com/embed/-QczEV7SIAc?rel=0&amp;loop=1&amp;playlist=-QczEV7SIAc&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+<div id="wb_PhotoGallery2" style="display:inline-block;width:100%;z-index:11;">
 <div id="PhotoGallery2">
    <div class="thumbnails">
       <div class="thumbnail">
@@ -200,7 +210,7 @@ clock();
 <div id="wb_Text4">
 <span style="color:#FFFFFF;font-family:'Nirmala UI';font-size:20px;"><strong>সারদাপল্লী সর্বজনীন</strong></span>
 </div>
-<div id="wb_sarodapally" style="display:inline-block;width:100%;z-index:12;">
+<div id="wb_sarodapally" style="display:inline-block;width:100%;z-index:13;">
 <a id="sarodapally" style="visibility:hidden;">&nbsp;</a>
 
 </div>
@@ -212,11 +222,11 @@ clock();
 <div id="LayoutGrid8">
 <div class="row">
 <div class="col-1">
-<div id="wb_YouTube1" style="display:inline-block;width:100%;z-index:13;">
+<div id="wb_YouTube1" style="display:inline-block;width:100%;z-index:14;">
 <iframe id="YouTube1" src="https://www.youtube.com/embed/MsIFwqv4RJM?rel=0&amp;loop=1&amp;playlist=MsIFwqv4RJM&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
 
 </div>
-<div id="wb_PhotoGallery3" style="display:inline-block;width:100%;z-index:14;">
+<div id="wb_PhotoGallery3" style="display:inline-block;width:100%;z-index:15;">
 <div id="PhotoGallery3">
    <div class="thumbnails">
       <div class="thumbnail">
@@ -244,7 +254,7 @@ clock();
 <div id="wb_Text5">
 <span style="color:#FFFFFF;font-family:'Nirmala UI';font-size:20px;"><strong>রবীন্দ্রপল্লী সর্বজনীন</strong></span>
 </div>
-<div id="wb_rabindrapalli" style="display:inline-block;width:100%;z-index:16;">
+<div id="wb_rabindrapalli" style="display:inline-block;width:100%;z-index:17;">
 <a id="rabindrapalli" style="visibility:hidden;">&nbsp;</a>
 
 </div>
@@ -256,7 +266,7 @@ clock();
 <div id="LayoutGrid10">
 <div class="row">
 <div class="col-1">
-<div id="wb_PhotoGallery4" style="display:inline-block;width:100%;z-index:17;">
+<div id="wb_PhotoGallery4" style="display:inline-block;width:100%;z-index:18;">
 <div id="PhotoGallery4">
    <div class="thumbnails">
       <div class="thumbnail">
@@ -300,7 +310,7 @@ clock();
 <div id="wb_Text6">
 <span style="color:#FFFFFF;font-family:'Nirmala UI';font-size:20px;"><strong>সুকান্তপল্লী সর্বজনীন</strong></span>
 </div>
-<div id="wb_sukantopally" style="display:inline-block;width:100%;z-index:19;">
+<div id="wb_sukantopally" style="display:inline-block;width:100%;z-index:20;">
 <a id="sukantopally" style="visibility:hidden;">&nbsp;</a>
 
 </div>
@@ -312,11 +322,11 @@ clock();
 <div id="LayoutGrid12">
 <div class="row">
 <div class="col-1">
-<div id="wb_YouTube3" style="display:inline-block;width:100%;z-index:20;">
+<div id="wb_YouTube3" style="display:inline-block;width:100%;z-index:21;">
 <iframe id="YouTube3" src="https://www.youtube.com/embed/5pfF-x4esFQ?rel=0&amp;loop=1&amp;playlist=5pfF-x4esFQ&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
 
 </div>
-<div id="wb_PhotoGallery5" style="display:inline-block;width:100%;z-index:21;">
+<div id="wb_PhotoGallery5" style="display:inline-block;width:100%;z-index:22;">
 <div id="PhotoGallery5">
    <div class="thumbnails">
       <div class="thumbnail">

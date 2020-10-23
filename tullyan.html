@@ -11,15 +11,34 @@
 <meta property="og:image" content="https://dristikononline.in/pujolist/images/banner1.png">
 <meta property="fb:app_id" content="2">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
-<link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
-<link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
-<link href="dristikion_Online_website.css" rel="stylesheet">
+<link href="icon fav.png" rel="icon" type="image/png">
+<link href="icon fav.png" rel="icon" type="image/png">
+<link href="icon fav.png" rel="icon" type="image/png">
+<link href="plyr.css" rel="stylesheet">
+<link href="dristikion_Online_websitebackup.css" rel="stylesheet">
 <link href="tullyan.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
+<script src="plyr.min.js"></script>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script>
+var playerYouTube2;
+var playerYouTube1;
+function onYouTubeIframeAPIReady() {
+   playerYouTube2 = new YT.Player('YouTube2', {
+      events: {
+      }
+   });
+   playerYouTube1 = new YT.Player('YouTube1', {
+      events: {
+      }
+   });
+}
+</script>
 <script>
 $(document).ready(function()
 {
+   const plyrYouTube2 = new Plyr('#wb_YouTube2', {loadSprite: false, iconUrl: 'plyr.svg'});
+   const plyrYouTube1 = new Plyr('#wb_YouTube1', {loadSprite: false, iconUrl: 'plyr.svg'});
    $("a[href*='#LayoutGrid3']").click(function(event)
    {
       event.preventDefault();
@@ -93,7 +112,11 @@ clock();
 <div id="LayoutGrid2">
 <div class="row">
 <div class="col-1">
-<div id="wb_PhotoGallery1" style="display:inline-block;width:100%;z-index:6;">
+<div id="wb_YouTube1" style="display:inline-block;width:100%;z-index:6;">
+<iframe id="YouTube1" src="https://www.youtube.com/embed/22PeBGhF_Ko?rel=0&amp;loop=1&amp;playlist=22PeBGhF_Ko&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+<div id="wb_PhotoGallery1" style="display:inline-block;width:100%;z-index:7;">
 <div id="PhotoGallery1">
    <div class="thumbnails">
       <div class="thumbnail">
@@ -206,7 +229,7 @@ clock();
 <div id="wb_Text3">
 <span style="color:#FFFFFF;font-family:'Nirmala UI';font-size:20px;"><strong>তুল্যান পূর্বপাড়া সর্বজনীন দুর্গোৎসব</strong></span>
 </div>
-<div id="wb_purbopara" style="display:inline-block;width:100%;z-index:8;">
+<div id="wb_purbopara" style="display:inline-block;width:100%;z-index:9;">
 <a id="purbopara" style="visibility:hidden;">&nbsp;</a>
 
 </div>
@@ -218,7 +241,11 @@ clock();
 <div id="LayoutGrid6">
 <div class="row">
 <div class="col-1">
-<div id="wb_PhotoGallery2" style="display:inline-block;width:100%;z-index:9;">
+<div id="wb_YouTube2" style="display:inline-block;width:100%;z-index:10;">
+<iframe id="YouTube2" src="https://www.youtube.com/embed/CnRkjaT6H3I?rel=0&amp;loop=1&amp;playlist=CnRkjaT6H3I&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+<div id="wb_PhotoGallery2" style="display:inline-block;width:100%;z-index:11;">
 <div id="PhotoGallery2">
    <div class="thumbnails">
       <div class="thumbnail">

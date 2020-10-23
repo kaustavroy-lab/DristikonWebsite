@@ -11,19 +11,24 @@
 <meta property="og:image" content="https://dristikononline.in/pujolist/images/banner1.png">
 <meta property="fb:app_id" content="2">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
-<link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
-<link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
+<link href="icon fav.png" rel="icon" type="image/png">
+<link href="icon fav.png" rel="icon" type="image/png">
+<link href="icon fav.png" rel="icon" type="image/png">
 <link href="plyr.css" rel="stylesheet">
-<link href="dristikion_Online_website.css" rel="stylesheet">
+<link href="dristikion_Online_websitebackup.css" rel="stylesheet">
 <link href="chaulpatty.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="plyr.min.js"></script>
 <script src="https://www.youtube.com/iframe_api"></script>
 <script>
 var playerYouTube1;
+var playerYouTube2;
 function onYouTubeIframeAPIReady() {
    playerYouTube1 = new YT.Player('YouTube1', {
+      events: {
+      }
+   });
+   playerYouTube2 = new YT.Player('YouTube2', {
       events: {
       }
    });
@@ -38,6 +43,7 @@ $(document).ready(function()
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid3').offset().top }, 600, 'linear');
    });
+   const plyrYouTube2 = new Plyr('#wb_YouTube2', {loadSprite: false, iconUrl: 'plyr.svg'});
 });
 </script>
 </head>
@@ -106,7 +112,11 @@ clock();
 <div id="LayoutGrid12">
 <div class="row">
 <div class="col-1">
-<div id="wb_PhotoGallery5" style="display:inline-block;width:100%;z-index:6;">
+<div id="wb_YouTube2" style="display:inline-block;width:100%;z-index:6;">
+<iframe id="YouTube2" src="https://www.youtube.com/embed/_tJIZum-Yi0?rel=0&amp;loop=1&amp;playlist=_tJIZum-Yi0&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+<div id="wb_PhotoGallery5" style="display:inline-block;width:100%;z-index:7;">
 <div id="PhotoGallery5">
    <div class="thumbnails">
       <div class="thumbnail">
@@ -139,7 +149,7 @@ clock();
 <div id="wb_Text2">
 <span style="color:#FFFFFF;font-family:'Nirmala UI';font-size:20px;"><strong>চাউলপট্টী সর্বজনীন</strong></span>
 </div>
-<div id="wb_chaulpatty" style="display:inline-block;width:100%;z-index:8;">
+<div id="wb_chaulpatty" style="display:inline-block;width:100%;z-index:9;">
 <a id="chaulpatty" style="visibility:hidden;">&nbsp;</a>
 
 </div>
@@ -151,11 +161,11 @@ clock();
 <div id="LayoutGrid2">
 <div class="row">
 <div class="col-1">
-<div id="wb_YouTube1" style="display:inline-block;width:100%;z-index:9;">
+<div id="wb_YouTube1" style="display:inline-block;width:100%;z-index:10;">
 <iframe id="YouTube1" src="https://www.youtube.com/embed/g46wYMUCRgo?rel=0&amp;loop=1&amp;playlist=g46wYMUCRgo&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
 
 </div>
-<div id="wb_PhotoGallery1" style="display:inline-block;width:100%;z-index:10;">
+<div id="wb_PhotoGallery1" style="display:inline-block;width:100%;z-index:11;">
 <div id="PhotoGallery1">
    <div class="thumbnails">
       <div class="thumbnail">

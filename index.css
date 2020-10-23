@@ -19369,6 +19369,78 @@ body
    visibility: visible;
    display: inline;
 }
+#Layer1
+{
+   width: 100px;
+   height: 62px;
+   visibility: visible;
+   display: inline;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   text-decoration: none;
+}
+#Layer1-container
+{
+   width: 100px;
+}
+#wb_Text60
+{
+   left: 488px;
+   top: 471px;
+   width: 74px;
+   height: 12px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text60
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image29
+{
+   left: 3px;
+   top: 0px;
+   width: 94px;
+   height: 62px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#StructuredData1
+{
+   left: 1587px;
+   top: 686px;
+   width: 583px;
+   height: 412px;
+   visibility: visible;
+   display: inline;
+}
+#Layer2
+{
+   width: 43px;
+   height: 38px;
+   visibility: visible;
+   display: inline;
+}
+#Layer2-container
+{
+   width: 43px;
+}
+#wb_Image30
+{
+   left: 4px;
+   top: 2px;
+   width: 38px;
+   height: 36px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
 }
 @media only screen and (min-width: 375px) and (max-width: 383px)
 {
@@ -23089,7 +23161,7 @@ body
    left: 0px;
    top: 312px;
    width: 320px;
-   height: 64px;
+   height: 60px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -24851,5 +24923,27 @@ body
    height: 344px;
    visibility: visible;
    display: inline;
+}
+#Layer2
+{
+   width: 36px;
+   height: 32px;
+   visibility: visible;
+   display: inline;
+}
+#Layer2-container
+{
+   width: 36px;
+}
+#wb_Image30
+{
+   left: 4px;
+   top: 2px;
+   width: 32px;
+   height: 30px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
 }
 }
