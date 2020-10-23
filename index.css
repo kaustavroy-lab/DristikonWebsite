@@ -2040,10 +2040,10 @@ input:focus, textarea:focus, select:focus
 {
    position: absolute;
    text-align: center;
-   left: 426px;
-   top: 501px;
-   width: 85px;
-   height: 71px;
+   left: 395px;
+   top: 491px;
+   width: 137px;
+   height: 123px;
    z-index: 128;
 }
 #wb_Image26
@@ -2737,7 +2737,7 @@ input:focus, textarea:focus, select:focus
    left: 24px;
    top: 605px;
    width: 889px;
-   height: 62px;
+   height: 60px;
    text-align: center;
    z-index: 27;
 }
@@ -2838,7 +2838,7 @@ input:focus, textarea:focus, select:focus
 }
 #Layer2-container
 {
-   width: 85px;
+   width: 137px;
    position: relative;
    margin-left: auto;
    margin-right: auto;
@@ -2921,10 +2921,10 @@ input:focus, textarea:focus, select:focus
 #wb_Image30
 {
    position: absolute;
-   left: 8px;
-   top: 1px;
-   width: 68px;
-   height: 68px;
+   left: 15px;
+   top: 4px;
+   width: 122px;
+   height: 115px;
    z-index: 2;
 }
 #Button3

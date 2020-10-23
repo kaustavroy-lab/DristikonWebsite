@@ -14,9 +14,26 @@
 <link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
 <link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
 <link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
+<link href="plyr.css" rel="stylesheet">
 <link href="dristikion_Online_website.css" rel="stylesheet">
 <link href="abason.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
+<script src="plyr.min.js"></script>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script>
+var playerYouTube2;
+var playerYouTube1;
+function onYouTubeIframeAPIReady() {
+   playerYouTube2 = new YT.Player('YouTube2', {
+      events: {
+      }
+   });
+   playerYouTube1 = new YT.Player('YouTube1', {
+      events: {
+      }
+   });
+}
+</script>
 <script>
 $(document).ready(function()
 {
@@ -25,6 +42,8 @@ $(document).ready(function()
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid3').offset().top }, 600, 'linear');
    });
+   const plyrYouTube2 = new Plyr('#wb_YouTube2', {loadSprite: false, iconUrl: 'plyr.svg'});
+   const plyrYouTube1 = new Plyr('#wb_YouTube1', {loadSprite: false, iconUrl: 'plyr.svg'});
 });
 </script>
 </head>
@@ -120,7 +139,11 @@ clock();
 <div id="LayoutGrid2">
 <div class="row">
 <div class="col-1">
-<div id="wb_PhotoGallery1" style="display:inline-block;width:100%;z-index:9;">
+<div id="wb_YouTube1" style="display:inline-block;width:100%;z-index:9;">
+<iframe id="YouTube1" src="https://www.youtube.com/embed/VLiJKOl2Msg?rel=0&amp;loop=1&amp;playlist=VLiJKOl2Msg&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+<div id="wb_PhotoGallery1" style="display:inline-block;width:100%;z-index:10;">
 <div id="PhotoGallery1">
    <div class="thumbnails">
       <div class="thumbnail">
@@ -153,7 +176,7 @@ clock();
 <div id="wb_Text3">
 <span style="color:#FFFFFF;font-family:'Nirmala UI';font-size:20px;"><strong>মৈনাক দুর্গোৎসব</strong></span>
 </div>
-<div id="wb_moinak" style="display:inline-block;width:100%;z-index:11;">
+<div id="wb_moinak" style="display:inline-block;width:100%;z-index:12;">
 <a id="moinak" style="visibility:hidden;">&nbsp;</a>
 
 </div>
@@ -165,7 +188,11 @@ clock();
 <div id="LayoutGrid6">
 <div class="row">
 <div class="col-1">
-<div id="wb_PhotoGallery2" style="display:inline-block;width:100%;z-index:12;">
+<div id="wb_YouTube2" style="display:inline-block;width:100%;z-index:13;">
+<iframe id="YouTube2" src="https://www.youtube.com/embed/OGvQT10BxDE?rel=0&amp;loop=1&amp;playlist=OGvQT10BxDE&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+<div id="wb_PhotoGallery2" style="display:inline-block;width:100%;z-index:14;">
 <div id="PhotoGallery2">
    <div class="thumbnails">
       <div class="thumbnail">
