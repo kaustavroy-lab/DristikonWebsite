@@ -21,9 +21,14 @@
 <script src="plyr.min.js"></script>
 <script src="https://www.youtube.com/iframe_api"></script>
 <script>
+var playerYouTube3;
 var playerYouTube2;
 var playerYouTube1;
 function onYouTubeIframeAPIReady() {
+   playerYouTube3 = new YT.Player('YouTube3', {
+      events: {
+      }
+   });
    playerYouTube2 = new YT.Player('YouTube2', {
       events: {
       }
@@ -37,6 +42,7 @@ function onYouTubeIframeAPIReady() {
 <script>
 $(document).ready(function()
 {
+   const plyrYouTube3 = new Plyr('#wb_YouTube3', {loadSprite: false, iconUrl: 'plyr.svg'});
    $("a[href*='#LayoutGrid3']").click(function(event)
    {
       event.preventDefault();
@@ -306,7 +312,11 @@ clock();
 <div id="LayoutGrid12">
 <div class="row">
 <div class="col-1">
-<div id="wb_PhotoGallery5" style="display:inline-block;width:100%;z-index:20;">
+<div id="wb_YouTube3" style="display:inline-block;width:100%;z-index:20;">
+<iframe id="YouTube3" src="https://www.youtube.com/embed/5pfF-x4esFQ?rel=0&amp;loop=1&amp;playlist=5pfF-x4esFQ&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+<div id="wb_PhotoGallery5" style="display:inline-block;width:100%;z-index:21;">
 <div id="PhotoGallery5">
    <div class="thumbnails">
       <div class="thumbnail">

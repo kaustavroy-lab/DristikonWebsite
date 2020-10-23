@@ -38,6 +38,28 @@ input:focus, textarea:focus, select:focus
 {
    outline: none;
 }
+#YouTube3
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   border-width: 0;
+}
+#wb_YouTube3
+{
+   display: block;
+   position: relative;
+   margin: 0;
+   height: 0;
+   overflow: hidden;
+   box-sizing: border-box;
+   padding-bottom: 56.25%;
+   padding-left: 0;
+   padding-right: 0;
+   padding-top: 0;
+}
 #wb_LayoutGrid3
 {
    clear: both;

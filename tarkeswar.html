@@ -14,12 +14,25 @@
 <link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
 <link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
 <link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
+<link href="plyr.css" rel="stylesheet">
 <link href="dristikion_Online_website.css" rel="stylesheet">
 <link href="tarkeswar.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
+<script src="plyr.min.js"></script>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script>
+var playerYouTube2;
+function onYouTubeIframeAPIReady() {
+   playerYouTube2 = new YT.Player('YouTube2', {
+      events: {
+      }
+   });
+}
+</script>
 <script>
 $(document).ready(function()
 {
+   const plyrYouTube2 = new Plyr('#wb_YouTube2', {loadSprite: false, iconUrl: 'plyr.svg'});
    $("a[href*='#LayoutGrid3']").click(function(event)
    {
       event.preventDefault();
@@ -78,7 +91,11 @@ clock();
 <div id="LayoutGrid1">
 <div class="row">
 <div class="col-1">
-<div id="wb_PhotoGallery1" style="display:inline-block;width:100%;z-index:4;">
+<div id="wb_YouTube2" style="display:inline-block;width:100%;z-index:4;">
+<iframe id="YouTube2" src="https://www.youtube.com/embed/BUelmZNY71E?rel=0&amp;loop=1&amp;playlist=BUelmZNY71E&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+<div id="wb_PhotoGallery1" style="display:inline-block;width:100%;z-index:5;">
 <div id="PhotoGallery1">
    <div class="thumbnails">
       <div class="thumbnail">
