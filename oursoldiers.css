@@ -1815,7 +1815,7 @@ width: 100%;}
    margin-right: -15px;
    margin-left: -15px;
 }
-#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2, #LayoutGrid4 > .row > .col-3, #LayoutGrid4 > .row > .col-4
+#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2, #LayoutGrid4 > .row > .col-3
 {
    box-sizing: border-box;
    font-size: 0px;
@@ -1824,7 +1824,7 @@ width: 100%;}
    padding-left: 15px;
    position: relative;
 }
-#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2, #LayoutGrid4 > .row > .col-3, #LayoutGrid4 > .row > .col-4
+#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2, #LayoutGrid4 > .row > .col-3
 {
    float: left;
 }
@@ -1852,13 +1852,6 @@ width: 100%;}
    width: 33.33333333%;
    text-align: left;
 }
-#LayoutGrid4 > .row > .col-4
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   text-align: left;
-}
 #LayoutGrid4:before,
 #LayoutGrid4:after,
 #LayoutGrid4 .row:before,
@@ -1874,7 +1867,7 @@ width: 100%;}
 }
 @media (max-width: 480px)
 {
-#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2, #LayoutGrid4 > .row > .col-3, #LayoutGrid4 > .row > .col-4
+#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2, #LayoutGrid4 > .row > .col-3
 {
    float: none;
    width: 100% !important;
