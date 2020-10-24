@@ -25,6 +25,7 @@ var playerYouTube3;
 var playerYouTube2;
 var playerYouTube1;
 var playerYouTube4;
+var playerYouTube5;
 function onYouTubeIframeAPIReady() {
    playerYouTube3 = new YT.Player('YouTube3', {
       events: {
@@ -42,6 +43,10 @@ function onYouTubeIframeAPIReady() {
       events: {
       }
    });
+   playerYouTube5 = new YT.Player('YouTube5', {
+      events: {
+      }
+   });
 }
 </script>
 <script>
@@ -56,6 +61,7 @@ $(document).ready(function()
    const plyrYouTube2 = new Plyr('#wb_YouTube2', {loadSprite: false, iconUrl: 'plyr.svg'});
    const plyrYouTube1 = new Plyr('#wb_YouTube1', {loadSprite: false, iconUrl: 'plyr.svg'});
    const plyrYouTube4 = new Plyr('#wb_YouTube4', {loadSprite: false, iconUrl: 'plyr.svg'});
+   const plyrYouTube5 = new Plyr('#wb_YouTube5', {loadSprite: false, iconUrl: 'plyr.svg'});
 });
 </script>
 </head>
@@ -266,7 +272,11 @@ clock();
 <div id="LayoutGrid10">
 <div class="row">
 <div class="col-1">
-<div id="wb_PhotoGallery4" style="display:inline-block;width:100%;z-index:18;">
+<div id="wb_YouTube5" style="display:inline-block;width:100%;z-index:18;">
+<iframe id="YouTube5" src="https://www.youtube.com/embed/cHVUfvy1DS8?rel=0&amp;loop=1&amp;playlist=cHVUfvy1DS8&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+<div id="wb_PhotoGallery4" style="display:inline-block;width:100%;z-index:19;">
 <div id="PhotoGallery4">
    <div class="thumbnails">
       <div class="thumbnail">
@@ -310,7 +320,7 @@ clock();
 <div id="wb_Text6">
 <span style="color:#FFFFFF;font-family:'Nirmala UI';font-size:20px;"><strong>সুকান্তপল্লী সর্বজনীন</strong></span>
 </div>
-<div id="wb_sukantopally" style="display:inline-block;width:100%;z-index:20;">
+<div id="wb_sukantopally" style="display:inline-block;width:100%;z-index:21;">
 <a id="sukantopally" style="visibility:hidden;">&nbsp;</a>
 
 </div>
@@ -322,11 +332,11 @@ clock();
 <div id="LayoutGrid12">
 <div class="row">
 <div class="col-1">
-<div id="wb_YouTube3" style="display:inline-block;width:100%;z-index:21;">
+<div id="wb_YouTube3" style="display:inline-block;width:100%;z-index:22;">
 <iframe id="YouTube3" src="https://www.youtube.com/embed/5pfF-x4esFQ?rel=0&amp;loop=1&amp;playlist=5pfF-x4esFQ&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
 
 </div>
-<div id="wb_PhotoGallery5" style="display:inline-block;width:100%;z-index:22;">
+<div id="wb_PhotoGallery5" style="display:inline-block;width:100%;z-index:23;">
 <div id="PhotoGallery5">
    <div class="thumbnails">
       <div class="thumbnail">

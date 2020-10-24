@@ -24,6 +24,7 @@
 var playerYouTube3;
 var playerYouTube1;
 var playerYouTube2;
+var playerYouTube5;
 function onYouTubeIframeAPIReady() {
    playerYouTube3 = new YT.Player('YouTube3', {
       events: {
@@ -34,6 +35,10 @@ function onYouTubeIframeAPIReady() {
       }
    });
    playerYouTube2 = new YT.Player('YouTube2', {
+      events: {
+      }
+   });
+   playerYouTube5 = new YT.Player('YouTube5', {
       events: {
       }
    });
@@ -50,6 +55,7 @@ $(document).ready(function()
    });
    const plyrYouTube1 = new Plyr('#wb_YouTube1', {loadSprite: false, iconUrl: 'plyr.svg'});
    const plyrYouTube2 = new Plyr('#wb_YouTube2', {loadSprite: false, iconUrl: 'plyr.svg'});
+   const plyrYouTube5 = new Plyr('#wb_YouTube5', {loadSprite: false, iconUrl: 'plyr.svg'});
 });
 </script>
 </head>
@@ -174,7 +180,11 @@ clock();
 <div id="LayoutGrid4">
 <div class="row">
 <div class="col-1">
-<div id="wb_PhotoGallery2" style="display:inline-block;width:100%;z-index:11;">
+<div id="wb_YouTube5" style="display:inline-block;width:100%;z-index:11;">
+<iframe id="YouTube5" src="https://www.youtube.com/embed/Cam1eTPASa0?rel=0&amp;loop=1&amp;playlist=Cam1eTPASa0&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+<div id="wb_PhotoGallery2" style="display:inline-block;width:100%;z-index:12;">
 <div id="PhotoGallery2">
    <div class="thumbnails">
       <div class="thumbnail">
@@ -202,7 +212,7 @@ clock();
 <div id="wb_Text4">
 <span style="color:#FFFFFF;font-family:'Nirmala UI';font-size:20px;"><strong>আমতলা বাজার সর্বজনীন</strong></span>
 </div>
-<div id="wb_amtola" style="display:inline-block;width:100%;z-index:13;">
+<div id="wb_amtola" style="display:inline-block;width:100%;z-index:14;">
 <a id="amtola" style="visibility:hidden;">&nbsp;</a>
 
 </div>
@@ -214,11 +224,11 @@ clock();
 <div id="LayoutGrid8">
 <div class="row">
 <div class="col-1">
-<div id="wb_YouTube2" style="display:inline-block;width:100%;z-index:14;">
+<div id="wb_YouTube2" style="display:inline-block;width:100%;z-index:15;">
 <iframe id="YouTube2" src="https://www.youtube.com/embed/xyk_TNVtH28?rel=0&amp;loop=1&amp;playlist=xyk_TNVtH28&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
 
 </div>
-<div id="wb_PhotoGallery3" style="display:inline-block;width:100%;z-index:15;">
+<div id="wb_PhotoGallery3" style="display:inline-block;width:100%;z-index:16;">
 <div id="PhotoGallery3">
    <div class="thumbnails">
       <div class="thumbnail">
@@ -251,7 +261,7 @@ clock();
 <div id="wb_Text5">
 <span style="color:#FFFFFF;font-family:'Nirmala UI';font-size:20px;"><strong>জয়কৃষ্ণবাজার বটতলা সর্বজনীন</strong></span>
 </div>
-<div id="wb_jkbajar" style="display:inline-block;width:100%;z-index:17;">
+<div id="wb_jkbajar" style="display:inline-block;width:100%;z-index:18;">
 <a id="jkbajar" style="visibility:hidden;">&nbsp;</a>
 
 </div>
@@ -263,7 +273,7 @@ clock();
 <div id="LayoutGrid10">
 <div class="row">
 <div class="col-1">
-<div id="wb_PhotoGallery4" style="display:inline-block;width:100%;z-index:18;">
+<div id="wb_PhotoGallery4" style="display:inline-block;width:100%;z-index:19;">
 <div id="PhotoGallery4">
 </div>
 </div>
@@ -278,7 +288,7 @@ clock();
 <div id="wb_Text6">
 <span style="color:#FFFFFF;font-family:'Nirmala UI';font-size:20px;"><strong>তারকেশ্বর জে.কে বাজার দুর্গোৎসব</strong></span>
 </div>
-<div id="wb_tarakeswarjkbajar" style="display:inline-block;width:100%;z-index:20;">
+<div id="wb_tarakeswarjkbajar" style="display:inline-block;width:100%;z-index:21;">
 <a id="tarakeswarjkbajar" style="visibility:hidden;">&nbsp;</a>
 
 </div>
@@ -290,11 +300,11 @@ clock();
 <div id="LayoutGrid12">
 <div class="row">
 <div class="col-1">
-<div id="wb_YouTube3" style="display:inline-block;width:100%;z-index:21;">
+<div id="wb_YouTube3" style="display:inline-block;width:100%;z-index:22;">
 <iframe id="YouTube3" src="https://www.youtube.com/embed/QTcCz5Xfrxk?rel=0&amp;loop=1&amp;playlist=QTcCz5Xfrxk&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
 
 </div>
-<div id="wb_PhotoGallery5" style="display:inline-block;width:100%;z-index:22;">
+<div id="wb_PhotoGallery5" style="display:inline-block;width:100%;z-index:23;">
 <div id="PhotoGallery5">
    <div class="thumbnails">
       <div class="thumbnail">

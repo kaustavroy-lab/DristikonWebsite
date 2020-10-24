@@ -22,8 +22,13 @@
 <script src="https://www.youtube.com/iframe_api"></script>
 <script>
 var playerYouTube2;
+var playerYouTube5;
 function onYouTubeIframeAPIReady() {
    playerYouTube2 = new YT.Player('YouTube2', {
+      events: {
+      }
+   });
+   playerYouTube5 = new YT.Player('YouTube5', {
       events: {
       }
    });
@@ -38,6 +43,7 @@ $(document).ready(function()
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid3').offset().top }, 600, 'linear');
    });
+   const plyrYouTube5 = new Plyr('#wb_YouTube5', {loadSprite: false, iconUrl: 'plyr.svg'});
 });
 </script>
 </head>
@@ -193,7 +199,11 @@ clock();
 <div id="LayoutGrid6">
 <div class="row">
 <div class="col-1">
-<div id="wb_PhotoGallery2" style="display:inline-block;width:100%;z-index:10;">
+<div id="wb_YouTube5" style="display:inline-block;width:100%;z-index:10;">
+<iframe id="YouTube5" src="https://www.youtube.com/embed/HDIEkFqWcW4?rel=0&amp;loop=1&amp;playlist=HDIEkFqWcW4&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+<div id="wb_PhotoGallery2" style="display:inline-block;width:100%;z-index:11;">
 <div id="PhotoGallery2">
    <div class="thumbnails">
       <div class="thumbnail">
@@ -221,7 +231,7 @@ clock();
 <div id="wb_Text4">
 <span style="color:#FFFFFF;font-family:'Nirmala UI';font-size:20px;"><strong>চক্রবর্তী বাড়ির পুজো</strong></span>
 </div>
-<div id="wb_chakrabarti" style="display:inline-block;width:100%;z-index:12;">
+<div id="wb_chakrabarti" style="display:inline-block;width:100%;z-index:13;">
 <a id="chakrabarti" style="visibility:hidden;">&nbsp;</a>
 
 </div>
@@ -233,7 +243,7 @@ clock();
 <div id="LayoutGrid8">
 <div class="row">
 <div class="col-1">
-<div id="wb_PhotoGallery3" style="display:inline-block;width:100%;z-index:13;">
+<div id="wb_PhotoGallery3" style="display:inline-block;width:100%;z-index:14;">
 <div id="PhotoGallery3">
    <div class="thumbnails">
       <div class="thumbnail">

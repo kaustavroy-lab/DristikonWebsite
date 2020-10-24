@@ -894,6 +894,13 @@ width: 100%;}
    color: inherit;
    text-decoration: none;
 }
+#Card4-card-item2 i
+{
+   text-align: center;
+   vertical-align: top;
+   font-size: 13px;
+   width: 13px;
+}
 #wb_LayoutGrid4
 {
    clear: both;

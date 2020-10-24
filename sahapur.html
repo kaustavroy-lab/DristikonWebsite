@@ -22,8 +22,13 @@
 <script src="https://www.youtube.com/iframe_api"></script>
 <script>
 var playerYouTube1;
+var playerYouTube5;
 function onYouTubeIframeAPIReady() {
    playerYouTube1 = new YT.Player('YouTube1', {
+      events: {
+      }
+   });
+   playerYouTube5 = new YT.Player('YouTube5', {
       events: {
       }
    });
@@ -38,6 +43,7 @@ $(document).ready(function()
       $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid3').offset().top }, 600, 'linear');
    });
    const plyrYouTube1 = new Plyr('#wb_YouTube1', {loadSprite: false, iconUrl: 'plyr.svg'});
+   const plyrYouTube5 = new Plyr('#wb_YouTube5', {loadSprite: false, iconUrl: 'plyr.svg'});
 });
 </script>
 </head>
@@ -106,7 +112,11 @@ clock();
 <div id="LayoutGrid12">
 <div class="row">
 <div class="col-1">
-<div id="wb_PhotoGallery5" style="display:inline-block;width:100%;z-index:6;">
+<div id="wb_YouTube5" style="display:inline-block;width:100%;z-index:6;">
+<iframe id="YouTube5" src="https://www.youtube.com/embed/CEv2yIZ2CPc?rel=0&amp;loop=1&amp;playlist=CEv2yIZ2CPc&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+<div id="wb_PhotoGallery5" style="display:inline-block;width:100%;z-index:7;">
 <div id="PhotoGallery5">
    <div class="thumbnails">
       <div class="thumbnail">
@@ -139,7 +149,7 @@ clock();
 <div id="wb_Text2">
 <span style="color:#FFFFFF;font-family:'Nirmala UI';font-size:20px;"><strong>সাহাপুর সর্বজনীন</strong></span>
 </div>
-<div id="wb_sahapur" style="display:inline-block;width:100%;z-index:8;">
+<div id="wb_sahapur" style="display:inline-block;width:100%;z-index:9;">
 <a id="sahapur" style="visibility:hidden;">&nbsp;</a>
 
 </div>
@@ -151,11 +161,11 @@ clock();
 <div id="LayoutGrid2">
 <div class="row">
 <div class="col-1">
-<div id="wb_YouTube1" style="display:inline-block;width:100%;z-index:9;">
+<div id="wb_YouTube1" style="display:inline-block;width:100%;z-index:10;">
 <iframe id="YouTube1" src="https://www.youtube.com/embed/gTXtY7B6PXY?rel=0&amp;loop=1&amp;playlist=gTXtY7B6PXY&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
 
 </div>
-<div id="wb_PhotoGallery1" style="display:inline-block;width:100%;z-index:10;">
+<div id="wb_PhotoGallery1" style="display:inline-block;width:100%;z-index:11;">
 <div id="PhotoGallery1">
    <div class="thumbnails">
       <div class="thumbnail">
