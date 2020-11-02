@@ -25,13 +25,13 @@ dristikononline.in , in, india, made in india ,,join , amazon, netflix , youtube
 <meta name="generator" content="Kaustav Roy">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
-<link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
-<link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
 <link href="icon fav.png" rel="apple-touch-icon" sizes="512x512">
+<link href="font-awesome.min.css" rel="stylesheet">
 <link href="dristikion_Online_websitebackup.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="wb.stickylayer.min.js"></script>
+<script src="affix.min.js"></script>
 <script type="application/ld+json">
 {
    "@context" : "http://schema.org/",
@@ -56,17 +56,16 @@ dristikononline.in , in, india, made in india ,,join , amazon, netflix , youtube
 <script>
 $(document).ready(function()
 {
-   $("#Layer2").stickylayer({orientation: 6, position: [0, 0], delay: 500});
-   $("a[href*='#Layer2']").click(function(event)
-   {
-      event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#Layer2').offset().top }, 600, 'linear');
-   });
-   $("#Layer3").stickylayer({orientation: 3, position: [0, 0], delay: 500});
+   $("#Layer3").stickylayer({orientation: 6, position: [0, 0], delay: 500});
    $("a[href*='#Layer3']").click(function(event)
    {
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#Layer3').offset().top }, 600, 'linear');
+   });
+   $("#wb_ResponsiveMenu1").affix({offset:{top: $("#wb_ResponsiveMenu1").offset().top}});
+   $("#wb_ResponsiveMenu1 ul li a").click(function(event)
+   {
+      $("#wb_ResponsiveMenu1 input").prop("checked", false);
    });
 });
 </script>
@@ -337,6 +336,31 @@ $(document).ready(function()
 <input id="PayPal1" type="image" name="submit" src="images/x-click-but04.gif" alt="Make payments with PayPal, it's fast, free, and secure!">
 </form>
 
+<div id="wb_ResponsiveMenu1">
+<label class="toggle" for="ResponsiveMenu1-submenu" id="ResponsiveMenu1-title">Menu<span id="ResponsiveMenu1-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
+<input type="checkbox" id="ResponsiveMenu1-submenu">
+<ul class="ResponsiveMenu1" id="ResponsiveMenu1" role="menu">
+<li><a role="menuitem" href="facetime:"><i class="fa fa-home fa-2x">&nbsp;</i><br>Home</a></li>
+<li>
+<label for="ResponsiveMenu1-submenu-0" class="toggle"><i class="fa fa-book fa-2x">&nbsp;</i>Magazines<b class="arrow-down"></b></label>
+<a role="menuitem" href="javascript:void(0)"><i class="fa fa-book fa-2x">&nbsp;</i><br>Magazines<b class="arrow-down"></b></a>
+<input type="checkbox" id="ResponsiveMenu1-submenu-0">
+<ul role="menu">
+<li><a role="menuitem" href="./webmag.html" title="&#2470;&#2499;&#2487;&#2509;&#2463;&#2495;&#2453;&#2507;&#2467; &#2478;&#2509;&#2479;&#2494;&#2455;&#2494;&#2460;&#2495;&#2472; &#2441;&#2510;&#2488;&#2476; &#2488;&#2434;&#2454;&#2509;&#2479;&#2494; &#2536;&#2534;&#2536;&#2534;"><i class="fa fa-book fa-2x">&nbsp;</i>&#2470;&#2499;&#2487;&#2509;&#2463;&#2495;&#2453;&#2507;&#2467;&nbsp;&#2478;&#2509;&#2479;&#2494;&#2455;&#2494;&#2460;&#2495;&#2472;&nbsp;&#2441;&#2510;&#2488;&#2476;&nbsp;&#2488;&#2434;&#2454;&#2509;&#2479;&#2494;&nbsp;&#2536;&#2534;&#2536;&#2534;</a></li>
+</ul>
+</li>
+<li>
+<label for="ResponsiveMenu1-submenu-1" class="toggle"><i class="fa fa-archive fa-2x">&nbsp;</i>Archives<b class="arrow-down"></b></label>
+<a role="menuitem" href="javascript:void(0)"><i class="fa fa-archive fa-2x">&nbsp;</i><br>Archives<b class="arrow-down"></b></a>
+<input type="checkbox" id="ResponsiveMenu1-submenu-1">
+<ul role="menu">
+<li><a role="menuitem" href="./pujo2020.html" title="Puja2020"><i class="fa fa-star fa-2x">&nbsp;</i>Puja2020</a></li>
+</ul>
+</li>
+<li><a role="menuitem" href="./promotion.html" title="Promotion"><i class="fa fa-paper-plane fa-2x">&nbsp;</i><br>Promotion</a></li>
+<li><a role="menuitem" href="./contactus.html" title="Contact Us"><i class="fa fa-address-card fa-2x">&nbsp;</i><br>Contact&nbsp;Us</a></li>
+</ul>
+</div>
 </div>
 <div style="z-index:125">
 <script>
@@ -362,12 +386,6 @@ document.onmousedown = function md(e)
   } 
 }
 </script>
-</div>
-<div id="Layer2" onclick="window.location.href='./pujo2020.html';return false;">
-<div id="Layer2-container">
-<div id="wb_Image30">
-<a href="./pujo2020.html"><img src="images/Artboard 2.jpg" id="Image30" alt=""></a></div>
-</div>
 </div>
 <div id="Layer3" onclick="window.location.href='./webmag.html';return false;">
 <div id="Layer3-container">

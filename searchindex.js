@@ -67,5 +67,7 @@ function SearchDatabase()
    this[database_length++] = new SearchPage("https://dristikononline.in/oursoldiers.html", "হুগলী জেলার পুজা পরিক্রমা With দৃষ্টিকোণ", " ", "");
    this[database_length++] = new SearchPage("https://dristikononline.in/register.html", "Pujo Registration 2020", " ", "");
    this[database_length++] = new SearchPage("https://dristikononline.in/webmag.html", "Dristikon WebMag", "webmag, magazines, free, submission, upload, new web, puja, ", "দৃষ্টিকোণ ম্যাগাজিন উৎসব সংখ্যা ২০২০");
+   this[database_length++] = new SearchPage("https://dristikononline.in/promotion.html", "Promotion", "Promotion, Promote, App,Website promotion, Dristikon Promotion ", "Now Promote Your Work With Dristikon Online");
+   this[database_length++] = new SearchPage("https://dristikononline.in/contactus.html", "Contact Us", "contact us, contact, help, contact dristikon online,  ", "Contact Dristikon Online Management Team");
    return this;
 }
