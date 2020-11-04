@@ -146,6 +146,7 @@ input:focus, textarea:focus, select:focus
    box-sizing: border-box;
    margin: 3px 0px 0px 0px;
    padding: 0;
+   text-align: center;
 }
 #Card1-card-item7 h1
 {
@@ -153,7 +154,7 @@ input:focus, textarea:focus, select:focus
    font-family: Arial;
    font-weight: bold;
    font-style: normal;
-   font-size: 13px;
+   font-size: 19px;
    margin: 0;
 }
 #Card1-card-item8
