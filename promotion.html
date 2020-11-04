@@ -13,8 +13,7 @@
 <meta property="og:description" content="Now Promote Your Work With Dristikon Online">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://dristikononline.in/promotion">
-<meta property="og:image" content="https://dristikononline.in/promotion/images/promotion meta tag.jpg">
-<meta property="fb:app_id" content="6">
+<meta property="og:image" content="https://dristikononline.in/promotion/images/promotion meta tag~1.jpg">
 <meta name="generator" content="Kaustav Roy">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
@@ -26,11 +25,87 @@
 <link href="promotion.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="jquery-ui.min.js"></script>
+<script src="wwb16.min.js"></script>
 <script>
 $(document).ready(function()
 {
+   $('#wb_Image1').addClass('visibility-hidden');
+   $('#wb_ThemeableButton1').addClass('visibility-hidden');
+   $('#wb_ThemeableButton2').addClass('visibility-hidden');
+   function onScrollImage1()
+   {
+      var $obj = $("#wb_Image1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Image1', 'transform-bounce-in-up', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Image1', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Image1').inViewPort(true))
+   {
+      $('#wb_Image1').addClass("in-viewport");
+   }
+   onScrollImage1();
+   $(window).scroll(function(event)
+   {
+      onScrollImage1();
+   });
    $("#ThemeableButton1").button({ icon: 'ui-primary', iconPosition: 'beginning' });
+   function onScrollThemeableButton1()
+   {
+      var $obj = $("#wb_ThemeableButton1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_ThemeableButton1', 'transform-bounce-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_ThemeableButton1', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_ThemeableButton1').inViewPort(true))
+   {
+      $('#wb_ThemeableButton1').addClass("in-viewport");
+   }
+   onScrollThemeableButton1();
+   $(window).scroll(function(event)
+   {
+      onScrollThemeableButton1();
+   });
    $("#ThemeableButton2").button({ icon: 'ui-primary', iconPosition: 'beginning' });
+   function onScrollThemeableButton2()
+   {
+      var $obj = $("#wb_ThemeableButton2");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_ThemeableButton2', 'transform-bounce-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_ThemeableButton2', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_ThemeableButton2').inViewPort(true))
+   {
+      $('#wb_ThemeableButton2').addClass("in-viewport");
+   }
+   onScrollThemeableButton2();
+   $(window).scroll(function(event)
+   {
+      onScrollThemeableButton2();
+   });
 });
 </script>
 </head>

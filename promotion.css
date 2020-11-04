@@ -38,6 +38,10 @@ input:focus, textarea:focus, select:focus
 {
    outline: none;
 }
+.visibility-hidden
+{
+   visibility: hidden;
+}
 #wb_Image1
 {
    margin: 0;

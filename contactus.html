@@ -13,8 +13,7 @@
 <meta property="og:description" content="Contact Dristikon Online Management Team">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://dristikononline.in/contactus">
-<meta property="og:image" content="https://dristikononline.in/contactus/images/contact us meta tag.jpg">
-<meta property="fb:app_id" content="7">
+<meta property="og:image" content="https://dristikononline.in/contactus/images/contact us meta tag~1.jpg">
 <meta name="generator" content="Kaustav Roy">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
@@ -26,12 +25,90 @@
 <link href="contactus.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="jquery-ui.min.js"></script>
+<script src="wb.lazyload.min.js"></script>
+<script src="wwb16.min.js"></script>
 <script>
 $(document).ready(function()
 {
+   $('#wb_ThemeableButton3').addClass('visibility-hidden');
+   $('#wb_ThemeableButton4').addClass('visibility-hidden');
+   $('#wb_Image1').addClass('visibility-hidden');
    $("#ThemeableButton2").button({ icon: 'ui-primary', iconPosition: 'beginning' });
    $("#ThemeableButton3").button({ icon: 'ui-primary', iconPosition: 'beginning' });
+   function onScrollThemeableButton3()
+   {
+      var $obj = $("#wb_ThemeableButton3");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_ThemeableButton3', 'transform-bounce-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_ThemeableButton3', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_ThemeableButton3').inViewPort(true))
+   {
+      $('#wb_ThemeableButton3').addClass("in-viewport");
+   }
+   onScrollThemeableButton3();
+   $(window).scroll(function(event)
+   {
+      onScrollThemeableButton3();
+   });
    $("#ThemeableButton4").button({ icon: 'ui-primary', iconPosition: 'beginning' });
+   function onScrollThemeableButton4()
+   {
+      var $obj = $("#wb_ThemeableButton4");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_ThemeableButton4', 'transform-bounce-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_ThemeableButton4', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_ThemeableButton4').inViewPort(true))
+   {
+      $('#wb_ThemeableButton4').addClass("in-viewport");
+   }
+   onScrollThemeableButton4();
+   $(window).scroll(function(event)
+   {
+      onScrollThemeableButton4();
+   });
+   function onScrollImage1()
+   {
+      var $obj = $("#wb_Image1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Image1', 'transform-bounce-in-up', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Image1', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Image1').inViewPort(true))
+   {
+      $('#wb_Image1').addClass("in-viewport");
+   }
+   onScrollImage1();
+   $(window).scroll(function(event)
+   {
+      onScrollImage1();
+   });
+   $('img[data-src]').lazyload();
 });
 </script>
 </head>
@@ -43,7 +120,7 @@ $(document).ready(function()
 <div class="row">
 <div class="col-1">
 <div id="wb_Image1" style="display:inline-block;width:100%;height:auto;z-index:0;">
-<img src="WhatsApp Image 2020-11-03 at 12.28.45 AM.jpeg" id="Image1" alt="">
+<img src="placeholder.gif" data-src="WhatsApp Image 2020-11-03 at 11.22.02 PM.jpeg" id="Image1" alt="">
 </div>
 </div>
 </div>

@@ -30,8 +30,8 @@ dristikononline.in , in, india, made in india ,,join , amazon, netflix , youtube
 <link href="dristikion_Online_websitebackup.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
-<script src="wb.stickylayer.min.js"></script>
 <script src="affix.min.js"></script>
+<script src="wb.stickylayer.min.js"></script>
 <script type="application/ld+json">
 {
    "@context" : "http://schema.org/",
@@ -56,16 +56,16 @@ dristikononline.in , in, india, made in india ,,join , amazon, netflix , youtube
 <script>
 $(document).ready(function()
 {
-   $("#Layer3").stickylayer({orientation: 6, position: [0, 0], delay: 500});
-   $("a[href*='#Layer3']").click(function(event)
-   {
-      event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#Layer3').offset().top }, 600, 'linear');
-   });
    $("#wb_ResponsiveMenu1").affix({offset:{top: $("#wb_ResponsiveMenu1").offset().top}});
    $("#wb_ResponsiveMenu1 ul li a").click(function(event)
    {
       $("#wb_ResponsiveMenu1 input").prop("checked", false);
+   });
+   $("#Layer1").stickylayer({orientation: 6, position: [0, 0], delay: 500});
+   $("a[href*='#Layer1']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#Layer1').offset().top }, 600, 'linear');
    });
 });
 </script>
@@ -387,10 +387,10 @@ document.onmousedown = function md(e)
 }
 </script>
 </div>
-<div id="Layer3" onclick="window.location.href='./webmag.html';return false;">
-<div id="Layer3-container">
-<div id="wb_Image31">
-<a href="./webmag.html"><img src="images/Artboard 3 (1).jpg" id="Image31" alt=""></a></div>
+<div id="Layer1" onclick="window.location.href='./webmag.html';return false;">
+<div id="Layer1-container">
+<div id="wb_Image29">
+<a href="./webmag.html"><img src="images/Artboard 3 (1).jpg" id="Image29" alt=""></a></div>
 </div>
 </div>
 </body>
