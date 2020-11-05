@@ -99,35 +99,34 @@
    80% { transform: translate(0px,10px) rotate(0deg) ;  }
    100% { transform: translate(0px,0px) rotate(0deg) ;  }
 }
-a.style1
+@-webkit-keyframes flip-in
 {
-   color: #FFFFFF;
-   text-decoration: underline;
+   0% { -webkit-transform: perspective(400px) rotateX(90deg) scale3d(1.2,1.2,1.2) ; opacity: 0;  }
+   50% { -webkit-transform: perspective(400px) rotateX(-20deg) scale3d(1.0,1.0,1.0) ; opacity: 1;  }
+   100% { -webkit-transform: perspective(400px) rotateX(0deg) scale3d(1.0,1.0,1.0) ;  }
 }
-a.style1:visited
+@-moz-keyframes flip-in
 {
-   color: #FF0000;
-   text-decoration: underline;
+   0% { -moz-transform: perspective(400px) rotateX(90deg) scale3d(1.2,1.2,1.2) ; opacity: 0;  }
+   50% { -moz-transform: perspective(400px) rotateX(-20deg) scale3d(1.0,1.0,1.0) ; opacity: 1;  }
+   100% { -moz-transform: perspective(400px) rotateX(0deg) scale3d(1.0,1.0,1.0) ;  }
 }
-a.style1:active
+@keyframes flip-in
 {
-   color: #FA8072;
-   text-decoration: underline;
-}
-a.style1:hover
-{
-   color: #9ACD32;
-   text-decoration: underline;
+   0% { transform: perspective(400px) rotateX(90deg) scale3d(1.2,1.2,1.2) ; opacity: 0;  }
+   50% { transform: perspective(400px) rotateX(-20deg) scale3d(1.0,1.0,1.0) ; opacity: 1;  }
+   100% { transform: perspective(400px) rotateX(0deg) scale3d(1.0,1.0,1.0) ;  }
 }
 a.style2
 {
    color: #FFD700;
-   text-decoration: underline;
+   font-weight: bold;
+   text-decoration: none;
 }
 a.style2:visited
 {
    color: #FFFFFF;
-   text-decoration: underline;
+   text-decoration: none;
 }
 a.style2:active
 {

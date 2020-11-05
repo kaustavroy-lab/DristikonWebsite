@@ -26,14 +26,12 @@
 <link href="contactus.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="jquery-ui.min.js"></script>
-<script src="wb.lazyload.min.js"></script>
 <script src="wwb16.min.js"></script>
 <script>
 $(document).ready(function()
 {
    $('#wb_ThemeableButton3').addClass('visibility-hidden');
    $('#wb_ThemeableButton4').addClass('visibility-hidden');
-   $('#wb_Image1').addClass('visibility-hidden');
    $("#ThemeableButton2").button({ icon: 'ui-primary', iconPosition: 'beginning' });
    $("#ThemeableButton3").button({ icon: 'ui-primary', iconPosition: 'beginning' });
    function onScrollThemeableButton3()
@@ -85,31 +83,6 @@ $(document).ready(function()
    {
       onScrollThemeableButton4();
    });
-   function onScrollImage1()
-   {
-      var $obj = $("#wb_Image1");
-      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
-      {
-         $obj.addClass("in-viewport");
-         AnimateCss('wb_Image1', 'transform-bounce-in-up', 0, 1250);
-      }
-      else
-      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
-      {
-         $obj.removeClass("in-viewport");
-         AnimateCss('wb_Image1', 'animate-fade-out', 0, 0);
-      }
-   }
-   if (!$('#wb_Image1').inViewPort(true))
-   {
-      $('#wb_Image1').addClass("in-viewport");
-   }
-   onScrollImage1();
-   $(window).scroll(function(event)
-   {
-      onScrollImage1();
-   });
-   $('img[data-src]').lazyload();
 });
 </script>
 </head>
@@ -121,7 +94,7 @@ $(document).ready(function()
 <div class="row">
 <div class="col-1">
 <div id="wb_Image1" style="display:inline-block;width:100%;height:auto;z-index:0;">
-<img src="placeholder.gif" data-src="WhatsApp Image 2020-11-03 at 11.22.02 PM.jpeg" id="Image1" alt="">
+<img src="WhatsApp Image 2020-11-03 at 11.22.02 PM.jpeg" id="Image1" alt="">
 </div>
 </div>
 </div>

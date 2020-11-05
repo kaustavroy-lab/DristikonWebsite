@@ -1,285 +1,637 @@
-#articles
+body:before
 {
-   text-align: center;
+   content: "";
+   position: fixed;
+   left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   z-index: -1;
+   background: linear-gradient(135deg, #FF6600 0%, #FFCC00 100%);
 }
 body
 {
-   background-color: #FFFFFF;
+   background-color: #FF6600;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
 }
-#Layer1
+a
 {
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+.visibility-hidden
+{
+   visibility: hidden;
+}
+#wb_LayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
    background-color: transparent;
    background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
 }
-#wb_JavaScript2
+#LayoutGrid1
 {
-   display: block;
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid1 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid1 > .row > .col-1
+{
    float: left;
-   width: 100%;
-   height: 41px;
-   margin: 0;
 }
-#Blog3
+#LayoutGrid1 > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
-   border: 0px solid transparent;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 15px;
-   line-height: 1.2;
-   margin: 0;
-   text-align: left;
-   display: inline-block;
-   position: relative;
+   border: 0px solid #FFFFFF;
    width: 100%;
-   height: 910px;
+   text-align: center;
 }
-#Blog3 .blogitem
+#LayoutGrid1:before,
+#LayoutGrid1:after,
+#LayoutGrid1 .row:before,
+#LayoutGrid1 .row:after
 {
-   background-color: #FFFFFF;
-   margin-bottom: 6px;
-   padding: 0px;
-   text-align: left;
+   display: table;
+   content: " ";
 }
-#Blog3 .blogdate
+#LayoutGrid1:after,
+#LayoutGrid1 .row:after
 {
-   font-family: Arial;
-   font-weight: bold;
-   font-size: 13px;
-   color: #000000;
-   font-style: normal;
-   text-decoration: none;
+   clear: both;
 }
-#Blog3 .blogsubject, #Blog3 .blogsubject a:link, #Blog3 .blogsubject a:visited, #Blog3 .blogsubject a:hover
+@media (max-width: 480px)
 {
-   font-family: Arial;
-   font-weight: bold;
-   font-size: 13px;
-   color: #666666;
-   font-style: normal;
-   text-decoration: none;
+#LayoutGrid1 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
 }
-#Blog3 .blogcomments, #Blog3 .blogcomments a:link, #Blog3 .blogcomments a:visited, #Blog3 .blogcomments a:hover
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   color: #000000;
-   font-style: normal;
-   text-decoration: underline;
 }
-#Blog3 .blogcomments
+#wb_LayoutGrid2
 {
-   text-decoration: none;
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
 }
-#Blog3 .no-thumb
+#LayoutGrid2
 {
-   display: none;
-}
-#Blog3 img
-{
-   border-width: 0;
-   width: 50%;
-   height: auto;
-   margin-left: auto;
-   margin-right: auto;
-   display: block;
-}
-#Blog3 .blogthumbnail
-{
-   display: block;
-}
-#Blog3 .blogsubject
-{
-   margin-bottom: 32px;
-   margin-top: 12px;
+   box-sizing: border-box;
    padding: 0;
-   display: block;
-   font-family: Arial;
-   font-size: 13px;
-   color: #666666;
+   margin-right: auto;
+   margin-left: auto;
 }
-#Blog3 .blogcaption
+#LayoutGrid2 > .row
 {
-   padding: 9px;
+   margin-right: 0;
+   margin-left: 0;
 }
-#Blog2
+#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3
+{
+   float: left;
+}
+#LayoutGrid2 > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
-   border: 0px solid transparent;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   line-height: 1.2;
-   margin: 0;
-   text-align: left;
-   display: inline-block;
-   position: relative;
-   width: 100%;
-   height: 1415px;
+   border: 0px solid #FFFFFF;
+   width: 33.33333333%;
+   text-align: center;
 }
-#Blog2 .blogitem
-{
-   background-color: #FFFFFF;
-   margin-bottom: 6px;
-   padding: 0px;
-   text-align: left;
-}
-#Blog2 .blogdate
-{
-   font-family: Arial;
-   font-weight: bold;
-   font-size: 13px;
-   color: #000000;
-   font-style: normal;
-   text-decoration: none;
-}
-#Blog2 .blogsubject, #Blog2 .blogsubject a:link, #Blog2 .blogsubject a:visited, #Blog2 .blogsubject a:hover
-{
-   font-family: Arial;
-   font-weight: bold;
-   font-size: 13px;
-   color: #666666;
-   font-style: normal;
-   text-decoration: none;
-}
-#Blog2 .blogcomments, #Blog2 .blogcomments a:link, #Blog2 .blogcomments a:visited, #Blog2 .blogcomments a:hover
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   color: #000000;
-   font-style: normal;
-   text-decoration: underline;
-}
-#Blog2 .blogcomments
-{
-   text-decoration: none;
-}
-#Blog2 .no-thumb
-{
-   display: none;
-}
-#Blog2 img
-{
-   border-width: 0;
-   width: 50%;
-   height: auto;
-   margin-left: auto;
-   margin-right: auto;
-   display: block;
-}
-#Blog2 .blogthumbnail
-{
-   display: block;
-}
-#Blog2 .blogsubject
-{
-   margin-bottom: 32px;
-   margin-top: 12px;
-   padding: 0;
-   display: block;
-   font-family: Arial;
-   font-size: 13px;
-   color: #666666;
-}
-#Blog2 .blogcaption
-{
-   padding: 9px;
-}
-#Blog1
+#LayoutGrid2 > .row > .col-2
 {
    background-color: transparent;
    background-image: none;
-   border: 0px solid transparent;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   line-height: 1.2;
-   margin: 0;
-   text-align: left;
-   display: inline-block;
+   border: 0px solid #FFFFFF;
+   width: 33.33333333%;
+   text-align: center;
+}
+#LayoutGrid2 > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 33.33333333%;
+   text-align: center;
+}
+#LayoutGrid2:before,
+#LayoutGrid2:after,
+#LayoutGrid2 .row:before,
+#LayoutGrid2 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid2:after,
+#LayoutGrid2 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Card3
+{
    position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   background-color: #0000FF;
+   background: linear-gradient(135deg, #DE47AC 0%, #AD1283 50%, #CB60B3 100%);
+   border: 3px solid #FFFFFF;
+   border-radius: 3px;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   box-shadow: 0px 0px 7px #000000;
+}
+#Card3-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#Card3-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
    width: 100%;
-   height: 6048px;
 }
-#Blog1 .blogitem
+#Card3-card-item1
 {
+   box-sizing: border-box;
+   margin: 5px 20px 0px 20px;
+   padding: 0;
+}
+#Card3-card-item1 h1
+{
+   color: #F5F5F5;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 24px;
+   margin: 0;
+}
+#Card3-card-item2
+{
+   display: inline-block;
+   height: 33px;
+   box-sizing: border-box;
+   border-radius: 0 0 3px 3px;
+   margin: 10px 0px 20px 0px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid #000000;
+   border-radius: 10px;
    background-color: #FFFFFF;
-   margin-bottom: 4px;
-   padding: 0px;
-   text-align: left;
-}
-#Blog1 .blogdate
-{
-   font-family: Arial;
-   font-weight: bold;
-   font-size: 13px;
+   background-image: none;
    color: #000000;
-   font-style: normal;
-   text-decoration: none;
-}
-#Blog1 .blogsubject, #Blog1 .blogsubject a:link, #Blog1 .blogsubject a:visited, #Blog1 .blogsubject a:hover
-{
-   font-family: Arial;
-   font-weight: bold;
-   font-size: 13px;
-   color: #666666;
-   font-style: normal;
-   text-decoration: none;
-}
-#Blog1 .blogcomments, #Blog1 .blogcomments a:link, #Blog1 .blogcomments a:visited, #Blog1 .blogcomments a:hover
-{
    font-family: Arial;
    font-weight: normal;
-   font-size: 17px;
-   color: #000000;
    font-style: normal;
-   text-decoration: underline;
+   font-size: 13px;
 }
-#Blog1 .blogcomments
+#Card3-card-item2 a
 {
+   color: inherit;
    text-decoration: none;
 }
-#Blog1 .no-thumb
+#Card3-card-item2 i
 {
-   display: none;
+   text-align: center;
+   vertical-align: top;
+   font-size: 13px;
+   width: 13px;
 }
-#Blog1 .blogbutton
+#wb_Card5
 {
-   display: none !important;
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   background-color: #0000FF;
+   background: linear-gradient(135deg, #DE47AC 0%, #AD1283 50%, #CB60B3 100%);
+   border: 3px solid #FFFFFF;
+   border-radius: 3px;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   box-shadow: 0px 0px 7px #000000;
 }
-#Blog1 img
+#Card5-card-body
 {
-   border-width: 0;
-   width: 50%;
-   height: auto;
-   margin-left: auto;
-   margin-right: auto;
-   display: block;
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
 }
-#Blog1 .blogthumbnail
+#Card5-card-item0
 {
-   display: block;
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
 }
-#Blog1 .blogsubject
+#Card5-card-item1
 {
-   margin-bottom: 32px;
-   margin-top: 12px;
+   box-sizing: border-box;
+   margin: 5px 20px 0px 20px;
+   padding: 0;
+}
+#Card5-card-item1 h1
+{
+   color: #F5F5F5;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 24px;
+   margin: 0;
+}
+#Card5-card-item2
+{
+   display: inline-block;
+   height: 33px;
+   box-sizing: border-box;
+   border-radius: 0 0 3px 3px;
+   margin: 10px 0px 20px 0px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid #000000;
+   border-radius: 10px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#Card5-card-item2 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#Card5-card-item2 i
+{
+   text-align: center;
+   vertical-align: top;
+   font-size: 13px;
+   width: 13px;
+}
+#wb_Card6
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   background-color: #0000FF;
+   background: linear-gradient(135deg, #DE47AC 0%, #AD1283 50%, #CB60B3 100%);
+   border: 3px solid #FFFFFF;
+   border-radius: 3px;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   box-shadow: 0px 0px 7px #000000;
+}
+#Card6-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#Card6-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#Card6-card-item1
+{
+   box-sizing: border-box;
+   margin: 5px 20px 0px 20px;
+   padding: 0;
+}
+#Card6-card-item1 h1
+{
+   color: #F5F5F5;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 24px;
+   margin: 0;
+}
+#Card6-card-item2
+{
+   display: inline-block;
+   height: 33px;
+   box-sizing: border-box;
+   border-radius: 0 0 3px 3px;
+   margin: 10px 0px 20px 0px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid #000000;
+   border-radius: 10px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#Card6-card-item2 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#Card6-card-item2 i
+{
+   text-align: center;
+   vertical-align: top;
+   font-size: 13px;
+   width: 13px;
+}
+#wb_Image1
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   box-sizing: border-box;
    padding: 0;
    display: block;
+   width: 100%;
+   height: auto;
+   max-width: 309px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1
+{
+   color: #FFFFFF;
    font-family: Arial;
-   font-size: 13px;
-   color: #666666;
+   font-weight: normal;
+   font-size: 16px;
 }
-#Blog1 .blogcaption
+#wb_Text1 div
 {
-   padding: 9px;
+   text-align: center;
 }
-#Footer1 h6
+#wb_Text1
 {
-   color: #3E3E3E;
-   font-style: normal;
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+width: 100%;}
+#wb_LayoutGrid3
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 1px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
 }
+#LayoutGrid3
+{
+   box-sizing: border-box;
+   padding: 0px 15px 5px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid3 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: left;
+}
+#LayoutGrid3:before,
+#LayoutGrid3:after,
+#LayoutGrid3 .row:before,
+#LayoutGrid3 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid3:after,
+#LayoutGrid3 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid3 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_LayoutGrid5
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #FFD700;
+   background: linear-gradient(to top, #FFD700 0%, #FFA500 100%);
+   border: 2px double #FFFFFF;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid5
+{
+   box-sizing: border-box;
+   padding: 5px 0px 20px 0px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid5 > .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#LayoutGrid5 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#LayoutGrid5 > .row > .col-1
+{
+   float: left;
+   height: 40px;
+}
+#LayoutGrid5 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: left;
+}
+#LayoutGrid5:before,
+#LayoutGrid5:after,
+#LayoutGrid5 .row:before,
+#LayoutGrid5 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid5:after,
+#LayoutGrid5 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid5 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+   height: auto;
+}
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+   -webkit-animation: animate-neon-text-shadow 1000ms linear 0ms infinite normal both;
+   animation: animate-neon-text-shadow 1000ms linear 0ms infinite normal both;
+}
+#wb_Text2 div
+{
+   text-align: center;
+}
+#wb_Text2
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+width: 100%;}
