@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" >
 	<url>
 		<loc>https://dristikononline.in/</loc>
-		<lastmod>2020-11-05</lastmod>
-		<changefreq>always</changefreq>
+		<lastmod>2020-11-06</lastmod>
+		<changefreq>hourly</changefreq>
 		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/index.html</loc>
-		<lastmod>2020-11-05</lastmod>
-		<changefreq>always</changefreq>
+		<lastmod>2020-11-06</lastmod>
+		<changefreq>hourly</changefreq>
 		<priority>1.0</priority>
 	</url>
 	<url>
@@ -21,8 +21,8 @@
 	<url>
 		<loc>https://dristikononline.in/Download.html</loc>
 		<lastmod>2020-11-04</lastmod>
-		<changefreq>always</changefreq>
-		<priority>1.0</priority>
+		<changefreq>weekly</changefreq>
+		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/privacypolicy.html</loc>
@@ -44,7 +44,7 @@
 	</url>
 	<url>
 		<loc>https://dristikononline.in/pujo2020.html</loc>
-		<lastmod>2020-11-04</lastmod>
+		<lastmod>2020-11-06</lastmod>
 		<changefreq>hourly</changefreq>
 		<priority>1.0</priority>
 	</url>
@@ -314,9 +314,9 @@
 	</url>
 	<url>
 		<loc>https://dristikononline.in/webmag.html</loc>
-		<lastmod>2020-11-04</lastmod>
-		<changefreq>always</changefreq>
-		<priority>1.0</priority>
+		<lastmod>2020-11-06</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/promotion.html</loc>
@@ -333,25 +333,25 @@
 	<url>
 		<loc>https://dristikononline.in/articles.html</loc>
 		<lastmod>2020-11-05</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>1.0</priority>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/soumyadyuti.html</loc>
 		<lastmod>2020-11-05</lastmod>
-		<changefreq>weekly</changefreq>
+		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/stuti.html</loc>
 		<lastmod>2020-11-05</lastmod>
-		<changefreq>weekly</changefreq>
+		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/soubhik.html</loc>
-		<lastmod>2020-11-05</lastmod>
-		<changefreq>weekly</changefreq>
+		<lastmod>2020-11-06</lastmod>
+		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 </urlset>
