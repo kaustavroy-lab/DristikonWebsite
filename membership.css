@@ -988,6 +988,7 @@ width: 100%;}
 }
 #CardContainer1
 {
+   display: none;
    position: relative;
    padding: 10px 10px 10px 10px;
    margin: 0;
