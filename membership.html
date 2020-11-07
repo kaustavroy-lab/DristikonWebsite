@@ -23,30 +23,189 @@ In lieu of this subscription the member(s) will be provided with I-card, yearly 
 <link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
 <link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
 <link href="icon fav.png" rel="apple-touch-icon" sizes="512x512">
+<link href="owl.carousel.min.css" rel="stylesheet">
+<link href="font-awesome.min.css" rel="stylesheet">
 <link href="dristikion_Online_websitebackup_26-10-2020.css" rel="stylesheet">
 <link href="membership.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
+<script src="owl.carousel.min.js"></script>
+<script src="wwb16.min.js"></script>
 <script>
 $(document).ready(function()
 {
-   $("a[href*='#LayoutGrid1']").click(function(event)
+   $("a[href*='#CardContainer3']").click(function(event)
    {
       event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid1').offset().top }, 600, 'linear');
+      $('html, body').stop().animate({ scrollTop: $('#CardContainer3').offset().top }, 600, 'linear');
    });
+   $("#CardContainer3").owlCarousel({autoplayTimeout:4000, margin: 16, autoplay: true, nav: false, loop: true, dots: false, items: 1, slideBy: 1});
+   $("a[href*='#CardContainer1']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#CardContainer1').offset().top }, 600, 'linear');
+   });
+   $("#CardContainer1").owlCarousel({autoplayTimeout:4000, margin: 16, autoplay: true, nav: false, loop: true, dots: false, items: 3, slideBy: 1});
 });
 </script>
 </head>
 <body>
 <div id="container">
+<script>
+var wb_Timer1;
+function TimerStartTimer1()
+{
+   wb_Timer1 = setTimeout(function()
+   {
+      var event = null;
+      ShowObject('Layer1', 1);
+   }, 4000);
+}
+function TimerStopTimer1()
+{
+   clearTimeout(wb_Timer1);
+}
+TimerStartTimer1();
+</script>
+
 </div>
 <div id="wb_LayoutGrid1">
 <div id="LayoutGrid1">
 <div class="row">
 <div class="col-1">
-<iframe name="InlineFrame1" id="InlineFrame1" src="https://docs.google.com/forms/d/e/1FAIpQLSfCTDEXirNpMVSUp_-RWp6uydnczI5tZObpk367VdxD76x3bw/viewform?usp=sf_link"></iframe>
+<div id="wb_Image1" style="display:inline-block;width:100%;height:auto;z-index:0;">
+<img src="images/member-thunb.png" id="Image1" alt="">
 </div>
 </div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="row">
+<div class="col-1">
+<div id="wb_Card1" style="display:flex;width:100%;text-align:center;z-index:1;">
+   <div id="Card1-card-body">
+      <div id="Card1-card-item0"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfCTDEXirNpMVSUp_-RWp6uydnczI5tZObpk367VdxD76x3bw/viewform?usp=sf_link" target="_blank"><i class="fa fa-address-card"></i> Click Here To Register</a></div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="CardContainer3" class="owl-carousel owl-theme">
+<div id="wb_Card3" style="display:flex;text-align:center;z-index:2;">
+   <div id="Card3-card-body">
+      <div style="overflow:hidden"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfCTDEXirNpMVSUp_-RWp6uydnczI5tZObpk367VdxD76x3bw/viewform?usp=sf_link" target="_blank"><img id="Card3-card-item0" src="images/promo-member-1920x1080-800x450.jpg" alt="" title=""></a></div>
+   </div>
+</div>
+<div id="wb_Card4" style="display:flex;text-align:center;z-index:3;">
+   <div id="Card4-card-body">
+      <div style="overflow:hidden"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfCTDEXirNpMVSUp_-RWp6uydnczI5tZObpk367VdxD76x3bw/viewform?usp=sf_link" target="_blank"><img id="Card4-card-item0" src="images/promo-member5-1920x1080-800x450.jpg" alt="" title=""></a></div>
+   </div>
+</div>
+<div id="wb_Card5" style="display:flex;text-align:center;z-index:4;">
+   <div id="Card5-card-body">
+      <div style="overflow:hidden"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfCTDEXirNpMVSUp_-RWp6uydnczI5tZObpk367VdxD76x3bw/viewform?usp=sf_link" target="_blank"><img id="Card5-card-item0" src="images/promo-member4-1920x1080-800x450.jpg" alt="" title=""></a></div>
+   </div>
+</div>
+<div id="wb_Card6" style="display:flex;text-align:center;z-index:5;">
+   <div id="Card6-card-body">
+      <div style="overflow:hidden"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfCTDEXirNpMVSUp_-RWp6uydnczI5tZObpk367VdxD76x3bw/viewform?usp=sf_link" target="_blank"><img id="Card6-card-item0" src="images/promo-member3-1920x1080-800x450.jpg" alt="" title=""></a></div>
+   </div>
+</div>
+<div id="wb_Card15" style="display:flex;text-align:center;z-index:6;">
+   <div id="Card15-card-body">
+      <div style="overflow:hidden"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfCTDEXirNpMVSUp_-RWp6uydnczI5tZObpk367VdxD76x3bw/viewform?usp=sf_link" target="_blank"><img id="Card15-card-item0" src="images/promo-member2-1920x1080-800x450.jpg" alt="" title=""></a></div>
+   </div>
+</div>
+</div>
+<div id="wb_LayoutGrid4">
+<div id="LayoutGrid4">
+<div class="row">
+<div class="col-1">
+<ul id="SlideShow1">
+<li><span></span></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid3">
+<div id="LayoutGrid3">
+<div class="row">
+<div class="col-1">
+<div id="wb_Card2" style="display:flex;width:100%;text-align:center;z-index:8;">
+   <div id="Card2-card-body">
+      <div style="overflow:hidden"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfCTDEXirNpMVSUp_-RWp6uydnczI5tZObpk367VdxD76x3bw/viewform?usp=sf_link" target="_blank"><img id="Card2-card-item0" src="images/model-updated-638x359.jpg" alt="" title=""></a></div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid5">
+<div id="LayoutGrid5">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text1">
+<span style="color:#000000;font-family:Arial;font-size:16px;"><strong>If you want to be a registered member like this, fill up the membership form below</strong></span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Card7" style="display:flex;width:100%;text-align:center;z-index:10;">
+   <div id="Card7-card-body">
+      <div id="Card7-card-item0"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfCTDEXirNpMVSUp_-RWp6uydnczI5tZObpk367VdxD76x3bw/viewform?usp=sf_link" target="_blank"><i class="fa fa-address-card"></i> Click Here To Register</a></div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="Layer1" style="position:fixed;text-align:center;visibility:hidden;left:0;top:0;right:0;bottom:0;width:364px;height:259px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:21;">
+<div id="Layer1-container" style="width:968px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_Card9" style="position:absolute;left:54px;top:215px;width:254px;height:34px;text-align:center;z-index:11;">
+   <div id="Card9-card-body">
+      <div id="Card9-card-item0"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfCTDEXirNpMVSUp_-RWp6uydnczI5tZObpk367VdxD76x3bw/viewform?usp=sf_link" target="_blank"><i class="fa fa-address-card"></i> Click Here To Register</a></div>
+   </div></div>
+<div id="wb_Card8" style="position:absolute;left:6px;top:18px;width:350px;height:209px;text-align:center;z-index:12;">
+   <div id="Card8-card-body">
+      <div style="overflow:hidden"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfCTDEXirNpMVSUp_-RWp6uydnczI5tZObpk367VdxD76x3bw/viewform?usp=sf_link" target="_blank"><img id="Card8-card-item0" src="images/model-updated-638x359.jpg" alt="" title=""></a></div>
+   </div></div>
+<div id="wb_IconFont1" style="position:absolute;left:331px;top:4px;width:27px;height:19px;text-align:center;z-index:13;">
+<a href="#" onclick="ShowObject('Layer1', 0);return false;"><div id="IconFont1"><i class="fa fa-times"></i></div></a></div>
+</div>
+</div>
+<div id="CardContainer1" class="owl-carousel owl-theme">
+<div id="wb_Card10" style="display:flex;text-align:center;z-index:14;">
+   <div id="Card10-card-body">
+      <div style="overflow:hidden"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfCTDEXirNpMVSUp_-RWp6uydnczI5tZObpk367VdxD76x3bw/viewform?usp=sf_link" target="_blank"><img id="Card10-card-item0" src="1.jpeg" alt="" title=""></a></div>
+   </div>
+</div>
+<div id="wb_Card11" style="display:flex;text-align:center;z-index:15;">
+   <div id="Card11-card-body">
+      <div style="overflow:hidden"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfCTDEXirNpMVSUp_-RWp6uydnczI5tZObpk367VdxD76x3bw/viewform?usp=sf_link" target="_blank"><img id="Card11-card-item0" src="images/2.jpg" alt="" title=""></a></div>
+   </div>
+</div>
+<div id="wb_Card12" style="display:flex;text-align:center;z-index:16;">
+   <div id="Card12-card-body">
+      <div style="overflow:hidden"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfCTDEXirNpMVSUp_-RWp6uydnczI5tZObpk367VdxD76x3bw/viewform?usp=sf_link" target="_blank"><img id="Card12-card-item0" src="images/3.jpg" alt="" title=""></a></div>
+   </div>
+</div>
+<div id="wb_Card13" style="display:flex;text-align:center;z-index:17;">
+   <div id="Card13-card-body">
+      <div style="overflow:hidden"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfCTDEXirNpMVSUp_-RWp6uydnczI5tZObpk367VdxD76x3bw/viewform?usp=sf_link" target="_blank"><img id="Card13-card-item0" src="images/4.jpg" alt="" title=""></a></div>
+   </div>
+</div>
+<div id="wb_Card14" style="display:flex;text-align:center;z-index:18;">
+   <div id="Card14-card-body">
+      <div style="overflow:hidden"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfCTDEXirNpMVSUp_-RWp6uydnczI5tZObpk367VdxD76x3bw/viewform?usp=sf_link" target="_blank"><img id="Card14-card-item0" src="images/5.jpg" alt="" title=""></a></div>
+   </div>
+</div>
+<div id="wb_Card16" style="display:flex;text-align:center;z-index:19;">
+   <div id="Card16-card-body">
+      <div style="overflow:hidden"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfCTDEXirNpMVSUp_-RWp6uydnczI5tZObpk367VdxD76x3bw/viewform?usp=sf_link" target="_blank"><img id="Card16-card-item0" src="images/6.jpg" alt="" title=""></a></div>
+   </div>
 </div>
 </div>
 </body>
