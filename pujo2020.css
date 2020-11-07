@@ -303,7 +303,7 @@ input:focus, textarea:focus, select:focus
    clear: both;
    position: relative;
    table-layout: fixed;
-   display: table;
+   display: none;
    text-align: center;
    width: 100%;
    background-color: transparent;
