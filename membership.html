@@ -1,367 +1,52 @@
-<?php
-function ValidateEmail($email)
-{
-   $pattern = '/^([0-9a-z]([-.\w]*[0-9a-z])*@(([0-9a-z])+([-\w]*[0-9a-z])*\.)+[a-z]{2,6})$/i';
-   return preg_match($pattern, $email);
-}
-if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['formid']) && $_POST['formid'] == 'form2')
-{
-   $mailto = 'kaustavroy338@gmail.com';
-   $mailfrom = isset($_POST['email']) ? $_POST['email'] : $mailto;
-   $subject = 'Dristikon Membership Form';
-   $message = 'Dristikon Membership Form';
-   $success_url = './success_page.html';
-   $error_url = './fail.html';
-   $csvFile = "./formdata.csv";
-   $eol = "\n";
-   $error = '';
-   $internalfields = array ("submit", "reset", "send", "filesize", "formid", "captcha_code", "recaptcha_challenge_field", "recaptcha_response_field", "g-recaptcha-response");
-   $logdata = '';
-   $boundary = md5(uniqid(time()));
-   $header  = 'From: '.$mailfrom.$eol;
-   $header .= 'Reply-To: '.$mailfrom.$eol;
-   $header .= 'MIME-Version: 1.0'.$eol;
-   $header .= 'Content-Type: multipart/mixed; boundary="'.$boundary.'"'.$eol;
-   $header .= 'X-Mailer: PHP v'.phpversion().$eol;
-
-   try
-   {
-      if (!ValidateEmail($mailfrom))
-      {
-         $error .= "The specified email address (" . $mailfrom . ") is invalid!\n<br>";
-         throw new Exception($error);
-      }
-      $message .= $eol;
-      $message .= "IP Address : ";
-      $message .= $_SERVER['REMOTE_ADDR'];
-      $message .= $eol;
-      foreach ($_POST as $key => $value)
-      {
-         if (!in_array(strtolower($key), $internalfields))
-         {
-            $logdata .= ',';
-            if (is_array($value))
-            {
-               $message .= ucwords(str_replace("_", " ", $key)) . " : " . implode(",", $value) . $eol;
-               $logdata .= implode("|", $value);
-            }
-            else
-            {
-               $message .= ucwords(str_replace("_", " ", $key)) . " : " . $value . $eol;
-               $value = str_replace(",", " ", $value);
-               $logdata .= $value;
-            }
-         }
-      }
-      $logdata = str_replace("\r", "", $logdata);
-      $logdata = str_replace("\n", " ", $logdata);
-      $logdata .= "\r\n";
-      $handle = fopen($csvFile, 'a') or die("can't open file");
-      $logtime = date("Y-m-d H:i:s,");
-      fwrite($handle, $logtime);
-      fwrite($handle, $_SERVER['REMOTE_ADDR']);
-      fwrite($handle, $logdata);
-      fclose($handle);
-      $body  = 'This is a multi-part message in MIME format.'.$eol.$eol;
-      $body .= '--'.$boundary.$eol;
-      $body .= 'Content-Type: text/plain; charset=UTF-8'.$eol;
-      $body .= 'Content-Transfer-Encoding: 8bit'.$eol;
-      $body .= $eol.stripslashes($message).$eol;
-      if (!empty($_FILES))
-      {
-         foreach ($_FILES as $key => $value)
-         {
-             if ($_FILES[$key]['error'] == 0)
-             {
-                $body .= '--'.$boundary.$eol;
-                $body .= 'Content-Type: '.$_FILES[$key]['type'].'; name='.$_FILES[$key]['name'].$eol;
-                $body .= 'Content-Transfer-Encoding: base64'.$eol;
-                $body .= 'Content-Disposition: attachment; filename='.$_FILES[$key]['name'].$eol;
-                $body .= $eol.chunk_split(base64_encode(file_get_contents($_FILES[$key]['tmp_name']))).$eol;
-             }
-         }
-      }
-      $body .= '--'.$boundary.'--'.$eol;
-      if ($mailto != '')
-      {
-         mail($mailto, $subject, $body, $header);
-      }
-      header('Location: '.$success_url);
-   }
-   catch (Exception $e)
-   {
-      $errorcode = file_get_contents($error_url);
-      $replace = "##error##";
-      $errorcode = str_replace($replace, $e->getMessage(), $errorcode);
-      echo $errorcode;
-   }
-   exit;
-}
-?>
 <!doctype html>
-<html>
+<html lang="en-us">
 <head>
 <meta charset="utf-8">
-<title>Dristikon Annual Memberships</title>
-<meta name="generator" content="WYSIWYG Web Builder 16 - http://www.wysiwygwebbuilder.com">
-<link href="dristikion_Online_websitebackup.css" rel="stylesheet">
+<title>Dristikon Annual Membership</title>
+<meta name="description" content="The persons who are interested to get the membership of *Dristikon* family should fill up and submit this form. Annual subscription for this membership is 150/-
+In lieu of this subscription the member(s) will be provided with I-card, yearly magazine and many other facilities.">
+<meta name="keywords" content="membership, dkon member, member 2020, new member, member of dristikon">
+<meta name="author" content="Dristikon Online & Kaustav Roy">
+<meta name="categories" content="Website">
+<meta name="robots" content="index, follow">
+<meta name="revisit-after" content="1 day">
+<meta property="og:title" content="Dristikon Annual Membership">
+<meta property="og:description" content="The persons who are interested to get the membership of *Dristikon* family should fill up and submit this form. Annual subscription for this membership is 150/-
+In lieu of this subscription the member(s) will be provided with I-card, yearly magazine and many other facilities.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://dristikononline.in/">
+<meta property="og:image" content="https://dristikononline.in/images/model.jpg">
+<meta property="fb:app_id" content="1">
+<meta name="generator" content="Kaustav Roy">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
+<link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
+<link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
+<link href="icon fav.png" rel="apple-touch-icon" sizes="512x512">
+<link href="dristikion_Online_websitebackup_26-10-2020.css" rel="stylesheet">
 <link href="membership.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script>
-function submitMEMBERSHIP_FORM()
-{
-   var regexp;
-   var Editbox11 = document.getElementById('Editbox11');
-   if (!(Editbox11.disabled || Editbox11.style.display === 'none' || Editbox11.style.visibility === 'hidden'))
-   {
-      if (Editbox11.value == "")
-      {
-         alert("Please Enter Your Father Name");
-         Editbox11.focus();
-         return false;
-      }
-   }
-   var Combobox4 = document.getElementById('Combobox4');
-   if (!(Combobox4.disabled ||
-         Combobox4.style.display === 'none' ||
-         Combobox4.style.visibility === 'hidden'))
-   {
-      if (Combobox4.selectedIndex < 0)
-      {
-         alert("Please Enter Your Gender");
-         Combobox4.focus();
-         return false;
-      }
-      if (Combobox4.selectedIndex == 0)
-      {
-         alert("Please Enter Your Gender");
-         Combobox4.focus();
-         return false;
-      }
-   }
-   var Editbox14 = document.getElementById('Editbox14');
-   if (!(Editbox14.disabled || Editbox14.style.display === 'none' || Editbox14.style.visibility === 'hidden'))
-   {
-      if (Editbox14.value == "")
-      {
-         alert("Please Enter Your Date Of Birth");
-         Editbox14.focus();
-         return false;
-      }
-   }
-   var Editbox15 = document.getElementById('Editbox15');
-   if (!(Editbox15.disabled || Editbox15.style.display === 'none' || Editbox15.style.visibility === 'hidden'))
-   {
-      if (Editbox15.value == "")
-      {
-         alert("Please Enter Your Permanent Address");
-         Editbox15.focus();
-         return false;
-      }
-   }
-   var Editbox16 = document.getElementById('Editbox16');
-   if (!(Editbox16.disabled || Editbox16.style.display === 'none' || Editbox16.style.visibility === 'hidden'))
-   {
-      if (Editbox16.value == "")
-      {
-         alert("Please Enter Your Mobile number");
-         Editbox16.focus();
-         return false;
-      }
-      if (Editbox16.value.length < 10)
-      {
-         alert("Please Enter Your Mobile number");
-         Editbox16.focus();
-         return false;
-      }
-      if (Editbox16.value.length > 10)
-      {
-         alert("Please Enter Your Mobile number");
-         Editbox16.focus();
-         return false;
-      }
-   }
-   var FileUpload3 = document.getElementById('FileUpload3');
-   var FileUpload3_file = document.getElementById('FileUpload3-file');
-   if (!(FileUpload3.disabled ||
-         FileUpload3.style.display === 'none' ||
-         FileUpload3.style.visibility === 'hidden'))
-   {
-      if (FileUpload3_file.value == "")
-      {
-         alert("Please Attach Your Current Photo");
-         return false;
-      }
-      var ext = FileUpload3_file.value.substr(FileUpload3_file.value.lastIndexOf('.'));
-      if ((ext.toLowerCase() != ".jpg") &&
-          (ext.toLowerCase() != ".png"))
-      {
-         alert("Please Attach Your Current Photo");
-         return false;
-      }
-   }
-   var FileUpload4 = document.getElementById('FileUpload4');
-   var FileUpload4_file = document.getElementById('FileUpload4-file');
-   if (!(FileUpload4.disabled ||
-         FileUpload4.style.display === 'none' ||
-         FileUpload4.style.visibility === 'hidden'))
-   {
-      if (FileUpload4_file.value == "")
-      {
-         alert("Please Attach Your Signature Photo");
-         return false;
-      }
-      var ext = FileUpload4_file.value.substr(FileUpload4_file.value.lastIndexOf('.'));
-      if ((ext.toLowerCase() != ".jpg") &&
-          (ext.toLowerCase() != ".png"))
-      {
-         alert("Please Attach Your Signature Photo");
-         return false;
-      }
-   }
-   var Editbox17 = document.getElementById('Editbox17');
-   if (!(Editbox17.disabled || Editbox17.style.display === 'none' || Editbox17.style.visibility === 'hidden'))
-   {
-      if (Editbox17.value == "")
-      {
-         alert("Please Enter Form Submission Time ");
-         Editbox17.focus();
-         return false;
-      }
-   }
-   var Combobox3 = document.getElementById('Combobox3');
-   if (!(Combobox3.disabled ||
-         Combobox3.style.display === 'none' ||
-         Combobox3.style.visibility === 'hidden'))
-   {
-      if (Combobox3.selectedIndex < 0)
-      {
-         alert("Please Select Your Membership");
-         Combobox3.focus();
-         return false;
-      }
-      if (Combobox3.selectedIndex == 0)
-      {
-         alert("Please Select Your Membership");
-         Combobox3.focus();
-         return false;
-      }
-   }
-   var Editbox10 = document.getElementById('Editbox10');
-   if (!(Editbox10.disabled || Editbox10.style.display === 'none' || Editbox10.style.visibility === 'hidden'))
-   {
-      if (Editbox10.value == "")
-      {
-         alert("Please Enter Full Name");
-         Editbox10.focus();
-         return false;
-      }
-   }
-   var Checkbox1 = document.getElementById('Checkbox1');
-   if (!(Checkbox1.disabled ||
-         Checkbox1.style.display === 'none' ||
-         Checkbox1.style.visibility === 'hidden'))
-   {
-      if (Checkbox1.checked != true)
-      {
-         alert("");
-         return false;
-      }
-   }
-   return true;
-}
-</script>
-<script src="wwb16.min.js"></script>
-<script>
 $(document).ready(function()
 {
-   $("#Checkbox1").change(function()
+   $("a[href*='#LayoutGrid1']").click(function(event)
    {
-      if ($('#Checkbox1').is(':checked'))
-      {
-         ShowObject('Button1', 1);
-      }
-      if (!$('#Checkbox1').is(':checked'))
-      {
-         ShowObject('Button1', 0);
-      }
-   });
-   $("#Checkbox1").trigger('change');
-   $("#FileUpload3 :file").on('change', function()
-   {
-      var input = $(this).parents('.input-group').find(':text');
-      input.val($(this).val());
-   });
-   $("#FileUpload4 :file").on('change', function()
-   {
-      var input = $(this).parents('.input-group').find(':text');
-      input.val($(this).val());
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid1').offset().top }, 600, 'linear');
    });
 });
 </script>
 </head>
 <body>
 <div id="container">
-<div id="wb_Text1" style="position:absolute;left:0px;top:211px;width:970px;height:119px;text-align:center;z-index:28;">
-<span style="color:#000000;font-family:Arial;font-size:27px;">The persons who are interested to get the membership of *Dristikon* family should fill up and submit this form. Annual subscription for this membership is 150/- In lieu of this subscription the member(s) will be provided with I-card, yearly magazine and many other facilities.</span></div>
-<div id="wb_Text2" style="position:absolute;left:0px;top:157px;width:970px;height:51px;text-align:center;z-index:29;">
-<span style="color:#000000;font-family:Arial;font-size:43px;"><strong><u>Annual Membership Form 2020-21 Dristikon</u></strong></span></div>
-<div id="wb_Image2" style="position:absolute;left:0px;top:0px;width:970px;height:153px;z-index:30;">
-<img src="images/channel art youtube.jpg" id="Image2" alt=""></div>
-<div id="wb_Form2" style="position:absolute;left:0px;top:376px;width:970px;height:1615px;z-index:31;">
-<form name="MEMBERSHIP_FORM" method="post" action="<?php echo basename(__FILE__); ?>" enctype="multipart/form-data" accept-charset="UTF-8" target="_top" id="Form2" onsubmit="return submitMEMBERSHIP_FORM()">
-<input type="hidden" name="formid" value="form2">
-<label for="Editbox10" id="Label4" style="position:absolute;left:0px;top:96px;width:301px;height:32px;line-height:32px;z-index:0;">Full Name</label>
-<label for="Editbox11" id="Label6" style="position:absolute;left:0px;top:187px;width:251px;height:32px;line-height:32px;z-index:1;">Father's Name</label>
-<input type="text" id="Editbox11" style="position:absolute;left:0px;top:227px;width:960px;height:38px;z-index:2;" name="Father's Name" value="" spellcheck="false">
-<label for="Combobox4" id="Label8" style="position:absolute;left:0px;top:278px;width:158px;height:32px;line-height:32px;z-index:3;">Gender</label>
-<select name="Gender" size="1" id="Combobox4" style="position:absolute;left:0px;top:318px;width:970px;height:48px;z-index:4;" autocomplete="off">
-<option value="Select">Select</option>
-<option value="Male">Male</option>
-<option value="Female">Female</option>
-<option value="Other">Other</option>
-</select>
-<label for="Editbox12" id="Label10" style="position:absolute;left:0px;top:366px;width:551px;height:32px;line-height:32px;z-index:5;">Occupation</label>
-<input type="text" id="Editbox12" style="position:absolute;left:0px;top:406px;width:960px;height:37px;z-index:6;" name="Occupation" value="" spellcheck="false">
-<label for="Editbox13" id="Label12" style="position:absolute;left:0px;top:453px;width:512px;height:32px;line-height:32px;z-index:7;">Organisation  In Which Associated(if any)</label>
-<input type="text" id="Editbox13" style="position:absolute;left:0px;top:495px;width:960px;height:40px;z-index:8;" name="Organisation  In Which Associated(if any)" value="" spellcheck="false">
-<label for="Editbox14" id="Label14" style="position:absolute;left:0px;top:549px;width:440px;height:32px;line-height:32px;z-index:9;">Date Of Birth</label>
-<input type="date" id="Editbox14" style="position:absolute;left:0px;top:590px;width:960px;height:46px;z-index:10;" name="Date Of Birth" value="" spellcheck="false">
-<label for="Editbox15" id="Label16" style="position:absolute;left:0px;top:652px;width:469px;height:32px;line-height:32px;z-index:11;">Permanent Address</label>
-<input type="text" id="Editbox15" style="position:absolute;left:0px;top:692px;width:960px;height:47px;z-index:12;" name="Permanent Address" value="" spellcheck="false">
-<label for="Editbox16" id="Label18" style="position:absolute;left:0px;top:772px;width:325px;height:32px;line-height:32px;z-index:13;">Mobile number</label>
-<input type="tel" id="Editbox16" style="position:absolute;left:0px;top:812px;width:960px;height:47px;z-index:14;" name="Mobile number" value="" spellcheck="false">
-<label for="FileUpload3" id="Label20" style="position:absolute;left:7px;top:869px;width:499px;height:68px;line-height:68px;z-index:15;">Attach Current Photo</label>
-<div id="FileUpload3" class="input-group" style="position:absolute;left:0px;top:929px;width:970px;height:58px;z-index:16;">
-<input class="form-control" type="text" readonly="">
-<label class="input-group-btn">
-<input type="file" accept=".jpg,.png" name="Attach Current Photo" id="FileUpload3-file" style="display:none;"><span class="btn">Browse...</span>
-</label>
 </div>
-<label for="FileUpload4" id="Label22" style="position:absolute;left:0px;top:997px;width:395px;height:32px;line-height:32px;z-index:17;">Attach Signature Photo</label>
-<div id="FileUpload4" class="input-group" style="position:absolute;left:0px;top:1047px;width:970px;height:63px;z-index:18;">
-<input class="form-control" type="text" readonly="">
-<label class="input-group-btn">
-<input type="file" accept=".jpg,.png" name="Attach Signature Photo" id="FileUpload4-file" style="display:none;"><span class="btn">Browse...</span>
-</label>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+<iframe name="InlineFrame1" id="InlineFrame1" src="https://docs.google.com/forms/d/e/1FAIpQLSfCTDEXirNpMVSUp_-RWp6uydnczI5tZObpk367VdxD76x3bw/viewform?usp=sf_link"></iframe>
 </div>
-<label for="Editbox17" id="Label24" style="position:absolute;left:0px;top:1110px;width:344px;height:54px;line-height:54px;z-index:19;">Form Submission Time </label>
-<input type="time" id="Editbox17" style="position:absolute;left:0px;top:1163px;width:960px;height:60px;z-index:20;" name="Form Submission Time " value="" spellcheck="false">
-<select name="Select Your Membership" size="1" id="Combobox3" style="position:absolute;left:0px;top:40px;width:970px;height:44px;z-index:21;" autocomplete="off">
-<option value="Select">Select</option>
-<option value="New Membership">New Membership</option>
-<option value="Renew Membership">Renew Membership</option>
-</select>
-<label for="" id="Label1" style="position:absolute;left:0px;top:0px;width:440px;height:32px;line-height:32px;z-index:22;">Select Your Membership</label>
-<input type="text" id="Editbox10" style="position:absolute;left:0px;top:136px;width:960px;height:38px;z-index:23;" name="Full Name" value="" spellcheck="false">
-<div id="wb_Text16" style="position:absolute;left:0px;top:1263px;width:970px;height:108px;z-index:24;">
-<span style="color:#FF0000;font-family:Arial;font-size:24px;">DECLARATION:- All the information I have Provided are true to my notion and &quot;Dristikon Magazine Committee&quot;&nbsp; will not be responsible in any way for any faulty/wrong information . Moreover they have all the rights to cancel this membership in case of any mis-conduct or payment failure.</span><span style="color:#000000;font-family:Arial;font-size:24px;"> </span></div>
-<div id="wb_Text17" style="position:absolute;left:183px;top:1407px;width:476px;height:27px;z-index:25;">
-<span style="color:#000000;font-family:Arial;font-size:24px;">I Agree</span></div>
-<div id="wb_Checkbox1" style="position:absolute;left:119px;top:1397px;width:650px;height:46px;z-index:26;">
-<input type="checkbox" id="Checkbox1" name="I Agree" value="I Agree" style="position:absolute;left:0;top:0;" title="I Agree"><label for="Checkbox1"></label></div>
-<input type="submit" id="Button1" name="" value="Submit" style="position:absolute;left:86px;top:1471px;width:671px;height:92px;visibility:hidden;z-index:27;">
-</form>
+</div>
 </div>
 </div>
 </body>

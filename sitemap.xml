@@ -8,7 +8,7 @@
 	</url>
 	<url>
 		<loc>https://dristikononline.in/index.html</loc>
-		<lastmod>2020-11-06</lastmod>
+		<lastmod>2020-11-07</lastmod>
 		<changefreq>hourly</changefreq>
 		<priority>1.0</priority>
 	</url>
@@ -332,7 +332,7 @@
 	</url>
 	<url>
 		<loc>https://dristikononline.in/articles.html</loc>
-		<lastmod>2020-11-05</lastmod>
+		<lastmod>2020-11-07</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -350,7 +350,13 @@
 	</url>
 	<url>
 		<loc>https://dristikononline.in/soubhik.html</loc>
-		<lastmod>2020-11-06</lastmod>
+		<lastmod>2020-11-07</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/membership.html</loc>
+		<lastmod>2020-11-07</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
