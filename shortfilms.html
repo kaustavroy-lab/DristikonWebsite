@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 16 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
+<link href="icon fav.png" rel="apple-touch-icon" sizes="512x512">
+<link href="owl.carousel.min.css" rel="stylesheet">
+<link href="dristikion_Online_websitebackup_26-10-2020.css" rel="stylesheet">
+<link href="shortfilms.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="owl.carousel.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("a[href*='#CardContainer1']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#CardContainer1').offset().top }, 400, 'linear');
+   });
+   $("#CardContainer1").owlCarousel({autoplayTimeout:4000, margin: 16, autoplay: true, nav: false, loop: true, dots: true, items: 1, slideBy: 1});
+});
+</script>
+</head>
+<body>
+<div id="container">
+</div>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+<div id="wb_Card6" style="display:flex;width:100%;text-align:center;z-index:0;">
+   <div id="Card6-card-body">
+      <img id="Card6-card-item0" src="images/shortfilms.png" alt="" title="">
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="CardContainer1" class="owl-carousel owl-theme">
+<div id="wb_Card4" style="display:flex;text-align:center;z-index:1;">
+   <div id="Card4-card-body">
+      <img id="Card4-card-item0" src="images/tk~1.jpg" alt="" title="">
+   </div>
+</div>
+<div id="wb_Card5" style="display:flex;text-align:center;z-index:2;">
+   <div id="Card5-card-body">
+      <img id="Card5-card-item0" src="images/thumbnail-1920x1080.jpg" alt="" title="">
+   </div>
+</div>
+<div id="wb_Card3" style="display:flex;text-align:center;z-index:3;">
+   <div id="Card3-card-body">
+      <img id="Card3-card-item0" src="images/updated-thumbnail-1815x1021.jpg" alt="" title="">
+   </div>
+</div>
+<div id="wb_Card2" style="display:flex;text-align:center;z-index:4;">
+   <div id="Card2-card-body">
+      <img id="Card2-card-item0" src="images/video-thumbnail-1360x765.jpg" alt="" title="">
+   </div>
+</div>
+<div id="wb_Card1" style="display:flex;text-align:center;z-index:5;">
+   <div id="Card1-card-body">
+      <img id="Card1-card-item0" src="images/thumb-part-2-1.5k-1920x1080.jpg" alt="" title="">
+   </div>
+</div>
+</div>
+</body>
+</html>

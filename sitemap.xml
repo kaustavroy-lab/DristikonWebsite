@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" >
 	<url>
 		<loc>https://dristikononline.in/</loc>
-		<lastmod>2020-11-08</lastmod>
+		<lastmod>2020-11-11</lastmod>
 		<changefreq>hourly</changefreq>
 		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/index.html</loc>
-		<lastmod>2020-11-08</lastmod>
+		<lastmod>2020-11-11</lastmod>
 		<changefreq>hourly</changefreq>
 		<priority>1.0</priority>
 	</url>
@@ -357,6 +357,18 @@
 	<url>
 		<loc>https://dristikononline.in/membership.html</loc>
 		<lastmod>2020-11-08</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/shortfilms.html</loc>
+		<lastmod>2020-11-11</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/amiodurga.html</loc>
+		<lastmod>2020-11-11</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
