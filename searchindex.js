@@ -74,5 +74,6 @@ function SearchDatabase()
    this[database_length++] = new SearchPage("https://dristikononline.in/membership.html", "Dristikon Annual Membership", "membership, dkon member, member 2020, new member, member of dristikon ", "The persons who are interested to get the membership of  Dristikon  family should fill up and submit this form. Annual subscription for this membership is 150/-  In lieu of this subscription the member s  will be provided with I-card, yearly magazine and many other facilities.");
    this[database_length++] = new SearchPage("https://dristikononline.in/shortfilms.html", "Untitled Page", " ", "");
    this[database_length++] = new SearchPage("https://dristikononline.in/amiodurga.html", "Untitled Page", " ", "");
+   this[database_length++] = new SearchPage("https://dristikononline.in/page1.html", "Untitled Page", " ", "");
    return this;
 }
