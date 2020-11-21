@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>Dristikon Online Server</title>
+<meta name="description" content="404 Dristikon Online Server Error">
+<meta name="keywords" content="404 not found">
+<meta name="author" content="Dristikon Online & Kaustav Roy">
+<meta name="categories" content="Website">
+<meta name="robots" content="noindex, nofollow">
+<meta name="revisit-after" content="1 day">
+<meta name="generator" content="Kaustav Roy">
+<link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
+<link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
+<link href="icon fav.png" rel="icon" sizes="512x512" type="image/png">
+<link href="icon fav.png" rel="apple-touch-icon" sizes="512x512">
+<link href="404.css?v=2" rel="stylesheet">
+<link href="404.css?v=2" rel="stylesheet">
+<script src="jquery-3.5.1.min.js"></script>
+<script src="wwb16.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $('#Button1').addClass('visibility-hidden');
+   function onScrollButton1()
+   {
+      var $obj = $("#Button1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('Button1', 'animate-flash', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('Button1', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#Button1').inViewPort(true))
+   {
+      $('#Button1').addClass("in-viewport");
+   }
+   onScrollButton1();
+   $(window).scroll(function(event)
+   {
+      onScrollButton1();
+   });
+});
+</script>
+</head>
+<body>
+<div id="container">
+<div id="wb_Image2" style="position:absolute;left:157px;top:96px;width:656px;height:656px;z-index:0;">
+<img src="images/y2lcttyxwi.jpg" id="Image2" alt=""></div>
+<div id="wb_Image1" style="position:absolute;left:365px;top:9px;width:241px;height:241px;z-index:1;">
+<img src="images/circle dristikon water mark.png" id="Image1" alt=""></div>
+<a id="Button1" href="https://dristikononline.in/" style="position:absolute;left:375px;top:680px;width:218px;height:70px;z-index:2;">Back To Home</a>
+</div>
+</body>
+</html>
