@@ -76,5 +76,6 @@ function SearchDatabase()
    this[database_length++] = new SearchPage("https://dristikononline.in/page1.html", "Untitled Page", " ", "");
    this[database_length++] = new SearchPage("https://dristikononline.in/kalipuja.html", "kalipuja2020", "kalipuja2020, diwali, happy diwali, diwali 2020, kali pujo ", "Dristikon Online Wishes You Happy Diwali");
    this[database_length++] = new SearchPage("https://dristikononline.in/films.html", "Dristikon Online Short Film", " ", "Website regarding dristikon online work");
+   this[database_length++] = new SearchPage("https://dristikononline.in/castlist.html", "Dristikon Online Short Film", " ", "Website regarding dristikon online work");
    return this;
 }
