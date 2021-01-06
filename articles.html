@@ -29,89 +29,20 @@
 <link href="https://fonts.googleapis.com/css?family=Broadway" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Gloss+And+Bloom" rel="stylesheet">
-<link href="dristikion_Online_websitebackup.css?v=19" rel="stylesheet">
-<link href="articles.css?v=19" rel="stylesheet">
+<link href="dristikion_Online_websitebackup.css?v=20" rel="stylesheet">
+<link href="articles.css?v=20" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
+<script src="skrollr.min.js"></script>
 <script src="wwb16.min.js"></script>
 <script>
 $(document).ready(function()
 {
-   $('#wb_Card3').addClass('visibility-hidden');
-   $('#wb_Card5').addClass('visibility-hidden');
-   $('#wb_Card6').addClass('visibility-hidden');
    $('#wb_Image1').addClass('visibility-hidden');
-   function onScrollCard3()
+   function skrollrInit()
    {
-      var $obj = $("#wb_Card3");
-      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
-      {
-         $obj.addClass("in-viewport");
-         AnimateCss('wb_Card3', 'transform-bounce-in', 0, 1250);
-      }
-      else
-      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
-      {
-         $obj.removeClass("in-viewport");
-         AnimateCss('wb_Card3', 'animate-fade-out', 0, 0);
-      }
+      skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
    }
-   if (!$('#wb_Card3').inViewPort(true))
-   {
-      $('#wb_Card3').addClass("in-viewport");
-   }
-   onScrollCard3();
-   $(window).scroll(function(event)
-   {
-      onScrollCard3();
-   });
-   function onScrollCard5()
-   {
-      var $obj = $("#wb_Card5");
-      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
-      {
-         $obj.addClass("in-viewport");
-         AnimateCss('wb_Card5', 'transform-bounce-in', 0, 1250);
-      }
-      else
-      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
-      {
-         $obj.removeClass("in-viewport");
-         AnimateCss('wb_Card5', 'animate-fade-out', 0, 0);
-      }
-   }
-   if (!$('#wb_Card5').inViewPort(true))
-   {
-      $('#wb_Card5').addClass("in-viewport");
-   }
-   onScrollCard5();
-   $(window).scroll(function(event)
-   {
-      onScrollCard5();
-   });
-   function onScrollCard6()
-   {
-      var $obj = $("#wb_Card6");
-      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
-      {
-         $obj.addClass("in-viewport");
-         AnimateCss('wb_Card6', 'transform-bounce-in', 0, 1250);
-      }
-      else
-      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
-      {
-         $obj.removeClass("in-viewport");
-         AnimateCss('wb_Card6', 'animate-fade-out', 0, 0);
-      }
-   }
-   if (!$('#wb_Card6').inViewPort(true))
-   {
-      $('#wb_Card6').addClass("in-viewport");
-   }
-   onScrollCard6();
-   $(window).scroll(function(event)
-   {
-      onScrollCard6();
-   });
+   skrollrInit();
    function onScrollImage1()
    {
       var $obj = $("#wb_Image1");
@@ -155,7 +86,7 @@ $(document).ready(function()
 <div id="LayoutGrid2">
 <div class="row">
 <div class="col-1">
-<div id="wb_Card3" style="display:flex;width:100%;text-align:center;z-index:1;">
+<div id="wb_Card3" style="display:flex;width:100%;text-align:center;z-index:1;" data-bottom-top="transform: scale(1,1);" data-top="transform: scale(1,1);">
    <div id="Card3-card-body">
       <img id="Card3-card-item0" src="MY PHOTO.jpeg" alt="" title="">
       <div id="Card3-card-item1"><h1>Soumyadyuti Dey Chowdhury</h1></div>
@@ -164,7 +95,7 @@ $(document).ready(function()
 </div>
 </div>
 <div class="col-2">
-<div id="wb_Card5" style="display:flex;width:100%;text-align:center;z-index:2;">
+<div id="wb_Card5" style="display:flex;width:100%;text-align:center;z-index:2;" data-top="transform:;transform:;">
    <div id="Card5-card-body">
       <img id="Card5-card-item0" src="stuti.jpeg" alt="" title="">
       <div id="Card5-card-item1"><h1>Stuti Seekha Raut</h1></div>
@@ -173,7 +104,7 @@ $(document).ready(function()
 </div>
 </div>
 <div class="col-3">
-<div id="wb_Card6" style="display:flex;width:100%;text-align:center;z-index:3;">
+<div id="wb_Card6" style="display:flex;width:100%;text-align:center;z-index:3;" data-top="transform:;transform:;">
    <div id="Card6-card-body">
       <img id="Card6-card-item0" src="images/schel.jpg" alt="" title="">
       <div id="Card6-card-item1"><h1>Soubhik Chel</h1></div>
