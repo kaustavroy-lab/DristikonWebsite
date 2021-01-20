@@ -1653,7 +1653,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_ResponsiveMenu1
 {
-   background-color: rgba(250,23,84,1.00);
+   background-color: rgba(0,153,204,1.00);
    display: block;
    font-family: Arial;
    font-weight: bold;
@@ -1662,7 +1662,7 @@ input:focus, textarea:focus, select:focus
 }
 #ResponsiveMenu1
 {
-   background-color: #FA1754;
+   background-color: #0099CC;
    display: inline-block;
    height: 59px;
 }
@@ -1693,7 +1693,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_ResponsiveMenu1 ul li a
 {
-   background-color: #FA1754;
+   background-color: #0099CC;
    color: #FFFFFF;
    font-family: Arial;
    font-weight: bold;
@@ -1713,8 +1713,8 @@ input:focus, textarea:focus, select:focus
 }
 #wb_ResponsiveMenu1 li a:hover, #wb_ResponsiveMenu1 li .active
 {
-   background-color: #008000;
-   color: #FFFFFF;
+   background-color: #1E90FF;
+   color: #00FF7F;
 }
 #wb_ResponsiveMenu1 ul ul
 {
@@ -1735,12 +1735,13 @@ input:focus, textarea:focus, select:focus
 #wb_ResponsiveMenu1 ul ul li a
 {
    background-color: #00BFFF;
+   background-color: rgba(0,191,255,0.60);
    color: #FFFFFF;
 }
 #wb_ResponsiveMenu1 ul ul li a:hover, #wb_ResponsiveMenu1 ul ul li .active
 {
-   background-color: #FFA500;
-   background-color: rgba(255,165,0,0.85);
+   background-color: #4169E1;
+   background-color: rgba(65,105,225,0.65);
    color: #7CFC00;
 }
 #wb_ResponsiveMenu1 ul ul li i 
@@ -1789,7 +1790,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_ResponsiveMenu1 li a:hover .arrow-down
 { 
-   border-top-color: #FFFFFF;
+   border-top-color: #00FF7F;
 }
 #wb_ResponsiveMenu1 ul ul li a:hover .arrow-left, #wb_ResponsiveMenu1 ul ul li .active .arrow-left
 { 
@@ -1834,7 +1835,7 @@ input:focus, textarea:focus, select:focus
 #wb_ResponsiveMenu1 .toggle 
 {
    display: block;
-   background-color: #FA1754;
+   background-color: #0099CC;
    color: #FFFFFF;
    padding: 0px 20px 0px 20px;
    line-height: 54px;
@@ -1843,8 +1844,8 @@ input:focus, textarea:focus, select:focus
 }
 #wb_ResponsiveMenu1 .toggle:hover 
 {
-   background-color: #008000;
-   color: #FFFFFF;
+   background-color: #1E90FF;
+   color: #00FF7F;
 }
 [id^=ResponsiveMenu1-submenu]:checked + ul 
 {
@@ -1932,7 +1933,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_ResponsiveMenu1 ul li ul li .toggle:hover
 {
-   background-color: #FFA500;
+   background-color: #4169E1;
    color: #7CFC00;
 }
 #wb_ResponsiveMenu1 .toggle .arrow-down 
@@ -1941,7 +1942,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_ResponsiveMenu1 .toggle:hover .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
 {
-   border-top-color: #FFFFFF;
+   border-top-color: #00FF7F;
 }
 #wb_ResponsiveMenu1 ul li ul li .toggle .arrow-down 
 {
@@ -2197,6 +2198,7 @@ input:focus, textarea:focus, select:focus
 {
    position: absolute;
    text-align: center;
+   visibility: hidden;
    left: 950px;
    top: 1000px;
    width: 298px;
@@ -5129,6 +5131,103 @@ body
    margin: 0;
    text-align: center;
 }
+#ResponsiveMenu1
+{
+   background-color: #0099CC;
+}
+#wb_ResponsiveMenu1 ul li
+{
+   background-color: #0099CC;
+}
+#wb_ResponsiveMenu1 ul li a
+{
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .arrow-down
+{
+   border-top: 4px solid #FFFFFF;
+}
+#wb_ResponsiveMenu1 li a:hover, #wb_ResponsiveMenu1 li .active
+{
+   background-color: #1E90FF;
+   color: #00FF7F;
+}
+#wb_ResponsiveMenu1 li a:hover .arrow-down
+{
+   border-top-color: #00FF7F;
+}
+#wb_ResponsiveMenu1 ul ul li
+{
+   background-color: #00BFFF;
+   background-color: rgba(0,191,255,0.60);
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li a
+{
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .arrow-left
+{
+   border-left: 4px solid #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover, #wb_ResponsiveMenu1 ul ul li .active
+{
+   background-color: #4169E1;
+   background-color: rgba(65,105,225,0.65);
+   color: #7CFC00;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover .arrow-left, #wb_ResponsiveMenu1 ul ul li .active .arrow-left
+{
+   border-left-color: #7CFC00;
+}
+#wb_ResponsiveMenu1 .toggle
+{
+   background-color: #0099CC;
+   color: #FFFFFF;
+}
+#ResponsiveMenu1-icon span
+{
+   background-color: #FFFFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover
+{
+   background-color: #1E90FF;
+   color: #00FF7F;
+}
+#wb_ResponsiveMenu1 .toggle:hover .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
+{
+   border-top-color: #00FF7F;
+}
+#wb_ResponsiveMenu1 a:hover,
+#wb_ResponsiveMenu1 ul ul ul a
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover
+{
+   background-color: #4169E1;
+   color: #7CFC00;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover .arrow-down, #wb_ResponsiveMenu1 ul li ul li .active .arrow-down
+{
+   border-top-color: #7CFC00;
+}
 #wb_ResponsiveMenu1.affix
 {
    margin-left: -640px;
@@ -5137,8 +5236,8 @@ body
 {
    width: 298px;
    height: 281px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
 }
 #Layer1-container
 {
@@ -6990,6 +7089,102 @@ body
    margin: 0;
    text-align: center;
 }
+#ResponsiveMenu1
+{
+   background-color: #0099CC;
+}
+#wb_ResponsiveMenu1 ul li
+{
+   background-color: #0099CC;
+}
+#wb_ResponsiveMenu1 ul li a
+{
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .arrow-down
+{
+   border-top: 4px solid #FFFFFF;
+}
+#wb_ResponsiveMenu1 li a:hover, #wb_ResponsiveMenu1 li .active
+{
+   background-color: #008000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 li a:hover .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li a
+{
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .arrow-left
+{
+   border-left: 4px solid #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover, #wb_ResponsiveMenu1 ul ul li .active
+{
+   background-color: #FFA500;
+   background-color: rgba(255,165,0,0.85);
+   color: #7CFC00;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover .arrow-left, #wb_ResponsiveMenu1 ul ul li .active .arrow-left
+{
+   border-left-color: #7CFC00;
+}
+#wb_ResponsiveMenu1 .toggle
+{
+   background-color: #0099CC;
+   color: #FFFFFF;
+}
+#ResponsiveMenu1-icon span
+{
+   background-color: #FFFFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover
+{
+   background-color: #008000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 a:hover,
+#wb_ResponsiveMenu1 ul ul ul a
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover
+{
+   background-color: #FFA500;
+   color: #7CFC00;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover .arrow-down, #wb_ResponsiveMenu1 ul li ul li .active .arrow-down
+{
+   border-top-color: #7CFC00;
+}
 #wb_ResponsiveMenu1.affix
 {
    margin-left: -512px;
@@ -6998,8 +7193,8 @@ body
 {
    width: 239px;
    height: 225px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
 }
 #Layer1-container
 {
@@ -8851,6 +9046,102 @@ body
    margin: 0;
    text-align: center;
 }
+#ResponsiveMenu1
+{
+   background-color: #0099CC;
+}
+#wb_ResponsiveMenu1 ul li
+{
+   background-color: #0099CC;
+}
+#wb_ResponsiveMenu1 ul li a
+{
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .arrow-down
+{
+   border-top: 4px solid #FFFFFF;
+}
+#wb_ResponsiveMenu1 li a:hover, #wb_ResponsiveMenu1 li .active
+{
+   background-color: #008000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 li a:hover .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li a
+{
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .arrow-left
+{
+   border-left: 4px solid #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover, #wb_ResponsiveMenu1 ul ul li .active
+{
+   background-color: #FFA500;
+   background-color: rgba(255,165,0,0.85);
+   color: #7CFC00;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover .arrow-left, #wb_ResponsiveMenu1 ul ul li .active .arrow-left
+{
+   border-left-color: #7CFC00;
+}
+#wb_ResponsiveMenu1 .toggle
+{
+   background-color: #0099CC;
+   color: #FFFFFF;
+}
+#ResponsiveMenu1-icon span
+{
+   background-color: #FFFFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover
+{
+   background-color: #008000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 a:hover,
+#wb_ResponsiveMenu1 ul ul ul a
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover
+{
+   background-color: #FFA500;
+   color: #7CFC00;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover .arrow-down, #wb_ResponsiveMenu1 ul li ul li .active .arrow-down
+{
+   border-top-color: #7CFC00;
+}
 #wb_ResponsiveMenu1.affix
 {
    margin-left: -490px;
@@ -8859,8 +9150,8 @@ body
 {
    width: 229px;
    height: 216px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
 }
 #Layer1-container
 {
@@ -10712,6 +11003,102 @@ body
    margin: 0;
    text-align: center;
 }
+#ResponsiveMenu1
+{
+   background-color: #0099CC;
+}
+#wb_ResponsiveMenu1 ul li
+{
+   background-color: #0099CC;
+}
+#wb_ResponsiveMenu1 ul li a
+{
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .arrow-down
+{
+   border-top: 4px solid #FFFFFF;
+}
+#wb_ResponsiveMenu1 li a:hover, #wb_ResponsiveMenu1 li .active
+{
+   background-color: #008000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 li a:hover .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li a
+{
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .arrow-left
+{
+   border-left: 4px solid #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover, #wb_ResponsiveMenu1 ul ul li .active
+{
+   background-color: #FFA500;
+   background-color: rgba(255,165,0,0.85);
+   color: #7CFC00;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover .arrow-left, #wb_ResponsiveMenu1 ul ul li .active .arrow-left
+{
+   border-left-color: #7CFC00;
+}
+#wb_ResponsiveMenu1 .toggle
+{
+   background-color: #0099CC;
+   color: #FFFFFF;
+}
+#ResponsiveMenu1-icon span
+{
+   background-color: #FFFFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover
+{
+   background-color: #008000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 a:hover,
+#wb_ResponsiveMenu1 ul ul ul a
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover
+{
+   background-color: #FFA500;
+   color: #7CFC00;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover .arrow-down, #wb_ResponsiveMenu1 ul li ul li .active .arrow-down
+{
+   border-top-color: #7CFC00;
+}
 #wb_ResponsiveMenu1.affix
 {
    margin-left: -400px;
@@ -10720,8 +11107,8 @@ body
 {
    width: 187px;
    height: 177px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
 }
 #Layer1-container
 {
@@ -12573,6 +12960,102 @@ body
    margin: 0;
    text-align: center;
 }
+#ResponsiveMenu1
+{
+   background-color: #0099CC;
+}
+#wb_ResponsiveMenu1 ul li
+{
+   background-color: #0099CC;
+}
+#wb_ResponsiveMenu1 ul li a
+{
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .arrow-down
+{
+   border-top: 4px solid #FFFFFF;
+}
+#wb_ResponsiveMenu1 li a:hover, #wb_ResponsiveMenu1 li .active
+{
+   background-color: #008000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 li a:hover .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li a
+{
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .arrow-left
+{
+   border-left: 4px solid #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover, #wb_ResponsiveMenu1 ul ul li .active
+{
+   background-color: #FFA500;
+   background-color: rgba(255,165,0,0.85);
+   color: #7CFC00;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover .arrow-left, #wb_ResponsiveMenu1 ul ul li .active .arrow-left
+{
+   border-left-color: #7CFC00;
+}
+#wb_ResponsiveMenu1 .toggle
+{
+   background-color: #0099CC;
+   color: #FFFFFF;
+}
+#ResponsiveMenu1-icon span
+{
+   background-color: #FFFFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover
+{
+   background-color: #008000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 a:hover,
+#wb_ResponsiveMenu1 ul ul ul a
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover
+{
+   background-color: #FFA500;
+   color: #7CFC00;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover .arrow-down, #wb_ResponsiveMenu1 ul li ul li .active .arrow-down
+{
+   border-top-color: #7CFC00;
+}
 #wb_ResponsiveMenu1.affix
 {
    margin-left: -384px;
@@ -12581,8 +13064,8 @@ body
 {
    width: 180px;
    height: 170px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
 }
 #Layer1-container
 {
@@ -14434,6 +14917,102 @@ body
    margin: 0;
    text-align: center;
 }
+#ResponsiveMenu1
+{
+   background-color: #0099CC;
+}
+#wb_ResponsiveMenu1 ul li
+{
+   background-color: #0099CC;
+}
+#wb_ResponsiveMenu1 ul li a
+{
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .arrow-down
+{
+   border-top: 4px solid #FFFFFF;
+}
+#wb_ResponsiveMenu1 li a:hover, #wb_ResponsiveMenu1 li .active
+{
+   background-color: #008000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 li a:hover .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li a
+{
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .arrow-left
+{
+   border-left: 4px solid #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover, #wb_ResponsiveMenu1 ul ul li .active
+{
+   background-color: #FFA500;
+   background-color: rgba(255,165,0,0.85);
+   color: #7CFC00;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover .arrow-left, #wb_ResponsiveMenu1 ul ul li .active .arrow-left
+{
+   border-left-color: #7CFC00;
+}
+#wb_ResponsiveMenu1 .toggle
+{
+   background-color: #0099CC;
+   color: #FFFFFF;
+}
+#ResponsiveMenu1-icon span
+{
+   background-color: #FFFFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover
+{
+   background-color: #008000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 a:hover,
+#wb_ResponsiveMenu1 ul ul ul a
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover
+{
+   background-color: #FFA500;
+   color: #7CFC00;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover .arrow-down, #wb_ResponsiveMenu1 ul li ul li .active .arrow-down
+{
+   border-top-color: #7CFC00;
+}
 #wb_ResponsiveMenu1.affix
 {
    margin-left: -289px;
@@ -14442,8 +15021,8 @@ body
 {
    width: 136px;
    height: 128px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
 }
 #Layer1-container
 {
@@ -16295,6 +16874,102 @@ body
    margin: 0;
    text-align: center;
 }
+#ResponsiveMenu1
+{
+   background-color: #0099CC;
+}
+#wb_ResponsiveMenu1 ul li
+{
+   background-color: #0099CC;
+}
+#wb_ResponsiveMenu1 ul li a
+{
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .arrow-down
+{
+   border-top: 4px solid #FFFFFF;
+}
+#wb_ResponsiveMenu1 li a:hover, #wb_ResponsiveMenu1 li .active
+{
+   background-color: #008000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 li a:hover .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li a
+{
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .arrow-left
+{
+   border-left: 4px solid #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover, #wb_ResponsiveMenu1 ul ul li .active
+{
+   background-color: #FFA500;
+   background-color: rgba(255,165,0,0.85);
+   color: #7CFC00;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover .arrow-left, #wb_ResponsiveMenu1 ul ul li .active .arrow-left
+{
+   border-left-color: #7CFC00;
+}
+#wb_ResponsiveMenu1 .toggle
+{
+   background-color: #0099CC;
+   color: #FFFFFF;
+}
+#ResponsiveMenu1-icon span
+{
+   background-color: #FFFFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover
+{
+   background-color: #008000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 a:hover,
+#wb_ResponsiveMenu1 ul ul ul a
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover
+{
+   background-color: #FFA500;
+   color: #7CFC00;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover .arrow-down, #wb_ResponsiveMenu1 ul li ul li .active .arrow-down
+{
+   border-top-color: #7CFC00;
+}
 #wb_ResponsiveMenu1.affix
 {
    margin-left: -225px;
@@ -16303,8 +16978,8 @@ body
 {
    width: 106px;
    height: 100px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
 }
 #Layer1-container
 {
@@ -17988,7 +18663,7 @@ body
 #wb_Text56
 {
    left: 0px;
-   top: 3556px;
+   top: 3549px;
    width: 411px;
    height: 77px;
    visibility: visible;
@@ -18068,7 +18743,7 @@ body
 #Button3
 {
    left: 74px;
-   top: 3642px;
+   top: 3639px;
    width: 253px;
    height: 44px;
    visibility: visible;
@@ -18156,6 +18831,102 @@ body
    margin: 0;
    text-align: center;
 }
+#ResponsiveMenu1
+{
+   background-color: #0099CC;
+}
+#wb_ResponsiveMenu1 ul li
+{
+   background-color: #0099CC;
+}
+#wb_ResponsiveMenu1 ul li a
+{
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .arrow-down
+{
+   border-top: 4px solid #FFFFFF;
+}
+#wb_ResponsiveMenu1 li a:hover, #wb_ResponsiveMenu1 li .active
+{
+   background-color: #008000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 li a:hover .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li a
+{
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .arrow-left
+{
+   border-left: 4px solid #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover, #wb_ResponsiveMenu1 ul ul li .active
+{
+   background-color: #FFA500;
+   background-color: rgba(255,165,0,0.85);
+   color: #7CFC00;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover .arrow-left, #wb_ResponsiveMenu1 ul ul li .active .arrow-left
+{
+   border-left-color: #7CFC00;
+}
+#wb_ResponsiveMenu1 .toggle
+{
+   background-color: #0099CC;
+   color: #FFFFFF;
+}
+#ResponsiveMenu1-icon span
+{
+   background-color: #FFFFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover
+{
+   background-color: #008000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 a:hover,
+#wb_ResponsiveMenu1 ul ul ul a
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover
+{
+   background-color: #FFA500;
+   color: #7CFC00;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover .arrow-down, #wb_ResponsiveMenu1 ul li ul li .active .arrow-down
+{
+   border-top-color: #7CFC00;
+}
 #wb_ResponsiveMenu1.affix
 {
    margin-left: -205px;
@@ -18164,8 +18935,8 @@ body
 {
    width: 97px;
    height: 92px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
 }
 #Layer1-container
 {
@@ -20018,6 +20789,102 @@ body
    margin: 0;
    text-align: center;
 }
+#ResponsiveMenu1
+{
+   background-color: #0099CC;
+}
+#wb_ResponsiveMenu1 ul li
+{
+   background-color: #0099CC;
+}
+#wb_ResponsiveMenu1 ul li a
+{
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .arrow-down
+{
+   border-top: 4px solid #FFFFFF;
+}
+#wb_ResponsiveMenu1 li a:hover, #wb_ResponsiveMenu1 li .active
+{
+   background-color: #008000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 li a:hover .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li a
+{
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .arrow-left
+{
+   border-left: 4px solid #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover, #wb_ResponsiveMenu1 ul ul li .active
+{
+   background-color: #FFA500;
+   background-color: rgba(255,165,0,0.85);
+   color: #7CFC00;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover .arrow-left, #wb_ResponsiveMenu1 ul ul li .active .arrow-left
+{
+   border-left-color: #7CFC00;
+}
+#wb_ResponsiveMenu1 .toggle
+{
+   background-color: #0099CC;
+   color: #FFFFFF;
+}
+#ResponsiveMenu1-icon span
+{
+   background-color: #FFFFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover
+{
+   background-color: #008000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 a:hover,
+#wb_ResponsiveMenu1 ul ul ul a
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover
+{
+   background-color: #FFA500;
+   color: #7CFC00;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover .arrow-down, #wb_ResponsiveMenu1 ul li ul li .active .arrow-down
+{
+   border-top-color: #7CFC00;
+}
 #wb_ResponsiveMenu1.affix
 {
    margin-left: -192px;
@@ -20026,8 +20893,8 @@ body
 {
    width: 91px;
    height: 86px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
 }
 #Layer1-container
 {
@@ -21879,6 +22746,102 @@ body
    margin: 0;
    text-align: center;
 }
+#ResponsiveMenu1
+{
+   background-color: #0099CC;
+}
+#wb_ResponsiveMenu1 ul li
+{
+   background-color: #0099CC;
+}
+#wb_ResponsiveMenu1 ul li a
+{
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .arrow-down
+{
+   border-top: 4px solid #FFFFFF;
+}
+#wb_ResponsiveMenu1 li a:hover, #wb_ResponsiveMenu1 li .active
+{
+   background-color: #008000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 li a:hover .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li a
+{
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .arrow-left
+{
+   border-left: 4px solid #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover, #wb_ResponsiveMenu1 ul ul li .active
+{
+   background-color: #FFA500;
+   background-color: rgba(255,165,0,0.85);
+   color: #7CFC00;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover .arrow-left, #wb_ResponsiveMenu1 ul ul li .active .arrow-left
+{
+   border-left-color: #7CFC00;
+}
+#wb_ResponsiveMenu1 .toggle
+{
+   background-color: #0099CC;
+   color: #FFFFFF;
+}
+#ResponsiveMenu1-icon span
+{
+   background-color: #FFFFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover
+{
+   background-color: #008000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 a:hover,
+#wb_ResponsiveMenu1 ul ul ul a
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover
+{
+   background-color: #FFA500;
+   color: #7CFC00;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover .arrow-down, #wb_ResponsiveMenu1 ul li ul li .active .arrow-down
+{
+   border-top-color: #7CFC00;
+}
 #wb_ResponsiveMenu1.affix
 {
    margin-left: -187px;
@@ -21887,8 +22850,8 @@ body
 {
    width: 89px;
    height: 84px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
 }
 #Layer1-container
 {
@@ -23740,6 +24703,102 @@ body
    margin: 0;
    text-align: center;
 }
+#ResponsiveMenu1
+{
+   background-color: #0099CC;
+}
+#wb_ResponsiveMenu1 ul li
+{
+   background-color: #0099CC;
+}
+#wb_ResponsiveMenu1 ul li a
+{
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .arrow-down
+{
+   border-top: 4px solid #FFFFFF;
+}
+#wb_ResponsiveMenu1 li a:hover, #wb_ResponsiveMenu1 li .active
+{
+   background-color: #008000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 li a:hover .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li a
+{
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .arrow-left
+{
+   border-left: 4px solid #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover, #wb_ResponsiveMenu1 ul ul li .active
+{
+   background-color: #FFA500;
+   background-color: rgba(255,165,0,0.85);
+   color: #7CFC00;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover .arrow-left, #wb_ResponsiveMenu1 ul ul li .active .arrow-left
+{
+   border-left-color: #7CFC00;
+}
+#wb_ResponsiveMenu1 .toggle
+{
+   background-color: #0099CC;
+   color: #FFFFFF;
+}
+#ResponsiveMenu1-icon span
+{
+   background-color: #FFFFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover
+{
+   background-color: #008000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 a:hover,
+#wb_ResponsiveMenu1 ul ul ul a
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover
+{
+   background-color: #FFA500;
+   color: #7CFC00;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover .arrow-down, #wb_ResponsiveMenu1 ul li ul li .active .arrow-down
+{
+   border-top-color: #7CFC00;
+}
 #wb_ResponsiveMenu1.affix
 {
    margin-left: -180px;
@@ -23748,8 +24807,8 @@ body
 {
    width: 86px;
    height: 81px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
 }
 #Layer1-container
 {
@@ -25601,6 +26660,102 @@ body
    margin: 0;
    text-align: center;
 }
+#ResponsiveMenu1
+{
+   background-color: #0099CC;
+}
+#wb_ResponsiveMenu1 ul li
+{
+   background-color: #0099CC;
+}
+#wb_ResponsiveMenu1 ul li a
+{
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .arrow-down
+{
+   border-top: 4px solid #FFFFFF;
+}
+#wb_ResponsiveMenu1 li a:hover, #wb_ResponsiveMenu1 li .active
+{
+   background-color: #008000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 li a:hover .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li a
+{
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .arrow-left
+{
+   border-left: 4px solid #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover, #wb_ResponsiveMenu1 ul ul li .active
+{
+   background-color: #FFA500;
+   background-color: rgba(255,165,0,0.85);
+   color: #7CFC00;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover .arrow-left, #wb_ResponsiveMenu1 ul ul li .active .arrow-left
+{
+   border-left-color: #7CFC00;
+}
+#wb_ResponsiveMenu1 .toggle
+{
+   background-color: #0099CC;
+   color: #FFFFFF;
+}
+#ResponsiveMenu1-icon span
+{
+   background-color: #FFFFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover
+{
+   background-color: #008000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 a:hover,
+#wb_ResponsiveMenu1 ul ul ul a
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   background-color: #00BFFF;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover
+{
+   background-color: #FFA500;
+   color: #7CFC00;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover .arrow-down, #wb_ResponsiveMenu1 ul li ul li .active .arrow-down
+{
+   border-top-color: #7CFC00;
+}
 #wb_ResponsiveMenu1.affix
 {
    margin-left: -160px;
@@ -25609,8 +26764,8 @@ body
 {
    width: 76px;
    height: 72px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
 }
 #Layer1-container
 {
