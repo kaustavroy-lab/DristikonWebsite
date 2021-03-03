@@ -79,6 +79,6 @@ function SearchDatabase()
    this[database_length++] = new SearchPage("https://dristikononline.in/scriptmemo.html", "Dristikon Online Short Film", " ", "Website regarding dristikon online work");
    this[database_length++] = new SearchPage("https://dristikononline.in/script.html", "Dristikon Online Short Film", " ", "Website regarding dristikon online work");
    this[database_length++] = new SearchPage("https://dristikononline.in/webmag/webmag.html", "Dristikon WebMag", "webmag, magazines, free, submission, upload, new web, puja, ", "দৃষ্টিকোণ ম্যাগাজিন উৎসব সংখ্যা ২০২০");
-   this[database_length++] = new SearchPage("https://dristikononline.in/webmag/write.html", "Dristikon WebMag", "webmag, magazines, free, submission, upload, new web, puja, ", "দৃষ্টিকোণ ম্যাগাজিন উৎসব সংখ্যা ২০২০");
+   this[database_length++] = new SearchPage("https://dristikononline.in/webmag/write.html", "'দৃষ্টিকোণ ম্যাগাজিন-এ লেখা পাঠানোর ফর্ম..", "webmag, magazines, free, submission, upload, new web, puja, ", "'দৃষ্টিকোণ ম্যাগাজিন-এ লেখা পাঠানোর ফর্ম..");
    return this;
 }
