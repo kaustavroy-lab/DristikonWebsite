@@ -1730,7 +1730,7 @@ input:focus, textarea:focus, select:focus
 {
    float: none;
    position: relative;
-   width: 294px;
+   width: 331px;
 }
 #wb_ResponsiveMenu1 ul ul li a
 {
@@ -1760,7 +1760,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_ResponsiveMenu1 ul ul ul li 
 {
-   left: 294px;
+   left: 331px;
    position: relative;
    top: -59px;
 }

@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" >
 	<url>
 		<loc>https://dristikononline.in/</loc>
-		<lastmod>2021-01-19</lastmod>
+		<lastmod>2021-03-03</lastmod>
 		<changefreq>hourly</changefreq>
 		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/index.html</loc>
-		<lastmod>2021-01-19</lastmod>
+		<lastmod>2021-03-03</lastmod>
 		<changefreq>hourly</changefreq>
 		<priority>1.0</priority>
 	</url>
@@ -307,12 +307,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://dristikononline.in/webmag.html</loc>
-		<lastmod>2021-01-15</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>https://dristikononline.in/promotion.html</loc>
 		<lastmod>2021-01-15</lastmod>
 		<changefreq>monthly</changefreq>
@@ -399,6 +393,18 @@
 	<url>
 		<loc>https://dristikononline.in/script.html</loc>
 		<lastmod>2021-01-15</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/webmag/webmag.html</loc>
+		<lastmod>2021-03-03</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/webmag/write.html</loc>
+		<lastmod>2021-03-03</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>

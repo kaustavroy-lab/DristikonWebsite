@@ -63,7 +63,6 @@ function SearchDatabase()
    this[database_length++] = new SearchPage("https://dristikononline.in/nalikul.html", "হুগলী জেলার পুজা পরিক্রমা With দৃষ্টিকোণ", " ", "");
    this[database_length++] = new SearchPage("https://dristikononline.in/champadanga.html", "হুগলী জেলার পুজা পরিক্রমা With দৃষ্টিকোণ", " ", "");
    this[database_length++] = new SearchPage("https://dristikononline.in/oursoldiers.html", "হুগলী জেলার পুজা পরিক্রমা With দৃষ্টিকোণ", " ", "");
-   this[database_length++] = new SearchPage("https://dristikononline.in/webmag.html", "Dristikon WebMag", "webmag, magazines, free, submission, upload, new web, puja, ", "দৃষ্টিকোণ ম্যাগাজিন উৎসব সংখ্যা ২০২০");
    this[database_length++] = new SearchPage("https://dristikononline.in/promotion.html", "Promotion", "Promotion, Promote, App,Website promotion, Dristikon Promotion ", "Now Promote Your Work With Dristikon Online");
    this[database_length++] = new SearchPage("https://dristikononline.in/contactus.html", "Contact Us", "contact us, contact, help, contact dristikon online,  ", "Contact Dristikon Online Management Team");
    this[database_length++] = new SearchPage("https://dristikononline.in/articles.html", "Dristikon Articles", "articles, web articles, blog, dristikon, latest blog, gita, medical blog ", "We would be happy to help you in your projects and assignments with our own articles and research works from various  fields. You can also help others with yours through us");
@@ -79,5 +78,7 @@ function SearchDatabase()
    this[database_length++] = new SearchPage("https://dristikononline.in/castlist.html", "Dristikon Online Short Film", " ", "Website regarding dristikon online work");
    this[database_length++] = new SearchPage("https://dristikononline.in/scriptmemo.html", "Dristikon Online Short Film", " ", "Website regarding dristikon online work");
    this[database_length++] = new SearchPage("https://dristikononline.in/script.html", "Dristikon Online Short Film", " ", "Website regarding dristikon online work");
+   this[database_length++] = new SearchPage("https://dristikononline.in/webmag/webmag.html", "Dristikon WebMag", "webmag, magazines, free, submission, upload, new web, puja, ", "দৃষ্টিকোণ ম্যাগাজিন উৎসব সংখ্যা ২০২০");
+   this[database_length++] = new SearchPage("https://dristikononline.in/webmag/write.html", "Dristikon WebMag", "webmag, magazines, free, submission, upload, new web, puja, ", "দৃষ্টিকোণ ম্যাগাজিন উৎসব সংখ্যা ২০২০");
    return this;
 }
