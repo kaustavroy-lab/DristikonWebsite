@@ -27,74 +27,6 @@ input:focus, textarea:focus, select:focus
 {
    outline: none;
 }
-#wb_LayoutGrid7
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   box-sizing: border-box;
-   margin: 0;
-}
-#LayoutGrid7
-{
-   box-sizing: border-box;
-   padding: 90px 20px 10px 20px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#LayoutGrid7 > .row
-{
-   margin-right: -20px;
-   margin-left: -20px;
-}
-#LayoutGrid7 > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0px;
-   min-height: 1px;
-   padding-right: 20px;
-   padding-left: 20px;
-   position: relative;
-}
-#LayoutGrid7 > .row > .col-1
-{
-   float: left;
-}
-#LayoutGrid7 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 100%;
-   text-align: left;
-}
-#LayoutGrid7:before,
-#LayoutGrid7:after,
-#LayoutGrid7 .row:before,
-#LayoutGrid7 .row:after
-{
-   display: table;
-   content: " ";
-}
-#LayoutGrid7:after,
-#LayoutGrid7 .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#LayoutGrid7 > .row > .col-1
-{
-   float: none;
-   width: 100% !important;
-}
-}
 #wb_LayoutGrid2
 {
    clear: both;
@@ -483,6 +415,110 @@ input:focus, textarea:focus, select:focus
 {
    -webkit-transition: all 500ms linear;
    transition: all 500ms linear;
+}
+#wb_IconFont1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px solid transparent;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_IconFont1:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px solid transparent;
+}
+#IconFont1
+{
+   height: 64px;
+   width: 42px;
+}
+#IconFont1 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 42px;
+   line-height: 64px;
+   vertical-align: middle;
+   width: 38px;
+}
+#wb_IconFont1:hover i
+{
+   color: #FFC000;
+}
+#wb_LayoutGrid7
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid7
+{
+   box-sizing: border-box;
+   padding: 90px 20px 10px 20px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid7 > .row
+{
+   margin-right: -20px;
+   margin-left: -20px;
+}
+#LayoutGrid7 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 20px;
+   padding-left: 20px;
+   position: relative;
+}
+#LayoutGrid7 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid7 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: left;
+}
+#LayoutGrid7:before,
+#LayoutGrid7:after,
+#LayoutGrid7 .row:before,
+#LayoutGrid7 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid7:after,
+#LayoutGrid7 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid7 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
 }
 #wb_Card1
 {
@@ -1047,42 +1083,6 @@ input:focus, textarea:focus, select:focus
    -webkit-appearance: none;
    margin: 0;
 }
-#wb_IconFont1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 1px solid transparent;
-   text-align: center;
-   margin: 0;
-   padding: 0;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#wb_IconFont1:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 1px solid transparent;
-}
-#IconFont1
-{
-   height: 64px;
-   width: 42px;
-}
-#IconFont1 i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 42px;
-   line-height: 64px;
-   vertical-align: middle;
-   width: 38px;
-}
-#wb_IconFont1:hover i
-{
-   color: #FFC000;
-}
 #Editbox8
 {
    border: 2px solid #FFC000;
@@ -1122,7 +1122,7 @@ input:focus, textarea:focus, select:focus
    display: table;
    text-align: center;
    width: 100%;
-   background-color: transparent;
+   background-color: #FFFFFF;
    background-image: none;
    border: 0px solid #CCCCCC;
    box-sizing: border-box;

@@ -1,12 +1,12 @@
 <!doctype html>
-<html>
+<html lang="bn">
 <head>
 <meta charset="utf-8">
 <title>Dristikon WebMag</title>
-<meta name="description" content="দৃষ্টিকোণ ম্যাগাজিন উৎসব সংখ্যা ২০২০">
-<meta name="keywords" content="webmag, magazines, free, submission, upload, new web, puja,">
+<meta name="description" content="দৃষ্টিকোণ ম্যাগাজিন উৎসব সংখ্যা ২০২০'দৃষ্টিকোণ ম্যাগাজিন '-এ লেখা পাঠানোর ফর্ম..">
+<meta name="keywords" content="webmag, magazines, free, submission, upload, new web, puja,webmag, magazines, free, submission, upload, new web, puja,">
 <meta name="author" content="Kaustav Roy & Dristikon Online">
-<meta name="categories" content="Website">
+<meta name="categories" content="WebsiteWebsite">
 <meta name="robots" content="index, follow">
 <meta property="og:title" content="দৃষ্টিকোণ ম্যাগাজিন উৎসব সংখ্যা ২০২০">
 <meta property="og:description" content="Now You can also read unlimited free regional WebMag along with Dristikon Online App and enjoy high quality contents">
@@ -30,15 +30,33 @@
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Gloss+And+Bloom" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Galada" rel="stylesheet">
-<link href="dristikion_Online_websitebackup_new.css?v=29" rel="stylesheet">
-<link href="webmag.css?v=29" rel="stylesheet">
+<link href="dristikion_Online_websitebackup_new.css?v=30" rel="stylesheet">
+<link href="webmag.css?v=30" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="owl.carousel.min.js"></script>
+<script src="wb.overlay.min.js"></script>
+<script src="wb.drilldownmenu.min.js"></script>
 <script>
 $(document).ready(function()
 {
+   $('#OverlayMenu2-overlay').overlay({hideTransition:true});
+   $('.OverlayMenu2').drilldownmenu({backText: 'Back'});
+   $('#OverlayMenu2').on('click', function(e)
+   {
+      $.overlay.show($('#OverlayMenu2-overlay'));
+      return false;
+   });
    $("#CardContainer2").owlCarousel({autoplayTimeout:4000, margin: 16, autoplay: true, nav: false, loop: true, dots: false, items: 3, slideBy: 1});
 });
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153608767-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-153608767-1');
 </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153608767-1"></script>
@@ -52,11 +70,37 @@ $(document).ready(function()
 
 </head>
 <body>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="row">
+<div class="col-1">
+<div id="wb_Image2" style="display:inline-block;width:79px;height:79px;z-index:0;">
+<img src="images/webmag logo.png" id="Image2" alt="">
+</div>
+</div>
+<div class="col-2">
+<div id="wb_IconFont1" style="display:inline-block;width:42px;height:64px;text-align:center;z-index:1;">
+<div id="IconFont1"><i class="fa fa-book"></i></div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_OverlayMenu2" style="display:inline-block;width:53px;height:76px;z-index:2;">
+<a href="#" id="OverlayMenu2">
+<span class="line"></span>
+<span class="line">
+</span><span class="line"></span>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+</div>
 <div id="wb_LayoutGrid1">
 <div id="LayoutGrid1">
 <div class="row">
 <div class="col-1">
-<div id="wb_Card1" style="display:flex;width:100%;text-align:center;z-index:0;">
+<div id="wb_Card1" style="display:flex;width:100%;text-align:center;z-index:3;">
    <div id="Card1-card-body">
       <img id="Card1-card-item0" src="webmag banner.jpeg" alt="" title="">
    </div><script async="async" data-cfasync="false" src="//pl16023970.revenuenetworkcpm.com/47da04faa928c5495b6f96f9283727dd/invoke.js"></script>
@@ -66,11 +110,11 @@ $(document).ready(function()
 </div>
 </div>
 </div>
-<div id="wb_LayoutGrid2">
-<div id="LayoutGrid2">
+<div id="wb_LayoutGrid5">
+<div id="LayoutGrid5">
 <div class="row">
 <div class="col-1">
-<div id="wb_Card2" style="display:flex;width:100%;text-align:center;z-index:1;">
+<div id="wb_Card2" style="display:flex;width:100%;text-align:center;z-index:4;">
    <div id="Card2-card-body">
       <a href="https://7pkavzq89r0qwp476gdjma-on.drv.tw/Dristikon%20Magazine%202020%20Coding_Kaustav%20Roy/Dristikon%20Webmag_2020/"><img id="Card2-card-item0" src="images/hjk (1)~1.png" alt="" title=""></a>
    </div>
@@ -83,7 +127,7 @@ $(document).ready(function()
 <div id="LayoutGrid3">
 <div class="row">
 <div class="col-1">
-<div id="wb_Card3" style="display:flex;width:100%;text-align:center;z-index:2;">
+<div id="wb_Card3" style="display:flex;width:100%;text-align:center;z-index:5;">
    <div id="Card3-card-body">
       <a href="https://7pkavzq89r0qwp476gdjma-on.drv.tw/Dristikon%20Magazine%202020%20Coding_Kaustav%20Roy/Dristikon%20Webmag_2020/"><img id="Card3-card-item0" src="images/2220 (1).png" alt="" title=""></a>
    </div>
@@ -104,32 +148,32 @@ $(document).ready(function()
 </div>
 </div>
 <div id="CardContainer2" class="owl-carousel owl-theme">
-<div id="wb_Card17" style="display:flex;text-align:center;z-index:4;">
+<div id="wb_Card17" style="display:flex;text-align:center;z-index:7;">
    <div id="Card17-card-body">
       <div style="overflow:hidden"><a href="https://7pkavzq89r0qwp476gdjma-on.drv.tw/WebMagazineDristikon2019Coding_Kaustav%20Roy/mobile/"><img id="Card17-card-item0" src="1.jpeg" alt="" title=""></a></div>
    </div>
 </div>
-<div id="wb_Card18" style="display:flex;text-align:center;z-index:5;">
+<div id="wb_Card18" style="display:flex;text-align:center;z-index:8;">
    <div id="Card18-card-body">
       <div style="overflow:hidden"><a href="https://drive.google.com/file/d/1EckgObICoe0LVfJU1wLbidSGl7k4mZgp/view"><img id="Card18-card-item0" src="images/2.jpg" alt="" title=""></a></div>
    </div>
 </div>
-<div id="wb_Card19" style="display:flex;text-align:center;z-index:6;">
+<div id="wb_Card19" style="display:flex;text-align:center;z-index:9;">
    <div id="Card19-card-body">
       <div style="overflow:hidden"><a href="https://drive.google.com/file/d/1EPHpE20TF4nUZH3Ozc-wK-ZYl3g9ng-h/view"><img id="Card19-card-item0" src="images/3.jpg" alt="" title=""></a></div>
    </div>
 </div>
-<div id="wb_Card20" style="display:flex;text-align:center;z-index:7;">
+<div id="wb_Card20" style="display:flex;text-align:center;z-index:10;">
    <div id="Card20-card-body">
       <div style="overflow:hidden"><a href="https://drive.google.com/file/d/1ELQA1wkA0lewh3qNpHwvhDKjcHpcfC9O/view"><img id="Card20-card-item0" src="images/4.jpg" alt="" title=""></a></div>
    </div>
 </div>
-<div id="wb_Card21" style="display:flex;text-align:center;z-index:8;">
+<div id="wb_Card21" style="display:flex;text-align:center;z-index:11;">
    <div id="Card21-card-body">
       <div style="overflow:hidden"><a href="https://7pkavzq89r0qwp476gdjma-on.drv.tw/New%20folder/mobile/"><img id="Card21-card-item0" src="images/5.jpg" alt="" title=""></a></div>
    </div>
 </div>
-<div id="wb_Card22" style="display:flex;text-align:center;z-index:9;">
+<div id="wb_Card22" style="display:flex;text-align:center;z-index:12;">
    <div id="Card22-card-body">
       <div style="overflow:hidden"><a href="https://drive.google.com/file/d/1EIGmFZ_Oq_mpeOXWHb7QqtJJJrmWRk7o/view"><img id="Card22-card-item0" src="images/6.jpg" alt="" title=""></a></div>
    </div>
@@ -139,7 +183,7 @@ $(document).ready(function()
 <div id="LayoutGrid12">
 <div class="row">
 <div class="col-1">
-<div id="wb_Card4" style="display:flex;width:100%;text-align:center;z-index:10;">
+<div id="wb_Card4" style="display:flex;width:100%;text-align:center;z-index:13;">
    <div id="Card4-card-body">
       <div id="Card4-card-item0"><a href="./../index.html"><i class="fa fa-home"></i>HOME</a></div>
       <div id="Card4-card-item1"><a href="./../Download.html"><i class="fa fa-download"></i>Download App</a></div>
@@ -151,17 +195,35 @@ $(document).ready(function()
 </div>
 </div>
 </div>
-<script async="async" data-cfasync="false" src="//pl16023970.revenuenetworkcpm.com/47da04faa928c5495b6f96f9283727dd/invoke.js"></script>
-<div id="container-47da04faa928c5495b6f96f9283727dd"></div><div id="wb_LayoutGrid6">
+<div id="wb_LayoutGrid6">
 <div id="LayoutGrid6">
 <div class="row">
 <div class="col-1">
 <div id="wb_Text1">
-<span style="color:#FFFFFF;"><strong>© Copyright 2020 Dristikon, Tarakeswar<br>Designed &amp; Developed by <a href="https://developer.dristikononline.in" class="style2">Kaustav Roy</a></strong></span>
+<span style="color:#000000;">© Copyright 2020 Dristikon, Tarakeswar<br>Designed &amp; Developed by <strong><a href="https://developer.dristikononline.in/index" target="_blank">Kaustav Roy</a></strong></span>
 </div>
 </div>
 </div>
 </div>
+</div>
+<div id="OverlayMenu2-overlay">
+<div class="OverlayMenu2">
+<ul class="drilldown-menu" role="menu">
+<li><a role="menuitem" href="./../index.html" class="OverlayMenu2-effect"><i class="fa fa-home overlay-icon"></i>Home</a></li>
+<li><a role="menuitem" href="./webmag.html" class="OverlayMenu2-effect"><i class="fa fa-book overlay-icon"></i>Magazines</a></li>
+<li>
+<a role="menuitem" href="#" class="OverlayMenu2-effect"><i class="fa fa-eye overlay-icon"></i>Archives</a>
+<ul class="drilldown-submenu" role="menu">
+<li><a role="menuitem" href="./../pujo2020.html" class="OverlayMenu2-effect">Durga&nbsp;Puja&nbsp;2020</a></li>
+<li><a role="menuitem" href="./../kalipuja.html" class="OverlayMenu2-effect">Kali&nbsp;Puja&nbsp;2020</a></li>
+</ul>
+</li>
+<li><a role="menuitem" href="https://paytm.me/5nE-WaO" target="_blank" class="OverlayMenu2-effect"><i class="fa fa-inr overlay-icon"></i>Contribute&nbsp;Dristikon&nbsp;Online</a></li>
+<li><a role="menuitem" href="./../membership.html" class="OverlayMenu2-effect"><i class="fa fa-address-book-o overlay-icon"></i>Membership</a></li>
+<li><a role="menuitem" href="./../contactus.html" class="OverlayMenu2-effect"><i class="fa fa-address-card overlay-icon"></i>Contact&nbsp;Us</a></li>
+   </ul>
+</div>
+<a class="close-button" id="OverlayMenu2-close" href="#" role="button" aria-hidden="true"><span></span></a>
 </div>
 <script async="async" data-cfasync="false" src="//pl16023970.revenuenetworkcpm.com/47da04faa928c5495b6f96f9283727dd/invoke.js"></script>
 <div id="container-47da04faa928c5495b6f96f9283727dd"></div></body>

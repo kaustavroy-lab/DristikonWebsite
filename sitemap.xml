@@ -398,12 +398,18 @@
 	</url>
 	<url>
 		<loc>https://dristikononline.in/webmag/webmag.html</loc>
-		<lastmod>2021-03-03</lastmod>
+		<lastmod>2021-03-04</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/webmag/write.html</loc>
+		<lastmod>2021-03-04</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/webmag/Master_Webmag.html</loc>
 		<lastmod>2021-03-04</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
