@@ -2139,8 +2139,8 @@ input:focus, textarea:focus, select:focus
 #contactButton
 {
    position: absolute;
-   left: 6px;
-   top: 4px;
+   left: 12px;
+   top: 13px;
    width: 261px;
    height: 38px;
    z-index: 1;
@@ -2808,9 +2808,9 @@ input:focus, textarea:focus, select:focus
    text-align: center;
    left: 0px;
    top: 50%;
-   margin-top: 106px;
-   width: 275px;
-   height: 49px;
+   margin-top: 97px;
+   width: 286px;
+   height: 67px;
    z-index: 128;
 }
 #wb_Text56
@@ -3236,7 +3236,7 @@ input:focus, textarea:focus, select:focus
 }
 #stickyLayer-container
 {
-   width: 275px;
+   width: 286px;
    position: relative;
    margin-left: auto;
    margin-right: auto;
