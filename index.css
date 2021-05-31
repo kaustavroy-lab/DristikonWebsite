@@ -1994,6 +1994,10 @@ input:focus, textarea:focus, select:focus
 }
 #contactButton
 {
+   line-height: 38px;
+   text-align: center;
+   text-decoration: none;
+   vertical-align: top;
    border: 1px solid #000000;
    border-radius: 10px;
    background-color: #70AD47;
@@ -2136,8 +2140,8 @@ input:focus, textarea:focus, select:focus
    position: absolute;
    left: 17px;
    top: 14px;
-   width: 301px;
-   height: 40px;
+   width: 299px;
+   height: 38px;
    z-index: 1;
 }
 #Layer1-container
@@ -2803,7 +2807,7 @@ input:focus, textarea:focus, select:focus
    text-align: left;
    left: 0px;
    top: 50%;
-   margin-top: 166px;
+   margin-top: 216px;
    width: 337px;
    height: 69px;
    z-index: 128;
