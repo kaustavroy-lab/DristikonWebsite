@@ -36,30 +36,6 @@ input:focus, textarea:focus, select:focus
 {
    outline: none;
 }
-#preloader
-{
-   background: #FFFFFF url("images/rotating-dots.gif") no-repeat center center;
-   bottom: 0;
-   opacity: 0.51;
-   position: fixed;
-   top: 0;
-   width: 100%;
-   z-index: 99999;
-}
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)
-{
-   #Layer1
-   {
-      background-attachment: scroll !important;
-   }
-}
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5)
-{
-   #Layer1
-   {
-      background-attachment: scroll !important;
-   }
-}
 #Layer1
 {
    background-color: transparent;
@@ -80,7 +56,10 @@ input:focus, textarea:focus, select:focus
 #wb_LayoutGrid1
 {
    clear: both;
-   position: relative;
+   position: fixed;
+   left: 0;
+   top: 0;
+   z-index: 7777;
    table-layout: fixed;
    display: table;
    text-align: center;
@@ -145,33 +124,24 @@ input:focus, textarea:focus, select:focus
    width: 100% !important;
 }
 }
-#Button1
+#wb_Image1
 {
-   line-height: 50px;
-   text-align: center;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #000000;
-   border-radius: 4px;
-   background-color: #70AD47;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: "Times New Roman";
-   font-weight: bold;
-   font-style: normal;
-   font-size: 20px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
    margin: 0;
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   padding: 0;
+   display: inline-block;
+   width: 166px;
+   height: 166px;
+   vertical-align: top;
 }
 #wb_LayoutGrid2
 {
    clear: both;
-   position: fixed;
-   left: 0;
-   top: 0;
-   z-index: 7777;
+   position: relative;
    table-layout: fixed;
    display: table;
    text-align: center;
@@ -236,17 +206,17 @@ input:focus, textarea:focus, select:focus
    width: 100% !important;
 }
 }
-#wb_Image1
+#wb_Image2
 {
    margin: 0;
    vertical-align: top;
 }
-#Image1
+#Image2
 {
    border: 0px solid #000000;
    padding: 0;
    display: inline-block;
-   width: 120px;
-   height: 120px;
+   width: 307px;
+   height: 307px;
    vertical-align: top;
 }

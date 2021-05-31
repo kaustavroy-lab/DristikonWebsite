@@ -434,7 +434,7 @@ width: 100%;}
    margin-right: -15px;
    margin-left: -15px;
 }
-#LayoutGrid5 > .row > .col-1
+#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2
 {
    box-sizing: border-box;
    font-size: 0px;
@@ -443,7 +443,7 @@ width: 100%;}
    padding-left: 15px;
    position: relative;
 }
-#LayoutGrid5 > .row > .col-1
+#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2
 {
    float: left;
 }
@@ -452,8 +452,16 @@ width: 100%;}
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 100%;
-   text-align: center;
+   width: 50%;
+   text-align: left;
+}
+#LayoutGrid5 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 50%;
+   text-align: left;
 }
 #LayoutGrid5:before,
 #LayoutGrid5:after,
@@ -470,7 +478,7 @@ width: 100%;}
 }
 @media (max-width: 480px)
 {
-#LayoutGrid5 > .row > .col-1
+#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2
 {
    float: none;
    width: 100% !important;

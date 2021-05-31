@@ -78,10 +78,9 @@ function SearchDatabase()
    this[database_length++] = new SearchPage("https://dristikononline.in/castlist.html", "Dristikon Online Short Film", " ", "Website regarding dristikon online work");
    this[database_length++] = new SearchPage("https://dristikononline.in/scriptmemo.html", "Dristikon Online Short Film", " ", "Website regarding dristikon online work");
    this[database_length++] = new SearchPage("https://dristikononline.in/script.html", "Dristikon Online Short Film", " ", "Website regarding dristikon online work");
-   this[database_length++] = new SearchPage("https://dristikononline.in/donate.html", "DRISTIKON ONLINE COVID RELIEF FUND", "donate, covid care, covid donation , covid care tarakeswar, corona  ", "DRISTIKON ONLINE COVID RELIEF FUND");
-   this[database_length++] = new SearchPage("https://dristikononline.in/thankyou.html", "DRISTIKON ONLINE COVID RELIEF FUND", "donate, covid care, covid donation , covid care tarakeswar, corona  ", "DRISTIKON ONLINE COVID RELIEF FUND");
+   this[database_length++] = new SearchPage("https://dristikononline.in/donate.html", "DRISTIKON ONLINE COVID RELIEF FUND", "covid, relief fund, contribution , corona ", "DRISTIKON ONLINE COVID RELIEF FUND");
+   this[database_length++] = new SearchPage("https://dristikononline.in/donate_mobile.html", "DRISTIKON ONLINE COVID RELIEF FUND", "covid, relief fund, contribution , corona ", "DRISTIKON ONLINE COVID RELIEF FUND");
    this[database_length++] = new SearchPage("https://dristikononline.in/webmag/webmag.html", "Dristikon WebMag", "webmag, magazines, free, submission, upload, new web, puja, ", "দৃষ্টিকোণ ম্যাগাজিন উৎসব সংখ্যা ২০২০");
-   this[database_length++] = new SearchPage("https://dristikononline.in/webmag/write.html", "'দৃষ্টিকোণ ম্যাগাজিন '-এ লেখা পাঠানোর ফর্ম..", "webmag, magazines, free, submission, upload, new web, puja, ", "'দৃষ্টিকোণ ম্যাগাজিন '-এ লেখা পাঠানোর ফর্ম..");
-   this[database_length++] = new SearchPage("https://dristikononline.in/webmag/Master_Webmag.html", "'দৃষ্টিকোণ ম্যাগাজিন '-এ লেখা পাঠানোর ফর্ম..", "webmag, magazines, free, submission, upload, new web, puja, ", "'দৃষ্টিকোণ ম্যাগাজিন '-এ লেখা পাঠানোর ফর্ম..");
+   this[database_length++] = new SearchPage("https://dristikononline.in/webmag/write.html", "Dristikon WebMag", "webmag, magazines, free, submission, upload, new web, puja, ", "দৃষ্টিকোণ ম্যাগাজিন উৎসব সংখ্যা ২০২০");
    return this;
 }
