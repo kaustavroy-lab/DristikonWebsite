@@ -12,12 +12,14 @@
 <meta property="og:description" content="Donate online using Wallet / Netbanking / Cards / GPay / PayTM / BHIM / UPI .">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://dristikononline.in/">
+<meta property="og:image" content="https://dristikononline.in/donate.jpeg">
 <meta property="fb:app_id" content="1">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="DRISTIKON ONLINE COVID RELIEF FUND">
 <meta name="twitter:description" content="Donate online using Wallet / Netbanking / Cards / GPay / PayTM / BHIM / UPI .">
 <meta name="twitter:site" content="https://dristikononline.in/">
 <meta name="twitter:creator" content="Dristikon Online">
+<meta name="twitter:image" content="https://dristikononline.in/donate.jpeg">
 <meta name="twitter:image:alt" content="DRISTIKON COVID RELIEF FUND">
 <meta name="generator" content="Kaustav Roy">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,12 +35,17 @@
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Gloss+And+Bloom" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Galada" rel="stylesheet">
-<link href="dristikion_Online_websitebackup_new.css?v=1" rel="stylesheet">
-<link href="donate.css?v=1" rel="stylesheet">
+<link href="dristikion_Online_websitebackup_new.css?v=2" rel="stylesheet">
+<link href="donate.css?v=2" rel="stylesheet">
 <script src="jquery-3.5.1.min.js"></script>
 <script>
 $(document).ready(function()
 {
+   var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+   if (iOS)
+   {
+      $('#Layer1').css('background-attachment', 'scroll');
+   }
    if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {$('#preloader').remove();}
 });
 $(window).on('load', function()
@@ -48,13 +55,26 @@ $(window).on('load', function()
 </script>
 </head>
 <body>
-<div id="Layer1" style="position:relative;text-align:left;width:100%;height:100%;float:left;display:block;z-index:1;">
-</div>
+<div id="Layer1" style="position:relative;text-align:center;width:100%;height:100%;float:left;display:inline-flex;z-index:4;">
+<div id="Layer1-container" style="width:100%">
 <div id="wb_LayoutGrid1">
 <div id="LayoutGrid1">
 <div class="row">
 <div class="col-1">
 <a id="Button1" href="https://imjo.in/j5WaEG" title="DRISTIKON COVID RELIEF FUND" style="display:inline-block;width:165px;height:50px;z-index:0;">Contribute Now</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="row">
+<div class="col-1">
+<div id="wb_Image1" style="display:inline-block;width:120px;height:120px;z-index:3;">
+<img src="images/circle dristikon water mark.png" id="Image1" alt="">
+</div>
 </div>
 </div>
 </div>
