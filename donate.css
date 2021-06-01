@@ -39,9 +39,9 @@ input:focus, textarea:focus, select:focus
 #Layer1
 {
    background-color: transparent;
-   background-image: url(donate.jpeg);
+   background-image: url(images/covidcontribute.jpg);
    background-repeat: no-repeat;
-   background-position: center bottom;
+   background-position: center top;
    background-size: cover;
    padding: 0;
    margin: 0;
@@ -52,91 +52,6 @@ input:focus, textarea:focus, select:focus
    align-items: center;
    flex-direction: column;
    justify-content: flex-end;
-}
-#wb_LayoutGrid1
-{
-   clear: both;
-   position: fixed;
-   left: 0;
-   top: 0;
-   z-index: 7777;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   box-sizing: border-box;
-   margin: 0;
-}
-#LayoutGrid1
-{
-   box-sizing: border-box;
-   padding: 0px 15px 0px 15px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#LayoutGrid1 > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid1 > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0px;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#LayoutGrid1 > .row > .col-1
-{
-   float: left;
-}
-#LayoutGrid1 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 100%;
-   text-align: center;
-}
-#LayoutGrid1:before,
-#LayoutGrid1:after,
-#LayoutGrid1 .row:before,
-#LayoutGrid1 .row:after
-{
-   display: table;
-   content: " ";
-}
-#LayoutGrid1:after,
-#LayoutGrid1 .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#LayoutGrid1 > .row > .col-1
-{
-   float: none;
-   width: 100% !important;
-}
-}
-#wb_Image1
-{
-   margin: 0;
-   vertical-align: top;
-}
-#Image1
-{
-   border: 0px solid #000000;
-   padding: 0;
-   display: inline-block;
-   width: 166px;
-   height: 166px;
-   vertical-align: top;
 }
 #wb_LayoutGrid2
 {
@@ -216,7 +131,7 @@ input:focus, textarea:focus, select:focus
    border: 0px solid #000000;
    padding: 0;
    display: inline-block;
-   width: 307px;
-   height: 307px;
+   width: 245px;
+   height: 240px;
    vertical-align: top;
 }
