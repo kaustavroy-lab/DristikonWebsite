@@ -81,6 +81,7 @@ function SearchDatabase()
    this[database_length++] = new SearchPage("https://dristikononline.in/donate.html", "DRISTIKON ONLINE COVID RELIEF FUND", "covid, relief fund, contribution , corona , donate,  ", "DRISTIKON ONLINE COVID RELIEF FUND");
    this[database_length++] = new SearchPage("https://dristikononline.in/donate_mobile.html", "DRISTIKON ONLINE COVID RELIEF FUND", "covid, relief fund, contribution , corona ", "DRISTIKON ONLINE COVID RELIEF FUND");
    this[database_length++] = new SearchPage("https://dristikononline.in/ourteam.html", "Our Team", "our team , team ", "Our Team");
+   this[database_length++] = new SearchPage("https://dristikononline.in/test.html", "DRISTIKON ONLINE COVID RELIEF FUND", "covid, relief fund, contribution , corona , donate,  ", "DRISTIKON ONLINE COVID RELIEF FUND");
    this[database_length++] = new SearchPage("https://dristikononline.in/webmag/webmag.html", "Dristikon WebMag", "webmag, magazines, free, submission, upload, new web, puja, ", "দৃষ্টিকোণ ম্যাগাজিন উৎসব সংখ্যা ২০২০");
    this[database_length++] = new SearchPage("https://dristikononline.in/webmag/write.html", "Dristikon WebMag", "webmag, magazines, free, submission, upload, new web, puja, ", "দৃষ্টিকোণ ম্যাগাজিন উৎসব সংখ্যা ২০২০");
    return this;
