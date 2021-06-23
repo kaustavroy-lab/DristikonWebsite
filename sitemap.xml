@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" >
 	<url>
 		<loc>https://dristikononline.in/</loc>
-		<lastmod>2021-06-09</lastmod>
+		<lastmod>2021-06-23</lastmod>
 		<changefreq>hourly</changefreq>
 		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/index</loc>
-		<lastmod>2021-06-09</lastmod>
+		<lastmod>2021-06-23</lastmod>
 		<changefreq>hourly</changefreq>
 		<priority>1.0</priority>
 	</url>
@@ -386,7 +386,19 @@
 	</url>
 	<url>
 		<loc>https://dristikononline.in/comingsoon</loc>
-		<lastmod>2021-06-07</lastmod>
+		<lastmod>2021-06-23</lastmod>
+		<changefreq>hourly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/register</loc>
+		<lastmod>2021-06-23</lastmod>
+		<changefreq>hourly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/log-in</loc>
+		<lastmod>2021-06-23</lastmod>
 		<changefreq>hourly</changefreq>
 		<priority>1.0</priority>
 	</url>

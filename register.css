@@ -651,19 +651,64 @@ input:focus, textarea:focus, select:focus
    margin-right: 4px;
    width: 16px;
 }
-#Layer1
+#wb_Image2
 {
-   background-color: #FBFBFB;
-   background-image: none;
-   padding: 0;
    margin: 0;
+   vertical-align: top;
 }
-#Layer1
+#Image2
 {
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-   justify-content: center;
+   border-width: 0;
+   display: inline-block;
+   width: 204px;
+   height: 204px;
+   vertical-align: top;
+}
+#wb_TextArt1
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#wb_TextArt1{
+   height: 0;
+   padding: 0 0 11.2771% 0;
+   height: 0 !important;
+}
+#TextArt1{
+   fill-opacity: 0;
+   opacity: 0;
+}
+#TextArt1.finished
+{
+   fill-opacity: 1;
+   transition: fill-opacity 1s;
+}
+#wb_TextArt1
+{
+   margin: 0px 0px 15px 0px;
+}
+#Editbox1
+{
+   border: 1px solid #000000;
+   border-radius: 10px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   line-height: 49px;
+   padding: 4px 4px 4px 4px;
+   margin: 10px 0px 10px 0px;
+   text-align: left;
+}
+#Editbox1:focus
+{
+   border-color: #000000;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,0,0,0.60);
+   outline: 0;
 }
 #wb_LayoutGrid3
 {
@@ -673,9 +718,9 @@ input:focus, textarea:focus, select:focus
    display: table;
    text-align: center;
    width: 100%;
-   background-color: transparent;
+   background-color: #FFFFFF;
    background-image: none;
-   border: 0px solid #CCCCCC;
+   border: 0px double #FF0000;
    box-sizing: border-box;
    margin: 0;
 }
@@ -685,6 +730,7 @@ input:focus, textarea:focus, select:focus
    padding: 0px 15px 5px 15px;
    margin-right: auto;
    margin-left: auto;
+   max-width: 976px;
 }
 #LayoutGrid3 > .row
 {
@@ -708,7 +754,7 @@ input:focus, textarea:focus, select:focus
 {
    background-color: transparent;
    background-image: none;
-   border: 0px solid #FFFFFF;
+   border: 0px solid transparent;
    width: 100%;
    text-align: center;
 }
@@ -733,6 +779,191 @@ input:focus, textarea:focus, select:focus
    width: 100% !important;
 }
 }
+#Editbox3
+{
+   border: 1px solid #000000;
+   border-radius: 10px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   line-height: 49px;
+   padding: 4px 4px 4px 4px;
+   margin: 10px 0px 10px 0px;
+   text-align: left;
+}
+#Editbox3:focus
+{
+   border-color: #000000;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,0,0,0.60);
+   outline: 0;
+}
+#Editbox4
+{
+   border: 1px solid #000000;
+   border-radius: 10px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   line-height: 49px;
+   padding: 4px 4px 4px 4px;
+   margin: 10px 0px 10px 0px;
+   text-align: left;
+}
+#Editbox4:focus
+{
+   border-color: #000000;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,0,0,0.60);
+   outline: 0;
+}
+#Editbox5
+{
+   border: 1px solid #000000;
+   border-radius: 10px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   line-height: 49px;
+   padding: 4px 4px 4px 4px;
+   margin: 10px 0px 10px 0px;
+   text-align: left;
+}
+#Editbox5:focus
+{
+   border-color: #000000;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,0,0,0.60);
+   outline: 0;
+}
+#Editbox6
+{
+   border: 1px solid #000000;
+   border-radius: 10px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   line-height: 49px;
+   padding: 4px 4px 4px 4px;
+   margin: 10px 0px 10px 0px;
+   text-align: left;
+}
+#Editbox6:focus
+{
+   border-color: #000000;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,0,0,0.60);
+   outline: 0;
+}
+#wb_Carousel1
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   margin: 0;
+}
+#wb_Carousel1
+{
+   box-sizing: border-box;
+width: 100%;}
+#Carousel1
+{
+   position: relative;
+   margin: 0;
+   line-height: 1;
+   height: 100%;
+   box-sizing: border-box;
+}
+#Carousel1 .carousel-inner
+{
+   overflow: hidden;
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+.carousel.pointer-event
+{
+   -ms-touch-action: pan-y;
+   touch-action: pan-y;
+}
+#Carousel1 .carousel-inner::after
+{
+   display: block;
+   clear: both;
+   content: "";
+}
+#Carousel1 .carousel-inner > .carousel-item
+{
+   display: none;
+   position: relative;
+   float: left;
+   width: 100%;
+   margin-right: -100%;
+   -webkit-backface-visibility: hidden;
+   backface-visibility: hidden;
+   -webkit-transition: -webkit-transform 500ms ease-in-out;
+   transition: transform 500ms ease-in-out;
+   height: 100%;
+   text-align: center;
+}
+#Carousel1 .carousel-item-next:not(.carousel-item-left), #Carousel1 .active.carousel-item-right
+{
+   -webkit-transform: translateX(100%);
+   transform: translateX(100%);
+}
+#Carousel1 .carousel-item-prev:not(.carousel-item-right), #Carousel1 .active.carousel-item-left
+{
+   -webkit-transform: translateX(-100%);
+   transform: translateX(-100%);
+}
+#Carousel1 .carousel-innerframe
+{
+   min-height: 355px;
+   padding: 0;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   height: 100%;
+   box-sizing: border-box;
+}
+#Carousel1 .carousel-inner > .carousel-item > img, #Carousel1 .carousel-inner > .carousel-item > a > img
+{
+   display: block;
+   line-height: 1;
+}
+#Carousel1 .carousel-inner > .active, #Carousel1 .carousel-inner > .carousel-item-next, #Carousel1 .carousel-inner > .carousel-item-prev
+{
+   display: block;
+}
+#Carousel1 .carousel-inner > .carousel-item-next, #Carousel1 .carousel-inner > .carousel-item-prev
+{
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+#Carousel1 .frame
+{
+   width: 1170px;
+   display: inline-block;
+   float: left;
+   height: 355px;
+}
 #wb_Text6 
 {
    background-color: transparent;
@@ -740,18 +971,11 @@ input:focus, textarea:focus, select:focus
    border: 0px solid #000000;
    padding: 0;
    margin: 0;
-   text-align: center;
-}
-#wb_Text6
-{
-   color: #000000;
-   font-family: "Times New Roman";
-   font-weight: normal;
-   font-size: 43px;
+   text-align: left;
 }
 #wb_Text6 div
 {
-   text-align: center;
+   text-align: left;
 }
 #wb_Text6
 {
@@ -759,6 +983,45 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    box-sizing: border-box;
 width: 100%;}
+#Editbox8
+{
+   border: 1px solid #000000;
+   border-radius: 10px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   line-height: 49px;
+   padding: 4px 4px 4px 4px;
+   margin: 10px 0px 10px 0px;
+   text-align: left;
+}
+#Editbox8:focus
+{
+   border-color: #000000;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,0,0,0.60);
+   outline: 0;
+}
+#Button2
+{
+   border: 1px solid #000000;
+   border-radius: 20px;
+   background-color: #FFC000;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 20px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 10px 0px 10px 0px;
+}
 #wb_Text4 
 {
    background-color: transparent;
@@ -771,13 +1034,15 @@ width: 100%;}
 #wb_Text4
 {
    color: #000000;
-   font-family: "Nirmala UI";
+   font-family: "Times New Roman";
    font-weight: normal;
-   font-size: 43px;
+   font-size: 20px;
+   line-height: 23px;
 }
-#wb_Text4 div
+#wb_Text4 p, #wb_Text4 ul
 {
-   text-align: center;
+   margin: 0;
+   padding: 0;
 }
 #wb_Text4
 {
@@ -785,210 +1050,248 @@ width: 100%;}
    margin: 0;
    box-sizing: border-box;
 width: 100%;}
-#wb_Image2
+#wb_Text7 
 {
-   margin: 0;
-   vertical-align: top;
-}
-#Image2
-{
+   background-color: transparent;
+   background-image: none;
    border: 0px solid #000000;
    padding: 0;
-   display: inline-block;
-   width: 204px;
-   height: 204px;
-   vertical-align: top;
-}
-#ThemeableButton1
-{
-   font-family: Arial;
-   font-weight: bold;
-   font-size: 13px;
-   font-style: italic;
-   margin: 15px 15px 10px 0px;
-   box-shadow: 0px 0px 20px rgba(0,0,0,0.35);
-   padding: 0;
+   margin: 0;
    text-align: center;
 }
-#ThemeableButton1 .ui-button
+#wb_Text7
 {
-   position: absolute;
+   color: #000000;
+   font-family: "Times New Roman";
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 23px;
+}
+#wb_Text7 p, #wb_Text7 ul
+{
+   margin: 0;
    padding: 0;
 }
-#ThemeableButton1 .ui-primary
+#wb_Text7
 {
-   background-image: none !important;
-   text-indent: 0;
-   display: inline-block;
-   font-family: FontAwesome;
-   font-style: normal;
-   font-weight: normal;
-   line-height: 1;
-   position: absolute;
-   left: 40px;
-   top: 50%;
-   margin-top: -6.5px;
-   width: 13px;
-   height: 13px;
-   color: #000000;
-}
-#ThemeableButton1 .ui-primary:before
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+width: 100%;}
+#wb_Text8 
 {
-   content: "\f234";
-}
-#ThemeableButton1:hover .ui-primary
-{
-   color: #000000;
-}
-#ThemeableButton1:active .ui-primary
-{
-   color: #FFFFFF;
-}
-#ThemeableButton1.ui-corner-all
-{
-   border-bottom-left-radius: 15px;
-   border-top-left-radius: 15px;
-}
-#ThemeableButton1.ui-corner-all
-{
-   border-bottom-right-radius: 15px;
-   border-top-right-radius: 15px;
-}
-#ThemeableButton1.ui-button
-{
-   background-color: rgba(246,246,246,0.00);
+   background-color: transparent;
    background-image: none;
-   border: 1px solid #FFC000;
-   color: #000000;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
 }
-#ThemeableButton1.ui-state-hover, #ThemeableButton1.ui-button:hover
+#wb_Text8 div
 {
-   border-color: #FF0000;
+   text-align: left;
+}
+#wb_Text8
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+width: 100%;}
+#Button4
+{
+   border: 1px solid #000000;
+   border-radius: 20px;
    background-color: #FFC000;
    background-image: none;
    color: #000000;
-}
-#ThemeableButton1.ui-state-active, #ThemeableButton1.ui-button:active
-{
-   border-color: #000000;
-   background-color: #FFC000;
-   background-image: none;
-   color: #FF0000;
-}
-#ThemeableButton1.ui-button .ui-icon
-{
-   background-image: url(images/comingsoon-ThemeableButton1-default.png);
-   background-position: 0 0;
-}
-#ThemeableButton1.ui-button:hover .ui-icon
-{
-   background-image: url(images/comingsoon-ThemeableButton1-hover.png);
-   background-position: 0 0;
-}
-#ThemeableButton1.ui-button:active .ui-icon
-{
-   background-image: url(images/comingsoon-ThemeableButton1-active.png);
-   background-position: 0 0;
-}
-#ThemeableButton1.ui-visual-focus
-{
-   box-shadow: none;
-}
-#ThemeableButton2
-{
    font-family: Arial;
    font-weight: bold;
-   font-size: 13px;
-   font-style: italic;
-   margin: 15px 0px 10px 15px;
-   box-shadow: 0px 0px 20px rgba(0,0,0,0.35);
-   padding: 0;
-   text-align: center;
-}
-#ThemeableButton2 .ui-button
-{
-   position: absolute;
-   padding: 0;
-}
-#ThemeableButton2 .ui-primary
-{
-   background-image: none !important;
-   text-indent: 0;
-   display: inline-block;
-   font-family: FontAwesome;
    font-style: normal;
-   font-weight: normal;
-   line-height: 1;
-   position: absolute;
-   left: 40px;
-   top: 50%;
-   margin-top: -6.5px;
-   width: 13px;
-   height: 13px;
-   color: #000000;
+   font-size: 20px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0px 0px 10px 0px;
 }
-#ThemeableButton2 .ui-primary:before
+#Button5
 {
-   content: "\f2c1";
-}
-#ThemeableButton2:hover .ui-primary
-{
-   color: #FFFFFF;
-}
-#ThemeableButton2:active .ui-primary
-{
-   color: #FFFFFF;
-}
-#ThemeableButton2.ui-corner-all
-{
-   border-bottom-left-radius: 15px;
-   border-top-left-radius: 15px;
-}
-#ThemeableButton2.ui-corner-all
-{
-   border-bottom-right-radius: 15px;
-   border-top-right-radius: 15px;
-}
-#ThemeableButton2.ui-button
-{
-   background-color: rgba(246,246,246,0.00);
+   border: 1px solid #000000;
+   border-radius: 20px;
+   background-color: #FFC000;
    background-image: none;
-   border: 1px solid #70AD47;
    color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 20px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 10px 0px 10px 10px;
 }
-#ThemeableButton2.ui-state-hover, #ThemeableButton2.ui-button:hover
+#Editbox2
+{
+   border: 1px solid #000000;
+   border-radius: 10px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   line-height: 49px;
+   padding: 4px 4px 4px 4px;
+   margin: 10px 0px 10px 0px;
+   text-align: left;
+}
+#Editbox2:focus
 {
    border-color: #000000;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,0,0,0.60);
+   outline: 0;
+}
+#wb_Text9 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text9
+{
+   color: #000000;
+   font-family: "Times New Roman";
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 23px;
+}
+#wb_Text9 p, #wb_Text9 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text9
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+width: 100%;}
+#Button3
+{
+   border: 1px solid #000000;
+   border-radius: 20px;
+   background-color: #FFC000;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 20px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 10px 0px 10px 0px;
+}
+#Button6
+{
+   border: 1px solid #000000;
+   border-radius: 20px;
    background-color: #70AD47;
    background-image: none;
    color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 20px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0px 0px 10px 0px;
 }
-#ThemeableButton2.ui-state-active, #ThemeableButton2.ui-button:active
+#wb_Text10 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text10 div
+{
+   text-align: left;
+}
+#wb_Text10
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+width: 100%;}
+#Editbox7
+{
+   border: 1px solid #000000;
+   border-radius: 10px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   line-height: 49px;
+   padding: 4px 4px 4px 4px;
+   margin: 10px 0px 10px 0px;
+   text-align: left;
+}
+#Editbox7:focus
 {
    border-color: #000000;
-   background-color: #FFC000;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,0,0,0.60);
+   outline: 0;
+}
+#wb_Text11 
+{
+   background-color: transparent;
    background-image: none;
-   color: #FF0000;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
 }
-#ThemeableButton2.ui-button .ui-icon
+#wb_Text11 div
 {
-   background-image: url(images/comingsoon-ThemeableButton2-default.png);
-   background-position: 0 0;
+   text-align: center;
 }
-#ThemeableButton2.ui-button:hover .ui-icon
+#wb_Text11
 {
-   background-image: url(images/comingsoon-ThemeableButton2-hover.png);
-   background-position: 0 0;
-}
-#ThemeableButton2.ui-button:active .ui-icon
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+width: 100%;}
+#wb_Text12 
 {
-   background-image: url(images/comingsoon-ThemeableButton2-active.png);
-   background-position: 0 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
 }
-#ThemeableButton2.ui-visual-focus
+#wb_Text12 div
 {
-   box-shadow: none;
+   text-align: center;
 }
+#wb_Text12
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+width: 100%;}
 #wb_footer_top
 {
    clear: both;
