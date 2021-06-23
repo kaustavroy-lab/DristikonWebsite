@@ -29,8 +29,8 @@
 <link href="https://fonts.googleapis.com/css?family=Candlescript+Demo+Version" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Broadway" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Kalpana+Unicode" rel="stylesheet">
-<link href="dristikion_Online_websitebackup.css?v=38" rel="stylesheet">
-<link href="contactus.css?v=38" rel="stylesheet">
+<link href="dristikion_Online_websitebackup.css?v=39" rel="stylesheet">
+<link href="contactus.css?v=39" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="jquery-ui.min.js"></script>
 <script src="popper.min.js"></script>
@@ -320,6 +320,31 @@ $(document).ready(function()
 </div>
 </div><script async="async" data-cfasync="false" src="//pl16023970.revenuenetworkcpm.com/47da04faa928c5495b6f96f9283727dd/invoke.js"></script>
 <div id="container-47da04faa928c5495b6f96f9283727dd"></div>
+<div style="z-index:33">
+<script>
+var disabled_message = "";
+document.oncontextmenu = function() 
+{ 
+   return false; 
+}
+document.onmousedown = function md(e) 
+{ 
+  try 
+  { 
+     if (event.button==2||event.button==3) 
+     {
+        if (disabled_message != '')
+           alert(disabled_message);
+        return false; 
+     }
+  }  
+  catch (e) 
+  { 
+     if (e.which == 3) return false; 
+  } 
+}
+</script>
+</div>
 <div id="wb_footer_top">
 <div id="footer_top">
 <div class="row">
@@ -432,31 +457,6 @@ $(document).ready(function()
 </div>
 </div>
 </div>
-</div>
-<div style="z-index:33">
-<script>
-var disabled_message = "";
-document.oncontextmenu = function() 
-{ 
-   return false; 
-}
-document.onmousedown = function md(e) 
-{ 
-  try 
-  { 
-     if (event.button==2||event.button==3) 
-     {
-        if (disabled_message != '')
-           alert(disabled_message);
-        return false; 
-     }
-  }  
-  catch (e) 
-  { 
-     if (e.which == 3) return false; 
-  } 
-}
-</script>
 </div>
 </body>
 </html>
