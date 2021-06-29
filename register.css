@@ -5,7 +5,7 @@ html, body, #container
 }
 body
 {
-   background-color: #000000;
+   background-color: #FFFFFF;
    color: #000000;
    font-family: Arial;
    font-weight: normal;
@@ -651,66 +651,26 @@ input:focus, textarea:focus, select:focus
    margin-right: 4px;
    width: 16px;
 }
-#wb_Image2
+#wb_Text12 
 {
-   margin: 0;
-   vertical-align: top;
-}
-#Image2
-{
-   border-width: 0;
-   display: inline-block;
-   width: 204px;
-   height: 204px;
-   vertical-align: top;
-}
-#wb_TextArt1
-{
-   transform: rotate(0deg);
-   transform-origin: 50% 50%;
-}
-#wb_TextArt1{
-   height: 0;
-   padding: 0 0 11.2771% 0;
-   height: 0 !important;
-}
-#TextArt1{
-   fill-opacity: 0;
-   opacity: 0;
-}
-#TextArt1.finished
-{
-   fill-opacity: 1;
-   transition: fill-opacity 1s;
-}
-#wb_TextArt1
-{
-   margin: 0px 0px 15px 0px;
-}
-#Editbox1
-{
-   border: 1px solid #000000;
-   border-radius: 10px;
-   background-color: #FFFFFF;
+   background-color: transparent;
    background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: 0;
-   font-style: normal;
-   font-size: 13px;
-   box-sizing: border-box;
-   line-height: 49px;
-   padding: 4px 4px 4px 4px;
-   margin: 10px 0px 10px 0px;
-   text-align: left;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 15px 0px 0px 0px;
+   text-align: center;
 }
-#Editbox1:focus
+#wb_Text12 div
 {
-   border-color: #000000;
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,0,0,0.60);
-   outline: 0;
+   text-align: center;
 }
-#wb_LayoutGrid3
+#wb_Text12
+{
+   display: block;
+   margin: 15px 0px 0px 0px;
+   box-sizing: border-box;
+width: 100%;}
+#wb_registerLayoutGrid1
 {
    clear: both;
    position: relative;
@@ -720,6 +680,99 @@ input:focus, textarea:focus, select:focus
    width: 100%;
    background-color: #FFFFFF;
    background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#registerLayoutGrid1
+{
+   box-sizing: border-box;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1200px;
+}
+#registerLayoutGrid1 > .col-1, #registerLayoutGrid1 > .col-2
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#registerLayoutGrid1 > .col-1, #registerLayoutGrid1 > .col-2
+{
+   -webkit-flex: 0 0 auto;
+   flex: 0 0 auto;
+}
+#registerLayoutGrid1 > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   flex-basis: 50%;
+   max-width: 50%;
+   display: -webkit-flex;
+   -webkit-flex-wrap: wrap;
+   -webkit-align-content: center;
+   -webkit-align-self: stretch;
+   -webkit-align-items: center;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   align-self: stretch;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   text-align: center;
+}
+#registerLayoutGrid1 > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   flex-basis: 50%;
+   max-width: 50%;
+   display: -webkit-flex;
+   -webkit-flex-wrap: wrap;
+   -webkit-align-content: center;
+   -webkit-align-self: stretch;
+   -webkit-align-items: center;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   align-self: stretch;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   text-align: center;
+}
+@media (max-width: 480px)
+{
+#registerLayoutGrid1 > .col-1, #registerLayoutGrid1 > .col-2
+{
+   -webkit-flex-basis: 100% !important;
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_LayoutGrid3
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #F2F2F2;
+   background-image: none;
    border: 0px double #FF0000;
    box-sizing: border-box;
    margin: 0;
@@ -727,10 +780,9 @@ input:focus, textarea:focus, select:focus
 #LayoutGrid3
 {
    box-sizing: border-box;
-   padding: 0px 15px 5px 15px;
+   padding: 0px 15px 0px 15px;
    margin-right: auto;
    margin-left: auto;
-   max-width: 976px;
 }
 #LayoutGrid3 > .row
 {
@@ -779,7 +831,7 @@ input:focus, textarea:focus, select:focus
    width: 100% !important;
 }
 }
-#Editbox3
+#registerEditbox1
 {
    border: 1px solid #000000;
    border-radius: 10px;
@@ -796,13 +848,13 @@ input:focus, textarea:focus, select:focus
    margin: 10px 0px 10px 0px;
    text-align: left;
 }
-#Editbox3:focus
+#registerEditbox1:focus
 {
    border-color: #000000;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,0,0,0.60);
    outline: 0;
 }
-#Editbox4
+#registerEditbox2
 {
    border: 1px solid #000000;
    border-radius: 10px;
@@ -819,13 +871,13 @@ input:focus, textarea:focus, select:focus
    margin: 10px 0px 10px 0px;
    text-align: left;
 }
-#Editbox4:focus
+#registerEditbox2:focus
 {
    border-color: #000000;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,0,0,0.60);
    outline: 0;
 }
-#Editbox5
+#registerEditbox3
 {
    border: 1px solid #000000;
    border-radius: 10px;
@@ -842,13 +894,13 @@ input:focus, textarea:focus, select:focus
    margin: 10px 0px 10px 0px;
    text-align: left;
 }
-#Editbox5:focus
+#registerEditbox3:focus
 {
    border-color: #000000;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,0,0,0.60);
    outline: 0;
 }
-#Editbox6
+#registerEditbox4
 {
    border: 1px solid #000000;
    border-radius: 10px;
@@ -865,154 +917,148 @@ input:focus, textarea:focus, select:focus
    margin: 10px 0px 10px 0px;
    text-align: left;
 }
-#Editbox6:focus
+#registerEditbox4:focus
 {
    border-color: #000000;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,0,0,0.60);
    outline: 0;
 }
-#wb_Carousel1
+#registerEditbox5
 {
+   border: 1px solid #000000;
+   border-radius: 10px;
    background-color: #FFFFFF;
    background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   line-height: 49px;
+   padding: 4px 4px 4px 4px;
+   margin: 10px 0px 10px 0px;
+   text-align: left;
+}
+#registerEditbox5:focus
+{
+   border-color: #000000;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,0,0,0.60);
+   outline: 0;
+}
+#registerEditbox6
+{
+   border: 1px solid #000000;
+   border-radius: 10px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   line-height: 49px;
+   padding: 4px 4px 4px 4px;
+   margin: 10px 0px 10px 0px;
+   text-align: left;
+}
+#registerEditbox6:focus
+{
+   border-color: #000000;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,0,0,0.60);
+   outline: 0;
+}
+#registerEditbox7
+{
+   border: 1px solid #000000;
+   border-radius: 10px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   line-height: 49px;
+   padding: 4px 4px 4px 4px;
+   margin: 10px 0px 10px 0px;
+   text-align: left;
+}
+#registerEditbox7:focus
+{
+   border-color: #000000;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,0,0,0.60);
+   outline: 0;
+}
+#registerEditbox8
+{
+   border: 1px solid #000000;
+   border-radius: 10px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   line-height: 49px;
+   padding: 4px 4px 4px 4px;
+   margin: 10px 0px 10px 0px;
+   text-align: left;
+}
+#registerEditbox8:focus
+{
+   border-color: #000000;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,0,0,0.60);
+   outline: 0;
+}
+#wb_registerImage1
+{
    margin: 0;
+   vertical-align: top;
 }
-#wb_Carousel1
+#registerImage1
 {
-   box-sizing: border-box;
-width: 100%;}
-#Carousel1
-{
-   position: relative;
-   margin: 0;
-   line-height: 1;
-   height: 100%;
-   box-sizing: border-box;
-}
-#Carousel1 .carousel-inner
-{
-   overflow: hidden;
-   width: 100%;
-   height: 100%;
-   position: relative;
-}
-.carousel.pointer-event
-{
-   -ms-touch-action: pan-y;
-   touch-action: pan-y;
-}
-#Carousel1 .carousel-inner::after
-{
-   display: block;
-   clear: both;
-   content: "";
-}
-#Carousel1 .carousel-inner > .carousel-item
-{
-   display: none;
-   position: relative;
-   float: left;
-   width: 100%;
-   margin-right: -100%;
-   -webkit-backface-visibility: hidden;
-   backface-visibility: hidden;
-   -webkit-transition: -webkit-transform 500ms ease-in-out;
-   transition: transform 500ms ease-in-out;
-   height: 100%;
-   text-align: center;
-}
-#Carousel1 .carousel-item-next:not(.carousel-item-left), #Carousel1 .active.carousel-item-right
-{
-   -webkit-transform: translateX(100%);
-   transform: translateX(100%);
-}
-#Carousel1 .carousel-item-prev:not(.carousel-item-right), #Carousel1 .active.carousel-item-left
-{
-   -webkit-transform: translateX(-100%);
-   transform: translateX(-100%);
-}
-#Carousel1 .carousel-innerframe
-{
-   min-height: 355px;
-   padding: 0;
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-   justify-content: center;
-   height: 100%;
-   box-sizing: border-box;
-}
-#Carousel1 .carousel-inner > .carousel-item > img, #Carousel1 .carousel-inner > .carousel-item > a > img
-{
-   display: block;
-   line-height: 1;
-}
-#Carousel1 .carousel-inner > .active, #Carousel1 .carousel-inner > .carousel-item-next, #Carousel1 .carousel-inner > .carousel-item-prev
-{
-   display: block;
-}
-#Carousel1 .carousel-inner > .carousel-item-next, #Carousel1 .carousel-inner > .carousel-item-prev
-{
-   position: absolute;
-   top: 0;
-   width: 100%;
-}
-#Carousel1 .frame
-{
-   width: 1170px;
+   border-width: 0;
    display: inline-block;
-   float: left;
-   height: 355px;
+   width: 204px;
+   height: 204px;
+   vertical-align: top;
 }
-#wb_Text6 
+#wb_registerTextArt1
 {
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: left;
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
 }
-#wb_Text6 div
-{
-   text-align: left;
+#wb_registerTextArt1{
+   height: 0;
+   padding: 0 0 16.3914% 0;
+   height: 0 !important;
 }
-#wb_Text6
-{
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-width: 100%;}
-#Editbox8
-{
-   border: 1px solid #000000;
-   border-radius: 10px;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: 0;
-   font-style: normal;
-   font-size: 13px;
-   box-sizing: border-box;
-   line-height: 49px;
-   padding: 4px 4px 4px 4px;
-   margin: 10px 0px 10px 0px;
-   text-align: left;
+#registerTextArt1{
+   fill-opacity: 0;
+   opacity: 0;
 }
-#Editbox8:focus
+#registerTextArt1.finished
 {
-   border-color: #000000;
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,0,0,0.60);
-   outline: 0;
+   fill-opacity: 1;
+   transition: fill-opacity 1s;
 }
-#Button2
+#wb_registerTextArt1
+{
+   margin: 0px 0px 15px 0px;
+}
+#registerButton1
 {
    border: 1px solid #000000;
    border-radius: 20px;
-   background-color: #FFC000;
+   background-color: transparent;
    background-image: none;
-   color: #000000;
+   color: #70AD47;
+   box-shadow: 0px 0px 14px rgba(0,0,0,0.31);
    font-family: Arial;
    font-weight: bold;
    font-style: normal;
@@ -1022,7 +1068,7 @@ width: 100%;}
    -webkit-appearance: none;
    margin: 10px 0px 10px 0px;
 }
-#wb_Text4 
+#wb_registerText2 
 {
    background-color: transparent;
    background-image: none;
@@ -1031,267 +1077,48 @@ width: 100%;}
    margin: 0;
    text-align: center;
 }
-#wb_Text4
+#wb_registerText2 div
 {
-   color: #000000;
-   font-family: "Times New Roman";
-   font-weight: normal;
-   font-size: 20px;
-   line-height: 23px;
+   text-align: center;
 }
-#wb_Text4 p, #wb_Text4 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text4
+#wb_registerText2
 {
    display: block;
    margin: 0;
    box-sizing: border-box;
 width: 100%;}
-#wb_Text7 
+#registerEditbox9
 {
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text7
-{
-   color: #000000;
-   font-family: "Times New Roman";
-   font-weight: normal;
-   font-size: 20px;
-   line-height: 23px;
-}
-#wb_Text7 p, #wb_Text7 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text7
-{
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-width: 100%;}
-#wb_Text8 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text8 div
-{
-   text-align: left;
-}
-#wb_Text8
-{
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-width: 100%;}
-#Button4
-{
-   border: 1px solid #000000;
-   border-radius: 20px;
-   background-color: #FFC000;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 20px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0px 0px 10px 0px;
-}
-#Button5
-{
-   border: 1px solid #000000;
-   border-radius: 20px;
-   background-color: #FFC000;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 20px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 10px 0px 10px 10px;
-}
-#Editbox2
-{
-   border: 1px solid #000000;
-   border-radius: 10px;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: 0;
-   font-style: normal;
-   font-size: 13px;
-   box-sizing: border-box;
-   line-height: 49px;
-   padding: 4px 4px 4px 4px;
-   margin: 10px 0px 10px 0px;
-   text-align: left;
-}
-#Editbox2:focus
-{
-   border-color: #000000;
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,0,0,0.60);
-   outline: 0;
-}
-#wb_Text9 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text9
-{
-   color: #000000;
-   font-family: "Times New Roman";
-   font-weight: normal;
-   font-size: 20px;
-   line-height: 23px;
-}
-#wb_Text9 p, #wb_Text9 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text9
-{
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-width: 100%;}
-#Button3
-{
-   border: 1px solid #000000;
-   border-radius: 20px;
-   background-color: #FFC000;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 20px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 10px 0px 10px 0px;
-}
-#Button6
-{
-   border: 1px solid #000000;
-   border-radius: 20px;
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
    background-color: #70AD47;
    background-image: none;
    color: #000000;
    font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 20px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0px 0px 10px 0px;
-}
-#wb_Text10 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text10 div
-{
-   text-align: left;
-}
-#wb_Text10
-{
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-width: 100%;}
-#Editbox7
-{
-   border: 1px solid #000000;
-   border-radius: 10px;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
    font-weight: 0;
    font-style: normal;
    font-size: 13px;
    box-sizing: border-box;
-   line-height: 49px;
+   line-height: 16px;
    padding: 4px 4px 4px 4px;
-   margin: 10px 0px 10px 0px;
-   text-align: left;
+   margin: 0;
+   text-align: center;
 }
-#Editbox7:focus
+#registerEditbox9:focus
 {
-   border-color: #000000;
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,0,0,0.60);
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
    outline: 0;
 }
-#wb_Text11 
+#registerEditbox9::placeholder
 {
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: center;
+   color: #FFFFFF;
+   opacity: 1;
 }
-#wb_Text11 div
+#registerEditbox9::-ms-input-placeholder
 {
-   text-align: center;
+   color: #FFFFFF;
 }
-#wb_Text11
-{
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-width: 100%;}
-#wb_Text12 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text12 div
-{
-   text-align: center;
-}
-#wb_Text12
-{
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-width: 100%;}
 #wb_footer_top
 {
    clear: both;
