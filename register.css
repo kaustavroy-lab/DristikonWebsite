@@ -969,29 +969,6 @@ width: 100%;}
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,0,0,0.60);
    outline: 0;
 }
-#registerEditbox7
-{
-   border: 1px solid #000000;
-   border-radius: 10px;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: 0;
-   font-style: normal;
-   font-size: 13px;
-   box-sizing: border-box;
-   line-height: 49px;
-   padding: 4px 4px 4px 4px;
-   margin: 10px 0px 10px 0px;
-   text-align: left;
-}
-#registerEditbox7:focus
-{
-   border-color: #000000;
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,0,0,0.60);
-   outline: 0;
-}
 #registerEditbox8
 {
    border: 1px solid #000000;
