@@ -16,12 +16,12 @@ body
 }
 a
 {
-   color: #1A0DAB;
+   color: #FF0000;
    text-decoration: none;
 }
 a:hover
 {
-   color: #1A0DAB;
+   color: #FF0000;
    text-decoration: underline;
 }
 input:focus, textarea:focus, select:focus
@@ -49,15 +49,16 @@ input:focus, textarea:focus, select:focus
 }
 .search-title, .search-title:active, .search-title:hover, .search-title:visited
 {
-   color: #1A0DAB;
+   color: #FF0000;
 }
 .search-url, .search-url:active, .search-url:hover, .search-url:visited
 {
-   color: #FF0000;
+   color: #171717;
    text-decoration: none;
 }
 .search-highlight
 {
+   background-color: #FFC000;
    font-weight: bold;
    font-style: normal;
 }
@@ -129,7 +130,7 @@ input:focus, textarea:focus, select:focus
 var features = '';
 function searchPage(features)
 {
-   searchResults('Puja2021testSiteSearch1', 'search-results', 250, 10, false, true, false, false, '_parent', 'No results', ' result(s) found for search term: ', 'seconds');
+   searchResults('Puja2021testSiteSearch1', 'search-results', 250, 10, false, false, false, false, '_parent', 'No results', ' result(s) found for search term: ', 'seconds');
    return false;
 }
 $(document).ready(function()

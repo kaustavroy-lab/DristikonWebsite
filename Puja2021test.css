@@ -1887,7 +1887,7 @@ input:focus, textarea:focus, select:focus
 }
 #Puja2021testSiteSearch1
 {
-   border: 1px solid #CCCCCC;
+   border: 1px solid #0C0C0C;
    border-radius: 4px;
    background-color: #FFFFFF;
    background-image: none;
@@ -1906,7 +1906,7 @@ input:focus, textarea:focus, select:focus
 {
    position: absolute;
    background: #FFFFFF;
-   border: 1px solid #CCCCCC;
+   border: 1px solid #0C0C0C;
    color: #000000;
    font-family: Arial;
    font-weight: normal;
@@ -1924,7 +1924,7 @@ input:focus, textarea:focus, select:focus
 }
 .search-autocomplete li.selected
 {
-   background: #CCCCCC;
+   background: #0C0C0C;
    color: #FFFFFF;
 }
 #Puja2021testButton1
