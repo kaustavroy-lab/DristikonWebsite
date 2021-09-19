@@ -7,7 +7,7 @@ div#container
 }
 body
 {
-   background-color: #FFFFFF;
+   background-color: #FF0080;
    color: #000000;
    font-family: Arial;
    font-weight: normal;
@@ -124,4 +124,91 @@ input:focus, textarea:focus, select:focus
    top: 0;
    width: 100%;
    height: 100%;
+}
+#page2InlineFrame2
+{
+   border: 0px solid #C0C0C0;
+   margin: 0;
+}
+#page2InlineFrame2
+{
+   display: block;
+   float: left;
+   width: 100%;
+   height: 734px;
+   vertical-align: top;
+}
+#wb_page2LayoutGrid3
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#page2LayoutGrid3
+{
+   box-sizing: border-box;
+   width: 100%;
+   padding: 0px 6px 0px 6px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#page2LayoutGrid3 > .row
+{
+   display: grid;
+   grid-template-columns: repeat(12, 8.333333%);
+   margin-right: -6px;
+   margin-left: -6px;
+}
+#page2LayoutGrid3 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 6px;
+   padding-left: 6px;
+   position: relative;
+   grid-column: span 12;
+}
+#page2LayoutGrid3 > .row > .col-1
+{
+}
+#page2LayoutGrid3 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   grid-column: span 12;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: center;
+}
+@media (max-width: 480px)
+{
+#page2LayoutGrid3 > .row > .col-1
+{
+   width: 100%;
+   grid-column: span 12;
+}
+}
+#page2JavaScript1 span 
+{
+   position: absolute;
+   display: inline-block;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   transition: all .5s cubic-bezier(0,0,0,1);
+}
+@keyframes spinZ {
+0% { transform: rotateZ(360deg); }
+100% { transform: rotateZ(0deg); }
 }
