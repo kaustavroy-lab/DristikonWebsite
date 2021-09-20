@@ -2431,6 +2431,11 @@ width: 100%;}
    -webkit-transition: box-shadow 500ms linear 0ms;
    transition: box-shadow 500ms linear 0ms;
 }
+#Puja2021testCard2-card-item2 a
+{
+   color: inherit;
+   text-decoration: none;
+}
 #Puja2021testCard2-card-item2 i
 {
    text-align: center;

@@ -32,6 +32,7 @@ function SearchDatabase()
    this[database_length++] = new SearchPage("https://dristikononline.in/page1.html", "Untitled Page", " ", "");
    this[database_length++] = new SearchPage("https://dristikononline.in/page2.html", "Untitled Page", " ", "");
    this[database_length++] = new SearchPage("https://dristikononline.in/Puja2021test.html", "হুগলী জেলার পুজা পরিক্রমা With দৃষ্টিকোণ", " ", "");
+   this[database_length++] = new SearchPage("https://dristikononline.in/tarakeswar2021.html", "হুগলী জেলার পুজা পরিক্রমা With দৃষ্টিকোণ", " ", "");
    this[database_length++] = new SearchPage("https://dristikononline.in/webmag/webmag.html", "Dristikon WebMag", "webmag, magazines, free, submission, upload, new web, puja, ", "দৃষ্টিকোণ ম্যাগাজিন উৎসব সংখ্যা ২০২০");
    this[database_length++] = new SearchPage("https://dristikononline.in/webmag/write.html", "Dristikon WebMag", "webmag, magazines, free, submission, upload, new web, puja, ", "দৃষ্টিকোণ ম্যাগাজিন উৎসব সংখ্যা ২০২০");
    this[database_length++] = new SearchPage("https://dristikononline.in/Archives/pujo2020.html", "হুগলী জেলার পুজা পরিক্রমা With দৃষ্টিকোণ", "hooghly puja, tarakeswar puja, durga puja, pujo, online puja, dristikon puja, tarakeswar central commettee,tarakeswar,pujo2020,dristikon online ", "হুগলী জেলার পুজা পরিক্রমা With দৃষ্টিকোণ");

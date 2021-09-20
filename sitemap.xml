@@ -121,6 +121,12 @@
 		<priority>1.0</priority>
 	</url>
 	<url>
+		<loc>https://dristikononline.in/tarakeswar2021.html</loc>
+		<lastmod>2021-09-20</lastmod>
+		<changefreq>hourly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
 		<loc>https://dristikononline.in/webmag/webmag.html</loc>
 		<lastmod>2021-06-23</lastmod>
 		<changefreq>monthly</changefreq>
@@ -140,7 +146,7 @@
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/pujolist.html</loc>
-		<lastmod>2021-06-24</lastmod>
+		<lastmod>2021-09-20</lastmod>
 		<changefreq>hourly</changefreq>
 		<priority>1.0</priority>
 	</url>
