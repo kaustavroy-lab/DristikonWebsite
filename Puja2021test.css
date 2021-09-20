@@ -2198,28 +2198,6 @@ width: 100%;}
    transform: translateX(-100%);
    }
 }
-#Puja2021testYouTube1
-{
-   position: absolute;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-   border-width: 0;
-}
-#wb_Puja2021testYouTube1
-{
-   display: block;
-   position: relative;
-   margin: 0;
-   height: 0;
-   overflow: hidden;
-   box-sizing: border-box;
-   padding-bottom: 56.25%;
-   padding-left: 0;
-   padding-right: 0;
-   padding-top: 0;
-}
 #wb_Puja2021testLayoutGrid4
 {
    clear: both;
@@ -2287,6 +2265,600 @@ width: 100%;}
    float: none;
    width: 100% !important;
 }
+}
+#wb_Puja2021testLayoutGrid5
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#Puja2021testLayoutGrid5
+{
+   box-sizing: border-box;
+   padding: 20px 15px 10px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#Puja2021testLayoutGrid5 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#Puja2021testLayoutGrid5 > .row > .col-1, #Puja2021testLayoutGrid5 > .row > .col-2, #Puja2021testLayoutGrid5 > .row > .col-3, #Puja2021testLayoutGrid5 > .row > .col-4
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#Puja2021testLayoutGrid5 > .row > .col-1, #Puja2021testLayoutGrid5 > .row > .col-2, #Puja2021testLayoutGrid5 > .row > .col-3, #Puja2021testLayoutGrid5 > .row > .col-4
+{
+   float: left;
+}
+#Puja2021testLayoutGrid5 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: center;
+}
+#Puja2021testLayoutGrid5 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: center;
+}
+#Puja2021testLayoutGrid5 > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: center;
+}
+#Puja2021testLayoutGrid5 > .row > .col-4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: center;
+}
+#Puja2021testLayoutGrid5:before,
+#Puja2021testLayoutGrid5:after,
+#Puja2021testLayoutGrid5 .row:before,
+#Puja2021testLayoutGrid5 .row:after
+{
+   display: table;
+   content: " ";
+}
+#Puja2021testLayoutGrid5:after,
+#Puja2021testLayoutGrid5 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#Puja2021testLayoutGrid5 > .row > .col-1, #Puja2021testLayoutGrid5 > .row > .col-2, #Puja2021testLayoutGrid5 > .row > .col-3, #Puja2021testLayoutGrid5 > .row > .col-4
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Puja2021testCard2
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   background-color: #FFD966;
+   background: linear-gradient(315deg, #FFC000 0%, #FFD966 100%);
+   border: 1px solid #000000;
+   border-radius: 10px;
+   box-sizing: border-box;
+   margin: 0px 0px 10px 0px;
+   padding: 0;
+   text-align: center;
+}
+#Puja2021testCard2-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#Puja2021testCard2-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 10px 10px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 1px solid #FF0000;
+   border-radius: 10px;
+   width: 100%;
+}
+#Puja2021testCard2-card-item0
+{
+   box-shadow: 0px 0px 20px rgb(0 0 0 / 35%);
+   -webkit-transition: box-shadow 500ms linear 0ms;
+   transition: box-shadow 500ms linear 0ms;
+}
+#Puja2021testCard2-card-item1
+{
+   box-sizing: border-box;
+   margin: 10px 0px 0px 0px;
+   padding: 0;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 16px;
+}
+#Puja2021testCard2-card-item2
+{
+   display: inline-block;
+   height: 45px;
+   box-sizing: border-box;
+   border-radius: 0 0 10px 10px;
+   margin: 10px 0px 10px 0px;
+   padding: 15px 12px 15px 12px;
+   border: 1px solid #000000;
+   border-radius: 10px;
+   background-color: #FFFFFF;
+   background: linear-gradient(315deg, #91E842 0%, #D2FF52 100%);
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#Puja2021testCard2-card-item2
+{
+   box-shadow: 0px 0px 20px rgb(0 0 0 / 35%);
+   -webkit-transition: box-shadow 500ms linear 0ms;
+   transition: box-shadow 500ms linear 0ms;
+}
+#Puja2021testCard2-card-item2 i
+{
+   text-align: center;
+   vertical-align: top;
+   font-size: 13px;
+   width: 13px;
+}
+#wb_Puja2021testCard2
+{
+   box-shadow: 0px 0px 20px rgb(0 0 0 / 35%);
+   -webkit-transition: box-shadow 500ms linear 0ms;
+   transition: box-shadow 500ms linear 0ms;
+}
+#wb_master-youtube-streamLayoutGrid2
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#master-youtube-streamLayoutGrid2
+{
+   box-sizing: border-box;
+   padding: 0px 7px 0px 7px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#master-youtube-streamLayoutGrid2 > .row
+{
+   margin-right: -7px;
+   margin-left: -7px;
+}
+#master-youtube-streamLayoutGrid2 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 7px;
+   padding-left: 7px;
+   position: relative;
+}
+#master-youtube-streamLayoutGrid2 > .row > .col-1
+{
+   float: left;
+}
+#master-youtube-streamLayoutGrid2 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: left;
+}
+#master-youtube-streamLayoutGrid2:before,
+#master-youtube-streamLayoutGrid2:after,
+#master-youtube-streamLayoutGrid2 .row:before,
+#master-youtube-streamLayoutGrid2 .row:after
+{
+   display: table;
+   content: " ";
+}
+#master-youtube-streamLayoutGrid2:after,
+#master-youtube-streamLayoutGrid2 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#master-youtube-streamLayoutGrid2 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_master-youtube-streamLayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 1px solid #FFFF00;
+   box-sizing: border-box;
+   margin: 0;
+}
+#master-youtube-streamLayoutGrid1
+{
+   box-sizing: border-box;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#master-youtube-streamLayoutGrid1 > .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#master-youtube-streamLayoutGrid1 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#master-youtube-streamLayoutGrid1 > .row > .col-1
+{
+   float: left;
+}
+#master-youtube-streamLayoutGrid1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#master-youtube-streamLayoutGrid1:before,
+#master-youtube-streamLayoutGrid1:after,
+#master-youtube-streamLayoutGrid1 .row:before,
+#master-youtube-streamLayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#master-youtube-streamLayoutGrid1:after,
+#master-youtube-streamLayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#master-youtube-streamLayoutGrid1 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#Puja2021testYouTube1
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   border-width: 0;
+}
+#wb_Puja2021testYouTube1
+{
+   display: block;
+   position: relative;
+   margin: 0;
+   height: 0;
+   overflow: hidden;
+   box-sizing: border-box;
+   padding-bottom: 56.25%;
+   padding-left: 0;
+   padding-right: 0;
+   padding-top: 0;
+}
+#wb_Puja2021testCard6
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   background-color: #FFD966;
+   background: linear-gradient(315deg, #FFC000 0%, #FFD966 100%);
+   border: 1px solid #000000;
+   border-radius: 10px;
+   box-sizing: border-box;
+   margin: 0px 0px 10px 0px;
+   padding: 0;
+   text-align: center;
+}
+#Puja2021testCard6-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#Puja2021testCard6-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 10px 10px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 1px solid #FF0000;
+   border-radius: 10px;
+   width: 100%;
+}
+#Puja2021testCard6-card-item0
+{
+   box-shadow: 0px 0px 20px rgb(0 0 0 / 35%);
+   -webkit-transition: box-shadow 500ms linear 0ms;
+   transition: box-shadow 500ms linear 0ms;
+}
+#Puja2021testCard6-card-item1
+{
+   box-sizing: border-box;
+   margin: 10px 0px 0px 0px;
+   padding: 0;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 16px;
+}
+#Puja2021testCard6-card-item2
+{
+   display: inline-block;
+   height: 45px;
+   box-sizing: border-box;
+   border-radius: 0 0 10px 10px;
+   margin: 10px 0px 10px 0px;
+   padding: 15px 12px 15px 12px;
+   border: 1px solid #000000;
+   border-radius: 10px;
+   background-color: #FFFFFF;
+   background: linear-gradient(315deg, #91E842 0%, #D2FF52 100%);
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#Puja2021testCard6-card-item2
+{
+   box-shadow: 0px 0px 20px rgb(0 0 0 / 35%);
+   -webkit-transition: box-shadow 500ms linear 0ms;
+   transition: box-shadow 500ms linear 0ms;
+}
+#Puja2021testCard6-card-item2 i
+{
+   text-align: center;
+   vertical-align: top;
+   font-size: 13px;
+   width: 13px;
+}
+#wb_Puja2021testCard6
+{
+   box-shadow: 0px 0px 20px rgb(0 0 0 / 35%);
+   -webkit-transition: box-shadow 500ms linear 0ms;
+   transition: box-shadow 500ms linear 0ms;
+}
+#wb_Puja2021testCard3
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   background-color: #FFD966;
+   background: linear-gradient(315deg, #FFC000 0%, #FFD966 100%);
+   border: 1px solid #000000;
+   border-radius: 10px;
+   box-sizing: border-box;
+   margin: 0px 0px 10px 0px;
+   padding: 0;
+   text-align: center;
+}
+#Puja2021testCard3-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#Puja2021testCard3-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 10px 10px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 1px solid #FF0000;
+   border-radius: 10px;
+   width: 100%;
+}
+#Puja2021testCard3-card-item0
+{
+   box-shadow: 0px 0px 20px rgb(0 0 0 / 35%);
+   -webkit-transition: box-shadow 500ms linear 0ms;
+   transition: box-shadow 500ms linear 0ms;
+}
+#Puja2021testCard3-card-item1
+{
+   box-sizing: border-box;
+   margin: 10px 0px 0px 0px;
+   padding: 0;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 16px;
+}
+#Puja2021testCard3-card-item2
+{
+   display: inline-block;
+   height: 45px;
+   box-sizing: border-box;
+   border-radius: 0 0 10px 10px;
+   margin: 10px 0px 10px 0px;
+   padding: 15px 12px 15px 12px;
+   border: 1px solid #000000;
+   border-radius: 10px;
+   background-color: #FFFFFF;
+   background: linear-gradient(315deg, #91E842 0%, #D2FF52 100%);
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#Puja2021testCard3-card-item2
+{
+   box-shadow: 0px 0px 20px rgb(0 0 0 / 35%);
+   -webkit-transition: box-shadow 500ms linear 0ms;
+   transition: box-shadow 500ms linear 0ms;
+}
+#Puja2021testCard3-card-item2 i
+{
+   text-align: center;
+   vertical-align: top;
+   font-size: 13px;
+   width: 13px;
+}
+#wb_Puja2021testCard3
+{
+   box-shadow: 0px 0px 20px rgb(0 0 0 / 35%);
+   -webkit-transition: box-shadow 500ms linear 0ms;
+   transition: box-shadow 500ms linear 0ms;
+}
+#wb_Puja2021testCard4
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   background-color: #FFD966;
+   background: linear-gradient(315deg, #FFC000 0%, #FFD966 100%);
+   border: 1px solid #000000;
+   border-radius: 10px;
+   box-sizing: border-box;
+   margin: 0px 0px 10px 0px;
+   padding: 0;
+   text-align: center;
+}
+#Puja2021testCard4-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#Puja2021testCard4-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 10px 10px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 1px solid #FF0000;
+   border-radius: 10px;
+   width: 100%;
+}
+#Puja2021testCard4-card-item0
+{
+   box-shadow: 0px 0px 20px rgb(0 0 0 / 35%);
+   -webkit-transition: box-shadow 500ms linear 0ms;
+   transition: box-shadow 500ms linear 0ms;
+}
+#Puja2021testCard4-card-item1
+{
+   box-sizing: border-box;
+   margin: 10px 0px 0px 0px;
+   padding: 0;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 16px;
+}
+#Puja2021testCard4-card-item2
+{
+   display: inline-block;
+   height: 45px;
+   box-sizing: border-box;
+   border-radius: 0 0 10px 10px;
+   margin: 10px 0px 10px 0px;
+   padding: 15px 12px 15px 12px;
+   border: 1px solid #000000;
+   border-radius: 10px;
+   background-color: #FFFFFF;
+   background: linear-gradient(315deg, #91E842 0%, #D2FF52 100%);
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#Puja2021testCard4-card-item2
+{
+   box-shadow: 0px 0px 20px rgb(0 0 0 / 35%);
+   -webkit-transition: box-shadow 500ms linear 0ms;
+   transition: box-shadow 500ms linear 0ms;
+}
+#Puja2021testCard4-card-item2 i
+{
+   text-align: center;
+   vertical-align: top;
+   font-size: 13px;
+   width: 13px;
+}
+#wb_Puja2021testCard4
+{
+   box-shadow: 0px 0px 20px rgb(0 0 0 / 35%);
+   -webkit-transition: box-shadow 500ms linear 0ms;
+   transition: box-shadow 500ms linear 0ms;
 }
 #wb_footer_top
 {
