@@ -2035,6 +2035,195 @@ input:focus, textarea:focus, select:focus
    width: 100% !important;
 }
 }
+#wb_tarakeswar2021LayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#tarakeswar2021LayoutGrid1
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#tarakeswar2021LayoutGrid1 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#tarakeswar2021LayoutGrid1 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#tarakeswar2021LayoutGrid1 > .row > .col-1
+{
+   float: left;
+}
+#tarakeswar2021LayoutGrid1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#tarakeswar2021LayoutGrid1:before,
+#tarakeswar2021LayoutGrid1:after,
+#tarakeswar2021LayoutGrid1 .row:before,
+#tarakeswar2021LayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#tarakeswar2021LayoutGrid1:after,
+#tarakeswar2021LayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#tarakeswar2021LayoutGrid1 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_tarakeswar2021LayoutGrid13
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#tarakeswar2021LayoutGrid13
+{
+   box-sizing: border-box;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#tarakeswar2021LayoutGrid13 > .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#tarakeswar2021LayoutGrid13 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#tarakeswar2021LayoutGrid13 > .row > .col-1
+{
+   float: left;
+}
+#tarakeswar2021LayoutGrid13 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#tarakeswar2021LayoutGrid13:before,
+#tarakeswar2021LayoutGrid13:after,
+#tarakeswar2021LayoutGrid13 .row:before,
+#tarakeswar2021LayoutGrid13 .row:after
+{
+   display: table;
+   content: " ";
+}
+#tarakeswar2021LayoutGrid13:after,
+#tarakeswar2021LayoutGrid13 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#tarakeswar2021LayoutGrid13 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#tarakeswar2021LayoutGrid13-divider-top
+{
+   overflow: hidden;
+   position: absolute;
+   top: 0;
+   width: 100%;
+   height: 50px;
+   line-height: 0;
+   left: 0;
+   z-index: 7777;
+}
+#tarakeswar2021LayoutGrid13-divider-top svg
+{
+   display: block;
+   width: 100%;
+   height: 100%;
+   position: relative;
+   left: 50%;
+   transform: translateX(-50%);
+}
+#tarakeswar2021LayoutGrid13-divider-top .divider-fill
+{
+   fill: #FFFFFF;
+   transform-origin: center;
+   transform: rotateY(0deg);
+}
+#tarakeswar2021LayoutGrid13-divider-bottom
+{
+   overflow: hidden;
+   position: absolute;
+   line-height: 0;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 50px;
+   transform: scaleY(-1.0);
+   z-index: 7777;
+}
+#tarakeswar2021LayoutGrid13-divider-bottom svg
+{
+   display: block;
+   width: 100%;
+   height: 100%;
+   position: relative;
+   left: 50%;
+   transform: translateX(-50%);
+}
+#tarakeswar2021LayoutGrid13-divider-bottom .divider-fill
+{
+   fill: #FFFFFF;
+   transform-origin: center;
+   transform: rotateY(0deg);
+}
 #wb_Puja2021testLayoutGrid3
 {
    clear: both;
@@ -2102,36 +2291,6 @@ input:focus, textarea:focus, select:focus
    float: none;
    width: 100% !important;
 }
-}
-#wb_Puja2021testCard1
-{
-   position: relative;
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: column;
-   flex-direction: column;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #DEDEDE;
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-}
-#Puja2021testCard1-card-body
-{
-   -webkit-flex: 1 1 auto;
-   flex: 1 1 auto;
-   font-size: 0px;
-}
-#Puja2021testCard1-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
 }
 #wb_Puja2021testMarquee1 
 {
@@ -2261,74 +2420,6 @@ width: 100%;}
 @media (max-width: 480px)
 {
 #Puja2021testLayoutGrid4 > .row > .col-1
-{
-   float: none;
-   width: 100% !important;
-}
-}
-#wb_tarakeswar2021LayoutGrid1
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   box-sizing: border-box;
-   margin: 0;
-}
-#tarakeswar2021LayoutGrid1
-{
-   box-sizing: border-box;
-   padding: 0px 15px 0px 15px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#tarakeswar2021LayoutGrid1 > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#tarakeswar2021LayoutGrid1 > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0px;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#tarakeswar2021LayoutGrid1 > .row > .col-1
-{
-   float: left;
-}
-#tarakeswar2021LayoutGrid1 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 100%;
-   text-align: center;
-}
-#tarakeswar2021LayoutGrid1:before,
-#tarakeswar2021LayoutGrid1:after,
-#tarakeswar2021LayoutGrid1 .row:before,
-#tarakeswar2021LayoutGrid1 .row:after
-{
-   display: table;
-   content: " ";
-}
-#tarakeswar2021LayoutGrid1:after,
-#tarakeswar2021LayoutGrid1 .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#tarakeswar2021LayoutGrid1 > .row > .col-1
 {
    float: none;
    width: 100% !important;
@@ -2509,7 +2600,7 @@ width: 100%;}
    font-family: Arial;
    font-weight: bold;
    font-style: normal;
-   font-size: 32px;
+   font-size: 27px;
    margin: 0;
    text-align: center;
 }
@@ -6577,6 +6668,36 @@ width: 100%;}
 {
    color: inherit;
    text-decoration: none;
+}
+#wb_tarakeswar2021Card1
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #DEDEDE;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#tarakeswar2021Card1-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#tarakeswar2021Card1-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
 }
 #wb_footer_top
 {
