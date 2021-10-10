@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" >
 	<url>
 		<loc>https://dristikononline.in/</loc>
-		<lastmod>2021-09-23</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>hourly</changefreq>
 		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/index.html</loc>
-		<lastmod>2021-09-22</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>hourly</changefreq>
 		<priority>1.0</priority>
 	</url>
@@ -110,21 +110,255 @@
 	</url>
 	<url>
 		<loc>https://dristikononline.in/page2.html</loc>
-		<lastmod>2021-09-20</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://dristikononline.in/Puja2021test.html</loc>
-		<lastmod>2021-09-20</lastmod>
+		<loc>https://dristikononline.in/Puja2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>hourly</changefreq>
 		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/tarakeswar2021.html</loc>
-		<lastmod>2021-09-23</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>hourly</changefreq>
 		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/bajitpur2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/udaysangha2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/natunbajar2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/bajar-sarbojonin2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/amtolabajar2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/JKBajatbottala2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/Tarakeswar-jkbajar-durgotsob2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/tetultola-sarbojonin2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/nutongramsorbojonin2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/Mandirparasorbojonin2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/ichchasorojonin2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/Parmohol2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/guesthouseroad2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/tarakeswarsorbojonin2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/netaji-road-sorbojonin2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/uttoron-songhosorbojonin2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/durontosongho2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/baghajotin2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/biswas-abason2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/kalyani-abason2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/moinak-durgotsob2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/bibekanandapalli2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/r-s-2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/Saradapalli-sarbojonin2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/Rabindrapalli-Sarbojonin2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/sukantrapalli-sorbojonin2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/padmapukurdakhinpara2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/padmapukursarbojonin2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/Bprgate2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/MadhyaChaulpattysarbojonin2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/Chaulpattysarbojonin2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/SahapurMahasakti2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/Sahapursarbojonin2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/mohanbatisrijon2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/mohanbati-chakrabartibari2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/pfc2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/Tullyanthakurbari2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/nandibari2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/palbari2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/webmag/webmag.html</loc>
@@ -146,163 +380,163 @@
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/pujolist.html</loc>
-		<lastmod>2021-09-22</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>hourly</changefreq>
 		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/radhanagar.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/bajitpur.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/udaysangha.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/bajar.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/tetultola.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/nutongram.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/mandirpara.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/ichcha.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/parmohol.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/gesthouse.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/tarkeswar.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/netajisubhash.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/uttoron.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/mohadevi.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/durontosangha.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/baghajatin.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/abason.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/polliutsob.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/padmapukur.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/bpr.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/chaulpatty.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/prantik.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/sahapur.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/mohanbati.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/pfc.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/tullyan.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -314,7 +548,7 @@
 	</url>
 	<url>
 		<loc>https://dristikononline.in/Archives/nachipur.html</loc>
-		<lastmod>2021-06-04</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -410,13 +644,13 @@
 	</url>
 	<url>
 		<loc>https://dristikononline.in/comingsoon.html</loc>
-		<lastmod>2021-09-16</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>hourly</changefreq>
 		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>https://dristikononline.in/register.html</loc>
-		<lastmod>2021-09-13</lastmod>
+		<lastmod>2021-10-10</lastmod>
 		<changefreq>hourly</changefreq>
 		<priority>1.0</priority>
 	</url>

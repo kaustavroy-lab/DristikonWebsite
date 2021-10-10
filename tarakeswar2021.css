@@ -1885,64 +1885,6 @@ input:focus, textarea:focus, select:focus
    height: 107px;
    vertical-align: top;
 }
-#Puja2021testSiteSearch1
-{
-   border: 1px solid #0C0C0C;
-   border-radius: 4px;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: 0;
-   font-style: normal;
-   font-size: 13px;
-   box-sizing: border-box;
-   line-height: 16px;
-   padding: 4px 4px 4px 4px;
-   margin: 0;
-   text-align: left;
-}
-.search-autocomplete
-{
-   position: absolute;
-   background: #FFFFFF;
-   border: 1px solid #0C0C0C;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   list-style-type: none;
-   z-index: 999;
-   padding: 0;
-   width: 475px;
-   margin: 0;
-}
-.search-autocomplete li
-{
-   padding: 4px 4px 4px 4px;
-   margin: 0;
-}
-.search-autocomplete li.selected
-{
-   background: #0C0C0C;
-   color: #FFFFFF;
-}
-#Puja2021testButton1
-{
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-   background-color: #000000;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0;
-}
 #wb_Puja2021testLayoutGrid2
 {
    clear: both;
@@ -6698,6 +6640,64 @@ width: 100%;}
    border: 0px solid #000000;
    border-radius: 0px;
    width: 100%;
+}
+#Puja2021testButton1
+{
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#Puja2021testSiteSearch1
+{
+   border: 1px solid #0C0C0C;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   line-height: 16px;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   text-align: left;
+}
+.search-autocomplete
+{
+   position: absolute;
+   background: #FFFFFF;
+   border: 1px solid #0C0C0C;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   list-style-type: none;
+   z-index: 999;
+   padding: 0;
+   width: 475px;
+   margin: 0;
+}
+.search-autocomplete li
+{
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+}
+.search-autocomplete li.selected
+{
+   background: #0C0C0C;
+   color: #FFFFFF;
 }
 #wb_footer_top
 {
