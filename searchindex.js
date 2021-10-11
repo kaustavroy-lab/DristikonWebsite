@@ -31,6 +31,7 @@ function SearchDatabase()
    this[database_length++] = new SearchPage("https://dristikononline.in/contribute_mobile.html", "CONTRIBUTE TO DRISTIKON ONLINE", "covid, relief fund, contribution , corona ", "CONTRIBUTE TO DRISTIKON ONLINE");
    this[database_length++] = new SearchPage("https://dristikononline.in/page1.html", "Untitled Page", " ", "");
    this[database_length++] = new SearchPage("https://dristikononline.in/page2.html", "Untitled Page", " ", "");
+   this[database_length++] = new SearchPage("https://dristikononline.in/puja2021.html", "হুগলী জেলার পুজা পরিক্রমা With দৃষ্টিকোণ", " ", "");
    this[database_length++] = new SearchPage("https://dristikononline.in/bajitpur2021.html", "BAJITPUR SARBOJONIN/বাজিৎপুর সর্বজনীন", "বাজিৎপুর সর্বজনীন, Bajitpur, bajitpur sarbojonin, bajitpur sorbojonin ", "");
    this[database_length++] = new SearchPage("https://dristikononline.in/udaysangha2021.html", "Uday Sangha Sorbojonin/উদয় সংঘ সর্বজনীন", "উদয় সংঘ সর্বজনীন, uday sangha sarbojonin, uday sangha ", "");
    this[database_length++] = new SearchPage("https://dristikononline.in/natunbajar2021.html", "Natun Bazar Sorbojonin/নূতনবাজার সর্বজনীন", "Notunbazar sorbojonin, নূতনবাজার সর্বজনীন, notun bazar ", "");
