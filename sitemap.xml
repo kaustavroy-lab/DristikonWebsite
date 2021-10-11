@@ -115,7 +115,7 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://dristikononline.in/Puja2021.html</loc>
+		<loc>https://dristikononline.in/puja2021.html</loc>
 		<lastmod>2021-10-10</lastmod>
 		<changefreq>hourly</changefreq>
 		<priority>1.0</priority>
@@ -356,6 +356,18 @@
 	</url>
 	<url>
 		<loc>https://dristikononline.in/palbari2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/nalikul2021.html</loc>
+		<lastmod>2021-10-10</lastmod>
+		<changefreq>hourly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://dristikononline.in/nalikul-borgachia2021.html</loc>
 		<lastmod>2021-10-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>

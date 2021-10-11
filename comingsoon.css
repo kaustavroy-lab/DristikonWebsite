@@ -1187,6 +1187,122 @@ width: 100%;}
    margin: 0;
    box-sizing: border-box;
 width: 100%;}
+#comingsoonThemeableButton1
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   font-style: italic;
+}
+#wb_comingsoonThemeableButton1
+{
+   border-radius: 15px;
+   margin: 15px 15px 10px 0px;
+   box-shadow: 0px 0px 20px rgba(0,0,0,0.35);
+}
+#comingsoonThemeableButton1
+{
+   box-sizing: border-box;
+   padding: 0;
+   text-align: center;
+}
+#wb_comingsoonThemeableButton1 .ui-button
+{
+   margin: 0;
+   line-height: 55px;
+}
+#comingsoonThemeableButton1
+{
+   color: #454545;
+   text-decoration: none;
+}
+#comingsoonThemeableButton1 :hover
+{
+   color: #2B2B2B;
+}
+#comingsoonThemeableButton1 :active
+{
+   color: #FFFFFF;
+}
+#wb_comingsoonThemeableButton1 .ui-primary
+{
+   background-image: none !important;
+   text-indent: 0;
+   display: inline-block;
+   font-family: FontAwesome;
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+   position: absolute;
+   left: 40px;
+   top: 50%;
+   margin-top: -6.5px;
+   width: 13px;
+   height: 13px;
+   color: #000000;
+}
+#wb_comingsoonThemeableButton1 .ui-primary:before
+{
+   content: "\f234";
+}
+#wb_comingsoonThemeableButton1:hover .ui-primary
+{
+   color: #000000;
+}
+#wb_comingsoonThemeableButton1:active .ui-primary
+{
+   color: #FFFFFF;
+}
+#wb_comingsoonThemeableButton1 .ui-corner-all, #wb_comingsoonThemeableButton1 .ui-corner-left
+{
+   border-bottom-left-radius: 15px;
+   border-top-left-radius: 15px;
+}
+#wb_comingsoonThemeableButton1 .ui-corner-all, #wb_comingsoonThemeableButton1 .ui-corner-right
+{
+   border-bottom-right-radius: 15px;
+   border-top-right-radius: 15px;
+}
+#wb_comingsoonThemeableButton1 .ui-button
+{
+   background-color: rgba(246,246,246,0.00);
+   background-image: none;
+   border: 1px solid #FFC000;
+   color: #000000;
+}
+#wb_comingsoonThemeableButton1 .ui-state-hover, #wb_comingsoonThemeableButton1 .ui-button:hover
+{
+   border-color: #FF0000;
+   background-color: #FFC000;
+   background-image: none;
+   color: #000000;
+}
+#wb_comingsoonThemeableButton1 .ui-state-active, #wb_comingsoonThemeableButton1 .ui-button:active
+{
+   border-color: #000000;
+   background-color: #FFC000;
+   background-image: none;
+   color: #FF0000;
+}
+#wb_comingsoonThemeableButton1 .ui-button .ui-icon
+{
+   background-image: url(images/comingsoon-comingsoonThemeableButton1-default.png);
+   background-position: 0 0;
+}
+#wb_comingsoonThemeableButton1 .ui-button:hover .ui-icon
+{
+   background-image: url(images/comingsoon-comingsoonThemeableButton1-hover.png);
+   background-position: 0 0;
+}
+#wb_comingsoonThemeableButton1 .ui-button:active .ui-icon
+{
+   background-image: url(images/comingsoon-comingsoonThemeableButton1-active.png);
+   background-position: 0 0;
+}
+#wb_comingsoonThemeableButton1 .ui-visual-focus
+{
+   box-shadow: none;
+}
 #wb_footer_top
 {
    clear: both;
@@ -1905,4 +2021,61 @@ width: 100%;}
    box-shadow: 0px 0px 20px rgb(0 0 0 / 35%);
    -webkit-transition: box-shadow 200ms linear 0ms;
    transition: box-shadow 200ms linear 0ms;
+}
+#stickyLayer
+{
+   background-color: transparent;
+   background-image: url(images/comingsoon_stickyLayer_bkgrnd.png);
+   background-repeat: repeat;
+   background-position: left top;
+   border: 1px solid #FF0000;
+   border-radius: 10px;
+}
+#stickyLayer
+{
+   -webkit-transform: rotate(-90deg) ;
+   transform: rotate(-90deg) ;
+   transform-origin: top left;
+   -webkit-transition: -webkit-transform 0ms linear 0ms, transform-origin 0ms linear 0ms;
+   transition: transform 0ms linear 0ms, transform-origin 0ms linear 0ms;
+}
+#contactButton
+{
+   line-height: 38px;
+   text-align: center;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #FF0000;
+   border-radius: 4px;
+   background-color: #FFC000;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 1px 6px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#master_frameworkButton1
+{
+   line-height: 34px;
+   text-align: center;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #FFFFFF;
+   border-radius: 4px;
+   background-color: #70AD47;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 1px 6px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
 }

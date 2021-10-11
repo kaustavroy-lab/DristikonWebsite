@@ -1658,3 +1658,60 @@ width: 100%;}
    -webkit-transition: box-shadow 200ms linear 0ms;
    transition: box-shadow 200ms linear 0ms;
 }
+#stickyLayer
+{
+   background-color: transparent;
+   background-image: url(images/ichcha_stickyLayer_bkgrnd.png);
+   background-repeat: repeat;
+   background-position: left top;
+   border: 1px solid #FF0000;
+   border-radius: 10px;
+}
+#stickyLayer
+{
+   -webkit-transform: rotate(-90deg) ;
+   transform: rotate(-90deg) ;
+   transform-origin: top left;
+   -webkit-transition: -webkit-transform 0ms linear 0ms, transform-origin 0ms linear 0ms;
+   transition: transform 0ms linear 0ms, transform-origin 0ms linear 0ms;
+}
+#contactButton
+{
+   line-height: 38px;
+   text-align: center;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #FF0000;
+   border-radius: 4px;
+   background-color: #FFC000;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 1px 6px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#master_frameworkButton1
+{
+   line-height: 34px;
+   text-align: center;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #FFFFFF;
+   border-radius: 4px;
+   background-color: #70AD47;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 1px 6px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
