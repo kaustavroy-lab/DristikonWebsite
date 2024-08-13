@@ -2988,66 +2988,6 @@ width: 100%;}
    font-style: normal;
    font-size: 13px;
 }
-#wb_Card9
-{
-   position: relative;
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: column;
-   flex-direction: column;
-   background-color: transparent;
-   background-image: none;
-   border: 3px solid #FFFF00;
-   border-radius: 3px;
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   box-shadow: 0px 0px 7px #000000;
-}
-#Card9-card-body
-{
-   -webkit-flex: 1 1 auto;
-   flex: 1 1 auto;
-   font-size: 0px;
-}
-#Card9-card-item0
-{
-   box-sizing: border-box;
-   border-radius: 3px 3px 0 0;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-}
-#Card9-card-item1
-{
-   box-sizing: border-box;
-   margin: 5px 20px 0px 20px;
-   padding: 0;
-}
-#Card9-card-item1 h1
-{
-   color: #F5F5F5;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 24px;
-   margin: 0;
-}
-#Card9-card-item2
-{
-   box-sizing: border-box;
-   border-radius: 0 0 3px 3px;
-   margin: 5px 0px 20px 0px;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
 #wb_Card10
 {
    position: relative;
